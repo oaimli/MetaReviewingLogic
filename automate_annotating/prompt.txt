@@ -1,0 +1,12 @@
+You are good at understanding sentiment information with judgements in the document.
+Please first identify the sentence with judgement on the criteria facets: novelty, soundness, clarity, adcancement, complicance and overall quality.
+Then, extract fine-grained judgement information with copy and paste from the sentence with focus on the judgement value and what they are talking about with copy and paste.
+
+Document:
+{{source_document}}
+
+Example:
+1."The writing of the paper is not well-written." - The writing of the paper, not well-written;
+2."Experimental results are not sufficiently substantiated." - Experimental results, not sufficiently substantiated;
+
+Judgement lists:
