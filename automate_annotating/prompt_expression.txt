@@ -1,6 +1,6 @@
 You are good at understanding sentiment information with judgements in the document.
-Please first identify the sentence with judgement on the criteria facets: novelty, soundness, clarity, adcancement, complicance and overall quality.
-Then, extract fine-grained judgement information with copy and paste from the sentence with focus on the judgement value and what they are talking about with copy and paste.
+Please first identify the sentence with judgement on the criteria facets: novelty, soundness, clarity, advancement, complicance and overall quality.
+Then, extract fine-grained judgement information by directly copying from the sentence with focus on the judgement value and what they are talking about.
 
 Document:
 {{source_document}}
