@@ -28,6 +28,14 @@ def load_results(annotation_folder, result_folder):
                 if pandas.notna(row["Document Title"]):
                     document_title = row["Document Title"].strip()
                 del row["Document Title"]
+                # preprocessing
+                if row["Sentiment Expresser"] == "Others":
+                    row["Convincingness"] = "Not applicable"
+
+                if row["Criteria Facet"] == "Not complete" or row["Sentiment Polarity"] == "Not complete" or row[
+                    "Sentiment Expresser"] == "Not complete" or row["Convincingness"] == "Not complete":
+                    print("Error, ", file, document_title)
+
                 items.append(row)
 
             if k + 1 < len(sheet_dict):
@@ -35,7 +43,8 @@ def load_results(annotation_folder, result_folder):
                 if pandas.notna(row_next["Document Title"]) and len(items) > 0:
                     documents.append({"Document Title": document_title, "Annotated Judgements": items})
                     items = []
-                if not pandas.notna(row["Content Expression"]) and not pandas.notna(row["Sentiment Expression"]) and len(items) > 0:
+                if not pandas.notna(row["Content Expression"]) and not pandas.notna(
+                        row["Sentiment Expression"]) and len(items) > 0:
                     documents.append({"Document Title": document_title, "Annotated Judgements": items})
                     items = []
         # print(len(result))

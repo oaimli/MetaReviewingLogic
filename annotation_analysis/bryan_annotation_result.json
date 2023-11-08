@@ -971,7 +971,7 @@
                     "Criteria Facet": "Overall",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "the suggested training method is similar to adversarial training methods used to gain adversarial robustness",
@@ -1090,7 +1090,7 @@
                     "Criteria Facet": "Overall",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "the experimental detail",
@@ -1336,7 +1336,7 @@
                     "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "about the limited/scattered technical contribution.",
@@ -1344,7 +1344,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Highly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "about the quality of the experiment results",
@@ -1352,7 +1352,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Highly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "compare against more baselines",
@@ -1360,7 +1360,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Highly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "many recent relevant work such as BERT4Rec",
@@ -1368,7 +1368,7 @@
                     "Criteria Facet": "Compliance",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Highly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "if the authors can demonstrate that adding the user embedding to another method such as BERT4Rec can improve the performance of that model.",
@@ -1384,7 +1384,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Highly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "These details ",
@@ -1765,7 +1765,7 @@
                     "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Highly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "the novelty ",
@@ -1773,7 +1773,7 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Highly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": " claims",
@@ -1781,7 +1781,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Highly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "experimental evaluation and discussion",
@@ -1789,7 +1789,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Highly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "the proposed approach",
@@ -2497,7 +2497,7 @@
                     "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "the empirical significance",
@@ -2505,7 +2505,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 }
             ]
         },
@@ -2579,7 +2579,7 @@
                     "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 }
             ]
         },
@@ -2709,7 +2709,7 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "mentioning that our paper ",
@@ -2717,7 +2717,7 @@
                     "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "mentioning that our paper ",
@@ -2725,7 +2725,7 @@
                     "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "against adversarial training at small radii",
@@ -2839,7 +2839,7 @@
                     "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "our method",
@@ -2847,7 +2847,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "our method",
@@ -2855,7 +2855,7 @@
                     "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Strong positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 }
             ]
         },
@@ -3019,7 +3019,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Highly convincing"
+                    "Convincingness": "Not applicable"
                 }
             ]
         },
@@ -3032,7 +3032,7 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 }
             ]
         },
@@ -3084,7 +3084,7 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "benchmark",
@@ -3092,7 +3092,7 @@
                     "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "experimental work",
@@ -3100,7 +3100,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": " the positioning of the work",
@@ -3108,7 +3108,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "finds the work",
@@ -3116,7 +3116,7 @@
                     "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "review",
@@ -3124,7 +3124,7 @@
                     "Criteria Facet": "Overall",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "publication in its current state",
@@ -3753,10 +3753,10 @@
                 {
                     "Content Expression": "on the exact move task which makes us think that it's unlikely that the model is just making trivial predictions",
                     "Sentiment Expression": "achieve reasonably high accuracy",
-                    "Criteria Facet": "Not complete",
-                    "Sentiment Polarity": "Not complete",
-                    "Sentiment Expresser": "Not complete",
-                    "Convincingness": "Not complete"
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly convincing"
                 }
             ]
         },
@@ -4049,7 +4049,7 @@
                     "Criteria Facet": "Overall",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "paper",
@@ -4057,7 +4057,7 @@
                     "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "paper",
@@ -4065,7 +4065,7 @@
                     "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "some of the results",
@@ -4415,7 +4415,7 @@
                     "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Highly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "than an SVD",
@@ -4749,7 +4749,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "all the concerns of the reviewers",
@@ -4757,7 +4757,7 @@
                     "Criteria Facet": "Overall",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": " the original concerns of the reviewers are addressed",
@@ -4765,7 +4765,7 @@
                     "Criteria Facet": "Overall",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "in motivating the problem",
@@ -4873,7 +4873,7 @@
                 {
                     "Content Expression": "Empirically, the proposed method",
                     "Sentiment Expression": "performs similar or better than state-of-the-art",
-                    "Criteria Facet": "Not complete",
+                    "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Slightly convincing"
@@ -5109,7 +5109,7 @@
                     "Criteria Facet": "Overall",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 }
             ]
         },
@@ -5705,7 +5705,7 @@
                     "Criteria Facet": "Overall",
                     "Sentiment Polarity": "Strong negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 }
             ]
         },
@@ -6641,7 +6641,7 @@
                     "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "practical values",
@@ -6649,7 +6649,7 @@
                     "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "experimental results.",
@@ -6657,7 +6657,7 @@
                     "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "the theoretical ",
@@ -7503,7 +7503,7 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "on the dependencies in the latent space and observation space was also raised.",
@@ -7511,7 +7511,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 }
             ]
         },
@@ -7625,7 +7625,7 @@
                 {
                     "Content Expression": "conditioning and marginalization",
                     "Sentiment Expression": "easy",
-                    "Criteria Facet": "Not complete",
+                    "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly convincing"
@@ -8365,7 +8365,7 @@
                     "Criteria Facet": "Overall",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 }
             ]
         }
@@ -9428,7 +9428,7 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "some reviewers",
@@ -9436,7 +9436,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "by the authors' responses",
@@ -9444,7 +9444,7 @@
                     "Criteria Facet": "Overall",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 }
             ]
         },

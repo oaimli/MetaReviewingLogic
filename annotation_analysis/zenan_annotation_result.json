@@ -1069,7 +1069,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Not complete"
+                    "Convincingness": "Not at all"
                 },
                 {
                     "Content Expression": "10 instances",
@@ -1077,7 +1077,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Not complete"
+                    "Convincingness": "Not at all"
                 },
                 {
                     "Content Expression": "For German signs, we, the authors reviewed and assigned the failure scenarios.",
@@ -2224,7 +2224,7 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Not at all"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "the idea",
@@ -2232,7 +2232,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Not at all"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "The rebuttal ",
@@ -3422,7 +3422,7 @@
                     "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
-                    "Convincingness": "Slightly convincing"
+                    "Convincingness": "Not applicable"
                 }
             ]
         }
@@ -3684,7 +3684,7 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Not complete"
+                    "Convincingness": "Not at all"
                 },
                 {
                     "Content Expression": "results in [13] and [14]",
@@ -5543,7 +5543,7 @@
                     "Content Expression": "The experimental results",
                     "Sentiment Expression": "interesting",
                     "Criteria Facet": "Soundness",
-                    "Sentiment Polarity": "Not complete",
+                    "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Not at all"
                 },
@@ -6338,7 +6338,7 @@
                 },
                 {
                     "Content Expression": "Some question",
-                    "Sentiment Expression": "need to clarify",
+                    "Sentiment Expression": "need to clarify please explain",
                     "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
@@ -7451,18 +7451,18 @@
                 {
                     "Content Expression": "This paper targets an under-explored fundamental challenge in pre-training and adaptation trends",
                     "Sentiment Expression": "brave and valuable step in the security research of pre-trained models",
-                    "Criteria Facet": "Not complete",
-                    "Sentiment Polarity": "Not complete",
-                    "Sentiment Expresser": "Not complete",
-                    "Convincingness": "Not complete"
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly convincing"
                 },
                 {
                     "Content Expression": "a reasonable solution to the inheritance of the backdoor phenomenon",
                     "Sentiment Expression": "this is the first time I have seen ",
-                    "Criteria Facet": "Not complete",
-                    "Sentiment Polarity": "Not complete",
-                    "Sentiment Expresser": "Not complete",
-                    "Convincingness": "Not complete"
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
                 }
             ]
         }
