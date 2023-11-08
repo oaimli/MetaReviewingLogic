@@ -1,11 +1,13 @@
+import os.path
+
 import openai
 import jsonlines
 
-
+annotation_folder = "../../../HumanAnnotation/mrg_judgement"
 openai.api_key = "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"
 
 samples = []
-with jsonlines.open("../../../HumanAnnotation/mrg_argument_tables/annotation/sampled_data.jsonl") as reader:
+with jsonlines.open(os.path.join(annotation_folder, "/annotation/sampled_data.jsonl")) as reader:
     for line in reader:
         samples.append(line)
 
