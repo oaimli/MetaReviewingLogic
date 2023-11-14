@@ -3,7 +3,7 @@ import os.path
 import openai
 import jsonlines
 
-annotation_folder = "../../../HumanAnnotation/mrg_judgement"
+annotation_folder = "../../HumanAnnotation/mrg_judgement"
 openai.api_key = "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"
 
 samples = []

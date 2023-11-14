@@ -3,8 +3,8 @@ import pandas
 import json
 
 annotation_folder = "../../HumanAnnotation/mrg_judgement"
-bryan_result_folder = "annotation/done_1108/meta-review-annotation-bryan"
-zenan_result_folder = "annotation/done_1108/meta-review-annotation-zenan"
+bryan_result_folder = "annotation/result_20231108/bryan"
+zenan_result_folder = "annotation/result_20231108/zenan"
 
 bryan_files = os.listdir(os.path.join(annotation_folder, bryan_result_folder))
 zenan_files = os.listdir(os.path.join(annotation_folder, zenan_result_folder))
@@ -30,11 +30,12 @@ def load_results(annotation_folder, result_folder):
                 del row["Document Title"]
                 # preprocessing
                 if row["Sentiment Expresser"] == "Others":
-                    row["Convincingness"] = "Not applicable"
+                    # row["Convincingness"] = "Not applicable"
+                    print("Contradict Error, ", file, document_title)
 
                 if row["Criteria Facet"] == "Not complete" or row["Sentiment Polarity"] == "Not complete" or row[
                     "Sentiment Expresser"] == "Not complete" or row["Convincingness"] == "Not complete":
-                    print("Error, ", file, document_title)
+                    print("Incompleteness Error, ", file, document_title)
 
                 items.append(row)
 
