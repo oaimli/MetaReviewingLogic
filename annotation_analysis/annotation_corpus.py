@@ -36,9 +36,9 @@ for sample in samples:
         length_source = len(" ".join(source_documents).split())
         lens_samples.append(length_source + length_meta)
 
-print("annotated_document_counts", np.mean(annotated_document_counts), np.min(annotated_document_counts), np.max(annotated_document_counts))
-print("lens_samples", np.mean(lens_samples), np.min(lens_samples), np.max(lens_samples))
-print("lens_source_documents", np.mean(lens_source_documents), np.min(lens_source_documents), np.max(lens_source_documents))
-print("lens_meta_review", np.mean(lens_meta_review), np.min(lens_meta_review), np.max(lens_meta_review))
+print("document count to be annotated per sample", np.mean(annotated_document_counts), np.min(annotated_document_counts), np.max(annotated_document_counts))
+print("length of samples", np.mean(lens_samples), np.min(lens_samples), np.max(lens_samples))
+print("length of source documents", np.mean(lens_source_documents), np.min(lens_source_documents), np.max(lens_source_documents))
+print("length of meta-reviews", np.mean(lens_meta_review), np.min(lens_meta_review), np.max(lens_meta_review))
 
-print("contradicts", pandas.value_counts(contradicts))
+print("samples wih and without contradicts\n", pandas.value_counts(contradicts))
