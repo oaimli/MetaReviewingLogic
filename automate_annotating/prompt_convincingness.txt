@@ -3,7 +3,7 @@ Please predict how well the sentiment in the judgement sentence is justified in 
 
 Sentiment convincingness:
 
-- Not applicable: the sentiment is excerpted from others.
+- Not applicable: the sentiment is explicitly excerpted from others.
 - Not at all: not convincing at all or when there is no justification. How well the sentiment is justified in the document in your understanding
 - Slightly Convincing: there is some evidence or logical reasoning, but it might not be comprehensive.
 - Highly Convincing: leaving little room for doubt.
@@ -12,6 +12,6 @@ Document:
 {{source_document}}
 
 Judgement sentence:
-{{judgement_sentence}}
+{{judgement_expression}}
 
 The sentiment convincingness:

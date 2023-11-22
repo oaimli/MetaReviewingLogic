@@ -16,8 +16,9 @@ assert len(set(bryan_files).difference(set(zenan_files))) == 0
 
 # load results from Excel
 def load_results(annotation_folder, result_folder):
+    files = os.listdir(os.path.join(annotation_folder, result_folder))
     results = {}
-    for file in bryan_files:
+    for file in files:
         if file.endswith(".xlsx"):
             print(file)
             documents = []
@@ -61,7 +62,11 @@ bryan_results = load_results(annotation_folder, bryan_result_folder)
 with open("bryan_annotation_result.json", "w") as f:
     json.dump(bryan_results, f, indent=4)
 
-# print("Zenan results")
-# zenan_results = load_results(annotation_folder, zenan_result_folder)
-# with open("zenan_annotation_result.json", "w") as f:
-#     json.dump(zenan_results, f, indent=4)
+print("Zenan results")
+zenan_results = load_results(annotation_folder, zenan_result_folder)
+with open("zenan_annotation_result.json", "w") as f:
+    json.dump(zenan_results, f, indent=4)
+
+for bryan_result_key, zenan_result_key in zip(bryan_results.keys(), zenan_results.keys()):
+    if bryan_result_key != zenan_result_key:
+        print("The order is not consistent in the two files")

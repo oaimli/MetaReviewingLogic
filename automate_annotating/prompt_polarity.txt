@@ -12,6 +12,6 @@ Document:
 {{source_document}}
 
 Judgement sentence:
-{{judgement_sentence}}
+{{judgement_expression}}
 
 The sentiment polarity:
