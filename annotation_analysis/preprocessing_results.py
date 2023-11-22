@@ -1,6 +1,7 @@
 import os
 import pandas
 import json
+import random
 
 annotation_folder = "../../HumanAnnotation/mrg_judgement"
 bryan_result_folder = "annotation/result_20231115/bryan"
@@ -54,12 +55,13 @@ def load_results(annotation_folder, result_folder):
             results[file[:-5]] = documents
     return results
 
+
 print("Bryan results")
 bryan_results = load_results(annotation_folder, bryan_result_folder)
 with open("bryan_annotation_result.json", "w") as f:
     json.dump(bryan_results, f, indent=4)
 
-print("Zenan results")
-zenan_results = load_results(annotation_folder, zenan_result_folder)
-with open("zenan_annotation_result.json", "w") as f:
-    json.dump(zenan_results, f, indent=4)
+# print("Zenan results")
+# zenan_results = load_results(annotation_folder, zenan_result_folder)
+# with open("zenan_annotation_result.json", "w") as f:
+#     json.dump(zenan_results, f, indent=4)
