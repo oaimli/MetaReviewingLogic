@@ -22,6 +22,7 @@ with jsonlines.open(annotation_folder + "/annotation/sampled_data.jsonl") as rea
             line["documents"] = source_documents_new
             del line["paper_id"]
             del line["summary"]
+            del line["source_documents"]
             samples[paper_id] = line
 print("All annotated count", len(samples))
 

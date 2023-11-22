@@ -5,20 +5,72 @@ import json
 
 
 def parse_expression(result):
+    print(result)
+    lines = result.split("\n")
     judgements = []
+    for line in lines:
+        items = line.split("-")
+        judgements.append({"Content Expression": items[0], "Sentiment Expression": items[-1]})
     return judgements
 
 def parse_facet(result):
-    return ""
+    print(result)
+    result = result.lower()
+    if "novelty" in result:
+        return "Novelty"
+    elif "soundness" in result:
+        return "Soundness"
+    elif "clarity" in result:
+        return "Clarity"
+    elif "advancement" in result:
+        return "Advancement"
+    elif "compliance" in result:
+        return "Compliance"
+    elif "overall" in result:
+        print("Cannot parse the result correctly")
+        return "Overall"
+    else:
+        return "Overall"
 
 def parse_polarity(result):
-    return ""
+    print(result)
+    if "strong" in result.lower() and "negative" in result.lower():
+        return "Strong negative"
+    elif "strong" not in result.lower() and "negative" in result.lower():
+        return "Negative"
+    elif "strong" in result.lower() and "positive" in result.lower():
+        return "Strong positive"
+    elif "strong" not in result.lower() and "positive" in result.lower():
+        return "Positive"
+    else:
+        print("Cannot parse the result correctly")
+        return "Negative"
 
 def parse_expressor(result):
-    return ""
+    print(result)
+    result = result.lower()
+    if "self" in result:
+        return "Self"
+    elif "others" in result:
+        return "Others"
+    else:
+        print("Cannot parse the result correctly")
+        return "Self"
 
 def parse_convincingness(result):
-    return ""
+    print(result)
+    result = result.lower()
+    if "not" in result and "applicable" in result:
+        return "Not applicable"
+    elif "not" in result and "at all" in result:
+        return "Not at all"
+    elif "slightly" in result and "convincing" in result:
+        return "Slightly Convincing"
+    elif "highly" in result and "convincing" in result:
+        return "Highly Convincing"
+    else:
+        print("Cannot parse the result correctly")
+        return "Slightly Convincing"
 
 def annotating(samples):
     """
@@ -32,8 +84,8 @@ def annotating(samples):
     prompt_polarity = open("prompt_polarity.txt").read()
 
     results = {}
-    for sample in samples:
-        print(sample["paper_id"])
+    for paper_id, sample in samples.items():
+        print(paper_id)
         print(sample.keys())
         documents_annotated = []
         for source_document in sample["documents"]:
@@ -120,25 +172,28 @@ def annotating(samples):
                             time.sleep(2)
 
                 # get convincingness
-                while True:
-                    try:
-                        output_dict = openai.ChatCompletion.create(
-                            model="gpt-4",
-                            messages=[
-                                {"role": "system",
-                                 "content": prompt_expressor.replace("{{source_document}}",
-                                                                     source_document[
-                                                                         "document_content"]).replace(
-                                     "{{judgement_expression}}", judgement_expression)}
-                            ]
-                        )
-                        judgement["Convincingness"] = parse_convincingness(
-                            output_dict['choices'][0]['message']['content'])
-                        break
-                    except Exception as e:
-                        print(e)
-                        if ("limit" in str(e)):
-                            time.sleep(2)
+                if judgement["Sentiment Expresser"] == "Others":
+                    judgement["Convincingness"] = "Not applicable"
+                else:
+                    while True:
+                        try:
+                            output_dict = openai.ChatCompletion.create(
+                                model="gpt-4",
+                                messages=[
+                                    {"role": "system",
+                                     "content": prompt_convincingness.replace("{{source_document}}",
+                                                                         source_document[
+                                                                             "document_content"]).replace(
+                                         "{{judgement_expression}}", judgement_expression)}
+                                ]
+                            )
+                            judgement["Convincingness"] = parse_convincingness(
+                                output_dict['choices'][0]['message']['content'])
+                            break
+                        except Exception as e:
+                            print(e)
+                            if ("limit" in str(e)):
+                                time.sleep(2)
 
             documents_annotated.append(
                 {"Document Title": source_document["document_title"], "Annotated Judgements": judgements})
@@ -161,11 +216,11 @@ if __name__ == "__main__":
     with open("gpt4_annotation_data_small.json") as f:
         samples_all = json.load(f)
     # Evaluation data for agreement of GPT-4 with human annotators
-    samples_gpt4 = []
-    for sample in samples_all:
-        if sample["paper_id"] in samples_annotated_keys:
-            samples_gpt4.append(sample)
-    samples_gpt4 = random.sample(samples_gpt4, 1)
+    samples_gpt4 = {}
+    for sample_key in samples_all.keys():
+        if sample_key in samples_annotated_keys:
+            samples_gpt4[sample_key] = samples_all[sample_key]
+            break
     results = annotating(samples_gpt4)
     with open("gpt4_annotation_result_small.json", "w") as f:
         json.dump(zenan_results, f, indent=4)
