@@ -197,7 +197,7 @@ def annotating(samples):
 
             documents_annotated.append(
                 {"Document Title": source_document["document_title"], "Annotated Judgements": judgements})
-        results[sample["paper_id"]] = documents_annotated
+        results[paper_id] = documents_annotated
 
     return results
 
