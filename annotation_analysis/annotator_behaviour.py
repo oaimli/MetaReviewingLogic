@@ -123,7 +123,7 @@ def annotator_agreement(bryan_results, zenan_results):
 
             if len(judgements_tmp) > 0:
                 judgement_target = judgements_tmp[rouges.index(max(rouges))]
-                if max(rouges) > 1.2:
+                if max(rouges) > 1.7:
                     # print(judgement_bryan)
                     # print(judgement_target)
                     # print("\n")

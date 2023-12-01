@@ -1,0 +1,883 @@
+{
+    "a0yodLze7gs": [
+        {
+            "Document Title": "Final Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"The presentation of the paper was poor\" ",
+                    "Sentiment Expression": " The presentation of the paper, poor;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "2. \"The novelty was unclear\" ",
+                    "Sentiment Expression": " The novelty, unclear;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "3. \"Claims were not properly justified\" ",
+                    "Sentiment Expression": " Claims, not properly justified;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "4. \"The experimental evaluation and discussion were quite insufficient\" ",
+                    "Sentiment Expression": " The experimental evaluation and discussion, quite insufficient;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "5. \"The authors were not successful to address the numerous but constructive reviewers' comments\" ",
+                    "Sentiment Expression": " Authors' ability to address reviewers' comments, not successful;",
+                    "Criteria Facet": "Compliance",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"The paper is not ready for publication in ICLR 2021\" ",
+                    "Sentiment Expression": " Paper, not ready for publication in ICLR 2021;",
+                    "Criteria Facet": "Compliance",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "7. \"Can benefit from major revisions and careful proofreading\" ",
+                    "Sentiment Expression": " The paper's need for improvement, can benefit from major revisions and careful proofreading.",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Interesting model idea w.r.t. annealing capacity of latent representation, but relation to competing SOTA approaches requires more clarity",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1.\"The paper proposes to consider *action sequences* which describe how datapoints are interrelated.\" ",
+                    "Sentiment Expression": " The proposal to consider action sequences, novel;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2.\"The submission addresses the important topics of inductive biases and disentangling factors in learning disentangled representations and suggest the interesting and novel concept of action sequences\" ",
+                    "Sentiment Expression": " The submission, novel and relevant;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3.\"The annealing approach with respect to the KL",
+                    "Sentiment Expression": " The annealing approach in the FVAE setting, potentially useful;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "4.\"an empirical evaluation of the proposed approach to the competing method is missing.\" ",
+                    "Sentiment Expression": " The empirical evaluation, lacking;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "5.\"it is difficult to assess the validity of the claims of the proposed approach and whether a significantly different contribution than in Burgess et al. is made.\" ",
+                    "Sentiment Expression": " The validity of the claims and its difference from work of Burgess et al., hard to assess;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "6.\"At times it is difficult to follow the presentation of the content in the paper and in some cases I find it hard to follow the statements and conclusions.\" ",
+                    "Sentiment Expression": " The presentation of content, the statements, and conclusions, unclear;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "7.\"the relation to similar approaches is not evaluate adequately\" ",
+                    "Sentiment Expression": " The evaluation on the relations to similar approaches, inadequate;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                },
+                {
+                    "Content Expression": "8.\"the paper lacks an adequate presentation at the moment\" ",
+                    "Sentiment Expression": " The presentation quality, inadequate;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "9.\"In the current form, I believe that the paper is not ready for publication and I would rather see this submission rejected.\" ",
+                    "Sentiment Expression": " The overall quality of the paper, not ready for publication.",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"Basically, the relationship between the KL term and entropy has not yet been verified.\" ",
+                    "Sentiment Expression": " The relationship between the KL term and entropy, has not yet been verified;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"Indeed, such a conclusion can hardly induce; hence, abundant experiments are required.\" ",
+                    "Sentiment Expression": " The conclusion, can hardly induce, abundant experiments are required;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"However, the available datasets are insufficient to verify it.\" ",
+                    "Sentiment Expression": " The available datasets, are insufficient;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"Increasing the number of stages has little influence on disentanglement, but it does waste the computational resource.\" ",
+                    "Sentiment Expression": " Number of stages, has little influence on disentanglement, does waste computational resource;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"For now, FVAE needs the participation of humans.\" ",
+                    "Sentiment Expression": " FVAE, needs the participation of humans;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"The main purpose of this work is not to propose a competent disentangling method.\" ",
+                    "Sentiment Expression": " The main purpose of this work, not to propose a competent disentangling method.",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer4",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The document does not provide any judgement information based on the criteria facets: novelty, soundness, clarity, advancement, complicance and overall quality.",
+                    "Sentiment Expression": "The document does not provide any judgement information based on the criteria facets: novelty, soundness, clarity, advancement, complicance and overall quality.",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not applicable"
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to reviewer 3.",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"The interpretation of disentanglement: AnnealedVAE argues that the information bottleneck enforces the model to encode 'the most significant improvement in data log",
+                    "Sentiment Expression": " The interpretation of disentanglement: AnnealedVAE, leads to disentanglement;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "2. \"In contrast, we claim that a high regularization penalty on KL divergence prevents the insignificant action sequences from being encoded.\" ",
+                    "Sentiment Expression": " High regularization penalty on KL divergence, prevents insignificant action sequences from being encoded;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"we are sorry for the confusing description that A1",
+                    "Sentiment Expression": "3, confusing;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"The action sequence moving along the rectangle's short side has the largest variation and improves the log",
+                    "Sentiment Expression": "likelihood;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"Though Burgess and Rol\u0131nek indicate the inductive bias, they don't propose a calculation for that.\" ",
+                    "Sentiment Expression": " Burgess and Rol\u0131nek's indication of inductive bias, lack of a proposed calculation;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"That means the success of the current approaches (beta",
+                    "Sentiment Expression": "designed dataset;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "7. \"For instance, they fail to disentangle in the cases of A1",
+                    "Sentiment Expression": "3;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "8. \"If the disentangled representation depends on the data, these approaches don't guarantee the disentanglement when facing an unknown dataset.\" ",
+                    "Sentiment Expression": " Current approaches' guarantee of disentanglement, uncertain with unknown dataset.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer 2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"The interpretation of disentanglement: AnnealedVAE argues that the information bottleneck enforces the model to encode 'the most significant improvement in data log",
+                    "Sentiment Expression": " The interpretation of disentanglement, significant improvement;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"As far as we know, we are the first to define the inductive biases on the data and associate it with disentanglement. Though Burgess and Rol\u0131nek indicate something similar, we give a former and explicit definition.\" ",
+                    "Sentiment Expression": " Define the inductive biases on the data, the first;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"We improve disentanglement by solving re",
+                    "Sentiment Expression": "entanglement;",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"We will update this figure for easy understanding. A1 and A3 have the same generating action, but the model learns two different action sequences. In contrast, A1 and A2 have different generating actions, but the model learns similar action sequences.\" ",
+                    "Sentiment Expression": " Update this figure for easy understanding, model learns different action sequences.",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to All Reviewers",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"I apologize for my poor writing skills and all the defects of our paper.\" ",
+                    "Sentiment Expression": " My writing skills and all the defects of our paper, poor;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                },
+                {
+                    "Content Expression": "2. \"It seems necessary to reclaim the motivation of this work.\" ",
+                    "Sentiment Expression": " The motivation of this work, necessary to reclaim;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"The special cases show little correlation between the learned representation and the ground",
+                    "Sentiment Expression": "truth, little;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"Though PCA",
+                    "Sentiment Expression": " The explanations to interpret A4, needs more;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"Our method is similar to AnnealedVAE both in results and the method; nevertheless, the interpretation is the main difference.\" ",
+                    "Sentiment Expression": " The method's similarity to AnnealedVAE in results and the method, similar;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"The other difficulty is measuring the principal component quantitatively.\" ",
+                    "Sentiment Expression": " Measuring the principal component quantitatively, difficulty;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "7. \"We argue that the step values of beta instead of gradually modifying are vital to disentanglement.\" ",
+                    "Sentiment Expression": " The step values of beta's vital role in disentanglement, vital.",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Algorithm is not clearly explained and more experiments are needed.",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"The authors proposed FVAE but the associated objective function is not introduced explicitly, which is confusing.\" ",
+                    "Sentiment Expression": " The associated objective function of the FVAE, not introduced explicitly, confusing;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"It is claimed that the significance of action is related to the capacity of learned latent information. Based on Fig. 3, this conclusion is not convincing.\" ",
+                    "Sentiment Expression": " The conclusion that the significance of action is related to the capacity of learned latent information, not convincing;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"To claim it as a main contribution, the conclusion needs to be verified on other datasets as well.\" ",
+                    "Sentiment Expression": " The main contribution claim, needs to be verified on other datasets;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"The authors arranged three stages for dSprites. This seems arbitrary. Why not four or five stages?\" ",
+                    "Sentiment Expression": " Three stages arrangement for dSprites, arbitrary;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"It is claimed that ``One can recognize three points where the latent information suddenly increases: 60, 20, 4.'' This is hard to see from Fig. 5b) as all curves look smooth.\" ",
+                    "Sentiment Expression": " Claim that there are three points where the latent information suddenly increases, hard to see from the figures;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"The following three",
+                    "Sentiment Expression": "stage training process, questionable;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "7. \"The training for unlabeled task needs more study.\" ",
+                    "Sentiment Expression": " The training for unlabelled task, needs more study;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "8. \"The experiments are limited. There are a lot of papers regarding disentangled representation, and the authors only compared with \\beta",
+                    "Sentiment Expression": "VAE.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Disentangling action sequences is interesting but more details and experimental results are needed.",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"Overall, the paper is well structured.\" ",
+                    "Sentiment Expression": " Overall paper structure, well structured;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"The idea of disentangling action sequences is interesting as it allows to analyse the inductive bias on the data.\" ",
+                    "Sentiment Expression": " Disentangling action sequences, interesting;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"Fractional variational autoencoder (FVAE) proposed in this paper is closely related to the work of Burgess et al. (2018).\" ",
+                    "Sentiment Expression": " Fractional Variational Autoencoder's relation to Burgess et al. 2018, closely related;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"the main novelty of FVAE is still not sufficiently emphasised throughout the paper.\" ",
+                    "Sentiment Expression": " Novelty of Fractional Variational Autoencoder, not sufficiently emphasized;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"Description of the toy dataset family is not easily understood\" ",
+                    "Sentiment Expression": " Description of toy dataset family, not easily understood;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"it is still insufficient to make clear conclusions on the performance of the proposed method.\" ",
+                    "Sentiment Expression": " Performance of proposed method, insufficient to make clear conclusions;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "7. \"a formal definition of the inductive bias is still unavailable\" ",
+                    "Sentiment Expression": " Formal definition of enactive bias, unavailable;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "8. \"authors mention that existing models disentangle the ground",
+                    "Sentiment Expression": " Author's statement on existing models disentangling factors, accident.",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "This paper gives a new kind of comprehension to disentangled representation learning. In this paper, existing unsupervised disentangled methods are trying to obtain disentangled action sequences instead of independent factors. Through the proposed FVAE model, action sequences with different levels of significance can be obtained step by step, and experiment results show that the weight \beta has positive correlation with the significance.",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"This paper gives a new comprehension of existing unsupervised disentangled representation learning method\" ",
+                    "Sentiment Expression": " This paper, gives a new comprehension;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"This paper gives a new idea that \\beta has positive relationship with action significance and conduct an experiment to validate it.\" ",
+                    "Sentiment Expression": " This paper, gives a new idea;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"This paper proposes a new variant of VAE called FVAE\" ",
+                    "Sentiment Expression": " This paper, proposes a new variant of VAE called FVAE;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"This paper mainly gives descriptions of insights while lacking some formulations to explain the settings and methods better.\" ",
+                    "Sentiment Expression": " This paper, lacking some formulations;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"Experimental results are not well organized, some axis lack corresponding labels\" ",
+                    "Sentiment Expression": " Experimental results, not well organized;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"Figures are not clear, like numbers in Figure 1\" ",
+                    "Sentiment Expression": " Figures, not clear;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "7. \"Some definitions are ambiguous, like x in equation 5.\" ",
+                    "Sentiment Expression": " Some definitions, ambiguous;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "8. \"Some descriptions in the paper are confusing\" ",
+                    "Sentiment Expression": " Some descriptions, confusing;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "9. \"There exist some typos in this paper, like \u201cleaned\u201d for \u201clearned\u201d.\" ",
+                    "Sentiment Expression": " This paper, some typos;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "10. \"Some ideas should be supported by clearer formulations.\" ",
+                    "Sentiment Expression": " Some ideas, should be supported by clearer formulations;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "11. \"Some conclusions of experiments are not valid.\" ",
+                    "Sentiment Expression": " Some conclusions of experiments, not valid;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "12. \"The logic of this paper is a little unclear.\" ",
+                    "Sentiment Expression": " The logic of this paper, a little unclear;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "13. \"Experimental figures are incomplete.\" ",
+                    "Sentiment Expression": " Experimental figures, incomplete;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "14. \"With some modifications, this paper could be an excellent paper.\" ",
+                    "Sentiment Expression": " This paper, could be an excellent paper with some modifications.",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Review 5",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"Overall the concept of bringing temporal causality (which for some cases *is* valid as the causal diagram/frame) into the disentanglement problem statement is a good idea.\"",
+                    "Sentiment Expression": "1. \"Overall the concept of bringing temporal causality (which for some cases *is* valid as the causal diagram/frame) into the disentanglement problem statement is a good idea.\"",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "   ",
+                    "Sentiment Expression": " Judgement value: Good",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                },
+                {
+                    "Content Expression": "   ",
+                    "Sentiment Expression": " Topic: Concept of the paper regarding temporal causality in disentanglement problem statement",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "",
+                    "Sentiment Expression": "",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"However, after that point in the manuscript, I cannot understand what has done.\"",
+                    "Sentiment Expression": "2. \"However, after that point in the manuscript, I cannot understand what has done.\"",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "   ",
+                    "Sentiment Expression": " Judgement value: Negative",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "   ",
+                    "Sentiment Expression": " Topic: Clarity of the manuscript after the introductory section",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "",
+                    "Sentiment Expression": "",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"What they _do_ describe is a set of \"sub",
+                    "Sentiment Expression": "encoders\" with varying compression rates $\\beta$.\"",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "   ",
+                    "Sentiment Expression": " Judgement value: Positive",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                },
+                {
+                    "Content Expression": "   ",
+                    "Sentiment Expression": "encoders\" with varying compression rates ",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "",
+                    "Sentiment Expression": "",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"I further cannot make a connection between the actions sequences and the training methods/arch.\"",
+                    "Sentiment Expression": "4. \"I further cannot make a connection between the actions sequences and the training methods/arch.\"",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "   ",
+                    "Sentiment Expression": " Judgement value: Negative",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "   ",
+                    "Sentiment Expression": " Topic: Clarity in making a connection between the actions sequences and the training methods/arch...",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "",
+                    "Sentiment Expression": "",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"I think the positive experimental results in Figure 6c mean that there is something here.\"",
+                    "Sentiment Expression": "5. \"I think the positive experimental results in Figure 6c mean that there is something here.\"",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "   ",
+                    "Sentiment Expression": " Judgement value: Positive",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                },
+                {
+                    "Content Expression": "   ",
+                    "Sentiment Expression": " Topic: The experimental results in Figure 6c",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "",
+                    "Sentiment Expression": "",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"I suggest a clear procedure section with numbered steps. It is of vital importance that the reader understand what has been done.\"",
+                    "Sentiment Expression": "6. \"I suggest a clear procedure section with numbered steps. It is of vital importance that the reader understand what has been done.\"",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "   ",
+                    "Sentiment Expression": " Judgement value: Suggestion (Neutral)",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "   ",
+                    "Sentiment Expression": " Topic: Clarity and organization in the manuscript",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "",
+                    "Sentiment Expression": "",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "7. \"Using more complex examples may not be helpful.\"",
+                    "Sentiment Expression": "7. \"Using more complex examples may not be helpful.\"",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "   ",
+                    "Sentiment Expression": " Judgement value: Negative",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "   ",
+                    "Sentiment Expression": " Topic: Suitability of the use of complex examples in the document",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "",
+                    "Sentiment Expression": "",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "8. \"I would also give the paper another read through for grammar.\"",
+                    "Sentiment Expression": "8. \"I would also give the paper another read through for grammar.\"",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "   ",
+                    "Sentiment Expression": " Judgement value: Suggestion (Neutral)",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "   ",
+                    "Sentiment Expression": " Topic: Overall quality in terms of grammar of the paper.",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        }
+    ]
+}

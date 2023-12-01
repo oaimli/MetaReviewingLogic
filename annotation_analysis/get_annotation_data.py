@@ -3,9 +3,9 @@ import random
 import jsonlines
 import json
 
-with open("../annotation_analysis/bryan_annotation_result.json") as f:
+with open("bryan_annotation_result.json") as f:
     bryan_results = json.load(f)
-with open("../annotation_analysis/zenan_annotation_result.json") as f:
+with open("zenan_annotation_result.json") as f:
     zenan_results = json.load(f)
 assert len(set(bryan_results.keys()).difference(set(zenan_results.keys()))) == 0
 samples_annotated_keys = bryan_results.keys()

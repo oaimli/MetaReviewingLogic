@@ -5,13 +5,19 @@ import pandas
 
 annotation_folder = "../../HumanAnnotation/mrg_judgement"
 
+with open("bryan_annotation_result.json") as f:
+    annotated_ids_bryan = json.load(f).keys()
+with open("zenan_annotation_result.json") as f:
+    annotated_ids_zenan = json.load(f).keys()
+
+assert len(annotated_ids_bryan) == len(annotated_ids_zenan)
+
 samples = []
 with jsonlines.open(annotation_folder + "/annotation/sampled_data.jsonl") as reader:
     for line in reader:
         samples.append(line)
 
-with open("bryan_annotation_result.json") as f:
-    annotated_ids = json.load(f).keys()
+
 
 annotated_document_counts = []
 lens_samples = []
@@ -21,7 +27,7 @@ contradicts = []
 for sample in samples:
     id = sample["paper_id"][10:]
     print(id)
-    if id in annotated_ids:
+    if id in annotated_ids_bryan:
         source_documents = sample["source_documents"]
         meta_review = sample["summary"]
         contradict = sample["contradict"]

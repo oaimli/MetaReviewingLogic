@@ -75,20 +75,22 @@ def parse_convincingness(result):
 def annotating(samples):
     """
     :param samples: dict
-    :return: dict
+    :return: none
     """
+    print("Annotating count", len(samples))
     prompt_expression = open("prompt_expression.txt").read()
     prompt_facet = open("prompt_facet.txt").read()
     prompt_expressor = open("prompt_expresser.txt").read()
     prompt_convincingness = open("prompt_convincingness.txt").read()
     prompt_polarity = open("prompt_polarity.txt").read()
 
-    results = {}
     for paper_id, sample in samples.items():
         print(paper_id)
         print(sample.keys())
         documents_annotated = []
         for source_document in sample["documents"]:
+            if source_document["document_title"] == "Abstract":
+                continue
             # get content expression and sentiment expression
             while True:
                 try:
@@ -197,9 +199,10 @@ def annotating(samples):
 
             documents_annotated.append(
                 {"Document Title": source_document["document_title"], "Annotated Judgements": judgements})
+        results = {}
         results[paper_id] = documents_annotated
-
-    return results
+        with open("gpt4_result_small/%s.json" % paper_id, "w") as f:
+            json.dump(results, f, indent=4)
 
 
 if __name__ == "__main__":
@@ -213,17 +216,14 @@ if __name__ == "__main__":
     assert len(set(bryan_results.keys()).difference(set(zenan_results.keys()))) == 0
     samples_annotated_keys = bryan_results.keys()
 
-    with open("gpt4_annotation_data_small.json") as f:
+    with open("../annotation_analysis/gpt4_annotation_data_small.json") as f:
         samples_all = json.load(f)
     # Evaluation data for agreement of GPT-4 with human annotators
     samples_gpt4 = {}
     for sample_key in samples_all.keys():
         if sample_key in samples_annotated_keys:
             samples_gpt4[sample_key] = samples_all[sample_key]
-            break
-    results = annotating(samples_gpt4)
-    with open("gpt4_annotation_result_small.json", "w") as f:
-        json.dump(zenan_results, f, indent=4)
+    annotating(samples_gpt4)
 
     # with open("gpt4_annotation_data_large.json") as f:
     #     samples_all = json.load(f)

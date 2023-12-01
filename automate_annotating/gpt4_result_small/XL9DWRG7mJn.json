@@ -1,0 +1,603 @@
+{
+    "XL9DWRG7mJn": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"This paper reformulates an existing problem (how to sparsify gradients in distributed training) and proposes to minimize a new objective (the total compression error subject to communication constraint as opposed to per",
+                    "Sentiment Expression": " This paper reformulates an existing problem and proposes a new objective, novelty;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"The authors show the effectiveness of the proposed algorithm through theoretical bounds and experiments.\" ",
+                    "Sentiment Expression": " Theoretical bounds and experiments, effectiveness demonstrated;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"All reviewers agree that this is a valuable contribution.\" ",
+                    "Sentiment Expression": " Valuable contribution, all reviewers agree;",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "4. \"Comments from previous submission to ICML are adequately addressed.\" ",
+                    "Sentiment Expression": " Comments from previous submission, adequately addressed.",
+                    "Criteria Facet": "Compliance",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for your positive reassessment",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The document does not provide any judgement on the criteria facets: novelty, soundness, clarity, advancement, compliance and overall quality.",
+                    "Sentiment Expression": "The document does not provide any judgement on the criteria facets: novelty, soundness, clarity, advancement, compliance and overall quality.",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                }
+            ]
+        },
+        {
+            "Document Title": "Comments after rebuttal",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"I do appreciate the great value of this work, but I am still worried about the claim of optimality, even though I understand that this optimality is restricted to the model the authors proposed.\" ",
+                    "Sentiment Expression": " Optimality of the proposed model, claimed but concerning;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"Theorem 1 only provides an upper bound, if we are minimizing an upper bound, claiming optimal seems to me kind of strong.\" ",
+                    "Sentiment Expression": " Theorem 1, only provides an upper bound, making the optimal claim strong;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"The paper presents very solid theoretical and experimental results for this method.\" ",
+                    "Sentiment Expression": " Theoretical and experimental results, very solid;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"However, in terms of communication efficiency, i.e. bits over guaranteed optimization errors, there is no clear theoretical improvements shown.\" ",
+                    "Sentiment Expression": " Communication efficiency, no clear theoretical improvements shown;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"I agree with other reviewers' votes and raise my score to 7.\" ",
+                    "Sentiment Expression": " Overall quality of the paper, raised to score 7 based on agreement with other reviewers.",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10919 by Reviewer TZ2h",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"I am trying to understand why the proposed communication",
+                    "Sentiment Expression": "complexity model and sparsifier, unsure about novelty and soundness;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"So there may be some confusion in this paragraph.\" ",
+                    "Sentiment Expression": " The paragraph starting from line 44, unclear;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"Those upper bounds improve from the results using top",
+                    "Sentiment Expression": " Upper bounds of optimization errors, improved advancement;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"The provided upper bounds, however, seem to me not clearly they are more communication",
+                    "Sentiment Expression": " The provided upper bounds, unclear about advancement;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"The total error minimization perspective seems to me more like an observation of the consequence using a hard",
+                    "Sentiment Expression": "threshold sparsifier, unclear about the reason for better performance;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"The paper is in general well written and very clear, the extensive experiments are helpful for the understanding of the practical benefits of the hard",
+                    "Sentiment Expression": " The paper, well written and clear, the extensive experiments conducted, helpful.",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10919 by Reviewer VFA3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"The paper is clearly written.\" ",
+                    "Sentiment Expression": " The paper, clearly written;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"The proofs are easy to follow and contain only a couple of typos.\" ",
+                    "Sentiment Expression": " The proofs, easy to follow and contain only a couple of typos;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"No analysis for the arbitrary heterogeneous case for non",
+                    "Sentiment Expression": "convex objectives, minor;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"The obtained results are quite good.\" ",
+                    "Sentiment Expression": " The obtained results, quite good;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"The derived bounds in the non",
+                    "Sentiment Expression": "convex case, substantially rely on Assumption 4;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"Although this is a significant limitation, previous works on EF",
+                    "Sentiment Expression": " This is a significant limitation, but still lesser than previous works;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "7. \"I recommend the paper for acceptance and hope that the authors will apply all necessary corrections mentioned in the reviews.\" ",
+                    "Sentiment Expression": " The paper, recommended for acceptance with necessary corrections;",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "8. \"The authors adequately addressed the limitations and potential negative societal impact of their work.\" ",
+                    "Sentiment Expression": " The authors, adequately addressing limitations and potential negative societal impacts.",
+                    "Criteria Facet": "Compliance",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10919 by Reviewer o9PJ",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"I think this paper presents several meaningful theoretical results as a contribution.\" ",
+                    "Sentiment Expression": " This paper, presents several meaningful theoretical results;",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"However, I think some of the paper's claims are being quite oversold.\" ",
+                    "Sentiment Expression": " The paper's claims, oversold;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"Some of the theoretical results are definitely very cool to have.\" ",
+                    "Sentiment Expression": " Theoretical results, very cool;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"The manuscript seems to discuss the related work relatively well.\" ",
+                    "Sentiment Expression": " The manuscript, discusses related work relatively well;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"I am very worried about the paper's claims about the optimality.\" ",
+                    "Sentiment Expression": " The paper's claims about the optimality, very worried;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"I believe that these ill",
+                    "Sentiment Expression": "specified claims on the optimality, should be toned down;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "7. \"Also, I think presenting the optimality claims in a form of lemmata without proofs is unnatural, no matter how straightforward the proofs are.\" ",
+                    "Sentiment Expression": " Presenting the optimality claims in a form of lemmata without proofs, unnatural;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "8. \"In such cases, having a constant communication rate could be beneficial.\" ",
+                    "Sentiment Expression": " Having a constant communication rate, could be beneficial;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "9. \"I am not entirely sure what is the big motivation behind considering the error",
+                    "Sentiment Expression": "feedback mechanisms, not entirely sure;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "10. \"The quantity $\\gamma_t$ appears at line 133, but I do not think this quantity is defined or introduced properly in the text.\" ",
+                    "Sentiment Expression": " Quantity $\\gamma_t$, not defined or introduced properly;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "11. \"I do not think Assumption 2 is explicitly assumed in any theorem appearing in the main text.\" ",
+                    "Sentiment Expression": " Assumption 2, not explicitly assumed in any theorem;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "12. \"It was unexpected to me that the convergence guarantees for the absolute compressors $C_v ( \\cdot ) $ does not depend explicitly on the compression factor $v$\" ",
+                    "Sentiment Expression": " The convergence guarantees for the absolute compressors $C_v$, does not depend explicitly on the compression factor $v.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "13. \"I think authors should additionally mention when can such variable",
+                    "Sentiment Expression": "load methods, may not useful or usable.",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Author Response to Reviewer TZ2h",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"We accept that there is a slight misunderstanding about the simplification in our communication",
+                    "Sentiment Expression": "complexity model, a slight misunderstanding;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"In contrast, the novelty of our communication",
+                    "Sentiment Expression": "complexity model, novelty, better captures the total error;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"This is a well",
+                    "Sentiment Expression": "accepted, appears abundantly;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"We use the overall communication budget to denote the total communication throughout the training.\" ",
+                    "Sentiment Expression": " Use of overall communication budget, total communication throughout the training;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"Our convergence results do not show that the hard",
+                    "Sentiment Expression": "$k$;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"However, we have demonstrated that hard",
+                    "Sentiment Expression": "complexity model;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "7. \"Our communication",
+                    "Sentiment Expression": "convex convergence result.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Author Response to Reviewer o9PJ",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"We are grateful to the reviewer for the constructive feedback and for providing a positive assessment of our paper.\" ",
+                    "Sentiment Expression": " Our paper, positive assessment.",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"Examples include dynamic network environments such as a public cloud or a shared cluster with colocated jobs...hard",
+                    "Sentiment Expression": "threshold, not a good candidate for dynamic network environments setting.",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"But we know that for a given signal, Top",
+                    "Sentiment Expression": "error.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"Hard",
+                    "Sentiment Expression": "$k$.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "5. \"Hard",
+                    "Sentiment Expression": "$k$.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "6. \"This makes error",
+                    "Sentiment Expression": "feedback, indispensable and essential technique for gradient sparsification.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Author Response to Reviewer eex4",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "\"We also thank the reviewer for providing a positive assessment of our work\" ",
+                    "Sentiment Expression": " our work, positive assessment;",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "\"for appreciating our communication",
+                    "Sentiment Expression": "complexity model, appreciated;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Author Response to Reviewer VFA3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"We thank the reviewer for the positive review of our paper.\" ",
+                    "Sentiment Expression": " Our paper, positive review;",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                },
+                {
+                    "Content Expression": "2. \"We are glad that the reviewer considers total error minimization as an important contribution to our paper.\" ",
+                    "Sentiment Expression": " Total error minimization in our paper, important contribution;",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                },
+                {
+                    "Content Expression": "3. \"No analysis for the arbitrary heterogeneous case for non",
+                    "Sentiment Expression": "convex objectives in our paper, no analysis;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "4. \"We sincerely thank the reviewer for bringing the tighter rates in [19] to our notice.\" ",
+                    "Sentiment Expression": " The rates in our paper, not as tight as in [19];",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"We thank the reviewer for indicating this typo. We will correct this.\" ",
+                    "Sentiment Expression": " Our paper, contains typo;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"We thank the reviewer for this comment; and yes, you are right. We will use a better notation in the final version of the paper.\" ",
+                    "Sentiment Expression": " Notation in our paper, needs improvement;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "7. \"We thank the reviewer for giving us this insight. We will use the tighter result from [19].\" ",
+                    "Sentiment Expression": " Our paper, needs to use tighter results from [19];",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "8. \"We thank the reviewer for spotting this. We will correct it.\" ",
+                    "Sentiment Expression": " Our paper, contains error;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "9. \"Indeed we will state the assumptions in the main statement of Lemma 11.\" ",
+                    "Sentiment Expression": " Assumptions in Lemma 11 of our paper, not clearly stated;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "10. \"As mentioned in comment 5, we will now compare absolute compressors and $\\delta$",
+                    "Sentiment Expression": "contraction operators in our paper, needs improvement and further substantiation.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10919 by Reviewer eex4",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"In this paper, the authors demonstrate that... the hard",
+                    "Sentiment Expression": "threshold sparsifier, optimal;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "2. \"This allows the authors to compare... the hard threshold sparsifier is better.\" ",
+                    "Sentiment Expression": " Hard threshold sparsifier, better;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"I find this paper interesting and vote to accept it.\" ",
+                    "Sentiment Expression": " This paper, interesting and accept;",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"I think it is an interesting result but unfortunately I am not an expert in the field...\" ",
+                    "Sentiment Expression": " Result, interesting but unsure of its significance;",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"I do like the communication complexity model.\" ",
+                    "Sentiment Expression": " Communication complexity model, like;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"This is a theoretical paper and has limited societal impact.\" ",
+                    "Sentiment Expression": " Theoretical paper, limited societal impact.",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                }
+            ]
+        }
+    ]
+}

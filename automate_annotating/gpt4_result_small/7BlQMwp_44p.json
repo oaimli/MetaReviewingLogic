@@ -1,0 +1,549 @@
+{
+    "7BlQMwp_44p": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"All the reviewers appreciated the results of the paper.\" ",
+                    "Sentiment Expression": " The results of the paper, appreciated;",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "2. \"While it builds on prior techniques in the area, the technical novelty in the work is high enough.\" ",
+                    "Sentiment Expression": " The technical novelty in the work, high enough;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"Certain technical questions raised by the reviewers were subsequently resolved by the authors' response.\" ",
+                    "Sentiment Expression": " The authors' response to technical questions, resolved;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"Overall this is a solid theory paper and I recommend acceptance.\" ",
+                    "Sentiment Expression": " The theory paper, solid, recommended for acceptance.",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Post-rebuttal",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The document does not provide judgement on the criteria facets: novelty, soundness, clarity, advancement, complicance and overall quality.",
+                    "Sentiment Expression": "The document does not provide judgement on the criteria facets: novelty, soundness, clarity, advancement, complicance and overall quality.",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                }
+            ]
+        },
+        {
+            "Document Title": "Final comments to authors",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"The writing of the paper can still be greatly improved\" ",
+                    "Sentiment Expression": " The writing of the paper, can still be greatly improved;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"The contents could become more accessible by the general audience\" ",
+                    "Sentiment Expression": " The contents of the paper, could become more accessible by the general audience;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"Some of the transitions between topics are not smooth enough\" ",
+                    "Sentiment Expression": " The transitions between topics, not smooth enough;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"This work seems to be a valuable technical contribution to the NeurIPS community\" ",
+                    "Sentiment Expression": " This work, seems to be a valuable technical contribution to the NeurIPS community.",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "reviewer comments",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The document doesn't provide judgment on the aspects of novelty, soundness, clarity, advancement, compliance, and overall quality.",
+                    "Sentiment Expression": "The document doesn't provide judgment on the aspects of novelty, soundness, clarity, advancement, compliance, and overall quality.",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                }
+            ]
+        },
+        {
+            "Document Title": "Author response for Reviewer 8NsY",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"The sample complexity of our algorithm for linear regression with Massart noise is quantitatively higher, compared to the noiseless case.\" ",
+                    "Sentiment Expression": " The sample complexity of our algorithm for linear regression with Massart noise, is quantitatively higher;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"Our work gives the *first polynomial sample and time* algorithm.\" ",
+                    "Sentiment Expression": " Our work, gives the *first polynomial sample and time* algorithm;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"The runtime of our algorithm depends on the bit complexity $b$ of the points.\" ",
+                    "Sentiment Expression": " The runtime of our algorithm, depends on the bit complexity $b$ of the points;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"In our specific setting, we solve a linear program to perform exact recovery, which incurs a runtime polynomial in $\\log(1/\\epsilon)$, not $1/\\epsilon$.\" ",
+                    "Sentiment Expression": " In our specific setting, we solve a linear program to perform exact recovery, incurs a runtime polynomial in $\\log(1/\\epsilon)$, not $1/\\epsilon$;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"The sample complexity of our algorithms does not depend on the bit complexity, as a consequence of using radial isotropy.\" ",
+                    "Sentiment Expression": " The sample complexity of our algorithms, does not depend on the bit complexity;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"This is an extremely mild condition that is satisfied by a wide range of distributions.\" ",
+                    "Sentiment Expression": " This is an extremely mild condition, is satisfied by a wide range of distributions;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "7. \"The central question of our paper is whether there exists realistic label noise models in which efficient learning is possible *without strong distributional assumptions*\" ",
+                    "Sentiment Expression": " The central question of our paper, exists realistic label noise models in which efficient learning is possible *without strong distributional assumptions*;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "8. \"Thus, the use of radial",
+                    "Sentiment Expression": "behaved distributions;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "9. \"Computing a radial",
+                    "Sentiment Expression": "isotropic transformation $A$, can be done in polynomial time as specified in Lemma 2.1.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Author response for Reviewer Dpt6",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The document does not seem to contain any explicit judgements on the criteria facets such as novelty, soundness, clarity, advancement, compliance and overall quality.",
+                    "Sentiment Expression": "The document does not seem to contain any explicit judgements on the criteria facets such as novelty, soundness, clarity, advancement, compliance and overall quality.",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not applicable"
+                }
+            ]
+        },
+        {
+            "Document Title": "Author response for Reviewer vpXo",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"Our theoretical results focus on the realizable model for learning ReLUs (and linear functions) with Massart noise.\" ",
+                    "Sentiment Expression": " Our theoretical results, focus on the realizable model for learning ReLUs (and linear functions) with Massart noise;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"This is an important and well",
+                    "Sentiment Expression": "studied;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                },
+                {
+                    "Content Expression": "3. \"We define the Massart adversary in Definition 1.1 and use this definition throughout the paper.\" ",
+                    "Sentiment Expression": " We define the Massart adversary in Definition 1.1, use this definition throughout the paper;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"In fact, this definition is equivalent to the informal description given in Lines 117",
+                    "Sentiment Expression": "119;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"Yes, we did not include the transpose since $A$ is symmetric, but we agree that this may be confusing. We will fix the typo and keep our notation consistent.\" ",
+                    "Sentiment Expression": " We did not include the transpose since $A$ is symmetric, may be confusing;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"Yes, the reviewer is correct. We will add this definition for clarity.\" ",
+                    "Sentiment Expression": " We will add this definition, for clarity.",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Author response for Reviewer 463t",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"We thank the reviewer for the appreciation of our paper and the helpful suggestions.\" ",
+                    "Sentiment Expression": " Our paper, appreciated; ",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "2. \"ReLU regression is significantly more challenging than linear regression.\" ",
+                    "Sentiment Expression": " ReLU regression, more challenging than linear regression;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"Our algorithm builds on the ideas developed in our linear regression warmup, to iteratively improve the guesses about the positive ReLU region yielding a separation oracle.\" ",
+                    "Sentiment Expression": " Our algorithm, built on developed ideas, iteratively improves;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"We will incorporate this additional intuition in the revised version of the paper.\" ",
+                    "Sentiment Expression": " Revised version of the paper, will incorporate additional intuition.",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Joint Response",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"We are encouraged by the positive feedback\" ",
+                    "Sentiment Expression": " The feedback, positive;",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"the reviewers appreciated the paper for significant and/or interesting results\" ",
+                    "Sentiment Expression": " The paper/results, significant and/or interesting;",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "3. \"technical contribution\" ",
+                    "Sentiment Expression": " The technical contribution, appreciated;",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "4. \"organization/clarity\" ",
+                    "Sentiment Expression": " The organization/clarity of the paper, appreciated.",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper7733 by Reviewer vpXo",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"I haven't completely checked the proofs, however, the overall idea makes sense to me and is, in fact, quite interesting.\" ",
+                    "Sentiment Expression": " The overall idea of the paper, makes sense, quite interesting;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"With respect to weaknesses, paper lacks proper discussion at some points which I have explained in the 'Main review' section.\" ",
+                    "Sentiment Expression": " The paper, lacks proper discussion at some points;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"Also, author(s) have assumed a completely clean and noise",
+                    "Sentiment Expression": "free except for the adversarial part;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"Overall a well",
+                    "Sentiment Expression": "written, some interesting theoretical achievements;",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"Author(s) seem to have a good grasp of existing literature in this area, but it hasn't been completely reflected in the Introduction section.\" ",
+                    "Sentiment Expression": " The introduction section, not completely reflecting the authors' grasp of existing literature;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"The adversary described in Definition 1.1 does not match with the one that has been explained in Lines (117:119).\" ",
+                    "Sentiment Expression": " The adversary in Definition 1.1, does not match the one explained in Lines (117:119);",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "7. \"In Section 1.2, the transition from ReLU and linear regression in the presence of Massart noise to $\\ell_0$ or $\\ell_1$",
+                    "Sentiment Expression": " The transition in Section 1.2, not smooth.",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper7733 by Reviewer 463t",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"The paper is a joy to read.\" ",
+                    "Sentiment Expression": " The paper, a joy to read;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                },
+                {
+                    "Content Expression": "2. \"The study is important and relevant to the NeurIPS community.\" ",
+                    "Sentiment Expression": " The study, important and relevant to the NeurIPS community;",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"To the best of my knowledge, the results are novel and significant.\" ",
+                    "Sentiment Expression": " The results, novel and significant;",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"The claims seem sound to me.\" ",
+                    "Sentiment Expression": " The claims, seem sound.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper7733 by Reviewer Dpt6",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"One of the strong points if the paper is that it is very well",
+                    "Sentiment Expression": "written and well organized.",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"The ideas are presented clearly with intuitive explanations, and the proofs are rigorous.\" ",
+                    "Sentiment Expression": " The ideas and proofs, presented clearly with intuitive explanations and are rigorous.",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"The authors are careful in evaluating the strengths/weaknesses of their work.\" ",
+                    "Sentiment Expression": " The authors, careful in evaluating the strengths/weaknesses of their work.",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"The work seems to be built upon an established literature and the review of related works are informative.\" ",
+                    "Sentiment Expression": " The work, built upon an established literature and review of related works are informative.",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"The paper consider a slightly weakened model, but leads to more generality in the underlying data distribution.\" ",
+                    "Sentiment Expression": " The model in the paper, slightly weakened but leads to more generality in the underlying data distribution.",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"The result of the work is significantly different (stronger) from the closest comparisons ([32] and [10]), and the methods are designed specifically to address the limitation of those works.\" ",
+                    "Sentiment Expression": " The result of the work, significantly different and stronger from the closest comparisons, and the methods, designed specifically to address the limitations of those works.",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "7. \"The generalization of the approach from linear to ReLU regressions are non",
+                    "Sentiment Expression": "trivial in both technical analysis and algorithmic designs.",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "8. \"As stated in the Originality section, the result of the work is significantly different (stronger) from the closest comparisons ([32] and [10]) and seems to extend existing works in a demonstrable way.\" ",
+                    "Sentiment Expression": " The result of the work, significantly different and stronger from the closest comparisons, and seems to extend existing works in a demonstrable way.",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper7733 by Reviewer 8NsY",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "1. \"I feel the paper is well",
+                    "Sentiment Expression": "written; Theoretical guarantee, having a few concerns;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "2. \"The sample complexity for robust linear regression is suboptimal. In particular, even when the noise rate eta = 0, it is given by O(d^3) which is worse than that of noiseless regression.\" ",
+                    "Sentiment Expression": " Sample complexity for robust linear regression, suboptimal;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "3. \"It also seems unpleasant to have bit complexity dependence in running time.\" ",
+                    "Sentiment Expression": " Bit complexity dependence in running time, unpleasant;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "4. \"I cannot follow the assumption that $P( w \\cdot x \\geq 0 ) \\geq \\lambda$ for all w.\" ",
+                    "Sentiment Expression": " The assumption that $P( w \\cdot x \\geq 0 ) \\geq \\lambda$ for all w, hard to follow;",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "5. \"What is the computational cost to obtain a radial",
+                    "Sentiment Expression": "isotropic transformation matrix A, unclear;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "6. \"The distributional assumption is informally stated throughout. Can you provide a few examples that satisfy the condition, say Gaussian distributions or uniform distributions?\" ",
+                    "Sentiment Expression": " The distributional assumption, informally stated;",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "7. \"My understanding is not being necessary, in which case the technical novelty appears vacuous.\" ",
+                    "Sentiment Expression": " The technical novelty, appears vacuous.",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                }
+            ]
+        }
+    ]
+}
