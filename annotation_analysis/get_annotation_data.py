@@ -10,10 +10,9 @@ with open("zenan_annotation_result.json") as f:
 assert len(set(bryan_results.keys()).difference(set(zenan_results.keys()))) == 0
 samples_annotated_keys = bryan_results.keys()
 
-annotation_folder = "../../HumanAnnotation/mrg_judgement"
 
 tmp = []
-with jsonlines.open(annotation_folder + "/annotation/sampled_data.jsonl") as reader:
+with jsonlines.open("../automate_annotating/peersum_all.jsonl") as reader:
     for line in reader:
         paper_id = line["paper_id"][10:]
         if paper_id in samples_annotated_keys:
@@ -22,19 +21,26 @@ with jsonlines.open(annotation_folder + "/annotation/sampled_data.jsonl") as rea
 samples = {}
 for line in random.sample(tmp, 5):
     paper_id = line["paper_id"][10:]
-    source_documents_new = []
-    source_documents_new.append({"document_title": "", "document_content": line["summary"]})
-    for doc in line["source_documents"]:
-        source_documents_new.append({"document_title": "", "document_content": doc})
+    documents_new = []
+    documents_new.append({"review_id": "meta-review", "writer": "meta-review", "comment": line["meta_review"], "rating": "-1", "confidence": "-1", "reply_to": "-1"})
+    for doc in line["reviews"]:
+        doc["document_title"] = ""
+        documents_new.append(doc)
 
-    line["documents"] = source_documents_new
-    del line["paper_id"]
-    del line["summary"]
-    del line["source_documents"]
+    line["documents"] = documents_new
+    del line["meta_review"]
+    del line["reviews"]
     samples[paper_id] = line
 
-print("All annotated count", len(samples))
+    # paper_title: str
+    # paper_abstract, str
+    # paper_acceptance, str
+    # meta_review, str
+    # reviews, [{review_id, writer, comment, rating, confidence, reply_to}] (all reviews and comments)
+    # label, str, (train, val, test)
 
-with open("gpt4_annotation_data_small.json", "w") as f:
+print("All annotation data", len(samples))
+
+with open("annotation_data.json", "w") as f:
     json.dump(samples, f, indent=4)
 
