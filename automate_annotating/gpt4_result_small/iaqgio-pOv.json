@@ -1,0 +1,1299 @@
+{
+    "iaqgio-pOv": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "This paper",
+                    "Sentiment Expression": "presents two novel approaches",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The proposed approach to explain similarity prediction",
+                    "Sentiment Expression": "is a relatively less explored area, which makes the problem addressed and the proposed method unique",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "evaluation methods",
+                    "Sentiment Expression": "reviewers expressed concerns",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the evaluation methods",
+                    "Sentiment Expression": "The major issue is, as pointed out by the majority of the reviewers",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed approach",
+                    "Sentiment Expression": "advances the field",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "is a good paper, but appears to be borderline to marginally below the threshold for the acceptance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for raising your score and the interesting reference. More clarifications...",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the methods used for quantitative evaluations",
+                    "Sentiment Expression": "are a *superset* of what we evaluated in the user study and not some arbitrary intersection as the reviewer initially thought",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "straightforward application of popular methods such as LIME and methods that are not obvious baselines",
+                    "Sentiment Expression": "underperform in our setting even from a quantitative standpoint",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "analogies",
+                    "Sentiment Expression": "are *not sufficient* for a good explanation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our results",
+                    "Sentiment Expression": "do *not* violate the surmise made in the shared reference, but rather support it",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Evaluating different explanation techniques in human and systematic evaluation",
+                    "Sentiment Expression": "is not advisable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the conclusions",
+                    "Sentiment Expression": "should be generalizable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the inclusion of the ablation study and the analysis",
+                    "Sentiment Expression": "upgraded my score to 6",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper720 by Reviewer QDef",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The proposed technique",
+                    "Sentiment Expression": "is flexible and intuitive for human users",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The study",
+                    "Sentiment Expression": "includes human and functionally grounded evaluation experiments",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Many important design choices behind the proposed method in sections 4.1 and 4.2",
+                    "Sentiment Expression": "are not well motivated",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "methods in functionally-grounded evaluation",
+                    "Sentiment Expression": "are not included in the human grounded evaluation experiments and vice versa",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The proposed technique",
+                    "Sentiment Expression": "performs well in both human and functionally grounded evaluation experiments",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The study",
+                    "Sentiment Expression": "needs some further refinements before it can be accepted",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for responding. Hope you are feeling better. Further clarifications... [2/2]",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "using the full objective",
+                    "Sentiment Expression": "are able to obtain analogies that have all the three desired properties - high fidelity to black-box, meaningful analogousness, and sufficient diversity",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "turn off the black-box fidelity term",
+                    "Sentiment Expression": "have no fidelity in terms of $\\delta_{BB}$ values",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "without the diversity term",
+                    "Sentiment Expression": "the second and third pairs chosen are the same, just with the order flipped",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the usefulness of each term in the objective",
+                    "Sentiment Expression": "clearly demonstrates",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "not including LIME in the user studies",
+                    "Sentiment Expression": "is not a major flaw",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "including these additional baselines in the functional evaluations",
+                    "Sentiment Expression": "leads to a fairer positioning of our work",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our methods",
+                    "Sentiment Expression": "could readily be applied",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for responding. Hope you are feeling better. Further clarifications... [1/2]",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "a single type of explanation",
+                    "Sentiment Expression": "cannot best satisfy everyone",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "features, which essentially were words in the sentence pairs",
+                    "Sentiment Expression": "had a critical role in determining a pair's similarity",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The analogies",
+                    "Sentiment Expression": "might capture this additional information",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "This",
+                    "Sentiment Expression": "may not be possible for or suited to all individuals",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for your thorough feedback",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Your study",
+                    "Sentiment Expression": "somewhat violates that hypothesis without a proper explanation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "you propose two techniques in the same paper and conclude that users can pick each one based on their own preference",
+                    "Sentiment Expression": "is not really convincing to me",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "what terms in Equation 2 contribute to",
+                    "Sentiment Expression": "is difficult to see",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "different techniques are compared across the human and systematic evaluations",
+                    "Sentiment Expression": "is a major flaw",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "positioning your work relative to other cited related work",
+                    "Sentiment Expression": "I still have a hard time",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "UBTb: Thank you for suggesting alternate designs, however our user study design is still valid...",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the cases where the three example-based methods (AbE, ProtoDash, DirSim) return a consensus",
+                    "Sentiment Expression": "participants agree with the consensus only 43.2% of the time",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "AbE when there was consensus",
+                    "Sentiment Expression": "users agreed with ... 71.2% of the times",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "AbE explanations",
+                    "Sentiment Expression": "made more sense to the participants",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the majority label (at least 2 out of 3), their accuracy",
+                    "Sentiment Expression": "would be 40%",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the participants",
+                    "Sentiment Expression": "were not overly swayed by consensus or majorities in the returned examples",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "they *point to latent factors*",
+                    "Sentiment Expression": "may be responsible for the model's output",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "participants were given analogous pairs together with their predictions",
+                    "Sentiment Expression": "is also why",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "other experimental designs",
+                    "Sentiment Expression": "are worthy of investigation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to authors",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "technical quality of the paper",
+                    "Sentiment Expression": "I am not convinced",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "giving the model explanation when asking the participant to predict the model output",
+                    "Sentiment Expression": "is fundamentally flawed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "clear semantic relations",
+                    "Sentiment Expression": "I am not sure how useful that would be",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this explanation",
+                    "Sentiment Expression": "it is not clear how this...could be related to the sentence that it is intended to explain",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "any semantic relations for some of the examples that the authors provided",
+                    "Sentiment Expression": "I find it hard to identify",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the experiments",
+                    "Sentiment Expression": "need to be made more \"bullet-proof\" and convincing in order to truly establish the usefulness of the proposed model",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "my assessment",
+                    "Sentiment Expression": "I would maintain",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Further evidence of trustworthiness of user study results...",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the resultant (percentage) accuracies",
+                    "Sentiment Expression": "AbE-> 82.3, DirSim-> 55.2, Pdash-> 54.9, FbFull-> 77.8, FbDiag-> 56.1",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the advantage of our methods (AbE and FbFull)",
+                    "Sentiment Expression": "is maintained",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the results in Figure 3 based on our user study",
+                    "Sentiment Expression": "can be trusted",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for your response. Further clarifications...",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "To make LIME equivalent to diagonal $A$ (using our FbDiag method), the vector",
+                    "Sentiment Expression": "would have to be $(x - y)^2$, not $(x - y)",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our diagonal $A$ is constrained to be non-negative so that the quadratic form is positive semidefinite, whereas LIME",
+                    "Sentiment Expression": "does not have this constraint.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "preserving fidelity while ensuring the intuitiveness of analogies",
+                    "Sentiment Expression": "is a good scheme",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "setting these hyperparameters only once per dataset",
+                    "Sentiment Expression": "we ensure we do not overfit to any one input pair with the human effort being not unreasonable.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our study",
+                    "Sentiment Expression": "also follows a standard experimental design, which can be trusted, and which makes more efficient use of the number of subjects.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our results",
+                    "Sentiment Expression": "clearly point to the superiority of our proposed explanation methods (i.e., the effect is large),",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to author",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "with 3 hyperparameters, it is quite hard to manually search over them especially without a clear objective",
+                    "Sentiment Expression": "quite hard",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "randomizing the order",
+                    "Sentiment Expression": "is not sufficient",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the quantity we are evaluating",
+                    "Sentiment Expression": "is different",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the current study design",
+                    "Sentiment Expression": "can't be trusted",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the only valid systematic evaluation is the fidelity score which is not a stand-alone metric to evaluate an interpretability method",
+                    "Sentiment Expression": "is hard for me to increase my score",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Checking in ...",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the reviewers for their valuable comments",
+                    "Sentiment Expression": "Thanks again",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to UBTb: Thank you for the references, but we believe our user study design is kosher",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our setup",
+                    "Sentiment Expression": "is kosher",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the analogies",
+                    "Sentiment Expression": "did have semantics that the users could exploit",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the performance of explanations over such users",
+                    "Sentiment Expression": "is good",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The resulting accuracy",
+                    "Sentiment Expression": "is 40%",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the effect of being swayed by the majority",
+                    "Sentiment Expression": "was minimal",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "we return semantically meaningful analogies over and above the impact that *direction similarity* might have",
+                    "Sentiment Expression": "can further ensure",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to  Un2j",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "They",
+                    "Sentiment Expression": "cannot be compared directly",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Our feature-based explanations",
+                    "Sentiment Expression": "have high fidelity / low infidelity",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "we order the words in descending order of their contributions",
+                    "Sentiment Expression": "We have provided updated Figures",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "unpaid user studies",
+                    "Sentiment Expression": "There are many published/established works that have performed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the survey was done by folks willing to do it for free and with backgrounds in data science, engineering and business analytics",
+                    "Sentiment Expression": "we expect to have received quality feedback",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our design",
+                    "Sentiment Expression": "was also valid",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Un2j - continued",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The setup of using explanations to guess the black-box (BB) model's prediction",
+                    "Sentiment Expression": "is an accepted procedure to evaluate explanations",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Fidelity",
+                    "Sentiment Expression": "is one of the standard metrics used to evaluate quality of post hoc explanation models",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "low values of generalized infidelity",
+                    "Sentiment Expression": "imply higher applicability, meaning that the explanation is robust and stable enough to explain not just the example in question but also examples near it which is what we would also intuitively expect in practice",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "High generalized infidelity",
+                    "Sentiment Expression": "means, the explanation for an example is not applicable to its neighboring examples",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Their concern about showing the qualitative ranges (i.e. similar, somewhat similar, dissimilar) for the analogies",
+                    "Sentiment Expression": "we believe had minimal effect",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Continued response to UBTb",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the qualitative explanation, and AbE in particular, none of the three examples in Sec. 5.1",
+                    "Sentiment Expression": "are not convincing, they feel more like post-hoc over-explanation on the authors' part based on the analogy pairs produced",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the author-provided explanations for this example",
+                    "Sentiment Expression": "I could not understand",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "it",
+                    "Sentiment Expression": "I do not think it is a good opening example",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Both sentences express the same idea (second half faster than first half) but in different ways, similar to the input pair",
+                    "Sentiment Expression": "This is a very loose assertion",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to  F17R",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Figure 1 when it is first mentioned",
+                    "Sentiment Expression": "It took me a while to understand",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to QDef - continued",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the additive definition of $w_{x_i, y_i}$",
+                    "Sentiment Expression": "I see a potential problem",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the current definition",
+                    "Sentiment Expression": "the loss cannot differentiate between these two cases",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to QDef",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our FbDiag method performs",
+                    "Sentiment Expression": "better than LIME and JSLIME",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our methods (FbFull, FbDiag)",
+                    "Sentiment Expression": "have wider gaps with the baselines",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "AbE achieves slightly higher accuracy than FBFull in the user study",
+                    "Sentiment Expression": "the difference is small",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "both AbE and FbFull are our contributions",
+                    "Sentiment Expression": "we do not believe that the similar accuracies diminish the significance of either",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "JSLIME in the user study",
+                    "Sentiment Expression": "it did not standout as a natural baseline in our setup",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "FBDiag",
+                    "Sentiment Expression": "can be seen as a version of LIME that does not have this problem with interpretation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Lu2q",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "responses",
+                    "Sentiment Expression": "detailed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "idea for future work",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the current instantiation of the method",
+                    "Sentiment Expression": "naturally suitable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our feature-based local explanation approaches (FbFull, FbDiag)",
+                    "Sentiment Expression": "most relevant",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "erasure of words when computing perturbations for text",
+                    "Sentiment Expression": "perform",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Paraphrasing",
+                    "Sentiment Expression": "more about altering a given sentence so that it still implies the same thing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The explanation model",
+                    "Sentiment Expression": "uses a bag-of-words representation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "pseudo codes for the methods developed in this work",
+                    "Sentiment Expression": "updated",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "reviewer discussion",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the approach",
+                    "Sentiment Expression": "is doing something non-trivial and subjective questions about how participants rate the explanations can reveal whether the study is gamed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this problem",
+                    "Sentiment Expression": "could have avoided",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "user study",
+                    "Sentiment Expression": "The big issue is showing participants the same example with different explanation methods",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "results",
+                    "Sentiment Expression": "clearly biases",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "methodology",
+                    "Sentiment Expression": "correct",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Update on my review",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the issue with the human study",
+                    "Sentiment Expression": "is actually more severe than I was expecting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the explanation",
+                    "Sentiment Expression": "is completely useless or unfathomable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a completely non-informative explainer",
+                    "Sentiment Expression": "could game the system",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the participants",
+                    "Sentiment Expression": "will be swayed to select the same label despite not being able to understand the explanation in any meaningful way.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the explanation",
+                    "Sentiment Expression": "has to be *not* present when the user is asked to simulate the model's behavior",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper720 by Reviewer Lu2q",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "empirical results",
+                    "Sentiment Expression": "showing performance on the various methods",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "case studies, examples of the proposed explanation method",
+                    "Sentiment Expression": "done plenty, verify the explanation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Generalizability of the proposed method",
+                    "Sentiment Expression": "Can it be applied to other tasks",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "results on vision tasks and comparison with state-of-the-art methods",
+                    "Sentiment Expression": "should show",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "readability and reproducibility of results",
+                    "Sentiment Expression": "misses",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "critical components in the proposed method",
+                    "Sentiment Expression": "missing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper720 by Reviewer Un2j",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "presents a novel approach for obtaining explanations from a black box measure",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The method",
+                    "Sentiment Expression": "appears sound",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The evaluation",
+                    "Sentiment Expression": "is lacking in certain aspects",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The user study",
+                    "Sentiment Expression": "has some flaws",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The quantitative experiments",
+                    "Sentiment Expression": "rely on a single metric",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "My recommendation",
+                    "Sentiment Expression": "is a borderline reject",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper720 by Reviewer F17R",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "This paper introduces a form of explanations for similarity-based models",
+                    "Sentiment Expression": "novel",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the latter one",
+                    "Sentiment Expression": "a novel type of explanations explicitly developed to explain similarity learners",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper\u2019s proposed explanation form",
+                    "Sentiment Expression": "very interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the STS dataset's task and the selected examples",
+                    "Sentiment Expression": "do not well support the quality of the generated explanations and the benefit of analogies-based explanations",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The results",
+                    "Sentiment Expression": "demonstrate the purpose and the benefits of the proposed methods",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the present work",
+                    "Sentiment Expression": "I'm tending to accept",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Figure 1 when it is first mentioned",
+                    "Sentiment Expression": "It took me a while to understand",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "well written and provides interesting and novel approaches to explain similarity-based methods",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper720 by Reviewer UBTb",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "This paper",
+                    "Sentiment Expression": "studies an under-studied problem of explanation for similarity models",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "methods that do not focus on interaction effects",
+                    "Sentiment Expression": "understandably could not perform well",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The authors",
+                    "Sentiment Expression": "solved this problem",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method of analogy-based-explanation",
+                    "Sentiment Expression": "seems novel",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The explicit treatment of diversity",
+                    "Sentiment Expression": "sets it apart from other explanation methods",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the experimental evaluation",
+                    "Sentiment Expression": "fails to convince me of the quality of the explanation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the qualitative explanation, and AbE in particular, none of the three examples",
+                    "Sentiment Expression": "are not convincing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the simulatability user study in the paper",
+                    "Sentiment Expression": "have serious concerns about",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "do not believe that this paper meets the standard for publication",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed theory",
+                    "Sentiment Expression": "I like",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the experimental evaluations",
+                    "Sentiment Expression": "I am really unconvinced by",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the qualitative AbE examples",
+                    "Sentiment Expression": "raise more questions than they answer",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}
