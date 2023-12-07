@@ -2217,7 +2217,7 @@
             ]
         },
         {
-            "Document Title": "Response",
+            "Document Title": "Response 1",
             "Annotated Judgements": [
                 {
                     "Content Expression": "experimental detail in the paper",
@@ -2496,7 +2496,7 @@
             ]
         },
         {
-            "Document Title": "Response",
+            "Document Title": "Response 2",
             "Annotated Judgements": [
                 {
                     "Content Expression": "Defuse",
@@ -4451,7 +4451,7 @@
             ]
         },
         {
-            "Document Title": "Thanks for addressing my concerns",
+            "Document Title": "Thanks for addressing my concerns.",
             "Annotated Judgements": [
                 {
                     "Content Expression": "All concerns",
@@ -6228,7 +6228,7 @@
             ]
         },
         {
-            "Document Title": "Follow up",
+            "Document Title": "Follow up 1",
             "Annotated Judgements": [
                 {
                     "Content Expression": "interesting properties of transformers",
@@ -6432,7 +6432,7 @@
             ]
         },
         {
-            "Document Title": "Follow up",
+            "Document Title": "Follow up 2",
             "Annotated Judgements": [
                 {
                     "Content Expression": "interesting properties of transformers",

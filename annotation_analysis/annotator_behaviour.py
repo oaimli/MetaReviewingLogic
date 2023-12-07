@@ -5,6 +5,7 @@ import pandas as pd
 from sklearn.metrics import cohen_kappa_score
 from scipy import stats
 from sklearn.preprocessing import LabelEncoder
+from nltk.tokenize import sent_tokenize
 
 
 def annotated_documents(results):
@@ -44,7 +45,8 @@ def distribution(results):
                 sentiment_polarities.append(judgement["Sentiment Polarity"])
                 convincingnesses.append(judgement["Convincingness"])
 
-    return pd.value_counts(criteria_facets, normalize=True), pd.value_counts(sentiment_expressers, normalize=True), pd.value_counts(
+    return pd.value_counts(criteria_facets, normalize=True), pd.value_counts(sentiment_expressers,
+                                                                             normalize=True), pd.value_counts(
         sentiment_polarities, normalize=True), pd.value_counts(convincingnesses, normalize=True)
 
 
@@ -60,90 +62,364 @@ def single_behaviour(results):
     print("Distribution of convincingnesses: \n", distribution(results)[3])
 
 
-def annotator_agreement(bryan_results, zenan_results):
-    scorer = rouge_scorer.RougeScorer(["rouge2", "rouge1", "rougeLsum"], use_stemmer=True)
+def character_level_agreement(annotation_data, results_1, results_2):
+    content_1s = []
+    content_2s = []
+    sentiment_1s = []
+    sentiment_2s = []
+    all_1s = []
+    all_2s = []
 
-    sample_indexes = bryan_results.keys()
-    overlapped_document_count = []
-    judgements_bryan_share = []
-    judgements_zenan_share = []
-    judgements_count_bryan = []
-    judgements_count_zenan = []
-    for sample_index in sample_indexes:
-        documents_bryan = bryan_results[sample_index]
-        documents_zenan = zenan_results[sample_index]
+    for id, sample in annotation_data.items():
+        print(id)
+        result_1 = results_1[id]
+        result_2 = results_2[id]
 
-        titles_bryan = set([])
-        judgements_bryan = []
-        for document in documents_bryan:
-            titles_bryan.add(document["Document Title"])
-            judgements_new = []
-            for judgement in document["Annotated Judgements"]:
-                judgement_new = {}
-                for k, v in judgement.items():
-                    judgement_new[k] = v
-                judgement_new["Document Title"] = document["Document Title"]
-                judgement_new["id"] = sample_index
-                judgements_new.append(judgement_new)
-            judgements_bryan.extend(judgements_new)
-        titles_zenan = set([])
-        judgements_zenan = []
-        for document in documents_zenan:
-            titles_zenan.add(document["Document Title"])
-            judgements_new = []
-            for judgement in document["Annotated Judgements"]:
-                judgement_new = {}
-                for k, v in judgement.items():
-                    judgement_new[k] = v
-                judgement_new["Document Title"] = document["Document Title"]
-                judgement_new["id"] = sample_index
-                judgements_new.append(judgement_new)
-            judgements_zenan.extend(judgements_new)
-        overlap_titles = titles_bryan.intersection(titles_zenan)
-        overlapped_document_count.append(len(overlap_titles))
+        meta_review = sample["meta_review"]
+        meta_review_title = sample["meta_review_title"]
 
-        for title in overlap_titles:
-            for document in documents_bryan:
-                if document["Document Title"] == title:
-                    judgements_count_bryan.append(len(document["Annotated Judgements"]))
-            for document in documents_zenan:
-                if document["Document Title"] == title:
-                    judgements_count_zenan.append(len(document["Annotated Judgements"]))
+        meta_review_signal_content_1 = [0]*len(meta_review)
+        meta_review_signal_sentiment_1 = [0] * len(meta_review)
+        meta_review_signal_all_1 = [0] * len(meta_review)
+        judgements_1 = []
+        if result_1[0]["Document Title"] == meta_review_title:
+            judgements_1 = result_1[0]["Annotated Judgements"]
+        else:
+            print("Error, meta_review_title")
+        for judgement in judgements_1:
+            content = judgement["Content Expression"]
+            sentiment = judgement["Sentiment Expression"]
+            start = 0
+            while start >= 0:
+                start = meta_review.find(content, start)
+                if start != -1:
+                    meta_review_signal_content_1[start: start + len(content)] = [1] * len(content)
+                    meta_review_signal_all_1[start: start + len(content)] = [1] * len(content)
+                    start += len(content)
+            start = 0
+            while start >= 0:
+                start = meta_review.find(sentiment, start)
+                if start != -1:
+                    meta_review_signal_sentiment_1[start: start + len(sentiment)] = [1] * len(sentiment)
+                    meta_review_signal_all_1[start: start + len(sentiment)] = [1] * len(sentiment)
+                    start += len(sentiment)
+        content_1s.extend(meta_review_signal_content_1)
+        sentiment_1s.extend(meta_review_signal_sentiment_1)
+        all_1s.extend(meta_review_signal_all_1)
 
-        for i, judgement_bryan in enumerate(judgements_bryan):
-            rouges = []
-            judgements_tmp = []
-            for j, judgement_zenan in enumerate(judgements_zenan):
-                if judgement_bryan["Document Title"] == judgement_zenan["Document Title"]:
-                    tmp_i = judgement_bryan["Content Expression"] + " " + judgement_bryan["Sentiment Expression"]
-                    tmp_j = judgement_zenan["Content Expression"] + " " + judgement_zenan["Sentiment Expression"]
-                    scores = scorer.score(tmp_j, tmp_i)
-                    rouges.append(scores["rouge2"].fmeasure + scores["rouge1"].fmeasure + scores["rougeLsum"].fmeasure)
-                    judgements_tmp.append(judgement_zenan)
+        meta_review_signal_content_2 = [0] * len(meta_review)
+        meta_review_signal_sentiment_2 = [0] * len(meta_review)
+        meta_review_signal_all_2 = [0] * len(meta_review)
+        judgements_2 = []
+        if result_2[0]["Document Title"] == meta_review_title:
+            judgements_2 = result_2[0]["Annotated Judgements"]
+        else:
+            print("Error, meta_review_title")
+        for judgement in judgements_2:
+            content = judgement["Content Expression"]
+            sentiment = judgement["Sentiment Expression"]
+            start = 0
+            while start >= 0:
+                start = meta_review.find(content, start)
+                if start != -1:
+                    meta_review_signal_content_2[start: start + len(content)] = [1] * len(content)
+                    meta_review_signal_all_2[start: start + len(content)] = [1] * len(content)
+                    start += len(content)
+            start = 0
+            while start >= 0:
+                start = meta_review.find(sentiment, start)
+                if start != -1:
+                    meta_review_signal_sentiment_2[start: start + len(sentiment)] = [1] * len(sentiment)
+                    meta_review_signal_all_2[start: start + len(sentiment)] = [1] * len(sentiment)
+                    start += len(sentiment)
+        content_2s.extend(meta_review_signal_content_2)
+        sentiment_2s.extend(meta_review_signal_sentiment_2)
+        all_2s.extend(meta_review_signal_all_2)
 
-            if len(judgements_tmp) > 0:
-                judgement_target = judgements_tmp[rouges.index(max(rouges))]
-                if max(rouges) > 1.7:
-                    # print(judgement_bryan)
-                    # print(judgement_target)
-                    # print("\n")
-                    judgements_bryan_share.append(judgement_bryan)
-                    judgements_zenan_share.append(judgement_target)
+        for review in sample["reviews"]:
+            title = review["title"]
+            original_document = review["comment"]
 
+            judgements_1_tmp = []
+            for document in result_1:
+                if title == document["Document Title"]:
+                    judgements_1_tmp = document["Annotated Judgements"]
+                    break
+            if len(judgements_1_tmp) == 0:
+                print("No judgements", title)
+            judgements_2_tmp = []
+            for document in result_2:
+                if title == document["Document Title"]:
+                    judgements_2_tmp = document["Annotated Judgements"]
+                    break
+            if len(judgements_2_tmp) == 0:
+                print("No judgements", title)
 
-    print("###### Correlation on judgement count in different documents")
-    a = np.array(judgements_count_bryan)
-    b = np.array(judgements_count_zenan)
+            signal_content_1 = [0] * len(original_document)
+            signal_sentiment_1 = [0] * len(original_document)
+            signal_all_1 = [0] * len(original_document)
+            for judgement in judgements_1_tmp:
+                content = judgement["Content Expression"]
+                sentiment = judgement["Sentiment Expression"]
+                start = 0
+                while start >= 0:
+                    start = original_document.find(content, start)
+                    if start != -1:
+                        signal_content_1[start: start + len(content)] = [1] * len(content)
+                        signal_all_1[start: start + len(content)] = [1] * len(content)
+                        start += len(content)
+                start = 0
+                while start >= 0:
+                    start = original_document.find(sentiment, start)
+                    if start != -1:
+                        signal_sentiment_1[start: start + len(sentiment)] = [1] * len(sentiment)
+                        signal_all_1[start: start + len(sentiment)] = [1] * len(sentiment)
+                        start += len(sentiment)
+            content_1s.extend(signal_content_1)
+            sentiment_1s.extend(signal_sentiment_1)
+            all_1s.extend(signal_all_1)
+
+            signal_content_2 = [0] * len(original_document)
+            signal_sentiment_2 = [0] * len(original_document)
+            signal_all_2 = [0] * len(original_document)
+            for judgement in judgements_2_tmp:
+                content = judgement["Content Expression"]
+                sentiment = judgement["Sentiment Expression"]
+                start = 0
+                while start >= 0:
+                    start = original_document.find(content, start)
+                    if start != -1:
+                        signal_content_2[start: start + len(content)] = [1] * len(content)
+                        signal_all_2[start: start + len(content)] = [1] * len(content)
+                        start += len(content)
+                start = 0
+                while start >= 0:
+                    start = original_document.find(sentiment, start)
+                    if start != -1:
+                        signal_sentiment_2[start: start + len(sentiment)] = [1] * len(sentiment)
+                        signal_all_2[start: start + len(sentiment)] = [1] * len(sentiment)
+                        start += len(sentiment)
+            content_2s.extend(signal_content_2)
+            sentiment_2s.extend(signal_sentiment_2)
+            all_2s.extend(signal_all_2)
+
+    print("#### Hightlight correlation, content, character level")
+    a = np.array(content_1s)
+    b = np.array(content_2s)
     print("Cohen Kappa: ", cohen_kappa_score(a, b))
     print("Kendall Tau: ", stats.kendalltau(a, b))
     print("Spearman: ", stats.spearmanr(a, b))
     print("Pearson: ", stats.pearsonr(a, b))
 
+    print("#### Hightlight correlation, sentiment, character level")
+    a = np.array(sentiment_1s)
+    b = np.array(sentiment_2s)
+    print("Cohen Kappa: ", cohen_kappa_score(a, b))
+    print("Kendall Tau: ", stats.kendalltau(a, b))
+    print("Spearman: ", stats.spearmanr(a, b))
+    print("Pearson: ", stats.pearsonr(a, b))
+
+    print("#### Hightlight correlation, content+sentiment, character level")
+    a = np.array(all_1s)
+    b = np.array(all_2s)
+    print("Cohen Kappa: ", cohen_kappa_score(a, b))
+    print("Kendall Tau: ", stats.kendalltau(a, b))
+    print("Spearman: ", stats.spearmanr(a, b))
+    print("Pearson: ", stats.pearsonr(a, b))
+
+
+def annotator_agreement(results_1, results_2):
+    scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeLsum"], use_stemmer=True)
+
+    with open("../annotation_data/annotation_data_small.json") as f:
+        annotation_data_tmp = json.load(f)
+    annotation_data = {}
+    for key in annotation_data_tmp.keys():
+        if key in results_1.keys() and key in results_2.keys():
+            annotation_data[key] = annotation_data_tmp[key]
+    assert len(annotation_data.keys()) == len(results_1.keys()) == len(results_2.keys())
+
+    character_level_agreement(annotation_data, results_1, results_2)
+
+    # Split documents into sentences, and anchor judgements to corresponding sentences
+    for id in annotation_data.keys():
+        original_data = annotation_data[id]
+        meta_review = original_data["meta_review"]
+        reviews = original_data["reviews"]
+        reviews_new = []
+        for review in reviews:
+            review["sentences"] = sent_tokenize(review["comment"])
+            reviews_new.append(review)
+        annotation_data[id]["reviews"] = reviews_new
+        annotation_data[id]["meta_review_sentences"] = sent_tokenize(meta_review)
+
+        result_documents_1 = results_1[id]
+        result_documents_1_new = []
+        for i, result_document_1 in enumerate(result_documents_1):
+            title = result_document_1["Document Title"]
+            if i == 0 and title == original_data["meta_review_title"]:
+                original_sentences = original_data["meta_review_sentences"]
+            else:
+                for review in annotation_data[id]["reviews"]:
+                    if review["title"] == title:
+                        original_sentences = review["sentences"]
+                        break
+            judgements = result_document_1["Annotated Judgements"]
+            # print(judgements)
+            # print(original_sentences)
+
+            sentences = []
+            for judgement in judgements:
+                tmp = judgement["Content Expression"] + " " + judgement["Sentiment Expression"]
+                rouges = []
+                for sentence in original_sentences:
+                    scores = scorer.score(tmp, sentence)
+                    rouges.append(scores["rouge2"].fmeasure + scores["rouge1"].fmeasure + scores["rougeLsum"].fmeasure)
+                sentences.append(rouges.index(max(rouges)))
+
+            # offset = len(sentences) - len(set(sentences))
+            # if offset > 0:
+            #     print(sentences)
+            result_document_1["Sentences"] = sentences
+            result_documents_1_new.append(result_document_1)
+        results_1[id] = result_documents_1_new
+
+        result_documents_2 = results_2[id]
+        result_documents_2_new = []
+        for i, result_document_2 in enumerate(result_documents_2):
+            title = result_document_2["Document Title"]
+            if i == 0 and title == original_data["meta_review_title"]:
+                original_sentences = original_data["meta_review_sentences"]
+            else:
+                for review in annotation_data[id]["reviews"]:
+                    if review["title"] == title:
+                        original_sentences = review["sentences"]
+                        break
+            judgements = result_document_2["Annotated Judgements"]
+
+            sentences = []
+            for judgement in judgements:
+                tmp = judgement["Content Expression"] + " " + judgement["Sentiment Expression"]
+                rouges = []
+                for sentence in original_sentences:
+                    scores = scorer.score(tmp, sentence)
+                    rouges.append(scores["rouge2"].fmeasure + scores["rouge1"].fmeasure + scores["rougeLsum"].fmeasure)
+                sentences.append(rouges.index(max(rouges)))
+
+            result_document_2["Sentences"] = sentences
+            result_documents_2_new.append(result_document_2)
+        results_2[id] = result_documents_2_new
+
+    # Get shared judgements, based on annotation results
+    judgements_bryan_share = []
+    judgements_zenan_share = []
+    for id in results_1.keys():
+        documents_1 = results_1[id]
+        documents_2 = results_2[id]
+        for document_1 in documents_1:
+            title_1 = document_1["Document Title"]
+            judgements_1 = document_1["Annotated Judgements"]
+            sentences_1 = document_1["Sentences"]
+            judgements_2 = []
+            sentences_2 = []
+            for document_2 in documents_2:
+                title_2 = document_2["Document Title"]
+                if title_1 == title_2:
+                    judgements_2 = document_2["Annotated Judgements"]
+                    sentences_2 = document_2["Sentences"]
+                    break
+            if len(judgements_2) > 0:
+                all_indexes = set(sentences_1).intersection(set(sentences_2))
+                for index in all_indexes:
+                    if sentences_1.count(index) == 1 and sentences_2.count(index) == 1:
+                        for judgement_1, sentence_1 in zip(judgements_1, sentences_1):
+                            if sentence_1 == index:
+                                judgements_bryan_share.append(judgement_1)
+                                break
+                        for judgement_2, sentence_2 in zip(judgements_2, sentences_2):
+                            if sentence_2 == index:
+                                judgements_zenan_share.append(judgement_2)
+                                break
+                    if sentences_1.count(index) > 1 or sentences_2.count(index) > 1:
+                        judgements_1_tmp = []
+                        for judgement_1, sentence_1 in zip(judgements_1, sentences_1):
+                            if sentence_1 == index:
+                                judgements_1_tmp.append(judgement_1)
+                        judgements_2_tmp = []
+                        for judgement_2, sentence_2 in zip(judgements_2, sentences_2):
+                            if sentence_2 == index:
+                                judgements_2_tmp.append(judgement_2)
+
+                        for judgement_1 in judgements_1_tmp:
+                            tmp_1 = judgement_1["Content Expression"] + " " + judgement_1["Sentiment Expression"]
+                            for judgement_2 in judgements_2_tmp:
+                                tmp_2 = judgement_2["Content Expression"] + " " + judgement_2["Sentiment Expression"]
+                                scores = scorer.score(tmp_1, tmp_2)
+                                s = scores["rouge2"].fmeasure + scores["rouge1"].fmeasure + scores[
+                                    "rougeLsum"].fmeasure
+                                if s > 1.6:
+                                    judgements_bryan_share.append(judgement_1)
+                                    judgements_zenan_share.append(judgement_2)
+    print("All shared judgements: ", len(judgements_bryan_share), len(judgements_zenan_share))
+
+    # Correlation on highlight, sentence level, based on original annotation data
+    print("###### Correlation on judgement, sentence level")
+    actions_all_bryan = []
+    actions_all_zenan = []
+    for id, sample in annotation_data.items():
+        result_1 = results_1[id]
+        result_2 = results_2[id]
+
+        meta_review_sentences = sample["meta_review_sentences"]
+        for sentence_id, sentence in enumerate(meta_review_sentences):
+            result_1_meta_review_judgements = result_1[0]["Sentences"]
+            result_2_meta_review_judgements = result_2[0]["Sentences"]
+            if sentence_id in result_1_meta_review_judgements:
+                actions_all_bryan.append(1)
+            else:
+                actions_all_bryan.append(0)
+            if sentence_id in result_2_meta_review_judgements:
+                actions_all_zenan.append(1)
+            else:
+                actions_all_zenan.append(0)
+
+        for review in sample["reviews"]:
+            title = review["title"]
+            annotation_sentences = review["sentences"]
+
+            judgement_sentences_1 = []
+            for document in result_1:
+                if document["Document Title"] == title:
+                    judgement_sentences_1 = document["Sentences"]
+                    break
+            for sentence_id, sentence in enumerate(annotation_sentences):
+                if sentence_id in judgement_sentences_1:
+                    actions_all_bryan.append(1)
+                else:
+                    actions_all_bryan.append(0)
+
+            judgement_sentences_2 = []
+            for document in result_2:
+                if document["Document Title"] == title:
+                    judgement_sentences_2 = document["Sentences"]
+                    break
+            for sentence_id, sentence in enumerate(annotation_sentences):
+                if sentence_id in judgement_sentences_2:
+                    actions_all_zenan.append(1)
+                else:
+                    actions_all_zenan.append(0)
+    a = np.array(actions_all_bryan)
+    b = np.array(actions_all_zenan)
+    print("Cohen Kappa: ", cohen_kappa_score(a, b))
+    print("Kendall Tau: ", stats.kendalltau(a, b))
+    print("Spearman: ", stats.spearmanr(a, b))
+    print("Pearson: ", stats.pearsonr(a, b))
+
+    # Correlation on different aspects
     criteria_facet_same = []
     sentiment_level_same = []
     sentiment_expresser_same = []
     convincingness_same = []
-
     sentiment_polarity_same = []
 
     criteria_facets_bryan = []
@@ -204,10 +480,6 @@ def annotator_agreement(bryan_results, zenan_results):
         if "egative" in sentiment_polarity_zenan:
             sentiment_polarities_zenan.append("Negative")
 
-
-    print("The number of annotated documents overlapped: ", sum(overlapped_document_count))
-    print("Overlapped annotated documents in each sample: ", np.mean(overlapped_document_count))
-    print("All shared judgements: ", len(judgements_bryan_share), len(judgements_zenan_share))
     print("Shared criteria_facet in judgements: ", len(criteria_facet_same))
     print(pd.value_counts(criteria_facet_same, normalize=True))
     print("Shared sentiment_level in judgements: ", len(sentiment_level_same))

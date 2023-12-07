@@ -1,2 +1,3 @@
 .idea
-/automate_annotating/peersum_all.json
+/annotation_data/peersum_all.json
+/annotation_data/raw_data/
