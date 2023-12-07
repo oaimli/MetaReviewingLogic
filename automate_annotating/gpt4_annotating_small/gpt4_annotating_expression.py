@@ -101,6 +101,4 @@ if __name__ == "__main__":
     for sample_key in samples_all.keys():
         if sample_key in samples_annotated_keys:
             samples_gpt4[sample_key] = samples_all[sample_key]
-            if len(samples_gpt4) > 5:
-                break
     annotating(samples_gpt4)
