@@ -4,15 +4,6 @@ import time
 import json
 
 
-def parse_expression(result):
-    print(result)
-    lines = result.split("\n")
-    judgements = []
-    for line in lines:
-        items = line.split("-")
-        judgements.append({"Content Expression": items[0], "Sentiment Expression": items[-1]})
-    return judgements
-
 def parse_facet(result):
     print(result)
     result = result.lower()
@@ -78,11 +69,10 @@ def annotating(samples):
     :return: none
     """
     print("Annotating count", len(samples))
-    prompt_expression = open("prompt_expression.txt").read()
-    prompt_facet = open("prompt_facet.txt").read()
-    prompt_expressor = open("prompt_expresser.txt").read()
-    prompt_convincingness = open("prompt_convincingness.txt").read()
-    prompt_polarity = open("prompt_polarity.txt").read()
+    prompt_facet = open("../prompt_facet.txt").read()
+    prompt_expressor = open("../prompt_expresser.txt").read()
+    prompt_convincingness = open("../prompt_convincingness.txt").read()
+    prompt_polarity = open("../prompt_polarity.txt").read()
 
     for paper_id, sample in samples.items():
         print(paper_id)
@@ -209,14 +199,14 @@ if __name__ == "__main__":
     random.seed(42)
     openai.api_key = "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"
 
-    with open("../annotation_analysis/bryan_annotation_result.json") as f:
+    with open("../../annotation_analysis/bryan_annotation_result.json") as f:
         bryan_results = json.load(f)
-    with open("../annotation_analysis/zenan_annotation_result.json") as f:
+    with open("../../annotation_analysis/zenan_annotation_result.json") as f:
         zenan_results = json.load(f)
     assert len(set(bryan_results.keys()).difference(set(zenan_results.keys()))) == 0
     samples_annotated_keys = bryan_results.keys()
 
-    with open("../annotation_analysis/gpt4_annotation_data_small.json") as f:
+    with open("../../annotation_data/annotation_data_small.json") as f:
         samples_all = json.load(f)
     # Evaluation data for agreement of GPT-4 with human annotators
     samples_gpt4 = {}
