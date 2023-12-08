@@ -1,0 +1,319 @@
+{
+    "3R--2TdxMps": [
+        {
+            "Document Title": "Final Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the manuscript",
+                    "Sentiment Expression": "not ready for publication",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the suggested training method",
+                    "Sentiment Expression": "similar to adversarial training methods used to gain adversarial robustness",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The method",
+                    "Sentiment Expression": "does not help in debugging and fixing failures in general",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "The paper describes a technique for debugging classifiers through distilling unrestricted adversarial examples.",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The technique",
+                    "Sentiment Expression": "is described in sufficient detail",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "is easy to read",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The experimental results",
+                    "Sentiment Expression": "show that the proposed technique finds significant failures in all datasets, including critical failure scenarios",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the performance of the method",
+                    "Sentiment Expression": "improves",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "An interesting aspect of the method",
+                    "Sentiment Expression": "distinguishes it from similar techniques, is involvement of users/experts in the training process to indicate the classification errors in order to improve the performance of the method in the future",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the authors",
+                    "Sentiment Expression": "state that they used 5 workers (annotators) and the majority vote was used to decide the final label",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "An interesting idea, but experiments and analysis do not support it as a significant contribution",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "evidence of its success",
+                    "Sentiment Expression": "do not show sufficient",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "details",
+                    "Sentiment Expression": "do not provide any",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The objective of the proposed method",
+                    "Sentiment Expression": "is not, in my opinion, clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The quality and clarity of the writing",
+                    "Sentiment Expression": "can be improved",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "critical information about the experimental results",
+                    "Sentiment Expression": "are missing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Some of the mathematical notations",
+                    "Sentiment Expression": "are not standard",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "contribution over Zhao et al",
+                    "Sentiment Expression": "not well established",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experimental results",
+                    "Sentiment Expression": "insufficient and inaccurate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "there are critical issues",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the only-marginal improvement on the test data",
+                    "Sentiment Expression": "the most problematic point, in my opinion",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Author response",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Defuse improves the accuracy on the failure scenarios",
+                    "Sentiment Expression": "considerably",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response 2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "any details (e.g. table of accuracy values on the train, test and adversarial sets before and after the fine-tuning)",
+                    "Sentiment Expression": "do not provide",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "an ablation study comparing the proposed method to simply including the adversarial examples found using Zhao et al",
+                    "Sentiment Expression": "expect to see",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the objective of the proposed method",
+                    "Sentiment Expression": "is not, in my opinion, clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "an improved accuracy on the (natural) unseen test set",
+                    "Sentiment Expression": "would expect to see",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The quality and clarity of the writing",
+                    "Sentiment Expression": "can be improved",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response 1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The choice of certain algorithms and their parameters",
+                    "Sentiment Expression": "needs to be justified clearly",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "details of experiments in the text",
+                    "Sentiment Expression": "should be rewritten to have sufficient",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "why certain parameters are chosen for experiments",
+                    "Sentiment Expression": "should be discussed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Description of the annotation task",
+                    "Sentiment Expression": "ought to be more detailed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the agreement between the annotators",
+                    "Sentiment Expression": "What is",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "The authors present DEFUSE a system for debugging classifiers using adversarial examples",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the idea of using adversarial examples to correct incorrect classifications",
+                    "Sentiment Expression": "very interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The choice of certain algorithms and their parameters",
+                    "Sentiment Expression": "needs to be justified clearly",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "should be rewritten to have sufficient details of experiments in the text rather than delegating them to the Appendix A",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The motivation of why certain parameters are chosen for experiments",
+                    "Sentiment Expression": "should be discussed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Description of the annotation task",
+                    "Sentiment Expression": "ought to be more detailed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

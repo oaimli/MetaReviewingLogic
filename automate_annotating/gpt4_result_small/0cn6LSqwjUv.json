@@ -1,0 +1,647 @@
+{
+    "0cn6LSqwjUv": [
+        {
+            "Document Title": "Meta Review of Paper690 by Area Chair KSxd",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the level of innovation on the neural architecture side of the work",
+                    "Sentiment Expression": "is not extreme",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "contributions to neural architecture development",
+                    "Sentiment Expression": "clear value is provided",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the dataset itself, the wide variety of models examined and the large set of evaluation metrics",
+                    "Sentiment Expression": "offers value to the community",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this dataset",
+                    "Sentiment Expression": "could help bring more interest to the problem domain",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "To Reviewer WVYT",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the value of our dataset",
+                    "Sentiment Expression": "acknowledging",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "more content to introduce the dataset and benchmark itself",
+                    "Sentiment Expression": "add",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "dataset-related details, as well as model design and training details",
+                    "Sentiment Expression": "will be covered",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for your response",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "detailed explanation on the necessity of real low-res data and empirical study on the corresponding improvement",
+                    "Sentiment Expression": "provide",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "evaluation of performance on precipitation related tasks",
+                    "Sentiment Expression": "is still an open problem",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the intuitive designs of PEM/PDEM",
+                    "Sentiment Expression": "not appropriate to include",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the dataset and the corresponding benchmark",
+                    "Sentiment Expression": "are valuable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "remove the PEM/PDEM part in the paper",
+                    "Sentiment Expression": "I suggest",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The value of the dataset and benchmark",
+                    "Sentiment Expression": "will not be diminished",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The proposed method",
+                    "Sentiment Expression": "does not necessarily have to outperform baselines in all concerned metrics",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "To reviewer 5jsP",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "your concerns",
+                    "Sentiment Expression": "have been addressed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "To reviewer aP2Q",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the model can reconstruct some frames very well and others very poorly",
+                    "Sentiment Expression": "\"We could expect better PEM/PDEM performance when better RMSE performance is observed, but it might not always be the case.\"",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "These issues",
+                    "Sentiment Expression": "can be captured by PDE/PDEM, which are more fine-grained metrics.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "simply using RMSE",
+                    "Sentiment Expression": "may cause models selection to fail.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "to use PDE/PDEM directly for model selection or evaluation",
+                    "Sentiment Expression": "it is entirely feasible",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for the rebuttal",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "why we need PEM / PDEM at this stage given that they are very consistent with the simpler MSE score",
+                    "Sentiment Expression": "it is not clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "To Reviewer WVYT part2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "effectiveness of proposed novel compound metrics PEM and PDEM",
+                    "Sentiment Expression": "no clues",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "empirical studies to prove that models achieving better PEM/PDEM demonstrate better ability on addressing some concerned issues",
+                    "Sentiment Expression": "would be much more convincing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Selected baselines",
+                    "Sentiment Expression": "not designed for precipitation data",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "information about these details",
+                    "Sentiment Expression": "no",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The qualitative results shown in Figure 4",
+                    "Sentiment Expression": "are hard to distinguish",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "To Reviewer WVYT part 1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the performance of the model trained on the bicubic synthetic dataset",
+                    "Sentiment Expression": "severely degraded",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "many parts of the world are covered by multiple-resolution observations",
+                    "Sentiment Expression": "covered",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the model trained with the real collected data",
+                    "Sentiment Expression": "has a great advantage",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "To Reviewer aP2Q",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "This work",
+                    "Sentiment Expression": "an important",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the first large-scale dataset for precipitation downscaling",
+                    "Sentiment Expression": "propose",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "extend from AI to AI+X",
+                    "Sentiment Expression": "always good",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Downscaling",
+                    "Sentiment Expression": "one of the most important tasks in current meteorological research",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "a meaningful and successful one",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this precipitation down-scaling",
+                    "Sentiment Expression": "the most important and cutting-edge meteorological task",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "To Reviewer 5jsP",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the ***first*** large-scale dataset for precipitation downscaling",
+                    "Sentiment Expression": "propose",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "is also a meaningful and successful one and time proves it.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "its novelty in two aspects: 1.The first large-scale open-source dataset for precipitation downscaling that is based on real measured data as described above, which will greatly help bridge the DL/ML community with meteorological science, while promoting the development of AI-for-Science. 2.Novel benchmark model structure design and performance",
+                    "Sentiment Expression": "demonstrates",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "superiority of our model",
+                    "Sentiment Expression": "show",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our IDEM module also shows very competitive performance on the VSR data set: Vid4(4\u00d7) Average RGB PSNR 25.85 (EDVR Average RGB PSNR 25.83, DUF Average RGB PSNR 25.79)",
+                    "Sentiment Expression": "shows very competitive performance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "To Reviewer 9mB6",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the first large-scale dataset for precipitation downscaling",
+                    "Sentiment Expression": "is based on real measured data",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Downscaling",
+                    "Sentiment Expression": "is one of the most important tasks in current meteorological research",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "is also a meaningful and successful one and time proves it.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this precipitation down-scaling",
+                    "Sentiment Expression": "is the most important and cutting-edge meteorological task that could be handle by computer science",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "SPDNet",
+                    "Sentiment Expression": "is a straightforward name",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "All relevant codes and datasets",
+                    "Sentiment Expression": "are open-source for research purposes.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper690 by Reviewer 9mB6",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "organizes a large precipitation dataset from both high res and low res sources and illustrates some baselines",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The problem addressed",
+                    "Sentiment Expression": "is both interesting to ML (esp. to those interested in mixing physics and ml), and important",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "I",
+                    "Sentiment Expression": "have a positive view",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Publishing this paper",
+                    "Sentiment Expression": "will probably increase interest in ML in this set of problems, and some in the community will find the dataset useful",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "SPDnet",
+                    "Sentiment Expression": "is not a very good name",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this data",
+                    "Sentiment Expression": "can be obtained directly from the original sources, is a new organization of it necessary and does it warrant a publication in an ML conference",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper690 by Reviewer 5jsP",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "This paper",
+                    "Sentiment Expression": "well written",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "dataset for spatial precipitation",
+                    "Sentiment Expression": "comprehensive",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "technical novelty",
+                    "Sentiment Expression": "low",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The dataset",
+                    "Sentiment Expression": "lacks precipitation maps for several regions",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper690 by Reviewer aP2Q",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "proposed the first large-scale precipitation downscaling dataset",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a large-scale dataset",
+                    "Sentiment Expression": "can help move the area forward",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The author",
+                    "Sentiment Expression": "also introduced 6 metrics that evaluate different aspects of the downscaling models, and 2 summary metrics that combine these 6 individual metrics",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the overall performance of the video super-resolution (VSR) models",
+                    "Sentiment Expression": "are better than Single-Image Super-Resolution (SISR) models",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "RMSE",
+                    "Sentiment Expression": "is itself a very good summary metric",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "PEM / PDEM",
+                    "Sentiment Expression": "it is not clear why we will still need",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the author",
+                    "Sentiment Expression": "need to reference the latest progress in this area",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "will be limited regarding the coverage of the baseline methods",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "it",
+                    "Sentiment Expression": "is difficult to cover all the latest image super-resolution methods so it is acceptable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper690 by Reviewer WVYT",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The large scale dataset SPDNet",
+                    "Sentiment Expression": "a valuable contribution to data-driven meteorological research",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The authors have evaluate SOTA super resolution models on the proposed dataset",
+                    "Sentiment Expression": "provide a good benchmark",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "their approach",
+                    "Sentiment Expression": "insufficient to argue that...is better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the effectiveness of proposed novel compound metrics PEM and PDEM",
+                    "Sentiment Expression": "There are no clues",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "information about these details",
+                    "Sentiment Expression": "there is no",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "There are some language errors like \"e.t.c.\" $\\rightarrow$ \"etc.\", and misleading notations in mathematical expressions such as missing brackets in Eqn.1, missing description of \"L\", \"H\", \"T\" in line 250.",
+                    "Sentiment Expression": "There are some language errors...",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The qualitative results shown in Figure 4",
+                    "Sentiment Expression": "are hard to distinguish",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

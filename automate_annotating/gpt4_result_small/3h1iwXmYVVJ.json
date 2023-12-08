@@ -1,0 +1,398 @@
+{
+    "3h1iwXmYVVJ": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this is well-written paper with solid contributions",
+                    "Sentiment Expression": "well-written",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "some of the results",
+                    "Sentiment Expression": "incremental",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Final Score",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "my score",
+                    "Sentiment Expression": "raised ... to 7",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10104 by Reviewer dunA",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "derivation of Theorems 1 and 2",
+                    "Sentiment Expression": "The main contribution of the paper is",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "These results",
+                    "Sentiment Expression": "are interesting and provide an insight",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Theorems 3 and 4",
+                    "Sentiment Expression": "present recovery guarantees",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The contribution of these results to already existing work",
+                    "Sentiment Expression": "is somewhat limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the advantage of their proof as compared to the one followed in Theorem 1 of [19]",
+                    "Sentiment Expression": "The authors should make more clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the selection of the mirror maps",
+                    "Sentiment Expression": "gives rise to computationally expensive SVD steps per iteration of the algorithm.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the advantages of an implicitly regularized algorithm compared to an explicitly regularized one",
+                    "Sentiment Expression": "it is so clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The first 3 paragraphs of Section 1.1",
+                    "Sentiment Expression": "present the contribution without explicitly referring to the added knowledge to the existing literature",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10104 by Reviewer sWYY",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "well-written",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "applying mirror descent to solve matrix factorization problems and analyzing its implicit bias towards low-rank solutions",
+                    "Sentiment Expression": "appears novel",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the characterization of their preferred solutions",
+                    "Sentiment Expression": "holds in fairly general settings",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The results on recovery guarantees for matrix sensing/completion",
+                    "Sentiment Expression": "hold with sample complexity on par with convex nuclear norm minimization techniques",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The connection between exponentiated gradient and mirror descent",
+                    "Sentiment Expression": "is interesting and extends previously known results to show the convergence of mirror descent to small nuclear norm solutions in the small initialization scale regime",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Mirror descent",
+                    "Sentiment Expression": "would not be a practical algorithm to use due to computational complexity and seems to perform essentially the same as standard gradient descent",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the theoretical analysis of applying mirror descent to matrix sensing/completion",
+                    "Sentiment Expression": "No convergence rates are provided",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "is well-written and easy to follow",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Related work",
+                    "Sentiment Expression": "seems to be cited well",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "This work",
+                    "Sentiment Expression": "shows",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this",
+                    "Sentiment Expression": "does inspire research into further analyzing the role of mirror maps in other estimation problems and in analyzing the potential implicit bias of other first order algorithms",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to authors",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "provides a nice contribution",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "further evidence of mirror descent\u2019s implicit bias",
+                    "Sentiment Expression": "showcasing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the potential to inspire future work",
+                    "Sentiment Expression": "has",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer oUMM",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "implicit bias of mirror descent",
+                    "Sentiment Expression": "can be leveraged to solve matrix recovery problems",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "algorithms based on implicit regularization",
+                    "Sentiment Expression": "cannot match the computational efficiency of gradient descent with low-rank factorized parametrization",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a smaller value for $\beta$",
+                    "Sentiment Expression": "leads to a slower convergence of mirror descent",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "tradeoff between computational complexity and statistical error controlled by $\beta$",
+                    "Sentiment Expression": "there is indeed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "analysis of the evolution of the Bregman divergence",
+                    "Sentiment Expression": "is a general tool that can be employed to study the trajectory of mirror descent",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer dunA",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "mirror descent",
+                    "Sentiment Expression": "is computationally more expensive than gradient descent",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our results",
+                    "Sentiment Expression": "only require a linear sample complexity, but do not establish any convergence speed guarantees for the estimation error",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer sWYY",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "how the implicit bias of mirror descent can be leveraged to solve matrix sensing and completion",
+                    "Sentiment Expression": "our focus was on understanding",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10104 by Reviewer ZKpj",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "convergence analysis of mirror descent for matrix sensing to particular minimum norm solutions",
+                    "Sentiment Expression": "provides",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "multiple interesting cases including matrix completion and the case where the instances satisfy the RIP",
+                    "Sentiment Expression": "analyze",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "an interesting problem",
+                    "Sentiment Expression": "studies",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "hypentropy",
+                    "Sentiment Expression": "is an interesting divergence",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The construction in Eq. (15)",
+                    "Sentiment Expression": "is interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10104 by Reviewer oUMM",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "presents an interesting phenomenon",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "only attempts to explain some phenomenon",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "characterizing the implicit regularization phenomenon",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the results or techniques used in the paper",
+                    "Sentiment Expression": "any broader applications/impacts",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "A few limitations",
+                    "Sentiment Expression": "are discussed in the end.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

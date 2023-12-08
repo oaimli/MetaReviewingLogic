@@ -1,0 +1,684 @@
+{
+    "bmGLlsX_iJl": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is clearly written",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The idea",
+                    "Sentiment Expression": "is interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "they show better performance compared to MCFlow and competing methods on ten multivariate UCI data, MNIST and CFAR10 image data",
+                    "Sentiment Expression": "better performance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "limited novelty compared to MCFlow",
+                    "Sentiment Expression": "Issues",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the validity of Assumption 2 on the dependencies in the latent space and observation space",
+                    "Sentiment Expression": "Issues",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Further questions/concerns?",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this work",
+                    "Sentiment Expression": "the novelty",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The latent space of EMFlow",
+                    "Sentiment Expression": "operates in a completely different way than MCFlow",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Such design",
+                    "Sentiment Expression": "leads to significant improvement",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to author follow up",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "This paper",
+                    "Sentiment Expression": "seems broadly applicable and of interest to the community",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "scalability to larger datasets",
+                    "Sentiment Expression": "there are slight limitations",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the method",
+                    "Sentiment Expression": "seems well-justified",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Further response",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the computational efficiency and accuracy of our methods",
+                    "Sentiment Expression": "more work is required",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "A concern about Assumption 2, the dependencies and the correspondence of (,\n) and (,), and applying MAR to the latent space.",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the work",
+                    "Sentiment Expression": "not the case of",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Assumption 2",
+                    "Sentiment Expression": "not the case",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "whether Assumption 2 holds for the work in general",
+                    "Sentiment Expression": "not convinced",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Further explanation on identifiability",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "identifiability of the parameters of the map",
+                    "Sentiment Expression": "not necessarily the focus of this work",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "such coordinate correspondence",
+                    "Sentiment Expression": "does exist for the current implementation of this work",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the introduction of such random permutations",
+                    "Sentiment Expression": "makes no significant impact in terms of accuracy of imputed values",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the convergence speed",
+                    "Sentiment Expression": "becomes slower possibly due to the fact that the learnable correlation becomes more complex",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "A further elaboration and discussion ",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "dimension information preserved",
+                    "Sentiment Expression": "without certain **identifiability**",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "inter-feature dependencies are preserved",
+                    "Sentiment Expression": "how",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "one non-identifiable case",
+                    "Sentiment Expression": "can be",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "how Rosenblatt transform can deal with my concern regarding the dependencies and identifiability",
+                    "Sentiment Expression": "didn't get",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to reviewer Twou",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "dependencies in the latent space are consistent with the dependencies in the observation space",
+                    "Sentiment Expression": "not straightforward to believe",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the neighbors in the latent/source variable space are not necessary to be the neighbors in the observation space",
+                    "Sentiment Expression": "not necessary",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "they are corresponding to inter-feature dependencies in the observed data",
+                    "Sentiment Expression": "Why we could believe",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "comparison in the experiment section",
+                    "Sentiment Expression": "would be required",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to reviewer zdAh",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "show the performance in MNAR",
+                    "Sentiment Expression": "did not",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the novelty",
+                    "Sentiment Expression": "remains limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "EMFlow currently only does single imputation",
+                    "Sentiment Expression": "is missing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "EMFlow is not designed for MNAR",
+                    "Sentiment Expression": "don't explicitly model",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "FCS's application for high-dimensional data",
+                    "Sentiment Expression": "prevents",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "FCs may not always uniquely determine a joint distribution",
+                    "Sentiment Expression": "may not always",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "similar performance when the method is tested on longitudinal clinical data",
+                    "Sentiment Expression": "can not assume",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to reviewer L7zK",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the novelty of the paper",
+                    "Sentiment Expression": "seems to be limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "how interpretability can be enhanced by this proposed model",
+                    "Sentiment Expression": "very interested to see discussions",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to reviewer tdhx (part II) ",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "low-rank covariance estimator",
+                    "Sentiment Expression": "a promising direction to make EMFlow scale to larger datasets",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "part of EM imputation",
+                    "Sentiment Expression": "may no longer be strictly identifiable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the convergence of covariance matrix estimation",
+                    "Sentiment Expression": "show",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "future work of this paper",
+                    "Sentiment Expression": "interesting direction",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "replace the RealNVP used in the paper with NFs that directly work on categorical features",
+                    "Sentiment Expression": "One possibility",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to reviewer tdhx (part I)",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "does not compare to GAN-based imputation methods, which might outperform simpler architectures",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The tasks in the empirical section",
+                    "Sentiment Expression": "while not trivial, are not the most difficult examples",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The dimensionality and general dataset descriptions",
+                    "Sentiment Expression": "are missing from the text and should be included",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "EMFlow",
+                    "Sentiment Expression": "is able to be seeded with NN imputation, whereas MCFlow is not",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the fast convergence",
+                    "Sentiment Expression": "a result of the warm-start imputation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper404 by Reviewer tdhx",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "a novel imputation method for high-dimensional datasets",
+                    "Sentiment Expression": "novel",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Empirical results",
+                    "Sentiment Expression": "show strong performance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the text",
+                    "Sentiment Expression": "is clear, well-organized, and easy to follow",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The architecture presented here",
+                    "Sentiment Expression": "is relatively straightforward",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "it",
+                    "Sentiment Expression": "provides enough of a conceptual and performance improvement to be a significant contribution",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The tasks in the empirical section",
+                    "Sentiment Expression": "are not the most difficult examples",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The dimensionality and general dataset descriptions",
+                    "Sentiment Expression": "are missing from the text",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the difference this warm-start makes in practice",
+                    "Sentiment Expression": "It is not clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "EMFlow",
+                    "Sentiment Expression": "produces much better looking and smoother images than MCFlow",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "EMFLow",
+                    "Sentiment Expression": "Can ... be adapted to impute categorical data?",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "how EMFlow would scale to even higher-dimensional datasets",
+                    "Sentiment Expression": "It is also unclear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper404 by Reviewer L7zK",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The quality of the paper",
+                    "Sentiment Expression": "is generally good",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The presentation of the paper",
+                    "Sentiment Expression": "is quite clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the novelty of the paper",
+                    "Sentiment Expression": "seems to be limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The presentation",
+                    "Sentiment Expression": "is clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the model",
+                    "Sentiment Expression": "is theoretically sound",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experiments",
+                    "Sentiment Expression": "show impressive improvement against baseline models for most of the dataset and missing rates",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the novelty",
+                    "Sentiment Expression": "is somewhat limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper404 by Reviewer Twou",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "online EM algorithm for the missing data imputation",
+                    "Sentiment Expression": "seems sound and no problem",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the assumptions of NF",
+                    "Sentiment Expression": "I have some concerns",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the experiments",
+                    "Sentiment Expression": "A final minor concern",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The work focuses on MCAR and MAR cases and extends NF and online EM for the missing data problem",
+                    "Sentiment Expression": "can be interesting for applications from a practical perspective",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the assumptions and main idea of the work",
+                    "Sentiment Expression": "can be lack justification",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a more thorough comparison with other related works",
+                    "Sentiment Expression": "would be helpful to better evaluate the proposed method",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper404 by Reviewer zdAh",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The study",
+                    "Sentiment Expression": "is well designed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "imputation using EM with latent space",
+                    "Sentiment Expression": "will be less challenging comparing to time series dataset",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the performance in MNAR",
+                    "Sentiment Expression": "did not show",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the limitation for all EM method",
+                    "Sentiment Expression": "need to realize",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The study and the expected results",
+                    "Sentiment Expression": "are acceptable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

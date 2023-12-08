@@ -1,0 +1,346 @@
+{
+    "mOO-LfEVZK": [
+        {
+            "Document Title": "Final Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "clear concerns",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "No theory, experiments only",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The experiments presented",
+                    "Sentiment Expression": "are promising in terms of increasing robustness of the learned models",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Experiments",
+                    "Sentiment Expression": "are only conducted on two datasets, it's unclear how generalization these results are",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "theoretical development regarding manifolds in the feature space",
+                    "Sentiment Expression": "there is no",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "This paper proposes a manifold aware training strategy to learn compact features and improve the robustness of CNNs.",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the technical contribution as using the three-term loss to improve robustness",
+                    "Sentiment Expression": "is limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "what the equation (10) and (11) try to prove",
+                    "Sentiment Expression": "is unclear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the empirical performance",
+                    "Sentiment Expression": "looks promising",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed MAT training",
+                    "Sentiment Expression": "cannot achieve high robustness",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method",
+                    "Sentiment Expression": "less effective",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the robustness against adaptive attack of MAT",
+                    "Sentiment Expression": "is almost 0",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the properties of the learned representation",
+                    "Sentiment Expression": "would be necessary to provide analysis",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Recommendation to Accept",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Training adversarially robust models",
+                    "Sentiment Expression": "an important problem",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experimental validation",
+                    "Sentiment Expression": "motivates the approach they take",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The loss functions",
+                    "Sentiment Expression": "are explicitly designed to combat these issues",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the experimental results",
+                    "Sentiment Expression": "clearly show the favorability of the MAT procedure",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the ablation study",
+                    "Sentiment Expression": "adds some insight into the results",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is also very well written",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "theoretical justification for the approach",
+                    "Sentiment Expression": "would be of interest",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the loss functions",
+                    "Sentiment Expression": "should not be explicitly needed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "some of the experimental results",
+                    "Sentiment Expression": "can be explored further",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "some of the experiments",
+                    "Sentiment Expression": "perform better without one of the loss functions",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is very well written",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "The defense evaluation is not correct",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the reported results on the robustness of the defense",
+                    "Sentiment Expression": "are clearly wrong",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the adversarial attacks employed here",
+                    "Sentiment Expression": "are not suited for finding minimal adversarial perturbations against the proposed defense",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "> 99% accuracy for this value under a PGD attack",
+                    "Sentiment Expression": "is totally ineffective against the given defense and a very different adaptive attack would be needed to accurately measure its robustness",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the attack success of targeted attacks",
+                    "Sentiment Expression": "is often higher than for untargeted attacks, again a clear sign for ineffective attacks",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the adaptive attack employed here",
+                    "Sentiment Expression": "are not good enough",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed attacks fail against the defense",
+                    "Sentiment Expression": "are probably simple: for one, the attacks optimise a different classification loss then what is actually used by the model",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "both auxiliary losses",
+                    "Sentiment Expression": "may give rise to gradient masking, the most common issue for gradient-based attacks to fail against a defense",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "AnonReviewer4 Review",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "a novel training process called Manifold-Aware Training (MAT) to increase the robustness of the CNN against adversarial examples",
+                    "Sentiment Expression": "The authors propose",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "their approach",
+                    "Sentiment Expression": "outperforms it",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "comparison with a similar approach",
+                    "Sentiment Expression": "Lack of",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "conclusive remarks / actionable points",
+                    "Sentiment Expression": "Lack of",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this approach",
+                    "Sentiment Expression": "wonder what guarantees",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The results",
+                    "Sentiment Expression": "seem to show no clear loss-dependent trend",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this",
+                    "Sentiment Expression": "Wasn't this already explored",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "MAT",
+                    "Sentiment Expression": "It would be interesting to compare and position",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "relying on SO and BIBO on a clean dataset",
+                    "Sentiment Expression": "provides better results than with a plain FTC loss",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "TRADES",
+                    "Sentiment Expression": "seem to show an expected trend",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

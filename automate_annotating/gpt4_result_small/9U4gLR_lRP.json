@@ -1,51 +1,27 @@
 {
-    "a0yodLze7gs": [
+    "9U4gLR_lRP": [
         {
-            "Document Title": "Final Decision",
+            "Document Title": "Meta Review of Paper1795 by Area Chair PGox",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "presentation of the paper",
-                    "Sentiment Expression": "was poor",
+                    "Content Expression": "the authors propose novel method to improve transferability of targeted adversarial attacks by enlarging the margin between targeted logit and non-target logits",
+                    "Sentiment Expression": "novel",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "novelty",
-                    "Sentiment Expression": "was unclear",
+                    "Content Expression": "Experiments on ImageNet with different methods",
+                    "Sentiment Expression": "demonstrated the effectiveness",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "claims",
-                    "Sentiment Expression": "were not properly justified",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "experimental evaluation and discussion",
-                    "Sentiment Expression": "were quite insufficient",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the proposed approach",
-                    "Sentiment Expression": "provides some benefits",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the authors",
-                    "Sentiment Expression": "were not successful to address the numerous but constructive reviewers' comments",
+                    "Content Expression": "there exist high overlap between the paper and the existing works",
+                    "Sentiment Expression": "significantly hinders the novelties",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -53,15 +29,7 @@
                 },
                 {
                     "Content Expression": "The paper",
-                    "Sentiment Expression": "is not ready for publication in ICLR 2021",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The paper",
-                    "Sentiment Expression": "can benefit from major revisions and careful proofreading",
+                    "Sentiment Expression": "are expected to clarify the novelty and provide more comprehensive evaluations",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -70,107 +38,27 @@
             ]
         },
         {
-            "Document Title": "Interesting model idea w.r.t. annealing capacity of latent representation, but relation to competing SOTA approaches requires more clarity",
+            "Document Title": "Thanks for the authors' response.",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "The submission",
-                    "Sentiment Expression": "addresses the important topics of inductive biases and disentangling factors in learning disentangled representations and suggest the interesting and novel concept of action sequences which seems to be related to the general idea of uncovering symmetries with deep latent variable models",
+                    "Content Expression": "the change of the current version",
+                    "Sentiment Expression": "is falling into a major revision",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the annealing approach with respect to the KL-divergence Lagrange parameter beta in the FVAE setting to separate \u201csignificant modes\u201d",
-                    "Sentiment Expression": "might pose a relevant insight useful in other related approaches and to a more broader audience",
+                    "Content Expression": "the high overlap between the previous submitted manuscript and the existing work",
+                    "Sentiment Expression": "high overlap",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "an empirical evaluation of the proposed approach to the competing method",
-                    "Sentiment Expression": "is missing",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the technical details of annealing the capacity of the latent representation",
-                    "Sentiment Expression": "seem very much alike",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the presentation of the content in the paper",
-                    "Sentiment Expression": "it is difficult to follow",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the paper",
-                    "Sentiment Expression": "deals with relevant issues in learning disentangled representations and provides interesting tools to address some of these aspects",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the annealing procedure in the FVAE",
-                    "Sentiment Expression": "is potentially a relevant contribution",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the relation to similar approaches",
-                    "Sentiment Expression": "is not evaluate adequately",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "advisable",
-                    "Sentiment Expression": "seems",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the paper",
-                    "Sentiment Expression": "is not ready for publication",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "willing to reconsider my rating",
-                    "Sentiment Expression": "am",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the proposed approach",
-                    "Sentiment Expression": "might pose a relevant contribution",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "this submission",
-                    "Sentiment Expression": "is not ready for publication",
+                    "Content Expression": "my previous rating",
+                    "Sentiment Expression": "still vote for reject",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -179,345 +67,59 @@
             ]
         },
         {
-            "Document Title": "Response to Reviewer1",
+            "Document Title": "Summary of Revision",
             "Annotated Judgements": [
-                {
-                    "Content Expression": "the relationship between the KL term and entropy",
-                    "Sentiment Expression": "has not yet been verified",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "that mainly is a hypothesis",
-                    "Sentiment Expression": "We admit",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "such a conclusion",
-                    "Sentiment Expression": "can hardly induce",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "abundant experiments",
-                    "Sentiment Expression": "are required",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the available datasets",
-                    "Sentiment Expression": "are insufficient",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Increasing the number of stages",
-                    "Sentiment Expression": "has little influence on disentanglement, but it does waste the computational resource",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "FVAE needs the participation of humans",
-                    "Sentiment Expression": "For now",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "unsupervised disentanglement learning without inductive biases",
-                    "Sentiment Expression": "is impossible",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The main purpose of this work",
-                    "Sentiment Expression": "is not to propose a competent disentangling method",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Response to Reviewer4",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "definitions",
-                    "Sentiment Expression": "Ambiguous",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Response to reviewer 3.",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "\"the most significant improvement in data log-likelihood,\"",
-                    "Sentiment Expression": "most significant improvement",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "prevents the insignificant action sequences from being encoded",
-                    "Sentiment Expression": "prevents the insignificant",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the results of A1-3",
-                    "Sentiment Expression": "support",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the success of the current approaches (beta-VAE, TC-VAE, AnnealedVAE, DIP-VAE, FactorVAE)",
-                    "Sentiment Expression": "success",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "they fail to disentangle in the cases of A1-3.",
-                    "Sentiment Expression": "fail",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Response to Reviewer 2",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "The interpretation of disentanglement",
-                    "Sentiment Expression": "the most significant improvement in data log-likelihood",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "we are the first to define the inductive biases on the data and associate it with disentanglement",
-                    "Sentiment Expression": "the first",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the experimental results of A2 and A3",
-                    "Sentiment Expression": "reveal",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "We improve disentanglement by solving re-entanglement",
-                    "Sentiment Expression": "improve",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Response to All Reviewers",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "The special cases",
-                    "Sentiment Expression": "show little correlation between the learned representation and the ground-truth",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "PCA-like behaviors",
-                    "Sentiment Expression": "needs more explanations to interpret A4",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The disentanglement metric",
-                    "Sentiment Expression": "reaches the highest in the middle phase, and it falls on the last phases",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Algorithm is not clearly explained and more experiments are needed.",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "the associated objective function",
-                    "Sentiment Expression": "not introduced explicitly, which is confusing",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the trend of KL divergence",
-                    "Sentiment Expression": "hard to see from Fig. 3",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the significance of action is related to the capacity of learned latent information",
-                    "Sentiment Expression": "this conclusion is not convincing",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Fig. 3",
-                    "Sentiment Expression": "needs to be verified on other datasets as well",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "three stages for dSprites",
-                    "Sentiment Expression": "seems arbitrary",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "three points where the latent information suddenly increases: 60, 20, 4",
-                    "Sentiment Expression": "hard to see from Fig. 5b) as all curves look smooth",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the following three-stage training process",
-                    "Sentiment Expression": "is questionable",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The experiments",
-                    "Sentiment Expression": "are limited",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Disentangling action sequences is interesting but more details and experimental results are needed.",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "The paper",
-                    "Sentiment Expression": "tackles the important problem of disentangling representations",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the paper",
-                    "Sentiment Expression": "is well structured",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
                 {
                     "Content Expression": "the introduction section",
-                    "Sentiment Expression": "clearly motivates the problem and summarises existing approaches",
+                    "Sentiment Expression": "revised",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "The idea of disentangling action sequences",
-                    "Sentiment Expression": "is interesting",
+                    "Content Expression": "the related work section",
+                    "Sentiment Expression": "thoroughly rewrote",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the main novelty of FVAE",
-                    "Sentiment Expression": "is still not sufficiently emphasised throughout the paper",
+                    "Content Expression": "the experiments on the varied targets and T=10/20 in the combining logit calibrations",
+                    "Sentiment Expression": "added",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "Description of the toy dataset family",
-                    "Sentiment Expression": "is not easily understood",
+                    "Content Expression": "the suggestion for achieving a better-targeted attack",
+                    "Sentiment Expression": "is added",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "a quantitative analysis",
-                    "Sentiment Expression": "is still insufficient to make clear conclusions on the performance of the proposed method",
+                    "Content Expression": "the tables",
+                    "Sentiment Expression": "better present",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the concept of disentangling representations",
-                    "Sentiment Expression": "shows the necessity of inductive bias to unsupervisedly disentangle the underlying factors",
+                    "Content Expression": "the manuscript",
+                    "Sentiment Expression": "carefully polished and corrected",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "existing models",
-                    "Sentiment Expression": "disentangle the ground-truth factors by accident",
+                    "Content Expression": "More experiment results during the rebuttal period",
+                    "Sentiment Expression": "are added",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -526,91 +128,43 @@
             ]
         },
         {
-            "Document Title": "This paper gives a new kind of comprehension to disentangled representation learning. In this paper, existing unsupervised disentangled methods are trying to obtain disentangled action sequences instead of independent factors. Through the proposed FVAE model, action sequences with different levels of significance can be obtained step by step, and experiment results show that the weight \\beta has positive correlation with the significance.",
+            "Document Title": "Summary of Revision",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "This paper",
-                    "Sentiment Expression": "gives a new comprehension of existing unsupervised disentangled representation learning method",
+                    "Content Expression": "the introduction section",
+                    "Sentiment Expression": "revised",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "This paper",
-                    "Sentiment Expression": "gives a new idea that \\beta has positive relationship with action significance",
+                    "Content Expression": "the related work section",
+                    "Sentiment Expression": "thoroughly rewrote",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "This paper",
-                    "Sentiment Expression": "proposes a new variant of VAE called FVAE which learns the disentangled action sequence step by step",
+                    "Content Expression": "the experiments on the varied targets and T=10/20 in the combining logit calibrations",
+                    "Sentiment Expression": "added",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "This paper",
-                    "Sentiment Expression": "mainly gives descriptions of insights while lacking some formulations to explain the settings and methods better",
+                    "Content Expression": "the tables, we reported the average targeted transfer success rate with three digits at most for Tables 1, 2, & 3",
+                    "Sentiment Expression": "better present",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "Experimental results",
-                    "Sentiment Expression": "are not well organized",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Some definitions",
-                    "Sentiment Expression": "are ambiguous",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Some descriptions in the paper",
-                    "Sentiment Expression": "are confusing",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "this paper",
-                    "Sentiment Expression": "There exist some typos",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "some ideas and some conclusions of experiments",
-                    "Sentiment Expression": "should be supported by clearer formulations and are not valid",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the logic of this paper and experimental figures",
-                    "Sentiment Expression": "is a little unclear, and are incomplete",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "this paper",
-                    "Sentiment Expression": "could be an excellent paper..",
+                    "Content Expression": "the manuscript",
+                    "Sentiment Expression": "carefully polished",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -619,91 +173,544 @@
             ]
         },
         {
-            "Document Title": "Review 5",
+            "Document Title": "Official Comment by Paper1795 Reviewer WQZv",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "the concept of bringing temporal causality (which for some cases *is* valid as the causal diagram/frame) into the disentanglement problem statement",
-                    "Sentiment Expression": "a good idea",
+                    "Content Expression": "all of these changes",
+                    "Sentiment Expression": "falling more into a major revision and would not be within the limit of the conference",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Results on another dataset, attacking Google API, and transfer with varied targets",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the fooling rate",
+                    "Sentiment Expression": "continually increases along with the T in the white-box attack",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "what has done",
-                    "Sentiment Expression": "I cannot understand",
+                    "Content Expression": "the best fooling rates",
+                    "Sentiment Expression": "are obtained at T=5 or T=10",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "how particular 'ground truth' factors (e.g. $\theta, L$) can be selected for and locked in to specific latent factors in an unsupervised manner, or even if this should happen",
-                    "Sentiment Expression": "it's not clear",
+                    "Content Expression": "the effectiveness of logit calibration in non-targeted attacks on a small dataset",
+                    "Sentiment Expression": "validate",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "a connection between the actions sequences and the training methods/arch",
-                    "Sentiment Expression": "I further cannot make",
+                    "Content Expression": "the results of the Logit and CE (T=5)",
+                    "Sentiment Expression": "are very similar",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the positive experimental results in Figure 6c",
-                    "Sentiment Expression": "something here",
+                    "Content Expression": "the Margin-based calibration",
+                    "Sentiment Expression": "performs worse than Logit and CE (T=5)",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "what is actually being done",
-                    "Sentiment Expression": "I cannot tell",
+                    "Content Expression": "The three types of logit calibration methods",
+                    "Sentiment Expression": "can improve the targeted transfer success rate over the original CE",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "a clear procedure section with numbered steps",
-                    "Sentiment Expression": "I suggest",
+                    "Content Expression": "The angle-based calibration",
+                    "Sentiment Expression": "has the best performance",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the connection between sequences of images under actions and the proposed method",
-                    "Sentiment Expression": "needs to be made... should be made clear",
+                    "Content Expression": "the margin-based calibration",
+                    "Sentiment Expression": "doesn't work well in this setting",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "The initial portion of section 3 concerning dataset construction",
-                    "Sentiment Expression": "might also be moved to much later",
+                    "Content Expression": "The Temperature-based (T=5, 10) and the Angle-based calibrations",
+                    "Sentiment Expression": "can outperform the Logit loss by a large margin, especially the Angle-based calibration",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer WQZv ",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "presentation of the tables",
+                    "Sentiment Expression": "better",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "philosophically challenging sections",
-                    "Sentiment Expression": "I did not comment on in the review portion",
+                    "Content Expression": "solving the saturated issue in the CE loss",
+                    "Sentiment Expression": "better",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the paper",
-                    "Sentiment Expression": "give another read through for grammar",
+                    "Content Expression": "test their mutual effects by combining them jointly",
+                    "Sentiment Expression": "works",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the optimal combination",
+                    "Sentiment Expression": "different",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "$T=5$ mainly based on the result of ResNet-50",
+                    "Sentiment Expression": "optimal",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The results",
+                    "Sentiment Expression": "reported",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the $T$ has a marginal influence in the combination of \"$T$ + Margin\", while largely increasing the performance of \"$T$ + Angle\" of VGG16",
+                    "Sentiment Expression": "marginal influence",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the performance of \"$T$ + Angle\" of VGG16",
+                    "Sentiment Expression": "largely increasing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer Boef",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the performance of the targeted attack",
+                    "Sentiment Expression": "will get saturated when T continually increases",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "temperature-based, margin-based, and angle-based logit calibrations",
+                    "Sentiment Expression": "we investigate ... to validate the main hypothesis of our study",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the optimal T",
+                    "Sentiment Expression": "is different for different models",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "best combinations of different models",
+                    "Sentiment Expression": "are different, we currently cannot have a universal receipt for each model",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the manuscript",
+                    "Sentiment Expression": "We will carefully polish",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer SQcN ",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "results obtained by Margin-based calibration for the VGG-16",
+                    "Sentiment Expression": "better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "performance",
+                    "Sentiment Expression": "better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a large T and the margin-based calibration",
+                    "Sentiment Expression": "preferred",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Authors' Response",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the contribution of this work",
+                    "Sentiment Expression": "limited by only achieving marginal experimental gains",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper1795 by Reviewer qX4X",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "huge amount of overlapping of the equations or rewriting the sentences",
+                    "Sentiment Expression": "significantly destroys the overall quality of the work",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the improvement of the proposed method over [1]",
+                    "Sentiment Expression": "is marginal compared to the improvement of [1] over cross-entropy loss",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the contribution of this work",
+                    "Sentiment Expression": "is limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "different temperature-scaling based methods",
+                    "Sentiment Expression": "only achieve limited experimental gains",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the great similarity between the Related Works in this work and that in [1]",
+                    "Sentiment Expression": "leaves me a poor impression",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper1795 by Reviewer SQcN",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "method to improve the transferability of adversarial attacks",
+                    "Sentiment Expression": "novel and effective",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The findings",
+                    "Sentiment Expression": "very interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the motivation",
+                    "Sentiment Expression": "well-explained",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Comprehensive experiments",
+                    "Sentiment Expression": "are presented",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the combining logit calibrations",
+                    "Sentiment Expression": "have significantly better performance than previous methods",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The proposed method",
+                    "Sentiment Expression": "has various settings and hyper-parameters",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method",
+                    "Sentiment Expression": "needs more effort for tuning or need combining logit calibrations to achieve better performance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the method",
+                    "Sentiment Expression": "less attractive to the community",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "theoretical analysis",
+                    "Sentiment Expression": "no",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The presentation of the results",
+                    "Sentiment Expression": "needs to be improved",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "All tables",
+                    "Sentiment Expression": "contain tons of numbers, which makes it hard for the reader to get the point in a short time",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper1795 by Reviewer Boef",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The method",
+                    "Sentiment Expression": "can improve the targeted adversarial attack with higher transferability than other attack methods with cross-entropy loss",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "This paper's method",
+                    "Sentiment Expression": "does not have any additional functions such as UAP",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper's method",
+                    "Sentiment Expression": "only exceeds the Logit loss by around 10%, which is not a significant improvement",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "lacks novelty",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The equation 14",
+                    "Sentiment Expression": "seems to have some mistakes",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "A few grammar problems in this paper",
+                    "Sentiment Expression": "should be improved",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a larger $T$",
+                    "Sentiment Expression": "obtains better transferability",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a limitation of $T$ on VGG16 and IncV3",
+                    "Sentiment Expression": "I am curious about",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the performance of the targeted attack",
+                    "Sentiment Expression": "will decrease when $T$ continually increase",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The relationship between temperature-based, margin-based, and angle-based logit calibration",
+                    "Sentiment Expression": "is unclear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper1795 by Reviewer WQZv",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The writing quality",
+                    "Sentiment Expression": "very good, very easy to follow, there are areas that can be improved but nothing major",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the motivation and the thought process of different method\u2019s component",
+                    "Sentiment Expression": "Very clear. Easy to understand",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Novelty",
+                    "Sentiment Expression": "a bit limited and built up mostly on top of previous methods",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The quality of results and presentation",
+                    "Sentiment Expression": "could be improved significantly",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The distinction between [30] and this paper",
+                    "Sentiment Expression": "should be clarified",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "novelty overlap between [30] and the current method",
+                    "Sentiment Expression": "large",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Experiments",
+                    "Sentiment Expression": "are limited and can get improved",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The results",
+                    "Sentiment Expression": "could be strengthened by providing experiments on another dataset (e.g., CIFAR-10, MNIST, SVHN)",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "I enjoy reviewing",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",

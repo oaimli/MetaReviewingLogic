@@ -1,0 +1,880 @@
+{
+    "NbaEmFm2mUW": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the proposed approach",
+                    "Sentiment Expression": "interesting & original",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "an original and interesting new suite of benchmarking tasks",
+                    "Sentiment Expression": "original and interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "opinions were mixed on quality, as some reviewers deemed important baselines to be missing",
+                    "Sentiment Expression": "Initially",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the provision of additional HRL baseline",
+                    "Sentiment Expression": "the reviewers were satisfied on quality",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The problem",
+                    "Sentiment Expression": "is relevant for NeurIPS",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The results",
+                    "Sentiment Expression": "were not super surprising",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "might be an important step towards solving sparse reward task",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the reviews",
+                    "Sentiment Expression": "were a bit mixed, from 'difficult to parse' to 'clear and well explained'",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "proposes an original new method and (taken into account the new results), sufficiently evaluates it",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "could certainly be improved further",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "it will be an interesting addition to the NeurIPS program",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper5859 by Reviewer ECxq",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "what the \"inductive bias\" is",
+                    "Sentiment Expression": "It is not clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "how the \"the potential to facilitate exploration\" is an inductive bias",
+                    "Sentiment Expression": "It is not clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the abstract",
+                    "Sentiment Expression": "confusing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the generalization expressed here",
+                    "Sentiment Expression": "misleading",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "what exactly the high level policy comprises",
+                    "Sentiment Expression": "remains unclear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The \"introduction\" section for this component",
+                    "Sentiment Expression": "lacks a heading",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Equation numbers",
+                    "Sentiment Expression": "would be much appreciated",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "these environments",
+                    "Sentiment Expression": "described fleetingly",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "these proposed domains",
+                    "Sentiment Expression": "do not actually differ too significantly",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "what emphasis is being made about \"no single skill\"",
+                    "Sentiment Expression": "It is still unclear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The proposed baselines",
+                    "Sentiment Expression": "do not always capture a fair comparison",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "discussion of limitations",
+                    "Sentiment Expression": "limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "discussion of societal impact",
+                    "Sentiment Expression": "no",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "way of selecting features",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the writing",
+                    "Sentiment Expression": "sufficiently difficult to parse",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the experiments",
+                    "Sentiment Expression": "limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Originality",
+                    "Sentiment Expression": "marginal",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Quality",
+                    "Sentiment Expression": "marginal",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Clarity",
+                    "Sentiment Expression": "poor",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Significance",
+                    "Sentiment Expression": "below marginal",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Follow up on response",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "clarity of the paper",
+                    "Sentiment Expression": "valuable insight and some assurance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "expanded list of baselines",
+                    "Sentiment Expression": "addresses one of my primary concerns",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Did our response address your concerns?",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the video in the supplementary material",
+                    "Sentiment Expression": "contains comparisons of behaviors of HSD-3 and several baselines",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Heess et al., 2016 and Hasenclever et al., 2020",
+                    "Sentiment Expression": "will cite in the related work section",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the number of seeds",
+                    "Sentiment Expression": "is present in the main paper but was missing for Table 1",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Did our response address your concerns?",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our contributions in terms of novelty and our proposed benchmark suite",
+                    "Sentiment Expression": "clarifies",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Additional HIDIO results",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Sweeping over the hyper-parameters provided in the HIDIO paper on the Hurdles task",
+                    "Sentiment Expression": "resulted in a few combinations which achieved small positive returns during evaluations.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "both SD and HSD-3",
+                    "Sentiment Expression": "achieve returns above 12 consistently",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper5859 by Reviewer opgb",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "method",
+                    "Sentiment Expression": "a novel contribution",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Results",
+                    "Sentiment Expression": "fine",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "has some issues",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The algorithm",
+                    "Sentiment Expression": "is novel",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The inclusion (and supposed release) of the benchmark environments",
+                    "Sentiment Expression": "are a benefit to the community",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The writing",
+                    "Sentiment Expression": "is generally clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "analysis on similar environments with different robots",
+                    "Sentiment Expression": "more.. should be given",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "explicit analysis that studies how exploration is explicitly affected by these skills",
+                    "Sentiment Expression": "There\u2019s little",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "an example of the feature set F",
+                    "Sentiment Expression": "should be given earlier in the paper",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the best performances for each column in Table 1",
+                    "Sentiment Expression": "should bold or highlight",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the 3rd paragraph of the introduction",
+                    "Sentiment Expression": "making it a little harder to read",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for the results",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "these results",
+                    "Sentiment Expression": "will be finalized and added into the paper",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Results for HIDIO and Exploration Behavior",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Negative returns",
+                    "Sentiment Expression": "are obtained if the Walker falls over in the course of an episode.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "HSD-3",
+                    "Sentiment Expression": "visited roughly twice as many unique states compared to SAC",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Results table for other HRL",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "these results table",
+                    "Sentiment Expression": "able to add",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to further questions of Reviewer tdmg",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "A forward reward alone",
+                    "Sentiment Expression": "is not sufficient",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "sparse-reward environments",
+                    "Sentiment Expression": "is motivated by the fact that as tasks grow in complexity, coming up with suitably shaped rewards requires an increasing amount of effort.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "deriving good rewards from e.g. demonstrations",
+                    "Sentiment Expression": "is another way to tackle complex tasks",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to further question of Reviewer opgb",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "full learning curves",
+                    "Sentiment Expression": "would provide further insight",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "visualize the state space covered over time by counting ``unique'' states via pseudo-counts",
+                    "Sentiment Expression": "we will attempt",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "further questions",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "skill learning and usage for a Humanoid robot without supervision from motion capture data, which has not been shown previously outside of navigation tasks",
+                    "Sentiment Expression": "That is not true",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "most of the tasks presented",
+                    "Sentiment Expression": "can be solved via very simple forward progress reward",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the only task that I couldn't figure out a simple dense reward alternative",
+                    "Sentiment Expression": "is not solvable by the proposed approach",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to authors (1)",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "explicit analysis that studies how exploration is explicitly affected by these skills",
+                    "Sentiment Expression": "There\u2019s little",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "analysis in Section 5.1",
+                    "Sentiment Expression": "lacking more",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "its experiments being performed in environments where PPO already works well",
+                    "Sentiment Expression": "I don't think that it'll fail on your tasks.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "HIDIO's experiments",
+                    "Sentiment Expression": "HiPPO performs well on some tasks where flat policies fail.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "one modern hierarchical baseline",
+                    "Sentiment Expression": "it's OK to just include which HIDIO satisfies.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "quick preliminary experiments on Hurdles, Stairs, and GoalWall",
+                    "Sentiment Expression": "HIDIO did not make meaningful progress in 5M steps apart from learning to not fall over.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the extra baseline",
+                    "Sentiment Expression": "not having is my primary concern and I would like to see it fully addressed.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer opgb",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "example of our skills in the introduction",
+                    "Sentiment Expression": "will also pick it up again in Section 3 for clarity",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experiments in the original paper",
+                    "Sentiment Expression": "are performed in environments where PPO works well already, while non-HRL methods seem to fail almost completely in our tasks",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our benchmark task",
+                    "Sentiment Expression": "as a first installment and to be potentially extended with further tasks and robots in the future",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer tdmg",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "pre-training a shared policy for all goal spaces",
+                    "Sentiment Expression": "we use 10M steps",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "This task",
+                    "Sentiment Expression": "is indeed very challenging",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Only one out of 9 seeds managed to make meaningful learning progress on the Stairs task",
+                    "Sentiment Expression": "is not enough to significantly move the average reported in Figure 4",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "per-skill learning curves with the average rewards reached (in training)",
+                    "Sentiment Expression": "we will also attach to the Appendix",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the final performance of our method and other HRL approaches",
+                    "Sentiment Expression": "is lower than for plain SAC",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the current suite",
+                    "Sentiment Expression": "represents a good first step with 7 varied environments",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer gM3y",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "motivation for the selection of our goal space features",
+                    "Sentiment Expression": "will add",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer ECxq",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the role of priors in pre-trained skills, and propose a novel three-level architecture",
+                    "Sentiment Expression": "We clearly work out",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Our work",
+                    "Sentiment Expression": "demonstrates skill learning and usage for a Humanoid robot without supervision from motion capture data, which has not been shown previously outside of navigation tasks",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our method",
+                    "Sentiment Expression": "is novel in its usage of multiple skills, with each one implemented as a goal-based policy",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "SD*",
+                    "Sentiment Expression": "is considered a topline because it requires exhaustive evaluation on a downstream task -- it is the best goal space, selected a posteriori",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "locomotion",
+                    "Sentiment Expression": "is an integral part of the majority of tasks, it is not sufficient to perform well across all of them",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "HSD-3 with uninitialized skills",
+                    "Sentiment Expression": "did not work well",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper5859 by Reviewer tdmg",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "This paper presents a three level hierarchical policy with a low level policy generated via training on general tasks",
+                    "Sentiment Expression": "This is new",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is technically sound",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Paper",
+                    "Sentiment Expression": "is well written",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The result",
+                    "Sentiment Expression": "is not very impressive",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "it presents an important step towards solving tasks with sparse reward using a hierarchical policy",
+                    "Sentiment Expression": "an important step",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper5859 by Reviewer gM3y",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The proposed algorithm",
+                    "Sentiment Expression": "outperforms reasonable baselines",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The tasks",
+                    "Sentiment Expression": "are set up for the 2d walker as well as a 3d humanoid",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "features and target feature distributions",
+                    "Sentiment Expression": "an inductive bias",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "no single goal space works best on all tasks",
+                    "Sentiment Expression": "there is indeed a trade-off between speed and generality",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed methods",
+                    "Sentiment Expression": "performs favourably relative to baselines",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this is a nice paper",
+                    "Sentiment Expression": "I am leaning towards acceptance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The experimental results with the humanoid",
+                    "Sentiment Expression": "are limited in terms of the goal spaces and the full goal space baseline appears to work just as well if not better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

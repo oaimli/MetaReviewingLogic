@@ -1,0 +1,1026 @@
+{
+    "ygWoT6hOc28": [
+        {
+            "Document Title": "Final Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "This paper",
+                    "Sentiment Expression": "presents a useful contribution",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "has significantly helped with strengthening",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "A simple extension of Prior networks models to regression.",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The presented approach",
+                    "Sentiment Expression": "is sound and addresses a relevant problem",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "A method for distilling an ensemble model into a single model",
+                    "Sentiment Expression": "maintaining accuracy is also proposed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The proposed approach",
+                    "Sentiment Expression": "does not incur in computational and memory overheads like standard deep ensembles",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "This work",
+                    "Sentiment Expression": "properly approaches technical difficulties",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The presented approach",
+                    "Sentiment Expression": "does not introduce any novel idea or insight",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The empirical results",
+                    "Sentiment Expression": "do not show a clear advantage of the presented approach wrt previously published proposals",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the originality of the work",
+                    "Sentiment Expression": "quite limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this work",
+                    "Sentiment Expression": "does not provide any new relevant insight into the problem of modelling uncertainty and learning models with well-calibrated predictions",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the overall quality of the paper",
+                    "Sentiment Expression": "has really improved",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "novelty in this paper",
+                    "Sentiment Expression": "is a limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "novelty",
+                    "Sentiment Expression": "might be limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is well-written and clearly structured",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Most design choices",
+                    "Sentiment Expression": "are justified",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Most of the work",
+                    "Sentiment Expression": "seems to be heavily based on Prior Networks (Malinin & Gales, 2018)",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "This paper",
+                    "Sentiment Expression": "mainly focuses on an extension to the regression task",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the contribution / novelty of this paper",
+                    "Sentiment Expression": "is incremental",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the authors",
+                    "Sentiment Expression": "did a good job to present a general distillation method for regression task",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the novelty",
+                    "Sentiment Expression": "a minor weakness",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "specifying the OOD dataset for learning with the loss in Eq. 8",
+                    "Sentiment Expression": "I am on the fence about",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "comparisons to other approaches for distillation of regression tasks",
+                    "Sentiment Expression": "There are no",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "is borderline",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The weaknesses, especially the OOD dataset used for training and the lack of comparisons in the evaluation",
+                    "Sentiment Expression": "are concerns",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the idea and the execution",
+                    "Sentiment Expression": "I like",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the authors adding baseline models to the paper and missing citations",
+                    "Sentiment Expression": "I really appreciate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this",
+                    "Sentiment Expression": "improves the overall paper by a lot",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this",
+                    "Sentiment Expression": "is a nice idea and executed well, even though novelty might be limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Final revision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "a mistake in eq. 13 and a few typos",
+                    "Sentiment Expression": "fix",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Updated Manuscript Text",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "second paragraph",
+                    "Sentiment Expression": "Modified",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "final paragraph",
+                    "Sentiment Expression": "Modified",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "discussions of RKL loss function",
+                    "Sentiment Expression": "Added clarifications",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "X-axis range in images",
+                    "Sentiment Expression": "widened",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "section",
+                    "Sentiment Expression": "reworked, experimental protocol clarified",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experiments on DER and MD-EnD to both tables 3 and 4",
+                    "Sentiment Expression": "Added",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "depth estimation performance metrics",
+                    "Sentiment Expression": "Clarified",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "an additional set of OOD detection experiments in the appendix",
+                    "Sentiment Expression": "Added forward reference to",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "examples of IN/OOD data so that it is easy to see *exactly* what the models are trying to discriminate between",
+                    "Sentiment Expression": "Added forward reference to",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for the stimulating discussion!",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "a discussion about BatchEnsembles and the Multi-head distillation method",
+                    "Sentiment Expression": "added",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Reply to Response to R4",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "novelty and relevance of the work",
+                    "Sentiment Expression": "I still have the concerns",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to reviewer 2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The effect of beta",
+                    "Sentiment Expression": "primarily to make the the expected (under Normal-Wishart) negative-log-likelihood be a tight bound to the NLL of the expected (vs expected NLL)",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "High beta",
+                    "Sentiment Expression": "makes the bound tight and the training to be more accurate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the discussion",
+                    "Sentiment Expression": "make it more clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the discussion of RPNs",
+                    "Sentiment Expression": "try to improve such that it is more self-contained",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "New results in manuscript",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the open review system",
+                    "Sentiment Expression": "very poor",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to R4",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this",
+                    "Sentiment Expression": "works a little better for predictive quality than EnD^2, and worse for OOD detection",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a BatchEnsemble model",
+                    "Sentiment Expression": "has about as many parameters as a single model *on disk*, at *run time* it trades of increased use of GPU memory (batch is replicated) for efficient use of said GPU",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Experimental results",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the old version of DER (ArXiv 2019)",
+                    "Sentiment Expression": "doesn't work well",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the new version of DER (NeurIPS 2020 preproceedings)",
+                    "Sentiment Expression": "works much better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "predictive performance",
+                    "Sentiment Expression": "comparable to a single probabilistic DenseDepth model , though still with a minor degradation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "OOD detection performance of models trained on NYU",
+                    "Sentiment Expression": "yields rather competitive performance, marginally worse than the ensemble, and outperformed by EnD^2",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "KITTI OOD detection the LSUN OOD data",
+                    "Sentiment Expression": "is OOD not only because it is indoors, but also because it represents images which are very close to the camera, relative to images seen in Kitti, which features a range of depths",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "DER",
+                    "Sentiment Expression": "does not seem to be able to",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "regions which are closer (bottom half of kitty images)",
+                    "Sentiment Expression": "always have higher evidence",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to A. Amini",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the principal claim that this is a reliable single-model uncertainty estimation approach which doesn\u2019t require OOD data or indeed any other approach to enforcing a particular behaviour for OOD inputs which has an understandable mechanism of action",
+                    "Sentiment Expression": "we are sceptical",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a rigorous large-scale validation",
+                    "Sentiment Expression": "is necessary and clearly would be a useful future direction of investigation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the loss function (expectation of square error given samples from the Normal-inverse-Gamma)",
+                    "Sentiment Expression": "had an error in the derivation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the validity of the results",
+                    "Sentiment Expression": "we had no grounds on which to believe",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the ArXiv submission",
+                    "Sentiment Expression": "it has not been updated within the last year and still contains the error",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a different OOD dataset",
+                    "Sentiment Expression": "seems to be very easy to separate out, as all models achieve a ROC-AUC of about 0.99",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Reply to Authors comments",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The lack of novelty of this paper",
+                    "Sentiment Expression": "puts much more pressure in the empirical evaluation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Some missing related work",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the relation of the proposed contribution to published evidential deep learning (EDL) approaches",
+                    "Sentiment Expression": "wondering",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The proposed contribution presented here",
+                    "Sentiment Expression": "provides",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "deep evidential networks are structurally identical to prior networks (PN), with the only differences being in their respective objective functions",
+                    "Sentiment Expression": "identical",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Authors",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "a high-level description of prior networks",
+                    "Sentiment Expression": "missing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Reply to Comments of Reviewer 3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The OOD loss",
+                    "Sentiment Expression": "supposed to inform the model of regions beyond which it has no understanding of the data",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Phi",
+                    "Sentiment Expression": "represents the parameters of the model into which we are distribution-distilling the ensemble",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "estimates of *knowledge uncertainty*",
+                    "Sentiment Expression": "increase as we move further out of domain",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Prediction Rejection Ratio",
+                    "Sentiment Expression": "shows what part of the best possible error-detection performance our algorithm covers",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "UCI datasets",
+                    "Sentiment Expression": "very common datasets for evaluation in related works",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "table 4 and figure 3",
+                    "Sentiment Expression": "hard to fit everything into a given space",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "definition of these metrics",
+                    "Sentiment Expression": "will add [...] to the text and attempt to simplify table 3 as much as possible",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "generative model",
+                    "Sentiment Expression": "simple and appropriate for table data",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "NWPN (RPN+RKL)",
+                    "Sentiment Expression": "can sometimes do near-perfect OOD detection, but isn't as reliable in this particular task",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "EnD$^2$",
+                    "Sentiment Expression": "can appropriately replicate and surpass the ensemble's OOD performance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Reply to Reviewer 2 Comments",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Approaches like Dropout",
+                    "Sentiment Expression": "consistently inferior",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Variational Inference",
+                    "Sentiment Expression": "even worse",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "proposed approach - Ensemble Distribution Distillation for regression",
+                    "Sentiment Expression": "favoured",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "predictive quality",
+                    "Sentiment Expression": "a minor reduction",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "quality of uncertainty estimates",
+                    "Sentiment Expression": "no loss",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Reply to Reviewer 4 Comments",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "In terms of inference-time compute and memory the M-fold (where M is the ensemble size) advantage over Ensembles",
+                    "Sentiment Expression": "is clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "In terms of predictive performance",
+                    "Sentiment Expression": "we outperform single models, and get close to the ensemble",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Replicating the ensemble\u2019s predictive performance completely",
+                    "Sentiment Expression": "is an upper bound",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "In terms of OOD Ensemble-Distribution Distilled  RPNs",
+                    "Sentiment Expression": "outperform the ensemble",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "BatchEnsembles",
+                    "Sentiment Expression": "are interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "A naive implementation",
+                    "Sentiment Expression": "would be as expensive during inference as DeepEnsembles, if not more so",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Reply to Review 1 comments.",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "RPNs+EnD$^2$",
+                    "Sentiment Expression": "the superior approach",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the choice of OOD dataset",
+                    "Sentiment Expression": "your concerns",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "RPNs trained via RKL on OOD data",
+                    "Sentiment Expression": "suffer degraded predictive performance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "RPNs trained via  EnD$^2$",
+                    "Sentiment Expression": "show better predictive performance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this scenario",
+                    "Sentiment Expression": "it is difficult to provide a sensible baseline",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our main comparison for Depth Estimation",
+                    "Sentiment Expression": "we intended",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a more appropriate baseline",
+                    "Sentiment Expression": "we would be happy to consider it",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Addressing concerns regarding novelty",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the novelty and originality of our work",
+                    "Sentiment Expression": "concerns",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the extension",
+                    "Sentiment Expression": "straightforward and incremental",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Prior Networks have not been extended to regression",
+                    "Sentiment Expression": "have not been",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "An nice paper based on incremental work",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this is a nice paper that illustrates an appealing method for uncertainty estimation in the context of neural networks",
+                    "Sentiment Expression": "nice",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "it builds heavily on previous work",
+                    "Sentiment Expression": "heavily",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "not much novelty here, only the extension to regression problems since",
+                    "Sentiment Expression": "not much",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The experiments carried out",
+                    "Sentiment Expression": "extensive",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "no comparison is carried out with alternative methods to estimate prediction uncertainty",
+                    "Sentiment Expression": "no",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The method proposed",
+                    "Sentiment Expression": "complicated",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "clearly written",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "not self-contained",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this could be an interesting contribution for the conference",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Clarifications needed",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "This paper",
+                    "Sentiment Expression": "addresses interpretable uncertainty quantification for data driven models",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is rather well organized and seems technically sound",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a few mathematical details",
+                    "Sentiment Expression": "are missing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the experiments",
+                    "Sentiment Expression": "are not very convincing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "(12)",
+                    "Sentiment Expression": "lacks clarity",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The quality of the Prior Networks",
+                    "Sentiment Expression": "is a bit disappointing compared to ENSM",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The presentation of the experimental protocol in 4",
+                    "Sentiment Expression": "lacks clarity",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the experiment description",
+                    "Sentiment Expression": "is confusing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the whole section",
+                    "Sentiment Expression": "deserves some re-writing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

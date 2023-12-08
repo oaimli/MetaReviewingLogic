@@ -1,112 +1,19 @@
 {
-    "a0yodLze7gs": [
+    "VAeAUWHNrty": [
         {
-            "Document Title": "Final Decision",
+            "Document Title": "Meta Review of Paper8741 by Area Chair Kibw",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "presentation of the paper",
-                    "Sentiment Expression": "was poor",
+                    "Content Expression": "Experiments",
+                    "Sentiment Expression": "show improvement",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "novelty",
-                    "Sentiment Expression": "was unclear",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "claims",
-                    "Sentiment Expression": "were not properly justified",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "experimental evaluation and discussion",
-                    "Sentiment Expression": "were quite insufficient",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the proposed approach",
-                    "Sentiment Expression": "provides some benefits",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the authors",
-                    "Sentiment Expression": "were not successful to address the numerous but constructive reviewers' comments",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The paper",
-                    "Sentiment Expression": "is not ready for publication in ICLR 2021",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The paper",
-                    "Sentiment Expression": "can benefit from major revisions and careful proofreading",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Interesting model idea w.r.t. annealing capacity of latent representation, but relation to competing SOTA approaches requires more clarity",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "The submission",
-                    "Sentiment Expression": "addresses the important topics of inductive biases and disentangling factors in learning disentangled representations and suggest the interesting and novel concept of action sequences which seems to be related to the general idea of uncovering symmetries with deep latent variable models",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the annealing approach with respect to the KL-divergence Lagrange parameter beta in the FVAE setting to separate \u201csignificant modes\u201d",
-                    "Sentiment Expression": "might pose a relevant insight useful in other related approaches and to a more broader audience",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "an empirical evaluation of the proposed approach to the competing method",
-                    "Sentiment Expression": "is missing",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the technical details of annealing the capacity of the latent representation",
-                    "Sentiment Expression": "seem very much alike",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the presentation of the content in the paper",
-                    "Sentiment Expression": "it is difficult to follow",
+                    "Content Expression": "the combination of denoisers for training and MC rays tracing, the thorough evaluation and ablation studies",
+                    "Sentiment Expression": "like",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -114,63 +21,7 @@
                 },
                 {
                     "Content Expression": "the paper",
-                    "Sentiment Expression": "deals with relevant issues in learning disentangled representations and provides interesting tools to address some of these aspects",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the annealing procedure in the FVAE",
-                    "Sentiment Expression": "is potentially a relevant contribution",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the relation to similar approaches",
-                    "Sentiment Expression": "is not evaluate adequately",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "advisable",
-                    "Sentiment Expression": "seems",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the paper",
-                    "Sentiment Expression": "is not ready for publication",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "willing to reconsider my rating",
-                    "Sentiment Expression": "am",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the proposed approach",
-                    "Sentiment Expression": "might pose a relevant contribution",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "this submission",
-                    "Sentiment Expression": "is not ready for publication",
+                    "Sentiment Expression": "recommend for acceptance",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -179,75 +30,27 @@
             ]
         },
         {
-            "Document Title": "Response to Reviewer1",
+            "Document Title": "1u76 individual questions",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "the relationship between the KL term and entropy",
-                    "Sentiment Expression": "has not yet been verified",
+                    "Content Expression": "Evaluations",
+                    "Sentiment Expression": "primarily focus on novel rendering/relighting but lacks in individual intrinsic components such as 3D geometry and environment maps",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "that mainly is a hypothesis",
-                    "Sentiment Expression": "We admit",
+                    "Content Expression": "Comparison with recent Monte Carlo inverse rendering method [31,37] especially [37]",
+                    "Sentiment Expression": "would strengthen this paper",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "such a conclusion",
-                    "Sentiment Expression": "can hardly induce",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "abundant experiments",
-                    "Sentiment Expression": "are required",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the available datasets",
-                    "Sentiment Expression": "are insufficient",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Increasing the number of stages",
-                    "Sentiment Expression": "has little influence on disentanglement, but it does waste the computational resource",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "FVAE needs the participation of humans",
-                    "Sentiment Expression": "For now",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "unsupervised disentanglement learning without inductive biases",
-                    "Sentiment Expression": "is impossible",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The main purpose of this work",
-                    "Sentiment Expression": "is not to propose a competent disentangling method",
+                    "Content Expression": "the proposed method",
+                    "Sentiment Expression": "I wonder to what extent could be used to handle inter-reflections and light refraction in e.g. translucent objects",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -256,11 +59,75 @@
             ]
         },
         {
-            "Document Title": "Response to Reviewer4",
+            "Document Title": "EEfj individual questions",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "definitions",
-                    "Sentiment Expression": "Ambiguous",
+                    "Content Expression": "The choice of the importance sampling techniques",
+                    "Sentiment Expression": "is given with any discussion",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the work",
+                    "Sentiment Expression": "is coupled with NVDIFFREC",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Replacing the PhySG renderer with a MC tracer",
+                    "Sentiment Expression": "was recently done",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The discussion on the bias introduced",
+                    "Sentiment Expression": "is unclear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The effect of the new regularizer",
+                    "Sentiment Expression": "is not tested in an ablation study",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Our denoising step",
+                    "Sentiment Expression": "works in image space and is directly compatible with any renderer",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the regularizer",
+                    "Sentiment Expression": "is particularly well suited for scenes with more complex geometry and self-shadowing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Our regularizer",
+                    "Sentiment Expression": "is less suited for scenes with simple geometry and complex materials",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Recent work on image delighting and shadow removal through neural networks",
+                    "Sentiment Expression": "is a promising alternative",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -269,43 +136,27 @@
             ]
         },
         {
-            "Document Title": "Response to reviewer 3.",
+            "Document Title": "JQ7r individual questions",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "\"the most significant improvement in data log-likelihood,\"",
-                    "Sentiment Expression": "most significant improvement",
+                    "Content Expression": "The reconstruction accuracy of individual attributes",
+                    "Sentiment Expression": "was not quantitatively evaluated",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "prevents the insignificant action sequences from being encoded",
-                    "Sentiment Expression": "prevents the insignificant",
+                    "Content Expression": "which kinds of scenes the existing method is not good at and the proposed method is good at handling",
+                    "Sentiment Expression": "it is very helpful to clarify",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the results of A1-3",
-                    "Sentiment Expression": "support",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the success of the current approaches (beta-VAE, TC-VAE, AnnealedVAE, DIP-VAE, FactorVAE)",
-                    "Sentiment Expression": "success",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "they fail to disentangle in the cases of A1-3.",
-                    "Sentiment Expression": "fail",
+                    "Content Expression": "the proposed method be applied to the recovery of translucent or transparent objects",
+                    "Sentiment Expression": "It can likely be extended to support",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -314,35 +165,59 @@
             ]
         },
         {
-            "Document Title": "Response to Reviewer 2",
+            "Document Title": "Hmte individual questions",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "The interpretation of disentanglement",
-                    "Sentiment Expression": "the most significant improvement in data log-likelihood",
+                    "Content Expression": "light leakage term",
+                    "Sentiment Expression": "not strongly related to shadow (silhouettes/boundary) gradients",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "we are the first to define the inductive biases on the data and associate it with disentanglement",
-                    "Sentiment Expression": "the first",
+                    "Content Expression": "images",
+                    "Sentiment Expression": "do not make much sense in early training",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the experimental results of A2 and A3",
-                    "Sentiment Expression": "reveal",
+                    "Content Expression": "visibility gradients for shadow rays",
+                    "Sentiment Expression": "did not use",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "We improve disentanglement by solving re-entanglement",
-                    "Sentiment Expression": "improve",
+                    "Content Expression": "evaluation with visibility gradients based on Warped-Area Sampling",
+                    "Sentiment Expression": "indicates the same behavior",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Our claim",
+                    "Sentiment Expression": "too strong",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "view interpolation result",
+                    "Sentiment Expression": "should yield a better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "large diversity of geometric complexity in our scenes",
+                    "Sentiment Expression": "consider it robust",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -351,27 +226,99 @@
             ]
         },
         {
-            "Document Title": "Response to All Reviewers",
+            "Document Title": "Common section",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "The special cases",
-                    "Sentiment Expression": "show little correlation between the learned representation and the ground-truth",
+                    "Content Expression": "Our paper",
+                    "Sentiment Expression": "presents results on direct illumination (environment lighting with shadows)",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "PCA-like behaviors",
-                    "Sentiment Expression": "needs more explanations to interpret A4",
+                    "Content Expression": "multi-bounce path tracing",
+                    "Sentiment Expression": "is a clear (and exciting) avenue for future work, but comes with additional challenges in increased noise-levels, visibility gradients through specular chains, and drastically increased iteration times",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "The disentanglement metric",
-                    "Sentiment Expression": "reaches the highest in the middle phase, and it falls on the last phases",
+                    "Content Expression": "importance sampling and denoising techniques",
+                    "Sentiment Expression": "will be important building blocks for future high quality inverse rendering pipelines",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Our approach",
+                    "Sentiment Expression": "is a small step towards multi-bounce MC inverse rendering pipelines",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "\"path replay\", which require fusing the path tracing and MLP kernels",
+                    "Sentiment Expression": "is non-trivial in the tinycudann system",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "traditional image metrics",
+                    "Sentiment Expression": "a poor measure of material quality",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "normal quality",
+                    "Sentiment Expression": "minor differences in compared to nvdiffrec",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "geometric quality",
+                    "Sentiment Expression": "similar as nvdiffrec",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The Lego scene",
+                    "Sentiment Expression": "is an outlier",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The scene",
+                    "Sentiment Expression": "is particularly challenging for geometric smoothing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "all view interpolation results",
+                    "Sentiment Expression": "are generated **without** denoising at high sample counts",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "All relighting results",
+                    "Sentiment Expression": "are rendered in Blender with moderate-to-high sample counts",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -380,265 +327,66 @@
             ]
         },
         {
-            "Document Title": "Algorithm is not clearly explained and more experiments are needed.",
+            "Document Title": "Official Review of Paper8741 by Reviewer Hmte",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "the associated objective function",
-                    "Sentiment Expression": "not introduced explicitly, which is confusing",
+                    "Content Expression": "method to estimate the geometry, material and lighting of an object",
+                    "Sentiment Expression": "proposes",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the trend of KL divergence",
-                    "Sentiment Expression": "hard to see from Fig. 3",
+                    "Content Expression": "proposed method",
+                    "Sentiment Expression": "more physically accurate",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the significance of action is related to the capacity of learned latent information",
-                    "Sentiment Expression": "this conclusion is not convincing",
+                    "Content Expression": "use of denoisers to reduce the variance",
+                    "Sentiment Expression": "make the training more efficient",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "Fig. 3",
-                    "Sentiment Expression": "needs to be verified on other datasets as well",
+                    "Content Expression": "proposed method",
+                    "Sentiment Expression": "generates better results than baseline methods",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "three stages for dSprites",
-                    "Sentiment Expression": "seems arbitrary",
+                    "Content Expression": "neural inverse rendering and traditional Monte Carlo ray tracing",
+                    "Sentiment Expression": "enjoys the benefits of both world",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "three points where the latent information suddenly increases: 60, 20, 4",
-                    "Sentiment Expression": "hard to see from Fig. 5b) as all curves look smooth",
+                    "Content Expression": "using denoisers to reduce variance in Monte Carlo integration",
+                    "Sentiment Expression": "is interesting and helps make the training more efficient",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the following three-stage training process",
-                    "Sentiment Expression": "is questionable",
+                    "Content Expression": "consideration of multi-bounces or shadow gradients",
+                    "Sentiment Expression": "fail to handle indirect illumination",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "The experiments",
-                    "Sentiment Expression": "are limited",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Disentangling action sequences is interesting but more details and experimental results are needed.",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "The paper",
-                    "Sentiment Expression": "tackles the important problem of disentangling representations",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the paper",
-                    "Sentiment Expression": "is well structured",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the introduction section",
-                    "Sentiment Expression": "clearly motivates the problem and summarises existing approaches",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The idea of disentangling action sequences",
-                    "Sentiment Expression": "is interesting",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the main novelty of FVAE",
-                    "Sentiment Expression": "is still not sufficiently emphasised throughout the paper",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Description of the toy dataset family",
-                    "Sentiment Expression": "is not easily understood",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "a quantitative analysis",
-                    "Sentiment Expression": "is still insufficient to make clear conclusions on the performance of the proposed method",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the concept of disentangling representations",
-                    "Sentiment Expression": "shows the necessity of inductive bias to unsupervisedly disentangle the underlying factors",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "existing models",
-                    "Sentiment Expression": "disentangle the ground-truth factors by accident",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "This paper gives a new kind of comprehension to disentangled representation learning. In this paper, existing unsupervised disentangled methods are trying to obtain disentangled action sequences instead of independent factors. Through the proposed FVAE model, action sequences with different levels of significance can be obtained step by step, and experiment results show that the weight \\beta has positive correlation with the significance.",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "This paper",
-                    "Sentiment Expression": "gives a new comprehension of existing unsupervised disentangled representation learning method",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "This paper",
-                    "Sentiment Expression": "gives a new idea that \\beta has positive relationship with action significance",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "This paper",
-                    "Sentiment Expression": "proposes a new variant of VAE called FVAE which learns the disentangled action sequence step by step",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "This paper",
-                    "Sentiment Expression": "mainly gives descriptions of insights while lacking some formulations to explain the settings and methods better",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Experimental results",
-                    "Sentiment Expression": "are not well organized",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Some definitions",
-                    "Sentiment Expression": "are ambiguous",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Some descriptions in the paper",
-                    "Sentiment Expression": "are confusing",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "this paper",
-                    "Sentiment Expression": "There exist some typos",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "some ideas and some conclusions of experiments",
-                    "Sentiment Expression": "should be supported by clearer formulations and are not valid",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the logic of this paper and experimental figures",
-                    "Sentiment Expression": "is a little unclear, and are incomplete",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "this paper",
-                    "Sentiment Expression": "could be an excellent paper..",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Review 5",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "the concept of bringing temporal causality (which for some cases *is* valid as the causal diagram/frame) into the disentanglement problem statement",
-                    "Sentiment Expression": "a good idea",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "what has done",
-                    "Sentiment Expression": "I cannot understand",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "how particular 'ground truth' factors (e.g. $\theta, L$) can be selected for and locked in to specific latent factors in an unsupervised manner, or even if this should happen",
+                    "Content Expression": "how the visibility gradients are calculated",
                     "Sentiment Expression": "it's not clear",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
@@ -646,56 +394,40 @@
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "a connection between the actions sequences and the training methods/arch",
-                    "Sentiment Expression": "I further cannot make",
+                    "Content Expression": "the denoiser in the optimization",
+                    "Sentiment Expression": "How robust",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the positive experimental results in Figure 6c",
-                    "Sentiment Expression": "something here",
+                    "Content Expression": "difference between the denoised images and the GT images",
+                    "Sentiment Expression": "I am wondering whether it's possible",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "what is actually being done",
-                    "Sentiment Expression": "I cannot tell",
+                    "Content Expression": "view interpolation",
+                    "Sentiment Expression": "degrades with improved material and lighting estimations",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "a clear procedure section with numbered steps",
-                    "Sentiment Expression": "I suggest",
+                    "Content Expression": "combining neural inverse rendering, traditional Monte Carlo integration and denoisers",
+                    "Sentiment Expression": "is interesting and novel",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the connection between sequences of images under actions and the proposed method",
-                    "Sentiment Expression": "needs to be made... should be made clear",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The initial portion of section 3 concerning dataset construction",
-                    "Sentiment Expression": "might also be moved to much later",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "philosophically challenging sections",
-                    "Sentiment Expression": "I did not comment on in the review portion",
+                    "Content Expression": "evaluations on the method and performs detailed ablation study",
+                    "Sentiment Expression": "thorough",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -703,7 +435,302 @@
                 },
                 {
                     "Content Expression": "the paper",
-                    "Sentiment Expression": "give another read through for grammar",
+                    "Sentiment Expression": "I vote for accepting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper8741 by Reviewer JQ7r",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "This paper presents an algorithm for the inverse rendering based on the neural fields",
+                    "Sentiment Expression": "presents",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper introduced the ray tracing with Monte Carlo integration",
+                    "Sentiment Expression": "more general and practical",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper proposed to introduce multiple importance sampling and denoising for the differentiable ray tracing",
+                    "Sentiment Expression": "proposed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The extensive evaluation",
+                    "Sentiment Expression": "shows that the proposed method can accurately recover physical attributes in more physically interpretable manner",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Utilizing the denoiser and importance sampling for stable and efficient differentiable rendering",
+                    "Sentiment Expression": "makes a lot of sense",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this research",
+                    "Sentiment Expression": "will lead the computer vision community the active utilization of real-time rendering technics",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "their application to inverse rendering",
+                    "Sentiment Expression": "is not obvious",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The evaluation",
+                    "Sentiment Expression": "successfully demonstrated the benefit of the proposed denoising",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The extensive ablation study",
+                    "Sentiment Expression": "justifies the algorithmic choice",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the method still considers the single bounce of light, therefore essentially inter-reflection",
+                    "Sentiment Expression": "is still a problem",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the reconstruction accuracy of individual attributes",
+                    "Sentiment Expression": "was not quantitatively evaluated",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the training time",
+                    "Sentiment Expression": "is not as fast as expected",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Experiments",
+                    "Sentiment Expression": "show that the proposed method does a better job",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The writing of the paper",
+                    "Sentiment Expression": "is very good",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper uses existing techniques at a very high level rather than making innovative proposals",
+                    "Sentiment Expression": "I have slightly downgraded it from the highest evaluation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper8741 by Reviewer EEfj",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "well written and easy to follow",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The introduction",
+                    "Sentiment Expression": "concisely informative",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The suggested system",
+                    "Sentiment Expression": "seems to improve previous work in learning scene properties decomposition",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The evaluation of synthetic data and real data",
+                    "Sentiment Expression": "is adequate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a discussion on some of the challenges or design choices made in designing such a system",
+                    "Sentiment Expression": "I am missing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the choice of the importance sampling techniques",
+                    "Sentiment Expression": "is given with any discussion",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The discussion on the bias introduced",
+                    "Sentiment Expression": "is unclear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "could be improved by being more self-contained",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the sampling techniques used",
+                    "Sentiment Expression": "are only referenced",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The effect of the new regularizer",
+                    "Sentiment Expression": "is not tested in an ablation study",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper8741 by Reviewer 1u76",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The idea to denoise Monte Carlo rendering",
+                    "Sentiment Expression": "well motivated and well implemented",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this idea",
+                    "Sentiment Expression": "original",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Results",
+                    "Sentiment Expression": "convincing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Limitations",
+                    "Sentiment Expression": "have been discussed in detail",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Evaluations",
+                    "Sentiment Expression": "primarily focus on novel rendering/relighting but lacks in individual intrinsic components",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Comparison with recent Monte Carlo inverse rendering method [31,37]",
+                    "Sentiment Expression": "would strengthen this paper",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "is better suited for CV or graphics venues than NeurIPS",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "machine learning components in this paper",
+                    "Sentiment Expression": "do not seem very well aligned with NeurIPS",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method",
+                    "Sentiment Expression": "could be used to handle inter-reflections and light refraction in e.g. translucent objects",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "limitations",
+                    "Sentiment Expression": "have been well discussed",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",

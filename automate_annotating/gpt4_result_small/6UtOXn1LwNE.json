@@ -1,0 +1,946 @@
+{
+    "6UtOXn1LwNE": [
+        {
+            "Document Title": "Meta Review of Paper10488 by Area Chair 6fyf",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the proofs and the update proofs",
+                    "Sentiment Expression": "could not convince the reviewers in all regards",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experiments",
+                    "Sentiment Expression": "there concerns regarding",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "several points",
+                    "Sentiment Expression": "would benefit from making more clear/improving their presentation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "should go through another round of reviews before it should be accepted and I am recommending rejection",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Considering our contributions",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the contributions we did make\u2014a human study with empirical results, new preference model, theoretical results, synthetic preferences results, a new learning algorithm that approximates regret, and a clear existence proof that the previously overlooked preference model matters",
+                    "Sentiment Expression": "are together sufficient for publication",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our contributions",
+                    "Sentiment Expression": "become a strength of this submission",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this _first_ paper",
+                    "Sentiment Expression": "provides urgently needed insight",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "_this one paper_ on reward learning from regret-based preferences",
+                    "Sentiment Expression": "worthy of publication",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Correcting our error",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the proof of Thm 3.1 not applying to noiseless preferences",
+                    "Sentiment Expression": "is well taken",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the required change",
+                    "Sentiment Expression": "is minor",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Thm 3.1 does include the noiseless settings of Thm 3.2 as a special case, but both theorems' proofs",
+                    "Sentiment Expression": "required this \"tweak\"",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the theorems",
+                    "Sentiment Expression": "are really about each preference model as a preference generator",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Correcting our error",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the theoretical problem",
+                    "Sentiment Expression": "is impactful",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this error",
+                    "Sentiment Expression": "reveal",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a small revision to solve the realizability issue for noiseless preferences",
+                    "Sentiment Expression": "share",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the theorems focus on what information such infinite datasets hold when either preference model acts as the preference generator, where any usage of a learning algorithm in the proof Thm 3.1 only serves to show that the information exists in the dataset to recover an equivalent reward function",
+                    "Sentiment Expression": "we will clarify",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Resolving remaining clarification questions",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The partial return (stochastic) preference model",
+                    "Sentiment Expression": "is taken exactly from [9-16] and is common to all of them",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "'partial return (stochastic)' reward learning algorithm",
+                    "Sentiment Expression": "is the common part of each learning algorithm from [9-16].",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The partial return (noiseless) preference model",
+                    "Sentiment Expression": "is _only_ used to generate preferences, not for the reward learning algorithm",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for the response",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the main theoretical contribution (Theorem 3.1 and 3.2) of the work",
+                    "Sentiment Expression": "my concern... remains",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the argument of the author that \"3.1 shows that regret is identifiable under the conditions of 3.2 as the setting of 3.2 is a special case of 3.1\"",
+                    "Sentiment Expression": "I am not convinced",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proofs of the 2 theorems",
+                    "Sentiment Expression": "Maybe totally re-written... are more persuasive",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "saying that this work does not focus on scalability to justify the experiment involves only a toy grid world environment",
+                    "Sentiment Expression": "not convincing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experimental results",
+                    "Sentiment Expression": "impressive",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Feedback again",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "motivation",
+                    "Sentiment Expression": "I\u2019m a little confused",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the unclear part",
+                    "Sentiment Expression": "Sorry",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "partial return methods",
+                    "Sentiment Expression": "a lot of",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for the response",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the claimed difference between the regret model and the return model that is presented in Section 3",
+                    "Sentiment Expression": "does not appear to be a fair comparison",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "3.1 and 3.2",
+                    "Sentiment Expression": "do not satisfy the same premise",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The noiseless setting",
+                    "Sentiment Expression": "falls outside the problem setting established in Eq 2 and 5 where a logistic model is used - it\u2019s misspecified for this model class for finite rewards",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the negative result of Theorem 3.2",
+                    "Sentiment Expression": "were strengthened to the case where preference function is realizable but it still fails to be identifiable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the positive result of Theorem 3.1",
+                    "Sentiment Expression": "were shown to extend to a non-trivial class of problems where there is misspecification",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "To improve our clarity further, some explanations and questions",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "focuses on the problem of how to _learn a reward function_ that is aligned with the interests of human stakeholders, specifically focused on the well-established technique of learning from preferences over pairs of trajectory segments",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "safe RL such as CPO",
+                    "Sentiment Expression": "generally assumes that a reward function and a set of constraints _are already given_ and focuses on RL algorithms that do policy improvement while making various guarantees to avoid violating the safety constraints",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "reward learning and safe RL",
+                    "Sentiment Expression": "are different problems that do not seem particularly related",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a reward function",
+                    "Sentiment Expression": "only deviates from 0 to reflect damage to the vehicle or harm to the passengers",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The left segment",
+                    "Sentiment Expression": "involves no damage to the vehicle and therefore has 0 reward, even though it leads the car to an end state in which the car will almost certainly have a horrible collision within seconds",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The right segment",
+                    "Sentiment Expression": "involves minor damage but otherwise does roughly the reverse of the left segment: it takes the car from a start state in which collision will likely happen soon to a safe end state",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks and some clarification",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Figure 1",
+                    "Sentiment Expression": "does not seem to help improve understanding of the idea",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to reviewer, part 2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "An empirical comparison of IRL and learning reward functions from pairwise preferences",
+                    "Sentiment Expression": "would be valuable but is out of our scope",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a regret-based preference model",
+                    "Sentiment Expression": "always prefers optimal segments over suboptimal segments",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "IRL",
+                    "Sentiment Expression": "has its own identifiability issues in noiseless settings",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "how to do an apples-to-apples comparison",
+                    "Sentiment Expression": "is non-obvious",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to reviewer, part 1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the proposed regret model",
+                    "Sentiment Expression": "is limited to the case of deterministic policies",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Theorem 3.1 and 3.2",
+                    "Sentiment Expression": "are not comparable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "P\u03a3r",
+                    "Sentiment Expression": "is indeed non-identifiable if Theorem 3.2 has the same premise as Theorem 3.1",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method",
+                    "Sentiment Expression": "needs to illustrate whether the proposed method is scalable to more practical problems, e.g., by including experiments with neural networks and larger state/action spaces",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to reviewer, part 2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The description of the algorithm",
+                    "Sentiment Expression": "very confusing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Theorem 3.1 (and Definition 3.1)",
+                    "Sentiment Expression": "is dubious",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "P(\u22c5|r)",
+                    "Sentiment Expression": "is actually not in the class of models from Section 2.2\u2026 The problem is therefore misspecified, and it\u2019s not surprising that there is an identifiability issue\u2026 an unfair comparison.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to reviewer",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The code",
+                    "Sentiment Expression": "should be open sourced",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "compare with other baselines",
+                    "Sentiment Expression": "methods using [partial return]",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the segment\u2019s desirability",
+                    "Sentiment Expression": "What is",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "environments",
+                    "Sentiment Expression": "are also limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "results",
+                    "Sentiment Expression": "\"more results\"",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "more details about experiments",
+                    "Sentiment Expression": "more details",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "define a start state of a segment\u2026 [and] end state of a segment",
+                    "Sentiment Expression": "How to",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to reviewer, part 1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The section organization",
+                    "Sentiment Expression": "is confusing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "be much clearer",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "related work",
+                    "Sentiment Expression": "we discuss throughout the paper",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this work",
+                    "Sentiment Expression": "is a direct response",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to reviewer",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our core algorithm (Section 2) nor our approximation algorithm (Alg 1)",
+                    "Sentiment Expression": "assume a single policy",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "This solve-an-MDP-in-the-inner-loop problem",
+                    "Sentiment Expression": "is common to many IRL algorithms, including in the foundational 2000 IRL paper by Ng and Russell, where numerous approximations have been developed to handle the problem tractably",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Alg 1",
+                    "Sentiment Expression": "addresses this issue in certain settings",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to all reviewers, part 2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Practically using regret",
+                    "Sentiment Expression": "is challenging",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "This paper",
+                    "Sentiment Expression": "does not demonstrate scalability to more complex environments",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Noiseless preferences",
+                    "Sentiment Expression": "are not theoretically interesting or should be connected to past work",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to all reviewers, part 1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our submission",
+                    "Sentiment Expression": "focuses on an interesting problem",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "human preferences",
+                    "Sentiment Expression": "are based on more than just instantaneous reward of segments",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "derivation of the segment's regret as the advantage function",
+                    "Sentiment Expression": "sound and reasonable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our novel regret-based preference model",
+                    "Sentiment Expression": "significantly outperforms the pre-existing partial-return-based model in experiments",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The regret preference model",
+                    "Sentiment Expression": "matches or exceeds the performance of this model",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10488 by Reviewer ieTk",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "provides a key insight",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The identification results presented in Section 3",
+                    "Sentiment Expression": "nicely summarized the proposed insight",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "how one can utilize this insight in practice",
+                    "Sentiment Expression": "The biggest weakness to me",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the planning problem (and possibly learning problem when the transition matrix is unknown)",
+                    "Sentiment Expression": "will make the estimation of the regret very hard",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10488 by Reviewer dwHc",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the experimental results",
+                    "Sentiment Expression": "seem not to be enough",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The proposed method",
+                    "Sentiment Expression": "does not provide comparison with previous methods from [9-16]",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The environments",
+                    "Sentiment Expression": "are also limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "results",
+                    "Sentiment Expression": "would be better to provide more",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the code",
+                    "Sentiment Expression": "is not opened",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Figure 1",
+                    "Sentiment Expression": "is a little confusing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "needs to compare with other baselines, such as methods using (2)",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "results and more details about experiments",
+                    "Sentiment Expression": "would be better to provide more",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10488 by Reviewer xps1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The proposed preference model",
+                    "Sentiment Expression": "seems new to my knowledge and makes sense algorithmically",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The theory",
+                    "Sentiment Expression": "could be interesting although I have some reservations about correctness and the significance of one of the results",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The algorithm",
+                    "Sentiment Expression": "seems to perform significantly better than the partial return baseline in empirical evaluations",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The presentation",
+                    "Sentiment Expression": "could be improved",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "out of place paragraphs and sections",
+                    "Sentiment Expression": "do not seem to advance the content of the paper",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The description of the algorithm",
+                    "Sentiment Expression": "is very confusing and way too informal",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The discussion of related work",
+                    "Sentiment Expression": "is quite sparse and it is difficult to place this work in the literature as a result",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Theorem 3.1 (and Definition 3.1)",
+                    "Sentiment Expression": "is dubious",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Theorem 3.2",
+                    "Sentiment Expression": "is not all that significant",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The computational burden of solving potentially many MDPs to optimize the proposed preference model",
+                    "Sentiment Expression": "seems difficult to overcome",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10488 by Reviewer SeBN",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The derivation of the segment's regret as the advantage function",
+                    "Sentiment Expression": "is sound and reasonable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "there are several weaknesses",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed regret model",
+                    "Sentiment Expression": "is limited to the case of deterministic policies",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "computing the advantage function in the segment's regret",
+                    "Sentiment Expression": "is computationally expensive",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the time complexity of the proposed regret vs. that of the partial returns",
+                    "Sentiment Expression": "a more detailed discussion ... is necessary",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method",
+                    "Sentiment Expression": "needs to illustrate whether... is scalable to more practical problems",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "both partial returns and the segment's regret use the logistic function (Equation 2 and Equation 5), there is a difference in the two theorems",
+                    "Sentiment Expression": "there is a difference",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "comparison with IRL methods",
+                    "Sentiment Expression": "there is no",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a toy grid world experiment",
+                    "Sentiment Expression": "there is only",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The scalability of the proposed method to a more realistic environment",
+                    "Sentiment Expression": "is not demonstrated",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

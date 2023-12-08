@@ -1,43 +1,35 @@
 {
-    "XL9DWRG7mJn": [
+    "B4OTsjq63T5": [
         {
-            "Document Title": "Paper Decision",
+            "Document Title": "Meta Review of Paper6521 by Area Chair 4R4G",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "This paper",
-                    "Sentiment Expression": "reformulates an existing problem",
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "proposes an interesting approach",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "This change of viewpoint",
-                    "Sentiment Expression": "leads to a new algorithm",
+                    "Content Expression": "technical concerns at their first reviews",
+                    "Sentiment Expression": "have been resolved",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the proposed algorithm",
-                    "Sentiment Expression": "effectiveness",
+                    "Content Expression": "the authors modify the paper in the camera-ready",
+                    "Sentiment Expression": "we can expect",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "this",
-                    "Sentiment Expression": "a valuable contribution",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Comments",
-                    "Sentiment Expression": "adequately addressed",
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "recommend acceptance",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -46,11 +38,43 @@
             ]
         },
         {
-            "Document Title": "Thank you for your positive reassessment",
+            "Document Title": "Continued Response to pCaB",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "a meaningful direction for future research",
-                    "Sentiment Expression": "positive feedback",
+                    "Content Expression": "the use of a coreset",
+                    "Sentiment Expression": "enables our method to be computationally efficient, and Prop 3.1 shows how big the coreset must be to enable an accurate reproduction of the full posterior",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our sparse Hamiltonian flow directly incorporates the coreset target information",
+                    "Sentiment Expression": "allows us to train the coreset weights.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Generic normalizing flows",
+                    "Sentiment Expression": "do not generally provide error guarantees",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "generic normalizing flow",
+                    "Sentiment Expression": "is certainly possible for a generic normalizing flow to outperform our method on a given problem",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "train generic flows reliably in practice",
+                    "Sentiment Expression": "it is hard to",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -59,35 +83,11 @@
             ]
         },
         {
-            "Document Title": "Comments after rebuttal",
+            "Document Title": "Thanks for the clarifications",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "the claim of optimality",
-                    "Sentiment Expression": "appreciate the great value but still worried",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Theorem 1",
-                    "Sentiment Expression": "kind of strong",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "hard-threshold compression methods",
-                    "Sentiment Expression": "presents very solid theoretical and experimental results",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "communication efficiency",
-                    "Sentiment Expression": "no clear theoretical improvements shown",
+                    "Content Expression": "the advantages of using a Hamiltonian Flow",
+                    "Sentiment Expression": "you highlight 1) the ability to converge to a target posterior distribution, and 2) that it enables the use of a core set",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -96,59 +96,374 @@
             ]
         },
         {
-            "Document Title": "Official Review of Paper10919 by Reviewer TZ2h",
+            "Document Title": "Response to Reviewer ofer",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "the proposed communication-complexity model",
-                    "Sentiment Expression": "is new",
+                    "Content Expression": "comparisons in both energy distance and MMD",
+                    "Sentiment Expression": "will include",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for the authors' response",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the relative mean and covariance error plots",
+                    "Sentiment Expression": "depict two different aspects of the quality of our target approximation",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the section 4.4 and Lemma 3",
-                    "Sentiment Expression": "seems incorrect to me",
+                    "Content Expression": "The monotonic downward trend of the KL divergence",
+                    "Sentiment Expression": "shows that our method keeps on improving the target approximation throughout optimization",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the authors are trying to present a new perspective that is not minimizing per iteration compression error but total compression errors",
-                    "Sentiment Expression": "there may be some confusion",
+                    "Content Expression": "it is not guaranteed that all steps of optimization improve",
+                    "Sentiment Expression": "the quality of approximation on the marginal space of the latent variables of interest",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer hoPP",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "SHF makes some assumptions that imply limitations",
+                    "Sentiment Expression": "might be fast but not useful",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "upper bounds of optimization errors for the proposed spasifier",
-                    "Sentiment Expression": "improve",
+                    "Content Expression": "SHF",
+                    "Sentiment Expression": "might not be an appropriate solution for more complex models and data",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "The provided upper bounds",
-                    "Sentiment Expression": "not clearly they are more communication-efficient than the top-k sparsifier",
+                    "Content Expression": "the subsample we draw",
+                    "Sentiment Expression": "will be totally unrepresentative of the full dataset",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the authors provide solid results showing that the hard-threshold sparsifier does use less coordinates in total than the top-k",
-                    "Sentiment Expression": "solid",
+                    "Content Expression": "the approach",
+                    "Sentiment Expression": "may not be so useful",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "The total error minimization perspective",
-                    "Sentiment Expression": "more like an observation",
+                    "Content Expression": "from steps 0-9 the ELBO",
+                    "Sentiment Expression": "decreases rather than increases",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The limitations of the method",
+                    "Sentiment Expression": "were discussed insufficiently",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our method",
+                    "Sentiment Expression": "relies on the assumption that the data are compressible",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Continued Response to pCaB",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our method",
+                    "Sentiment Expression": "provides a higher quality posterior approximation than the Laplace approximation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "SHF",
+                    "Sentiment Expression": "leading to fast training, density evaluation, and i.i.d. sampling",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "SHF",
+                    "Sentiment Expression": "does enable i.i.d. sampling and density evaluation with no additional secondary stage",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the current version",
+                    "Sentiment Expression": "was not enough attention devoted to this",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this methodology",
+                    "Sentiment Expression": "One main limitation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our quasi-refreshment",
+                    "Sentiment Expression": "is simple and works well in practice",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer pCaB",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "a dedicated Related Work section",
+                    "Sentiment Expression": "should provide",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the advantages of using a Hamiltonian flow",
+                    "Sentiment Expression": "explain",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this is a representative",
+                    "Sentiment Expression": "why",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the compression for the posterior of other models",
+                    "Sentiment Expression": "Can anything be said",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "finite N",
+                    "Sentiment Expression": "Can anything be said",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the posterior can be approximated by a diagonal Gaussian",
+                    "Sentiment Expression": "Does this mean",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer ofer",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "choices of \\rho_t and R_\\lambda(x)",
+                    "Sentiment Expression": "could be explored",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "performance across the various schemes",
+                    "Sentiment Expression": "did not observe major differences",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a general framework for incorporating momentum refreshments in Hamiltonian-based flow methods",
+                    "Sentiment Expression": "provides",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the quasi-refreshment step into HIS",
+                    "Sentiment Expression": "can incorporate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the relative covariance error",
+                    "Sentiment Expression": "seems slow to converge",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the KL divergence",
+                    "Sentiment Expression": "keeps on improving",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the error metrics on the \\theta-marginal space",
+                    "Sentiment Expression": "explains the increase",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "these interpretations in the paper",
+                    "Sentiment Expression": "have not been very clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper6521 by Reviewer ofer",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the challenges that both coresets and variational inference via Hamiltonian dynamics face",
+                    "Sentiment Expression": "demonstrates theoretically",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Their method",
+                    "Sentiment Expression": "allows the flow to update the momentum",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "their algorithm",
+                    "Sentiment Expression": "the superiority",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "claims and new insights on coresets and Hamiltonian flows",
+                    "Sentiment Expression": "backed up with theoretical proofs",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The proposed idea",
+                    "Sentiment Expression": "is very novel and addresses important drawbacks",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "A thorough and clear review of related and past methods",
+                    "Sentiment Expression": "is provided",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Experiments",
+                    "Sentiment Expression": "are well-conducted",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "choices of $\\rho_t$ and $R_\\lambda(x)$",
+                    "Sentiment Expression": "could be explored",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "relative cov error",
+                    "Sentiment Expression": "seems to take a long time to converge, compared to UHA-Full",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper6521 by Reviewer pCaB",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the presented method",
+                    "Sentiment Expression": "is original",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the combination of Hamiltonian flow approximations to the coreset posterior",
+                    "Sentiment Expression": "seems unique to his work",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -156,7 +471,39 @@
                 },
                 {
                     "Content Expression": "The paper",
-                    "Sentiment Expression": "is in general well written and very clear",
+                    "Sentiment Expression": "is technically sound",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the claims",
+                    "Sentiment Expression": "are carefully developed and well supported",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "could be further improved with some reflection on the limitations of the approach",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The manuscript",
+                    "Sentiment Expression": "is well structured and very clearly written",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "constitutes a significant contribution within research on Bayesian coresets",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -165,75 +512,19 @@
             ]
         },
         {
-            "Document Title": "Official Review of Paper10919 by Reviewer VFA3",
+            "Document Title": "Official Review of Paper6521 by Reviewer hoPP",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "convergence of EF-SGD",
-                    "Sentiment Expression": "better results",
+                    "Content Expression": "theoretical evidence for why these subcomponents reduce the runtime or increase performance",
+                    "Sentiment Expression": "provides",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "a hard-thresholding sparsifier (with fine-tuned threshold parameter)",
-                    "Sentiment Expression": "is the optimal choice",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The paper",
-                    "Sentiment Expression": "is clearly written",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The proofs",
-                    "Sentiment Expression": "are easy to follow",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "results for the convergence of EF-SGD with absolute compression for strongly convex, convex, and non-convex objectives",
-                    "Sentiment Expression": "new",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Numerical experiments",
-                    "Sentiment Expression": "show a connection",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "these numerical results",
-                    "Sentiment Expression": "justify the insights",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "analysis for the arbitrary heterogeneous case for non-convex objectives",
-                    "Sentiment Expression": "No",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the conclusion from lines 270-272",
-                    "Sentiment Expression": "is not correct",
+                    "Content Expression": "The Sparse Hamiltonian Flows (SHF)",
+                    "Sentiment Expression": "clearly and strongly outperform the alternatives in most experiments",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -241,333 +532,71 @@
                 },
                 {
                     "Content Expression": "the paper",
-                    "Sentiment Expression": "I recommend for acceptance",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Official Review of Paper10919 by Reviewer o9PJ",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "this paper",
-                    "Sentiment Expression": "presents several meaningful theoretical results",
+                    "Sentiment Expression": "is good and should be published with minor revisions",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "theoretical results",
-                    "Sentiment Expression": "are definitely very cool",
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is very well-written and clear",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the convergence results in Section 5 (Theorems 2--5)",
-                    "Sentiment Expression": "is a nice contribution, and would be of interest to the distributed learning society",
+                    "Content Expression": "The suggested combination of methods",
+                    "Sentiment Expression": "clearly and strongly improves performance compared to the alternatives",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the proof technique going through the perturbed iteration analysis (via Lemma 10)",
-                    "Sentiment Expression": "is quite neat",
+                    "Content Expression": "a theoretical analysis of why and in which manner the performance improves due to SHF",
+                    "Sentiment Expression": "provides",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the manuscript",
-                    "Sentiment Expression": "seems to discuss the related work relatively well",
+                    "Content Expression": "The experiments",
+                    "Sentiment Expression": "are all in fairly simple settings",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the paper's claims about the optimality",
-                    "Sentiment Expression": "I am very worried",
+                    "Content Expression": "the limitations of the method",
+                    "Sentiment Expression": "were discussed insufficiently",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "these ill-specified claims on the (possibly vacuous notions of) optimality",
-                    "Sentiment Expression": "should either be toned down",
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "convinces me that SHF decreases runtime and increases performance for datasets with low complexity",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "hard-threshold methods",
-                    "Sentiment Expression": "should discuss such scenarios",
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "is well-written and the presentation is good",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the error-feedback mechanisms for this paper",
-                    "Sentiment Expression": "I am not entirely sure what is the big motivation",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Author Response to Reviewer TZ2h",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "our communication-complexity model",
-                    "Sentiment Expression": "it better captures the total error",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "This",
-                    "Sentiment Expression": "is a well-accepted theoretical result",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Theorem 1",
-                    "Sentiment Expression": "accounts for the effect of sparsification in the entire training process",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the hard-threshold as a communication-optimal sparsifier",
-                    "Sentiment Expression": "the reason behind",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "hard-threshold",
-                    "Sentiment Expression": "is communication-optimal",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Author Response to Reviewer o9PJ",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "this comment",
-                    "Sentiment Expression": "We thank the reviewer for",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Our use of the word *optimal*",
-                    "Sentiment Expression": "is motivated by recent literature",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "one-step descent Lemmas 12 and 15",
-                    "Sentiment Expression": "Please refer to",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "this worst-case bound",
-                    "Sentiment Expression": "is not insightful",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "we should provide proof for Lemma 3, and will do so in the Appendix of the revised paper",
-                    "Sentiment Expression": "We agree that",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the term *total-error* ",
-                    "Sentiment Expression": "We coined because this term captures the compression error in the entire training process",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the comment",
-                    "Sentiment Expression": "We thank the reviewer for pointing this out and we agree with ",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "This is a critical question",
-                    "Sentiment Expression": "we thank the reviewer for asking",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "why we use the error-feedback",
-                    "Sentiment Expression": "We will rewrite this line to justify",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Author Response to Reviewer eex4",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "our communication-complexity model",
-                    "Sentiment Expression": "indeed a key contribution",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Author Response to Reviewer VFA3",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "total error minimization",
-                    "Sentiment Expression": "an important contribution",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "analysis for the arbitrary heterogeneous case for non-convex objectives",
-                    "Sentiment Expression": "No",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the tighter rates",
-                    "Sentiment Expression": "bringing ... to our notice",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Typo after line 654",
-                    "Sentiment Expression": "Typo",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "notation",
-                    "Sentiment Expression": "a better",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "these works",
-                    "Sentiment Expression": "pointing out",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Lemmas 6 and 7",
-                    "Sentiment Expression": "giving us this insight",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Lemma 9",
-                    "Sentiment Expression": "spotting this",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Official Review of Paper10919 by Reviewer eex4",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "hard-threshold sparsifier",
-                    "Sentiment Expression": "the optimal sparsifier",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "hard threshold sparsifier",
-                    "Sentiment Expression": "is better",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the convergence rates of the top-$k$ sparsifier vs the hard threshold sparsifer",
-                    "Sentiment Expression": "compare",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "this paper",
-                    "Sentiment Expression": "interesting",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "This is a theoretical paper",
-                    "Sentiment Expression": "has limited societal impact",
+                    "Content Expression": "a good response or an additional experiment in this direction",
+                    "Sentiment Expression": "would convince me to raise my score further",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",

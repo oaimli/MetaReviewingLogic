@@ -1,0 +1,649 @@
+{
+    "1vusesyN7E": [
+        {
+            "Document Title": "Meta Review of Paper12810 by Area Chair MmyR",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the idea",
+                    "Sentiment Expression": "novel and intuitively reasonable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The rebuttal",
+                    "Sentiment Expression": "succeeded to remove the confusions and convince us about the empirical significance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for the response",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "What the paper proposes",
+                    "Sentiment Expression": "is a defense to make the data unlearnable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "lacking adaptive attacks",
+                    "Sentiment Expression": "is a weakness or limitation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the limitation",
+                    "Sentiment Expression": "remains",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the contributions",
+                    "Sentiment Expression": "overweigh the weakness and limitation.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to remaining concern",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Recovering or removing perturbations",
+                    "Sentiment Expression": "is a challenging direction for future work",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "estimating the noise from poisoned data",
+                    "Sentiment Expression": "may be very challenging, perhaps no less challenging than estimating perturbations added under other indiscriminate poisoning attacks",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "how easy the noised training data is to fit",
+                    "Sentiment Expression": "is **not** related to the difficulty of recovering the clean data after the noise is applied",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for your comprehensive response",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "a simple signal is easily interpolated by a network, it may also be easily eliminated by well-designed denoising techniques",
+                    "Sentiment Expression": "One remaining concern is that",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Following Up with Reviewer wQLZ",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "your thoughtful review",
+                    "Sentiment Expression": "Thank you again",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for addressing my concerns.",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "All concerns",
+                    "Sentiment Expression": "have been addressed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer wQLZ [Part 2]",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Section 3.3",
+                    "Sentiment Expression": "is not easy to follow",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The theoretical analysis",
+                    "Sentiment Expression": "is not sufficient",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The relation between Lemma 3.1 and the effectiveness of the proposed method in poisoning attacks",
+                    "Sentiment Expression": "is not obvious",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer FXVx [Part 2]",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "actual code can be provided for reproduction of the results",
+                    "Sentiment Expression": "It is better that if",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer Jf4X [Part 2]",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our proposed method",
+                    "Sentiment Expression": "is statistically more effective",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "adversarial training",
+                    "Sentiment Expression": "monotonically (and steeply) decreases test accuracy",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our method",
+                    "Sentiment Expression": "can better defend against adversarial training at small radii",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our method",
+                    "Sentiment Expression": "always leads to a decrease in test accuracy",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "AR poisoning",
+                    "Sentiment Expression": "performs better than all the other poisons",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "AR perturbations",
+                    "Sentiment Expression": "not optimized with a surrogate network and are resistant to strong data augmentations",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer wQLZ [Part 1]",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the addition of this experiment makes our work",
+                    "Sentiment Expression": "more complete",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "adding our poisoned data to clean data reduces the test accuracy of models",
+                    "Sentiment Expression": "we can indeed effectively prevent others from leveraging our data",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "it is better to train a network without AR poisoned data when the clean proportion is 50%, 60%, and even 70%",
+                    "Sentiment Expression": "as desired",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "render the data useless for generalization, while maintaining the content of the image",
+                    "Sentiment Expression": "The goal",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer GeFk",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our method",
+                    "Sentiment Expression": "efficient, technically sound,very practical considering real-world applications",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the leaked parameters",
+                    "Sentiment Expression": "not sufficient to recover the original image",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "removing these AR poisons",
+                    "Sentiment Expression": "is not trivial",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this sentence",
+                    "Sentiment Expression": "was confusing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our method",
+                    "Sentiment Expression": "always leads to a decrease in test accuracy when poisoned data is added",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "AR poisoned data",
+                    "Sentiment Expression": "it is better to exclude than to use it for training",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "AR poisoning",
+                    "Sentiment Expression": "performs better than all the other poisons",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer FXVx [Part 1]",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our paper",
+                    "Sentiment Expression": "\u201cnovel\u2026well-written and easy to follow.\u201d",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the performance",
+                    "Sentiment Expression": "not satisfactory",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our method",
+                    "Sentiment Expression": "can better defend against adversarial training at small radii, and is competitive in the case when the radius is large.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Assuming that all the data can be poisoned",
+                    "Sentiment Expression": "not realistic",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "adding our poisoned data to clean data reduces the test accuracy of models",
+                    "Sentiment Expression": "we can indeed effectively prevent others from leveraging our data",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "it is better to train a network without AR poisoned data when the clean proportion is 50%, 60%, and even 70%",
+                    "Sentiment Expression": "is better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer Jf4X [Part 1]",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the evaluation",
+                    "Sentiment Expression": "Unclear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "how one compares performance of different correlated noises",
+                    "Sentiment Expression": "Unclear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Our proposed method",
+                    "Sentiment Expression": "remains nearly unaffected by choice of hyperparameters, and performs better than all other poisons.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "AR perturbations",
+                    "Sentiment Expression": "have a particular structure which allows a manually-specified CNN filter to detect it perfectly (Lemma 3.1)",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper12810 by Reviewer Jf4X",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the approach",
+                    "Sentiment Expression": "effectively stops generalisation when the whole dataset is poisoned and struggles in a similar way in presence of adversrail training or dilution with clean data",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the evaluation",
+                    "Sentiment Expression": "Unclear how much of it is an artifact of chosen optimisation hyperparameters",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "how one compares performance of different correlated noises",
+                    "Sentiment Expression": "Unclear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper12810 by Reviewer FXVx",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The proposed method",
+                    "Sentiment Expression": "is novel",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The method",
+                    "Sentiment Expression": "is easy to implement",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is well-written and easy to follow",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Empirical results",
+                    "Sentiment Expression": "show that the method performs better than other baselines, both under normal setting and defense settings",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method",
+                    "Sentiment Expression": "the performance is not satisfactory",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "assuming that all the data can be poisoned",
+                    "Sentiment Expression": "is not realistic",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the performance of the proposed method",
+                    "Sentiment Expression": "is not good and similar to those of other baselines",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the method",
+                    "Sentiment Expression": "does not perform well",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper12810 by Reviewer GeFk",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The proposed method",
+                    "Sentiment Expression": "efficient and technically sound",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Existing works",
+                    "Sentiment Expression": "rely on optimizations which is the bottleneck",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "one set of AR",
+                    "Sentiment Expression": "is generic across different architectures or datasets",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the data",
+                    "Sentiment Expression": "the defender may not modifies the data anymore",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The efficient and generic",
+                    "Sentiment Expression": "can be very practical considering real-world applications",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the noises",
+                    "Sentiment Expression": "easy to learn",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experiments in Table 4",
+                    "Sentiment Expression": "For clean only, is it the same subset of data as in mixing poisons/clean?",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "possible reverse operation if parameters are leaked",
+                    "Sentiment Expression": "have been well addressed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper12810 by Reviewer wQLZ",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "its generated perturbations",
+                    "Sentiment Expression": "are dataset and architecture independent",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the perturbations",
+                    "Sentiment Expression": "effectiveness when the poison rate is high",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The proposed attack method",
+                    "Sentiment Expression": "is interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The proposed method",
+                    "Sentiment Expression": "has good transferability",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "This sentence",
+                    "Sentiment Expression": "is hard to follow, and this short explanation is not convincing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Section 3.3",
+                    "Sentiment Expression": "is not easy to follow, and the logic is not very clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Section 3.3",
+                    "Sentiment Expression": "I am still very confused",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The relation between Lemma 3.1 and the effectiveness of the proposed method in *poisoning attacks*",
+                    "Sentiment Expression": "is not obvious",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

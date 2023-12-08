@@ -1,0 +1,918 @@
+{
+    "DGIXvEAJVd": [
+        {
+            "Document Title": "Final Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "presents an interesting benchmark with good thorough experimental work",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "proposing a novel environment in which we can investigate to what extend Transformers can tackle world state tracking",
+                    "Sentiment Expression": "should be interesting to the community",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the positioning of the work",
+                    "Sentiment Expression": "confused",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the work",
+                    "Sentiment Expression": "narrow",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "is not ready for publication in its current state",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Comparison with other frameworks and contributions of the work",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "work",
+                    "Sentiment Expression": "demonstrates that in chess we have a tailor-made domain where models can be trained with the language modeling loss, and evaluated on world state tracking via simple prompts",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "framework",
+                    "Sentiment Expression": "not aware of any other that readily allows for this",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our contributions",
+                    "Sentiment Expression": "not just limited to proposing this new framework",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "results of using the proposed framework",
+                    "Sentiment Expression": "provide insights into how effective transformers are at tracking the world state, their robustness to input perturbations, and, perhaps most importantly, the remaining challenges facing transformer LMs even in this relatively simple domain",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Review 1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "A very thorough set of experiments",
+                    "Sentiment Expression": "are given to explore how transformers can be used to track states in a game such as chess and results show that with enough data, transformers can predict the locations of pieces across a decent amount of history as well as predict legal actions",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is well-written in terms of general writing clarity and I was able to follow *what* was happening throughout",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "all of the pieces of the methodology of this work",
+                    "Sentiment Expression": "are taken from others (the architecture, training, state representation, etc.)",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "has some interesting ideas, experiments, and results but is not connected to the motivation/is not positioned well with respect to closely related work",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Rebuttal",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "answers given differentiating this work from Alpha Zero as well as the additional experiments",
+                    "Sentiment Expression": "I am satisfied with",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "differences with the other environments",
+                    "Sentiment Expression": "are not sufficient",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The three dimensions given with respect to differences with TextWorld",
+                    "Sentiment Expression": "are not entirely accurate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the framework itself",
+                    "Sentiment Expression": "There is nothing that focuses on reward maximization instead of next state probability",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "these three dimensions",
+                    "Sentiment Expression": "you cannot say that these hold",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the author's efforts for the other clarifications",
+                    "Sentiment Expression": "I will increase my score to a 5",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Follow up 1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "transformers",
+                    "Sentiment Expression": "more robust than LSTMs",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "transformers have only a weak dependence on positions",
+                    "Sentiment Expression": "only a weak dependence",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed future work direction",
+                    "Sentiment Expression": "optimistic",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Additional comments on RAP",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "piece types are not added during inference",
+                    "Sentiment Expression": "not added",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "transformers are more robust than LSTMs to changes in input distribution due to RAP",
+                    "Sentiment Expression": "more robust",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Follow up 2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our results",
+                    "Sentiment Expression": "shed light on the following interesting properties of transformers",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "transformers",
+                    "Sentiment Expression": "are more robust than LSTMs to changes in input distribution due to RAP",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Paper Revision Overview",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the success of the transformer model in our setting",
+                    "Sentiment Expression": "relies on access to the whole history",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the model",
+                    "Sentiment Expression": "suffers performance drop with limited attention window",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the model",
+                    "Sentiment Expression": "is not able to learn a compressed state representation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the model with limited attention",
+                    "Sentiment Expression": "converged to an inferior perplexity",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "transformer language models",
+                    "Sentiment Expression": "can learn to track piece locations and predict legal moves at high levels of accuracy",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "grounding",
+                    "Sentiment Expression": "helps in challenging settings of our proposed probing tasks",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Updated score to 5 in light of code release + experimental clarifications, decreased confidence to 3 since score is mostly a function of the narrowness of the contribution, which is more subjective.",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "release of code and data as well as thoughtful clarifications on the experimental setup",
+                    "Sentiment Expression": "main reasons for this score increase",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "This",
+                    "Sentiment Expression": "good experimental work",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Appendix C.1",
+                    "Sentiment Expression": "a good first step towards drawing wider scientific conclusions",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the contribution",
+                    "Sentiment Expression": "still is quite narrow",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "narrowness of the contribution, which is harder to assess",
+                    "Sentiment Expression": "I chose to decrease confidence in my evaluation since it is now based more on",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Interesting new benchmark that would benefit from more connections to the literature.",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Blindfolded chess",
+                    "Sentiment Expression": "an interesting benchmark for grounded language learning and as a testbed for models to track world state",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The use of SAN + RAP trick",
+                    "Sentiment Expression": "an interesting one to be able to probe the current location of pieces",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The oracle model",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The multi-view model",
+                    "Sentiment Expression": "interesting as an example of how additional supervision may help the model",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The analysis across different data sizes and game length",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "feels rushed at times",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The comparison to related work on world state tracking and grounded language learning",
+                    "Sentiment Expression": "could be substantially improved",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the multi-view trained models",
+                    "Sentiment Expression": "underperform on the low data settings compared to the models without the extra supervision",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the accuracies",
+                    "Sentiment Expression": "are high for legal move predictions on Train L",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Many challenges of natural language",
+                    "Sentiment Expression": "are not present in this environment",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The core idea",
+                    "Sentiment Expression": "is interesting, but the paper fails to make connections to wider issues in world state tracking and grounded language learning, making it overly narrow",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the release of code and data as well as thoughtful clarifications on the experimental setup",
+                    "Sentiment Expression": "good experimental work",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for the replies!",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the work",
+                    "Sentiment Expression": "really enjoyed reading",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experiments",
+                    "Sentiment Expression": "thorough",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the work",
+                    "Sentiment Expression": "is a bit narrow",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "insights",
+                    "Sentiment Expression": "does not have too many",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "More Analysis Added",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "gains with larger models",
+                    "Sentiment Expression": "minor",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "two prominent error categories",
+                    "Sentiment Expression": "find",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the language model is trained to predict both the winning and losing moves",
+                    "Sentiment Expression": "right now",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "This",
+                    "Sentiment Expression": "is outside the scope of our current work but an interesting future direction.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "incorporating parts of the world state as tokens in the original sequence",
+                    "Sentiment Expression": "is a very effective strategy",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Pseudo-self attention",
+                    "Sentiment Expression": "indeed offers an interesting way of incorporating visual modality.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the random legal move baseline",
+                    "Sentiment Expression": "have added",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the performance on exact end move prediction by UCI in the Train-L setting",
+                    "Sentiment Expression": "improved",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "suggestion",
+                    "Sentiment Expression": "That's a great",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "(Response continued) Trivial Emulation vs Actual Understanding",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The models",
+                    "Sentiment Expression": "do achieve reasonably high accuracy",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The average distance covered in ground truth moves made by rook/bishop/queen for short game histories",
+                    "Sentiment Expression": "is about 2 (upper-bound of 7)",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the average distance covered",
+                    "Sentiment Expression": "is slightly higher",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The predicted moves",
+                    "Sentiment Expression": "are slightly closer on average in comparison to ground-truth moves",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the predicted ending squares",
+                    "Sentiment Expression": "are more than 1 king-move distance away",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The broader implications of LM merely emulating chess without understanding chess",
+                    "Sentiment Expression": "still needs more investigation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The games of length 100-150",
+                    "Sentiment Expression": "are indeed used for perplexity calculation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Added connections to literature",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "references in text to Appendix D",
+                    "Sentiment Expression": "No",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The comparison to related work on world state tracking and grounded language learning",
+                    "Sentiment Expression": "could be substantially improved.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the multi-view trained models underperform on the low data settings compared to the models without the extra supervision",
+                    "Sentiment Expression": "It is not clear why",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this dataset and probing tasks will be released, and the code made available",
+                    "Sentiment Expression": "It would be good to make clear if",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "challenges of natural language",
+                    "Sentiment Expression": "are not present in this environment",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The board state as represented",
+                    "Sentiment Expression": "is actually not complete",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Clarifications on positioning of the work",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "analysis regarding exactly what properties of the transformer they think is responsible for helping the model to learn",
+                    "Sentiment Expression": "would have liked to see more",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a potential qualitative analysis of what the failure cases are",
+                    "Sentiment Expression": "would have liked to see more",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the dependence of the transformer LM's performance on access to unrestricted history, and its limited ability to learn a compressed state representation for the relatively simple domain of chess",
+                    "Sentiment Expression": "demonstrates",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Clarification on RAP and Oracle Baseline",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "performance peaks with p=0.05/0.15 in the UCI+RAP models",
+                    "Sentiment Expression": "I'm a little confused",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "greater \"mismatch between training and inference\"",
+                    "Sentiment Expression": "I'm not sure",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this",
+                    "Sentiment Expression": "is outperformed by trained models with less information",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "access to all the previous tokens",
+                    "Sentiment Expression": "can better reveal insights about the players involved, and we do see improvements in the Exact move accuracies",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "\"oracle\" baseline",
+                    "Sentiment Expression": "is intended to serve as an **approximate upper bound**",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "It",
+                    "Sentiment Expression": "can still make mistakes.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "\"oracle\"",
+                    "Sentiment Expression": "is probably a misnomer in our context",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the models are currently being trained and tested on both the long and short histories, almost like a multi-task setup",
+                    "Sentiment Expression": "Our hypothesis",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Interesting testbed and surprising results!",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "This paper",
+                    "Sentiment Expression": "an interesting exploratory study",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "chess notation",
+                    "Sentiment Expression": "clever",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "language models finetuned on chess data",
+                    "Sentiment Expression": "store a very accurate state representation, and predict legal moves over 90% of the times even without a visual representation of the board",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "probing method",
+                    "Sentiment Expression": "clever",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experiments",
+                    "Sentiment Expression": "Well-designed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "results",
+                    "Sentiment Expression": "very interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "paper",
+                    "Sentiment Expression": "Wel written",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the work",
+                    "Sentiment Expression": "very interesting and clean",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "testbed",
+                    "Sentiment Expression": "exciting and rich",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experiments",
+                    "Sentiment Expression": "well-thought",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "results",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "An interesting application of transformers to Chess playing",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "application of transformers to a non-traditional textual inference task",
+                    "Sentiment Expression": "creative",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "results",
+                    "Sentiment Expression": "are intriguing and expand our understanding",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The authors' approach",
+                    "Sentiment Expression": "is a fairly straightforward application of off-the-shelf techniques -- and I mean that in a good way",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "complications or ad hoc additions to the system design",
+                    "Sentiment Expression": "no unnecessary",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is very clearly written, well-organized, and easy to follow",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the strengths of the paper",
+                    "Sentiment Expression": "outweigh my concerns, and I recommend ACCEPTANCE",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

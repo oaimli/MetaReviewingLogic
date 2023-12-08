@@ -1,27 +1,43 @@
 {
-    "7BlQMwp_44p": [
+    "aKZeBGUJXlH": [
         {
             "Document Title": "Paper Decision",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "the results of the paper",
-                    "Sentiment Expression": "appreciated",
+                    "Content Expression": "Experiments",
+                    "Sentiment Expression": "demonstrating the effectiveness of the proposed approach",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the technical novelty in the work",
-                    "Sentiment Expression": "is high enough",
+                    "Content Expression": "The proposed idea",
+                    "Sentiment Expression": "well motivated and intuitive",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "this is a solid theory paper",
-                    "Sentiment Expression": "recommend acceptance",
+                    "Content Expression": "Improvement on experiment results",
+                    "Sentiment Expression": "seems marginal",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "technical details of the attack setup",
+                    "Sentiment Expression": "are unclear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Writing of the paper",
+                    "Sentiment Expression": "needs improvement",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -30,11 +46,11 @@
             ]
         },
         {
-            "Document Title": "Post-rebuttal",
+            "Document Title": "Follow Up",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "this paper",
-                    "Sentiment Expression": "recommend for acceptance",
+                    "Content Expression": "concerns about our manuscript",
+                    "Sentiment Expression": "any",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -43,35 +59,24 @@
             ]
         },
         {
-            "Document Title": "Final comments to authors",
+            "Document Title": "Follow Up",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "the writing of the paper",
-                    "Sentiment Expression": "can still be greatly improved",
+                    "Content Expression": "concerns about our manuscript",
+                    "Sentiment Expression": "any",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the contents",
-                    "Sentiment Expression": "could become more accessible by the general audience",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the transitions between topics",
-                    "Sentiment Expression": "are not smooth enough",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
+                }
+            ]
+        },
+        {
+            "Document Title": "thanks to the rebuttal",
+            "Annotated Judgements": [
                 {
                     "Content Expression": "this work",
-                    "Sentiment Expression": "seems to be a valuable technical contribution to the NeurIPS community",
+                    "Sentiment Expression": "i like",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -80,11 +85,75 @@
             ]
         },
         {
-            "Document Title": "reviewer comments",
+            "Document Title": "Official Review of Paper2080 by Reviewer gVmg",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "the response",
-                    "Sentiment Expression": "addressed all my concerns",
+                    "Content Expression": "The proposed method",
+                    "Sentiment Expression": "well-motivated and novel to me",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The proposed method",
+                    "Sentiment Expression": "easy to plug in fine-tuning or prompt pipeline",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the approach",
+                    "Sentiment Expression": "can help defend against backdoor attacks, with only a negligible generalization drop",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The empirical results",
+                    "Sentiment Expression": "may be only marginally significant",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method",
+                    "Sentiment Expression": "cannot surpass SOTA under several settings",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the current version",
+                    "Sentiment Expression": "only conducts experiments on bert-base-uncased",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method",
+                    "Sentiment Expression": "It would be helpful to validate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method",
+                    "Sentiment Expression": "might be too simple",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "some technical details",
+                    "Sentiment Expression": "are not clear to me",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -93,51 +162,59 @@
             ]
         },
         {
-            "Document Title": "Author response for Reviewer 8NsY",
+            "Document Title": "Response to Reviewer pjTM",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "the sample complexity of our algorithm for linear regression with Massart noise",
-                    "Sentiment Expression": "is quantitatively higher, compared to the noiseless case",
+                    "Content Expression": "static modification to the pre-trained model",
+                    "Sentiment Expression": "could reduce the generalization ability for certain downstream tasks",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "our work",
-                    "Sentiment Expression": "gives the first polynomial sample and time algorithm with strong recovery guarantees for ReLUs under minimal distributional assumptions",
+                    "Content Expression": "the pre-training objective",
+                    "Sentiment Expression": "not a good helper for targeting the backdoor trigger for the training objective gap between fine-tuning and pre-training",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the bit complexity dependence on the runtime",
-                    "Sentiment Expression": "is not unusual",
+                    "Content Expression": "Their limitations",
+                    "Sentiment Expression": "are obvious, mainly designed for end-to-end models, never taking the inheritance of backdoor into consideration",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "The distributional assumption",
-                    "Sentiment Expression": "is satisfied by a wide range of distributions",
+                    "Content Expression": "the mainstream defense methods",
+                    "Sentiment Expression": "are designed for continuity input, not for the discrete input in text domain",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the use of radial-isotropic transformations",
-                    "Sentiment Expression": "allows us to generalize our regression method to apply beyond such well-behaved distributions",
+                    "Content Expression": "disabling the trigger tokens",
+                    "Sentiment Expression": "GBA tends to repair the backdoored tokens while preserving the generalization ability of the original pre-trained model",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "Computing a radial-isotropic transformation $A$",
-                    "Sentiment Expression": "can be done in polynomial time as specified in Lemma 2.1",
+                    "Content Expression": "the clean acc drop",
+                    "Sentiment Expression": "may reveal the influence of generalization ability",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the negligible performance drop of our proposed GBA, NAD",
+                    "Sentiment Expression": "leads to more reduction of generalization ability under all data settings",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -146,11 +223,75 @@
             ]
         },
         {
-            "Document Title": "Author response for Reviewer Dpt6",
+            "Document Title": "Response to Reviewer gVmg",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "clear definitions and discussions with regard to the bit complexity of the parameters and samples",
-                    "Sentiment Expression": "will also update",
+                    "Content Expression": "The empirical results",
+                    "Sentiment Expression": "may be only marginally significant",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method",
+                    "Sentiment Expression": "cannot surpass SOTA under several settings",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The current version",
+                    "Sentiment Expression": "only conducts experiments on bert-base-uncased",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "validate the proposed method using at least one more pre-trained language model",
+                    "Sentiment Expression": "would be helpful",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method",
+                    "Sentiment Expression": "might be too simple",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the empirical results",
+                    "Sentiment Expression": "show that our proposed methods outperformed the original NAD method",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method",
+                    "Sentiment Expression": "will update all the embeddings of words in vocab",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The proposed method",
+                    "Sentiment Expression": "can help defend against backdoor attacks with only 1% of clean training data",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed soft template optimization for prompt",
+                    "Sentiment Expression": "What is",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -159,260 +300,35 @@
             ]
         },
         {
-            "Document Title": "Author response for Reviewer vpXo",
+            "Document Title": "Response to Reviewer KqXG",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "work to cases where the true function is not actually a ReLU and allow for some form of model misspecification or additive noise",
-                    "Sentiment Expression": "an interesting open question and a promising future direction to extend",
+                    "Content Expression": "The approach",
+                    "Sentiment Expression": "seems to be based on the idea that the semantics of the tokens in the same sentence are similar",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "Massart noise model",
-                    "Sentiment Expression": "stronger than purely random noise and weaker than the strong contamination model",
+                    "Content Expression": "the experiments",
+                    "Sentiment Expression": "only consider tasks with only few classes, mostly two classes, and just one dataset with 4 classes",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "This model",
-                    "Sentiment Expression": "allows us to escape the computational hardness results that apply when the adversary is all-too-powerful, and obtain efficient and robust regression algorithms under minimal assumptions about how the values are corrupted",
+                    "Content Expression": "The description of the attacks used",
+                    "Sentiment Expression": "is not sufficient",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "PAC learning ReLUs",
-                    "Sentiment Expression": "is the task of learning a hypothesis $h$",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "PAC learn linear functions even in the case that it is information-theoretically impossible to recover $w^*$ exactly",
-                    "Sentiment Expression": "we can",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "include the transpose since $A$ is symmetric",
-                    "Sentiment Expression": "we did not",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Author response for Reviewer 463t",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "our results in the main body of the submission",
-                    "Sentiment Expression": "are self-contained and do not depend on Hopkins et al.",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "ReLU regression",
-                    "Sentiment Expression": "is significantly more challenging than linear regression",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "linear regression",
-                    "Sentiment Expression": "ReLU regression is significantly more challenging than",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Joint Response",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "significant and/or interesting results",
-                    "Sentiment Expression": "appreciated",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "technical contribution",
-                    "Sentiment Expression": "appreciated",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "organization/clarity",
-                    "Sentiment Expression": "appreciated",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Official Review of Paper7733 by Reviewer vpXo",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "The core idea",
-                    "Sentiment Expression": "to consider the unknown corrupted samples as outliers which do not follow the simple linear or ReLU rules between their features and corresponding labels",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the novelty of techniques that have been utilized in this work",
-                    "Sentiment Expression": "assess",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "paper",
-                    "Sentiment Expression": "lacks proper discussion at some points",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "author(s) have assumed a completely clean and noise-free model except for the adversarial part which still includes more than half of the samples",
-                    "Sentiment Expression": "assumed",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "paper",
-                    "Sentiment Expression": "well-motivated and fairly well-written",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Author(s) seem to have a good grasp of existing literature in this area",
-                    "Sentiment Expression": "a good grasp",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "Some discussions and comparisons",
-                    "Sentiment Expression": "are still vague and need clarification",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the transition from ReLU and linear regression in the presence of Massart noise to $\\ell_0$ or $\\ell_1$-regression",
-                    "Sentiment Expression": "is not smooth",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Official Review of Paper7733 by Reviewer 463t",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "The paper",
-                    "Sentiment Expression": "is a joy to read",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The study",
-                    "Sentiment Expression": "is important and relevant",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the results",
-                    "Sentiment Expression": "are novel and significant",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the claims",
-                    "Sentiment Expression": "seem sound",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                }
-            ]
-        },
-        {
-            "Document Title": "Official Review of Paper7733 by Reviewer Dpt6",
-            "Annotated Judgements": [
-                {
-                    "Content Expression": "the paper",
-                    "Sentiment Expression": "very well-written and well organized",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The ideas",
-                    "Sentiment Expression": "presented clearly with intuitive explanations",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "their work",
-                    "Sentiment Expression": "the authors are careful in evaluating the strengths/weaknesses",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The work",
-                    "Sentiment Expression": "seems to be built upon an established literature and the review of related works are informative",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the sentence starting at Line 140",
-                    "Sentiment Expression": "very difficult to read",
+                    "Content Expression": "the evaluation",
+                    "Sentiment Expression": "cannot be inferred if it was done fairly and properly",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -420,31 +336,15 @@
                 },
                 {
                     "Content Expression": "The paper",
-                    "Sentiment Expression": "consider a slightly weakened model",
+                    "Sentiment Expression": "needs major improvement in writing",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "The result of the work",
-                    "Sentiment Expression": "significantly different (stronger) from the closest comparisons",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The generalization of the approach from linear to ReLU regressions",
-                    "Sentiment Expression": "non-trivial in both technical analysis and algorithmic designs",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the result of the work",
-                    "Sentiment Expression": "significantly different (stronger) from the closest comparisons and seems to extend existing works in a demonstrable way",
+                    "Content Expression": "this update",
+                    "Sentiment Expression": "it is unclear how it is significantly different from just updating the token with its own gradient only",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -453,75 +353,160 @@
             ]
         },
         {
-            "Document Title": "Official Review of Paper7733 by Reviewer 8NsY",
+            "Document Title": "Official Review of Paper2080 by Reviewer KqXG",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "the paper",
-                    "Sentiment Expression": "well-written",
+                    "Content Expression": "The simple proposed approach",
+                    "Sentiment Expression": "is shown to defend backdoor attack targeting rare tokens",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "sample complexity for robust linear regression",
-                    "Sentiment Expression": "suboptimal",
+                    "Content Expression": "The approach",
+                    "Sentiment Expression": "is evaluated on 5 datasets against 4 attacks",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "O(d^3)",
-                    "Sentiment Expression": "worse than that of noiseless regression",
+                    "Content Expression": "The approach",
+                    "Sentiment Expression": "seems to be based on the idea that the semantics of the tokens in the same sentence are similar. But this might not be true for more complicated tasks",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "bit complexity dependence in running time",
-                    "Sentiment Expression": "unpleasant",
+                    "Content Expression": "The description of the attacks used",
+                    "Sentiment Expression": "is not sufficient",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the assumption that $P( w \\cdot x \\geq 0 ) \\geq \\lambda$ for all w",
-                    "Sentiment Expression": "I cannot follow",
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "needs major improvement in writing",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "a crucial algorithmic component",
-                    "Sentiment Expression": "I did not find a concrete discussion",
+                    "Content Expression": "the trigger does not appear in the training data",
+                    "Sentiment Expression": "the embedding still wouldn't be updated as Q is computed and applied per sentence according to Eq 4",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "finding such transformation",
-                    "Sentiment Expression": "nontrivial",
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "has many other issues",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "The distributional assumption",
-                    "Sentiment Expression": "is informally stated throughout",
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "failed to show the exact effect of the defense as the rare tokens would be still updated only when it appears in the training data",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the technical novelty",
-                    "Sentiment Expression": "appears vacuous",
+                    "Content Expression": "the evaluation",
+                    "Sentiment Expression": "was done for similar tasks where words can be directly grouped into each class",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the exact poisoning procedure",
+                    "Sentiment Expression": "was not explained",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper2080 by Reviewer pjTM",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "defense approach: gradient broadcast adaptation (GBA)",
+                    "Sentiment Expression": "simple yet effective",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "analysis of why backdoor attacks could be inherited during the pretraining and tuning procedure",
+                    "Sentiment Expression": "exciting and novel",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "well organized, and the motivation is clearly written",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "security concerns in pre-trained models",
+                    "Sentiment Expression": "unleash a wave",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed GBA approach",
+                    "Sentiment Expression": "a better alternative",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "additional questions",
+                    "Sentiment Expression": "to discuss with the authors",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "an under-explored fundamental challenge in pre-training and adaptation trends",
+                    "Sentiment Expression": "targets",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "step in the security research of pre-trained models",
+                    "Sentiment Expression": "brave and valuable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a reasonable solution to the inheritance of the backdoor phenomenon",
+                    "Sentiment Expression": "the first time I have seen",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
