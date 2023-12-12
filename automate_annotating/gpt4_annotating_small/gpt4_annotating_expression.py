@@ -1,5 +1,4 @@
 import random
-
 import jsonlines
 import openai
 import time
@@ -7,7 +6,6 @@ import json
 
 
 def parse_expression(output):
-    print(output)
     with open("tmp.jsonl", "w") as f:
         f.write(output.strip())
     results = []
@@ -48,6 +46,7 @@ def get_result(prompt_format, document):
                     {"Content Expression": line["content_expression"], "Sentiment Expression": line["sentiment_expression"],
                      "Criteria Facet": "",
                      "Sentiment Polarity": "", "Sentiment Expresser": "", "Convincingness": ""})
+    print(judgements)
     return judgements
 
 
@@ -96,9 +95,13 @@ if __name__ == "__main__":
 
     with open("../../annotation_data/annotation_data_small.json") as f:
         samples_all = json.load(f)
+
+    f = open("../experiment_ids.txt")
+    ids = f.read().split("\n")
+
     # Evaluation data for agreement of GPT-4 with human annotators
     samples_gpt4 = {}
     for sample_key in samples_all.keys():
-        if sample_key in samples_annotated_keys:
+        if sample_key in ids:
             samples_gpt4[sample_key] = samples_all[sample_key]
     annotating(samples_gpt4)

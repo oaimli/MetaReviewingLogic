@@ -9,7 +9,7 @@ if __name__ == "__main__":
         bryan_results = json.load(f)
     with open("../annotation_analysis/zenan_annotation_result.json") as f:
         zenan_results = json.load(f)
-    with open("gpt4_annotation_result_small.json") as f:
+    with open("gpt4_result_small.json") as f:
         gpt4_results = json.load(f)
 
     bryan_results_share = {}

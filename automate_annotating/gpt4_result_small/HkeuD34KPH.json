@@ -5,7 +5,15 @@
             "Annotated Judgements": [
                 {
                     "Content Expression": "the proposed method",
-                    "Sentiment Expression": "outperforms several baselines",
+                    "Sentiment Expression": "outperforms several baselines on five datasets",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the quality of the experiment results",
+                    "Sentiment Expression": "concerned",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -13,14 +21,6 @@
                 },
                 {
                     "Content Expression": "the limited/scattered technical contribution",
-                    "Sentiment Expression": "concerns",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the quality of the experiment results and need to compare against more baselines",
                     "Sentiment Expression": "concerned",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
@@ -37,15 +37,7 @@
                 },
                 {
                     "Content Expression": "Such work",
-                    "Sentiment Expression": "more appreciated in the recommender systems community",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "improve the paper with improved discussion of more recent work such as BERT4Rec, add comparisons against these more recent work, incorporate various suggestions from the reviewers",
-                    "Sentiment Expression": "encouraged",
+                    "Sentiment Expression": "would be more appreciated in the recommender systems community",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -73,32 +65,16 @@
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "Most of results",
-                    "Sentiment Expression": "are copied from [W Kang, ICDM2018] except HGN in Table 1",
+                    "Content Expression": "the effectiveness of personalized transformer",
+                    "Sentiment Expression": "makes me concern",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "Table 1",
-                    "Sentiment Expression": "shows SASREC is much better than HGN [C Ma, KDD2019]",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the authors change evaluation metrics in Table 3, i.e., from NDCG/Recall@10 to NDCG/Recall@5",
-                    "Sentiment Expression": "I did not understand why",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "SSE-PT without regularization and with different regularizations",
-                    "Sentiment Expression": "are much worse than the best result",
+                    "Content Expression": "the extensive hyper-parameter sensitivity and ablation study in the paper",
+                    "Sentiment Expression": "I appreciate",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -118,8 +94,16 @@
             "Document Title": "Personalization of NLP models (such as Transformer and BERT) is an important research direction",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "personalization for transformer-based models",
-                    "Sentiment Expression": "very useful for recommendation systems in terms of both performance and interpretation",
+                    "Content Expression": "our paper",
+                    "Sentiment Expression": "an important contribution",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "personalization",
+                    "Sentiment Expression": "very useful",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -127,15 +111,15 @@
                 },
                 {
                     "Content Expression": "models that can incorporate long sequences",
-                    "Sentiment Expression": "should be an important research direction",
+                    "Sentiment Expression": "important",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "typos in our final version of the paper",
-                    "Sentiment Expression": "will definitely correct",
+                    "Content Expression": "final version of the paper",
+                    "Sentiment Expression": "will definitely correct the typos",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -143,7 +127,15 @@
                 },
                 {
                     "Content Expression": "our work",
-                    "Sentiment Expression": "orthogonal to important works like BERT4Rec, may also benefit from our proposed personalization scheme",
+                    "Sentiment Expression": "orthogonal to important works",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our work",
+                    "Sentiment Expression": "first of this kind exploring this direction",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -163,8 +155,8 @@
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "personalization for transformer-based models",
-                    "Sentiment Expression": "useful for recommendation systems",
+                    "Content Expression": "personalization",
+                    "Sentiment Expression": "actually possible",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -172,7 +164,7 @@
                 },
                 {
                     "Content Expression": "models that can incorporate long sequences",
-                    "Sentiment Expression": "an important research direction",
+                    "Sentiment Expression": "should be an important research direction",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -180,15 +172,23 @@
                 },
                 {
                     "Content Expression": "our work",
-                    "Sentiment Expression": "orthogonal to important works like BERT4Rec",
+                    "Sentiment Expression": "orthogonal to important works",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "combination of our idea and your idea",
-                    "Sentiment Expression": "performs better",
+                    "Content Expression": "experiment",
+                    "Sentiment Expression": "gives slightly better results",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our works",
+                    "Sentiment Expression": "worth more explorations",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -200,40 +200,40 @@
             "Document Title": "Clarifying Doubts on Experimental Section",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "HGN paper",
-                    "Sentiment Expression": "not doing as well as SASRec in our reported results",
+                    "Content Expression": "predicting next engaged item",
+                    "Sentiment Expression": "doing another task of predicting precisely next item, in which there is only 1 correct answer",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the HGN paper",
-                    "Sentiment Expression": "mainly focused on accommodating very short sequences",
+                    "Content Expression": "difference in original paper's reported performances and our reported performances",
+                    "Sentiment Expression": "accounts",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "results in Table 1",
-                    "Sentiment Expression": "are from SASRec paper",
+                    "Content Expression": "NDCG@10, Recall@10",
+                    "Sentiment Expression": "does not accurately reflect how bad over-fitting is",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "ran SASRec",
-                    "Sentiment Expression": "got slightly better results",
+                    "Content Expression": "adding an explicit user embedding",
+                    "Sentiment Expression": "doesn\u2019t improve performance",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "metrics used in Table 1 and 3",
-                    "Sentiment Expression": "different",
+                    "Content Expression": "personalization",
+                    "Sentiment Expression": "actually possible for transformer-based models and is proving to be very useful for recommendation systems in terms of both performance and interpretation",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -261,24 +261,16 @@
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "the technical novelty",
-                    "Sentiment Expression": "is somehow limited",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "I",
-                    "Sentiment Expression": "recommend weak acceptance",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
                     "Content Expression": "the effectiveness of the proposed approach",
                     "Sentiment Expression": "show",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the technical novelty",
+                    "Sentiment Expression": "is somehow limited",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
@@ -298,16 +290,16 @@
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "what the major contribution of this paper is",
-                    "Sentiment Expression": "It could be better",
+                    "Content Expression": "simply applying it to sequential recommendation",
+                    "Sentiment Expression": "is a bit incremental",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
                     "Convincingness": ""
                 },
                 {
-                    "Content Expression": "simply applying it to sequential recommendation",
-                    "Sentiment Expression": "is a bit incremental",
+                    "Content Expression": "the proposed method",
+                    "Sentiment Expression": "differ from them",
                     "Criteria Facet": "",
                     "Sentiment Polarity": "",
                     "Sentiment Expresser": "",
