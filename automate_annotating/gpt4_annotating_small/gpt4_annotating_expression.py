@@ -57,7 +57,7 @@ def annotating(samples):
     :return: none
     """
     print("Annotating count", len(samples))
-    prompt_expression = open("../prompt_expression.txt").read()
+    prompt_expression = open("../prompts/prompt_expression.txt").read()
 
     for paper_id, sample in samples.items():
         print(paper_id)
@@ -86,17 +86,10 @@ if __name__ == "__main__":
     random.seed(42)
     openai.api_key = "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"
 
-    with open("../../annotation_analysis/bryan_annotation_result.json") as f:
-        bryan_results = json.load(f)
-    with open("../../annotation_analysis/zenan_annotation_result.json") as f:
-        zenan_results = json.load(f)
-    assert len(set(bryan_results.keys()).difference(set(zenan_results.keys()))) == 0
-    samples_annotated_keys = bryan_results.keys()
-
     with open("../../annotation_data/annotation_data_small.json") as f:
         samples_all = json.load(f)
 
-    f = open("../experiment_ids.txt")
+    f = open("experiment_ids_dev.txt")
     ids = f.read().split("\n")
 
     # Evaluation data for agreement of GPT-4 with human annotators

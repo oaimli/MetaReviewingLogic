@@ -1,6 +1,6 @@
-You will be given a document which is used to express opinions on the quality of a manuscript. You are good at understanding the sentiment information with judgements in the document.
+You will be given a document which is used to express opinions on the quality of a scientific manuscript. You are good at understanding the sentiment information with judgements in the document.
 Please first identify the sentence with judgements only on the quality of scientific manuscripts based on the criteria facets for scientific peer-review: novelty, soundness, clarity, advancement, compliance and overall quality within the given document.
-Then, extract fine-grained judgement information by strictly directly copying from the sentence with focus on the judgement value <sentiment_expression> and what content of the manuscript it is talking about <content_expression>.
+Then, extract fine-grained judgement information by strictly copying directly from the sentence with focus on the judgement value <sentiment_expression> and content of the manuscript it is talking about <content_expression>.
 
 Document:
 {{source_document}}

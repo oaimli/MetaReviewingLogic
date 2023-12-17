@@ -5,35 +5,43 @@
             "Annotated Judgements": [
                 {
                     "Content Expression": "It",
-                    "Sentiment Expression": "is easy to read",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "easy to read",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "novelty over ProxQuant",
-                    "Sentiment Expression": "is somehow limited",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "somewhat limited",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "The theoretical analysis",
                     "Sentiment Expression": "is weak",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "analysis on the convergence and... mirror mapping construction",
+                    "Sentiment Expression": "there is no",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
                 },
                 {
                     "Content Expression": "Experimental results",
                     "Sentiment Expression": "can also be made more convincing",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 }
             ]
         },
@@ -42,59 +50,83 @@
             "Annotated Judgements": [
                 {
                     "Content Expression": "The paper",
-                    "Sentiment Expression": "proposes to use the mirror descent algorithm for the binary network",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The key point",
-                    "Sentiment Expression": "is Theorem 3.1, which enables the mirror map",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "The paper",
-                    "Sentiment Expression": "is easy to read and follow, and the main contributions are clearly stated",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "easy to read and follow",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "this paper",
                     "Sentiment Expression": "a weak rejection",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "theoretical analysis",
-                    "Sentiment Expression": "it is better for authors to provide more",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "it is better to provide more",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
-                    "Content Expression": "why mirror descent is better than proximal gradient descent, i.e., proxQuant",
+                    "Content Expression": "why mirror descent is better than proximal gradient descent",
                     "Sentiment Expression": "It is not clear to me",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "\"MD allows gradient descent to be performed on a more general non-Euclidean space\"",
+                    "Sentiment Expression": "The authors repeatedly claim",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "Table 1",
+                    "Sentiment Expression": "cannot be told by",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                },
+                {
+                    "Content Expression": "this point",
+                    "Sentiment Expression": "it is better to empirically show",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "the technical contributions",
                     "Sentiment Expression": "are not enough",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "VGG and ResNet",
+                    "Sentiment Expression": "are too old and easy to be compressed",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "will be more convincing with these methods",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 }
             ]
         },
@@ -103,43 +135,35 @@
             "Annotated Judgements": [
                 {
                     "Content Expression": "this paper",
-                    "Sentiment Expression": "is well-written",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "sufficient material, both theoretical and experimental evidence",
-                    "Sentiment Expression": "support the proposed method",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "is well-written and provide sufficient material, both theoretical and experimental evidence to support the proposed method",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "the novelty of this work",
                     "Sentiment Expression": "is somehow limited",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "the authors",
-                    "Sentiment Expression": "provides sufficient effort",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "make an accept suggestion",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "the code",
-                    "Sentiment Expression": "better to provide",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "the soundness of the model",
+                    "Sentiment Expression": "better to provide the code to validate",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 }
             ]
         },
@@ -147,12 +171,28 @@
             "Document Title": "Thank you for the positive feedback",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "adopts MD for NN quantization",
-                    "Sentiment Expression": "has some challenges and our paper addresses them successfully",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "our paper addresses them successfully and introduces the first practical MD based algorithm for NN quantization",
+                    "Sentiment Expression": "addresses them successfully and introduces the first practical MD based algorithm for NN quantization",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "MD for NN quantization",
+                    "Sentiment Expression": "has some challenges",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "superior empirical performance against directly comparable baselines",
+                    "Sentiment Expression": "superior",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 }
             ]
         },
@@ -162,10 +202,10 @@
                 {
                     "Content Expression": "our method",
                     "Sentiment Expression": "novel and interesting",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 }
             ]
         },
@@ -174,43 +214,35 @@
             "Annotated Judgements": [
                 {
                     "Content Expression": "the first practical MD based algorithm for NN quantification with time-varying mirror maps",
-                    "Sentiment Expression": "superior empirical performance",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "superior empirical performance against directly comparable baselines",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "a numerically stable version of MD",
-                    "Sentiment Expression": "numerically stable",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "prone to numerical instability",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "the use of MD for NN quantization",
-                    "Sentiment Expression": "justifies",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "empirical convergence plots",
+                    "Sentiment Expression": "justifies the use of MD for NN quantization",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "the projections",
-                    "Sentiment Expression": "require to be parameterized by an annealing hyperparameter $\beta$",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "choosing a projection that is guaranteed to yield improved quantization performance",
-                    "Sentiment Expression": "is an open problem",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "choosing a projection",
+                    "Sentiment Expression": "an open problem",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 }
             ]
         },
@@ -220,34 +252,50 @@
                 {
                     "Content Expression": "MD is a suitable framework for NN quantization and introduce a numerically stable MD algorithm for NN quantization",
                     "Sentiment Expression": "superior performance compared to directly comparable baselines",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "the statement that our MD method is a \u201cnatural extension of PQ\u201d",
+                    "Content Expression": "statement that our MD method is a \u201cnatural extension of PQ\u201d",
                     "Sentiment Expression": "misleading",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "our experiments",
-                    "Sentiment Expression": "MD significantly outperforms PQ (up to 20% in some cases when fully-quantized)",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "PQ is not based on MD",
+                    "Sentiment Expression": "as mentioned in the paper (page 7)",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "this discussion in the revised version of the paper",
+                    "Content Expression": "MD significantly outperforms PQ (up to 20% in some cases when fully-quantized, refer to Table 1)",
+                    "Sentiment Expression": "it is clear from our experiments",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "PQ hinted at the connection to the dual averaging version of MD and STE",
+                    "Sentiment Expression": "it does not analyze the conditions on the projections under which corresponding valid mirror maps exist",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "discussion in the revised version of the paper (page 7)",
                     "Sentiment Expression": "to improve clarity",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
                 }
             ]
         },
@@ -257,42 +305,34 @@
                 {
                     "Content Expression": "The experimental result on benchmark datasets (CIFAR & TinyImageNet) and basic architectures (VGG & ResNet-18)",
                     "Sentiment Expression": "showed that the proposed method is suitable for quantization",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "The proposed method",
-                    "Sentiment Expression": "is a natural extension of ProxQuant",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the convergence of the MD with nonconvex objective function in NN quantization neither how to choose the projection for mirror mapping construction",
-                    "Sentiment Expression": "the authors do not analyze",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "the convergence of the MD with nonconvex objective function in NN quantification neither how to choose the projection for mirror mapping construction",
+                    "Sentiment Expression": "do not analyze",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
                 },
                 {
                     "Content Expression": "the novelty of the proposed method",
-                    "Sentiment Expression": "it is better to discuss with [Bai et al, 2019] to clarify",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "better to discuss",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "the novelty and the theoretical contributions",
                     "Sentiment Expression": "I concern",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 }
             ]
         },
@@ -300,44 +340,44 @@
             "Document Title": "Official Blind Review #1",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "paper",
+                    "Content Expression": "paper that uses the Mirror Descent paradigm for learning quantized networks",
                     "Sentiment Expression": "good",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "using Mirror Descent in the context of learning quantized network",
                     "Sentiment Expression": "novel and interesting",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "results",
-                    "Sentiment Expression": "better",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "better than existing method",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "this work",
                     "Sentiment Expression": "a good contribution",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "comparisons to existing methods",
                     "Sentiment Expression": "not comprehensive enough",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 }
             ]
         }

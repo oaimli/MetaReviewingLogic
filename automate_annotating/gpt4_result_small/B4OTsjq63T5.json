@@ -4,36 +4,36 @@
             "Document Title": "Meta Review of Paper6521 by Area Chair 4R4G",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "the paper",
-                    "Sentiment Expression": "proposes an interesting approach",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "approach to Bayesian inference incorporating coresets with Hamiltonian flows",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
                 },
                 {
-                    "Content Expression": "technical concerns at their first reviews",
-                    "Sentiment Expression": "have been resolved",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "technical concerns",
+                    "Sentiment Expression": "resolved",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
                 },
                 {
-                    "Content Expression": "the authors modify the paper in the camera-ready",
-                    "Sentiment Expression": "we can expect",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "points that should be modified from the current form",
+                    "Sentiment Expression": "should be modified",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "this paper",
                     "Sentiment Expression": "recommend acceptance",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 }
             ]
         },
@@ -42,43 +42,51 @@
             "Annotated Judgements": [
                 {
                     "Content Expression": "the use of a coreset",
-                    "Sentiment Expression": "enables our method to be computationally efficient, and Prop 3.1 shows how big the coreset must be to enable an accurate reproduction of the full posterior",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "enables our method to be computationally efficient",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "our sparse Hamiltonian flow directly incorporates the coreset target information",
-                    "Sentiment Expression": "allows us to train the coreset weights.",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "Generic normalizing flows",
+                    "Sentiment Expression": "cannot use coresets",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "our sparse Hamiltonian flow",
+                    "Sentiment Expression": "directly incorporates the coreset target information",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "Generic normalizing flows",
                     "Sentiment Expression": "do not generally provide error guarantees",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "generic normalizing flow",
-                    "Sentiment Expression": "is certainly possible for a generic normalizing flow to outperform our method on a given problem",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "a generic normalizing flow",
+                    "Sentiment Expression": "possible to outperform our method",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
-                    "Content Expression": "train generic flows reliably in practice",
-                    "Sentiment Expression": "it is hard to",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "generic flows",
+                    "Sentiment Expression": "hard to train reliably in practice",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 }
             ]
         },
@@ -86,12 +94,28 @@
             "Document Title": "Thanks for the clarifications",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "the advantages of using a Hamiltonian Flow",
+                    "Content Expression": "the advantages of using a Hamiltonian Flow over other methods",
                     "Sentiment Expression": "you highlight 1) the ability to converge to a target posterior distribution, and 2) that it enables the use of a core set",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "the main advantage",
+                    "Sentiment Expression": "you 1) can provide guarantees in the form of prop 3.1, and 2) that it is computationally efficient",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "different choice of (expressive) flow",
+                    "Sentiment Expression": "might provide better results empirically, possibly at a higher computational cost",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 }
             ]
         },
@@ -99,12 +123,12 @@
             "Document Title": "Response to Reviewer ofer",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "comparisons in both energy distance and MMD",
-                    "Sentiment Expression": "will include",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "the comparisons in both energy distance and MMD",
+                    "Sentiment Expression": "include",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not applicable"
                 }
             ]
         },
@@ -112,28 +136,28 @@
             "Document Title": "Thank you for the authors' response",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "the relative mean and covariance error plots",
-                    "Sentiment Expression": "depict two different aspects of the quality of our target approximation",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "the relative mean and covariance error plots depict two different aspects of our target approximation; the KL plot",
+                    "Sentiment Expression": "takes both of these into consideration",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "The monotonic downward trend of the KL divergence",
                     "Sentiment Expression": "shows that our method keeps on improving the target approximation throughout optimization",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "it is not guaranteed that all steps of optimization improve",
-                    "Sentiment Expression": "the quality of approximation on the marginal space of the latent variables of interest",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "all steps of optimization improve the quality of approximation on the marginal space of the latent variables of interest",
+                    "Sentiment Expression": "it is not guaranteed that",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
                 }
             ]
         },
@@ -141,60 +165,76 @@
             "Document Title": "Response to Reviewer hoPP",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "SHF makes some assumptions that imply limitations",
-                    "Sentiment Expression": "might be fast but not useful",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "SHF",
+                    "Sentiment Expression": "makes some assumptions that imply limitations",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "a random subset of data points",
+                    "Sentiment Expression": "not representative of the entire dataset",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "SHF",
                     "Sentiment Expression": "might not be an appropriate solution for more complex models and data",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
                 },
                 {
-                    "Content Expression": "the subsample we draw",
-                    "Sentiment Expression": "will be totally unrepresentative of the full dataset",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the approach",
+                    "Content Expression": "a rather large coreset",
                     "Sentiment Expression": "may not be so useful",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "from steps 0-9 the ELBO",
-                    "Sentiment Expression": "decreases rather than increases",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "steps 0-9",
+                    "Sentiment Expression": "the ELBO decreases",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "SHF uses the gradient of the coreset posterior",
+                    "Sentiment Expression": "some error will be introduced",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "error",
+                    "Sentiment Expression": "could either result in an increase (steps 30-39) or decrease (steps 0 to 9) in the ELBO",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "The limitations of the method",
                     "Sentiment Expression": "were discussed insufficiently",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "our method",
                     "Sentiment Expression": "relies on the assumption that the data are compressible",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 }
             ]
         },
@@ -202,52 +242,84 @@
             "Document Title": "Continued Response to pCaB",
             "Annotated Judgements": [
                 {
+                    "Content Expression": "The quote",
+                    "Sentiment Expression": "just a small remark",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "this",
+                    "Sentiment Expression": "may have been implied",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                },
+                {
+                    "Content Expression": "our method",
+                    "Sentiment Expression": "outperforms other competing methods",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "the sample quality, density evaluation time and sample generation time",
+                    "Sentiment Expression": "compare",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                },
+                {
+                    "Content Expression": "SHF",
+                    "Sentiment Expression": "incorporates",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "SHF",
+                    "Sentiment Expression": "does enable",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
                     "Content Expression": "our method",
                     "Sentiment Expression": "provides a higher quality posterior approximation than the Laplace approximation",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
-                    "Content Expression": "SHF",
-                    "Sentiment Expression": "leading to fast training, density evaluation, and i.i.d. sampling",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "attention",
+                    "Sentiment Expression": "not enough",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
                 },
                 {
-                    "Content Expression": "SHF",
-                    "Sentiment Expression": "does enable i.i.d. sampling and density evaluation with no additional secondary stage",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "This",
+                    "Sentiment Expression": "could be stated more clearly",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
                 },
                 {
-                    "Content Expression": "the current version",
-                    "Sentiment Expression": "was not enough attention devoted to this",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "this methodology",
-                    "Sentiment Expression": "One main limitation",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "our quasi-refreshment",
-                    "Sentiment Expression": "is simple and works well in practice",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "It",
+                    "Sentiment Expression": "is not of significant importance",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
                 }
             ]
         },
@@ -257,50 +329,34 @@
                 {
                     "Content Expression": "a dedicated Related Work section",
                     "Sentiment Expression": "should provide",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
                 },
                 {
-                    "Content Expression": "the advantages of using a Hamiltonian flow",
+                    "Content Expression": "advantages of using a Hamiltonian flow",
                     "Sentiment Expression": "explain",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "this is a representative",
+                    "Content Expression": "representative (or even relevant) example model",
                     "Sentiment Expression": "why",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
                 },
                 {
-                    "Content Expression": "the compression for the posterior of other models",
-                    "Sentiment Expression": "Can anything be said",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "finite N",
-                    "Sentiment Expression": "Can anything be said",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the posterior can be approximated by a diagonal Gaussian",
-                    "Sentiment Expression": "Does this mean",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "\\rho_t ~ N(mu, Lambda^-1)",
+                    "Sentiment Expression": "Does this mean that we are ultimately assuming that the posterior can be approximated by a diagonal Gaussian?",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
                 }
             ]
         },
@@ -308,68 +364,68 @@
             "Document Title": "Response to Reviewer ofer",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "choices of \\rho_t and R_\\lambda(x)",
+                    "Content Expression": "\\rho_t and R_\\lambda(x) choices",
                     "Sentiment Expression": "could be explored",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
                 },
                 {
-                    "Content Expression": "performance across the various schemes",
-                    "Sentiment Expression": "did not observe major differences",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "Gaussian momentum",
+                    "Sentiment Expression": "most commonly used in practice",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
                 },
                 {
-                    "Content Expression": "a general framework for incorporating momentum refreshments in Hamiltonian-based flow methods",
-                    "Sentiment Expression": "provides",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "Our work",
+                    "Sentiment Expression": "provides a general framework",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
                 },
                 {
-                    "Content Expression": "the quasi-refreshment step into HIS",
-                    "Sentiment Expression": "can incorporate",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "quasi-refreshment step",
+                    "Sentiment Expression": "precisely motivated by Proposition 3.2",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not applicable"
                 },
                 {
-                    "Content Expression": "the relative covariance error",
-                    "Sentiment Expression": "seems slow to converge",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "relative cov error",
+                    "Sentiment Expression": "seems to take a long time to converge",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
                 },
                 {
-                    "Content Expression": "the KL divergence",
-                    "Sentiment Expression": "keeps on improving",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "The monotonic downward trend of the KL divergence",
+                    "Sentiment Expression": "shows that our method keeps on improving",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
                 },
                 {
-                    "Content Expression": "the error metrics on the \\theta-marginal space",
-                    "Sentiment Expression": "explains the increase",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "the increase in the error metrics on the \\theta-marginal space",
+                    "Sentiment Expression": "explains",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
                 },
                 {
                     "Content Expression": "these interpretations in the paper",
                     "Sentiment Expression": "have not been very clear",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
                 }
             ]
         },
@@ -379,74 +435,74 @@
                 {
                     "Content Expression": "the challenges that both coresets and variational inference via Hamiltonian dynamics face",
                     "Sentiment Expression": "demonstrates theoretically",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "Their method",
-                    "Sentiment Expression": "allows the flow to update the momentum",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "Important or argumentative claims",
+                    "Sentiment Expression": "are backed up with theoretical proofs",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "their algorithm",
-                    "Sentiment Expression": "the superiority",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "claims and new insights on coresets and Hamiltonian flows",
-                    "Sentiment Expression": "backed up with theoretical proofs",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "Experiments on a variety of regression problems",
+                    "Sentiment Expression": "demonstrate the superiority of their algorithm over current state-of-the-art coreset compression and variational-flow-based methods",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "The proposed idea",
-                    "Sentiment Expression": "is very novel and addresses important drawbacks",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "is very novel and addresses important drawbacks that current coreset methods suffer from",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "A thorough and clear review of related and past methods",
-                    "Sentiment Expression": "is provided",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "review of related and past methods",
+                    "Sentiment Expression": "A thorough and clear",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "Experiments",
-                    "Sentiment Expression": "are well-conducted",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "are well-conducted and a variety of datasets, both synthetic and real, are explored",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "choices of $\\rho_t$ and $R_\\lambda(x)$",
+                    "Content Expression": "other choices of $\\rho_t$ and $R_\\lambda(x)$",
                     "Sentiment Expression": "could be explored",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "the quasi-refreshment step",
+                    "Sentiment Expression": "could also be incorporated into some of the other baselines considered in the experiments",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "relative cov error",
-                    "Sentiment Expression": "seems to take a long time to converge, compared to UHA-Full",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "seems to take a long time to converge",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 }
             ]
         },
@@ -454,60 +510,44 @@
             "Document Title": "Official Review of Paper6521 by Reviewer pCaB",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "the presented method",
-                    "Sentiment Expression": "is original",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the combination of Hamiltonian flow approximations to the coreset posterior",
-                    "Sentiment Expression": "seems unique to his work",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
                     "Content Expression": "The paper",
-                    "Sentiment Expression": "is technically sound",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "the claims",
-                    "Sentiment Expression": "are carefully developed and well supported",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "technically sound, and the claims are carefully developed and well supported",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "The paper",
                     "Sentiment Expression": "could be further improved with some reflection on the limitations of the approach",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "The manuscript",
-                    "Sentiment Expression": "is well structured and very clearly written",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "is well structured and very clearly written, with helpful introductions to the methodological ingredients that it builds upon",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "The paper",
-                    "Sentiment Expression": "constitutes a significant contribution within research on Bayesian coresets",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "constitutes a significant contribution within research on Bayesian coresets, both in terms of methodology and measured in terms of the performance improvements over other methods",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "contribution it will have to the field of Bayesian inference",
+                    "Sentiment Expression": "I am not certain how large",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 }
             ]
         },
@@ -515,92 +555,116 @@
             "Document Title": "Official Review of Paper6521 by Reviewer hoPP",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "theoretical evidence for why these subcomponents reduce the runtime or increase performance",
-                    "Sentiment Expression": "provides",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "\u201cBayesian Inference via Sparse Hamiltonian Flows\u201d",
+                    "Sentiment Expression": "combines three techniques to make Bayesian Inference faster and more accurate.",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "The Sparse Hamiltonian Flows (SHF)",
                     "Sentiment Expression": "clearly and strongly outperform the alternatives in most experiments",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "the paper",
                     "Sentiment Expression": "is good and should be published with minor revisions",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "The paper",
                     "Sentiment Expression": "is very well-written and clear",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "The suggested combination of methods",
                     "Sentiment Expression": "clearly and strongly improves performance compared to the alternatives",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "a theoretical analysis of why and in which manner the performance improves due to SHF",
-                    "Sentiment Expression": "provides",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "provides a theoretical analysis of why and in which manner the performance improves due to SHF.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "The experiments",
-                    "Sentiment Expression": "are all in fairly simple settings",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "are all in fairly simple settings.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "The results",
+                    "Sentiment Expression": "already convince me that the method is very strong and warrants publication but a more complex experiment would increase this conviction",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "SHF",
+                    "Sentiment Expression": "might not be an appropriate solution for more complex models and data.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "the limitations of the method",
-                    "Sentiment Expression": "were discussed insufficiently",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "were discussed insufficiently and should be addressed as described in questions 1 and 2.",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "the paper",
-                    "Sentiment Expression": "convinces me that SHF decreases runtime and increases performance for datasets with low complexity",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "convinces me that SHF decreases runtime and increases performance for datasets with low complexity.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "the paper",
-                    "Sentiment Expression": "is well-written and the presentation is good",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "is well-written and the presentation is good.",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "a good response or an additional experiment in this direction",
-                    "Sentiment Expression": "would convince me to raise my score further",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "The assumptions that SHF makes and the implied limitations",
+                    "Sentiment Expression": "are underexplored.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "a good response or an additional experiment",
+                    "Sentiment Expression": "would convince me to raise my score further.",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 }
             ]
         }

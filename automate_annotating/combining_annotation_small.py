@@ -1,7 +1,7 @@
 import json
 import os
 
-f = open("experiment_ids.txt")
+f = open("gpt4_annotating_small/experiment_ids_dev.txt")
 ids = f.read().split("\n")
 print(ids)
 

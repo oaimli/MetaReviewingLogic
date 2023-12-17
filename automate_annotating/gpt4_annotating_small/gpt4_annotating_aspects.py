@@ -2,6 +2,7 @@ import random
 import openai
 import time
 import json
+import os
 
 
 def parse_facet(result):
@@ -18,10 +19,11 @@ def parse_facet(result):
     elif "compliance" in result:
         return "Compliance"
     elif "overall" in result:
-        print("Cannot parse the result correctly")
         return "Overall"
     else:
+        print("Cannot parse the facet correctly")
         return "Overall"
+
 
 def parse_polarity(result):
     print(result)
@@ -34,8 +36,9 @@ def parse_polarity(result):
     elif "strong" not in result.lower() and "positive" in result.lower():
         return "Positive"
     else:
-        print("Cannot parse the result correctly")
+        print("Cannot parse the polarity correctly")
         return "Negative"
+
 
 def parse_expressor(result):
     print(result)
@@ -45,8 +48,9 @@ def parse_expressor(result):
     elif "others" in result:
         return "Others"
     else:
-        print("Cannot parse the result correctly")
+        print("Cannot parse the expresser correctly")
         return "Self"
+
 
 def parse_convincingness(result):
     print(result)
@@ -60,138 +64,135 @@ def parse_convincingness(result):
     elif "highly" in result and "convincing" in result:
         return "Highly Convincing"
     else:
-        print("Cannot parse the result correctly")
+        print("Cannot parse the convincingness correctly")
         return "Slightly Convincing"
 
-def annotating(samples):
-    """
-    :param samples: dict
-    :return: none
-    """
-    print("Annotating count", len(samples))
-    prompt_facet = open("../prompt_facet.txt").read()
-    prompt_expressor = open("../prompt_expresser.txt").read()
-    prompt_convincingness = open("../prompt_convincingness.txt").read()
-    prompt_polarity = open("../prompt_polarity.txt").read()
 
-    for paper_id, sample in samples.items():
-        print(paper_id)
-        print(sample.keys())
-        documents_annotated = []
-        for source_document in sample["documents"]:
-            if source_document["document_title"] == "Abstract":
-                continue
-            # get content expression and sentiment expression
+def annotating_judgements(document, judgements):
+    prompt_facet = open("../prompts/prompt_facet.txt").read()
+    prompt_expresser = open("../prompts/prompt_expresser.txt").read()
+    prompt_convincingness = open("../prompts/prompt_convincingness.txt").read()
+    prompt_polarity = open("../prompts/prompt_polarity.txt").read()
+
+    judgements_new = []
+    for judgement in judgements:
+        content_expression = judgement["Content Expression"]
+        sentiment_expression = judgement["Sentiment Expression"]
+        judgement_expression = content_expression + " " + sentiment_expression
+
+        # get criteria facet
+        while True:
+            try:
+                output_dict = openai.ChatCompletion.create(
+                    model="gpt-4",
+                    messages=[
+                        {"role": "system", "content": prompt_facet.replace("{{source_document}}",
+                                                                           document).replace(
+                            "{{judgement_expression}}", judgement_expression)}
+                    ]
+                )
+                judgement["Criteria Facet"] = parse_facet(output_dict['choices'][0]['message']['content'])
+                break
+            except Exception as e:
+                print(e)
+                if ("limit" in str(e)):
+                    time.sleep(2)
+
+        # get polarity
+        while True:
+            try:
+                output_dict = openai.ChatCompletion.create(
+                    model="gpt-4",
+                    messages=[
+                        {"role": "system", "content": prompt_polarity.replace("{{source_document}}",
+                                                                              document).replace(
+                            "{{judgement_expression}}", judgement_expression)}
+                    ]
+                )
+                judgement["Sentiment Polarity"] = parse_polarity(
+                    output_dict['choices'][0]['message']['content'])
+                break
+            except Exception as e:
+                print(e)
+                if ("limit" in str(e)):
+                    time.sleep(2)
+
+        # get expressor
+        while True:
+            try:
+                output_dict = openai.ChatCompletion.create(
+                    model="gpt-4",
+                    messages=[
+                        {"role": "system", "content": prompt_expresser.replace("{{source_document}}",
+                                                                               document).replace(
+                            "{{judgement_expression}}", judgement_expression)}
+                    ]
+                )
+                judgement["Sentiment Expresser"] = parse_expressor(
+                    output_dict['choices'][0]['message']['content'])
+                break
+            except Exception as e:
+                print(e)
+                if ("limit" in str(e)):
+                    time.sleep(2)
+
+        # get convincingness
+        if judgement["Sentiment Expresser"] == "Others":
+            judgement["Convincingness"] = "Not applicable"
+        else:
             while True:
                 try:
                     output_dict = openai.ChatCompletion.create(
                         model="gpt-4",
                         messages=[
-                            {"role": "system", "content": prompt_expression.replace("{{source_document}}",
-                                                                                    source_document[
-                                                                                        "document_content"])}
+                            {"role": "system",
+                             "content": prompt_convincingness.replace("{{source_document}}",
+                                                                      document).replace(
+                                 "{{judgement_expression}}", judgement_expression)}
                         ]
                     )
-                    judgements = parse_expression(output_dict['choices'][0]['message']['content'])
+                    judgement["Convincingness"] = parse_convincingness(
+                        output_dict['choices'][0]['message']['content'])
                     break
                 except Exception as e:
                     print(e)
                     if ("limit" in str(e)):
                         time.sleep(2)
+        judgements_new.append(judgement)
+    return judgements_new
 
-            for judgement in judgements:
-                content_expression = judgement["Content Expression"]
-                sentiment_expression = judgement["Sentiment Expression"]
-                judgement_expression = content_expression + " " + sentiment_expression
 
-                # get criteria facet
-                while True:
-                    try:
-                        output_dict = openai.ChatCompletion.create(
-                            model="gpt-4",
-                            messages=[
-                                {"role": "system", "content": prompt_facet.replace("{{source_document}}",
-                                                                                   source_document[
-                                                                                       "document_content"]).replace(
-                                    "{{judgement_expression}}", judgement_expression)}
-                            ]
-                        )
-                        judgement["Criteria Facet"] = parse_facet(output_dict['choices'][0]['message']['content'])
+def annotating_all(samples, expressions):
+    """
+    :param samples: dict
+    :return: none
+    """
+    print("Annotating count", len(samples), len(expressions))
+
+    for paper_id, sample in samples.items():
+        print(paper_id)
+
+        annotated_documents = expressions[paper_id]
+        documents_annotated = []
+        for i, annotated_document in enumerate(annotated_documents):
+            title = annotated_document["Document Title"]
+            document = ""
+            if i == 0 and title == sample["meta_review_title"]:
+                document = sample["meta_review"]
+            else:
+                for review in sample["reviews"]:
+                    if review["title"] == title:
+                        document = review["comment"]
                         break
-                    except Exception as e:
-                        print(e)
-                        if ("limit" in str(e)):
-                            time.sleep(2)
-
-                # get polarity
-                while True:
-                    try:
-                        output_dict = openai.ChatCompletion.create(
-                            model="gpt-4",
-                            messages=[
-                                {"role": "system", "content": prompt_polarity.replace("{{source_document}}",
-                                                                                   source_document[
-                                                                                       "document_content"]).replace(
-                                    "{{judgement_expression}}", judgement_expression)}
-                            ]
-                        )
-                        judgement["Sentiment Polarity"] = parse_polarity(
-                            output_dict['choices'][0]['message']['content'])
-                        break
-                    except Exception as e:
-                        print(e)
-                        if ("limit" in str(e)):
-                            time.sleep(2)
-
-                # get expressor
-                while True:
-                    try:
-                        output_dict = openai.ChatCompletion.create(
-                            model="gpt-4",
-                            messages=[
-                                {"role": "system", "content": prompt_expressor.replace("{{source_document}}",
-                                                                                      source_document[
-                                                                                          "document_content"]).replace(
-                                    "{{judgement_expression}}", judgement_expression)}
-                            ]
-                        )
-                        judgement["Sentiment Expresser"] = parse_expressor(
-                            output_dict['choices'][0]['message']['content'])
-                        break
-                    except Exception as e:
-                        print(e)
-                        if ("limit" in str(e)):
-                            time.sleep(2)
-
-                # get convincingness
-                if judgement["Sentiment Expresser"] == "Others":
-                    judgement["Convincingness"] = "Not applicable"
-                else:
-                    while True:
-                        try:
-                            output_dict = openai.ChatCompletion.create(
-                                model="gpt-4",
-                                messages=[
-                                    {"role": "system",
-                                     "content": prompt_convincingness.replace("{{source_document}}",
-                                                                         source_document[
-                                                                             "document_content"]).replace(
-                                         "{{judgement_expression}}", judgement_expression)}
-                                ]
-                            )
-                            judgement["Convincingness"] = parse_convincingness(
-                                output_dict['choices'][0]['message']['content'])
-                            break
-                        except Exception as e:
-                            print(e)
-                            if ("limit" in str(e)):
-                                time.sleep(2)
-
+            judgements = annotated_document["Annotated Judgements"]
+            if document == "":
+                print("There is something wrong with the document title.")
             documents_annotated.append(
-                {"Document Title": source_document["document_title"], "Annotated Judgements": judgements})
+                {"Document Title": title, "Annotated Judgements": annotating_judgements(document, judgements)})
+
         results = {}
         results[paper_id] = documents_annotated
-        with open("gpt4_result_small/%s.json" % paper_id, "w") as f:
+        with open("../gpt4_result_small/%s.json" % paper_id, "w") as f:
             json.dump(results, f, indent=4)
 
 
@@ -199,30 +200,22 @@ if __name__ == "__main__":
     random.seed(42)
     openai.api_key = "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"
 
-    with open("../../annotation_analysis/bryan_annotation_result.json") as f:
-        bryan_results = json.load(f)
-    with open("../../annotation_analysis/zenan_annotation_result.json") as f:
-        zenan_results = json.load(f)
-    assert len(set(bryan_results.keys()).difference(set(zenan_results.keys()))) == 0
-    samples_annotated_keys = bryan_results.keys()
-
     with open("../../annotation_data/annotation_data_small.json") as f:
         samples_all = json.load(f)
-    # Evaluation data for agreement of GPT-4 with human annotators
-    samples_gpt4 = {}
-    for sample_key in samples_all.keys():
-        if sample_key in samples_annotated_keys:
-            samples_gpt4[sample_key] = samples_all[sample_key]
-    annotating(samples_gpt4)
 
-    # with open("gpt4_annotation_data_large.json") as f:
-    #     samples_all = json.load(f)
-    # # Annotating more data with GPT-4
-    # samples_gpt4 = []
-    # for sample in samples_all:
-    #     if sample["paper_id"][10:] not in samples_annotated_keys and sample["label"] == "train":
-    #         samples_gpt4.append(sample)
-    # samples_gpt4 = random.sample(samples_gpt4, 2)
-    # results = annotating(samples_gpt4)
-    # with open("gpt4_annotation_result_large.json", "w") as f:
-    #     json.dump(zenan_results, f, indent=4)
+    f = open("experiment_ids_dev.txt")
+    ids = f.read().split("\n")
+
+    target_folder = "../gpt4_result_small"
+    files_all = os.listdir(target_folder)
+    annotated_expressions = {}
+    for file in files_all:
+        if file[:-5] in ids:
+            annotated_expressions.update(json.load(open(os.path.join(target_folder, file))))
+
+    # Evaluation data for agreement of GPT-4 with human annotators
+    annotation_data = {}
+    for sample_key in samples_all.keys():
+        if sample_key in ids:
+            annotation_data[sample_key] = samples_all[sample_key]
+    annotating_all(annotation_data, annotated_expressions)

@@ -4,28 +4,36 @@
             "Document Title": "A study on sparse properties of L1-regularization in deep neural networks, yet experimental supports seem week.",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "some interesting results, e.g. the stationary point of an l1 regularized layer has bounded number of non-zero elements",
-                    "Sentiment Expression": "interesting",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "properties of L1 regularization for deep neural network",
+                    "Sentiment Expression": "studies",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "some interesting results",
+                    "Sentiment Expression": "contains",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "experimental supports",
                     "Sentiment Expression": "weak",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "a final rejection",
-                    "Sentiment Expression": "is proposed",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "proposed",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 }
             ]
         },
@@ -33,36 +41,52 @@
             "Document Title": "Reply to AnonReviewer2",
             "Annotated Judgements": [
                 {
+                    "Content Expression": "our theorem",
+                    "Sentiment Expression": "yields promising results",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
                     "Content Expression": "experimental results for both (5) and (8)",
-                    "Sentiment Expression": "satisfactory results satisfying our bounds from analyzing",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "We will show",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                },
+                {
+                    "Content Expression": "experiments in this work",
+                    "Sentiment Expression": "achieve satisfactory results",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "experiments on Cifar 10 with Vgglike-networks with different \\lambda values",
-                    "Sentiment Expression": "compressing the last 2 FC layer",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "We perform",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "the bound for NNZ per-layer in this setting",
-                    "Sentiment Expression": "50000 * K_s, which depends on the number of supports in the stationary point.",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "epsilon, nnz_fc1, nnz_fc2, train_acc",
+                    "Sentiment Expression": "1e-4, 9052, 4549, 0.9970, 1e-5, 9947, 4567, 0.9974, 1e-6, 10046, 4570, 0.9979, 1e-7, 10053, 4570, 0.9970, 1e-8, 10054, 4570, 0.9969, 1e-9, 10054, 4570, 0.9972, 1e-10, 10054, 4570, 0.9969, 0, 262144, 5120, 0.9970",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not applicable"
                 },
                 {
-                    "Content Expression": "a max-margin loss is used",
-                    "Sentiment Expression": "K_s can be close to 1, which would give us an NNZ bound around 50000, which is not far from the empirical compressed NNZ (~ 10000).",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "the mistakes and typos",
+                    "Sentiment Expression": "We will fix",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
                 }
             ]
         },
@@ -70,20 +94,28 @@
             "Document Title": "Reply to AnonReviewer1",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "L1 norm is penalized, even a very small epsilon",
-                    "Sentiment Expression": "can lead to very sparse solutions",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "experiments on Cifar 10 with Vgglike-networks with different \\lambda values by compressing the last 2 FC layer",
+                    "Sentiment Expression": "validate",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "For epsilon >= 1e-9, the nnz_fc1 becomes <= 10054 for the first training epoch. However, for epsilon = 1e-10, nnz_fc1 drops to 10054 after the second epoch",
-                    "Sentiment Expression": "nnz_fc1 becomes <= 10054 for the first training epoch. However, for epsilon = 1e-10, nnz_fc1 drops to 10054 after the second epoch",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "after the L1 norm is penalized, even a very small epsilon can lead to very sparse solutions",
+                    "Sentiment Expression": "find",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "for epsilon = 1e-10, nnz_fc1 drops to 10054 after the second epoch",
+                    "Sentiment Expression": "drops",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 }
             ]
         },
@@ -93,58 +125,58 @@
                 {
                     "Content Expression": "pruning ratios in (C. Louizos et al., 2017), (J. Achterhold et al.)",
                     "Sentiment Expression": "are not as strong as our compared baseline \"Variational Dropout\"",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "both our method and VD",
                     "Sentiment Expression": "has better results compared to the two related works",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "Our story",
                     "Sentiment Expression": "focuses more on the analysis of \"problem\" instead of the \"algorithm\"",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "our novelty",
                     "Sentiment Expression": "lies more on the analysis of the pruning objective than on the algorithm",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "it",
-                    "Sentiment Expression": "is a wrong impression that we are proposing ADAM over SGD",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "we are proposing ADAM over SGD",
+                    "Sentiment Expression": "it is a wrong impression",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
-                    "Content Expression": "The sentence",
-                    "Sentiment Expression": "is an editorial mistake",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "Our proposition for the algorithm is the \"L1 cumulative\" technique",
+                    "Sentiment Expression": "as a general extension module to modify any stochastic-gradient-based algorithms, such as SGD and ADAM, into a sparsity-inducing solver",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "our experiments",
+                    "Content Expression": "our experiments in future revisions",
                     "Sentiment Expression": "We will strengthen",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 }
             ]
         },
@@ -152,60 +184,60 @@
             "Document Title": "Repeating the old story from other papers, quit limited novelty, lacking solid experiments",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "A large part of math is from previous works",
-                    "Sentiment Expression": "not enough",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "A large part of math",
+                    "Sentiment Expression": "is from previous works, which seems not enough for the ICLR conference",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "the authors totally ignore the latest improvements in neural network compression",
-                    "Sentiment Expression": "very surprising",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "It is very surprising",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "Their approach",
-                    "Sentiment Expression": "extremely far away from the state of the art in terms of both methodological excellence and experimental results",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "is extremely far away from the state of the art in terms of both methodological excellence and experimental results",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "the core contribution is replacing SGD with Adam",
-                    "Sentiment Expression": "In my opinion",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "the core contribution",
+                    "Sentiment Expression": "is replacing SGD with Adam",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
-                    "Content Expression": "The main difference of this paper is change SGD to Adam",
-                    "Sentiment Expression": "not enough",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "For network compression",
+                    "Sentiment Expression": "it is common to add L1 Penalty to loss function",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
-                    "Content Expression": "the authors claim 'Finally, we show the trade-off for pruning Resnet-50 on the ILSVRC dataset.'",
-                    "Sentiment Expression": "I cannot find the results",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "The main difference of this paper",
+                    "Sentiment Expression": "is change SGD to Adam, which seems not enough",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "Is the ResNet-32 too complex for cifar-10?",
-                    "Sentiment Expression": "too complex",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "the authors claim 'Finally, we show the trade-off for pruning Resnet-50 on the ILSVRC dataset.",
+                    "Sentiment Expression": "but I cannot find the results",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 }
             ]
         },
@@ -215,58 +247,50 @@
                 {
                     "Content Expression": "the paper",
                     "Sentiment Expression": "I mostly like",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "the columns of V",
                     "Sentiment Expression": "may not be independent during the optimization(training) process",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
-                    "Content Expression": "Theorem 1",
-                    "Sentiment Expression": "the claim is a little bit counter intuitive",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "The claim",
+                    "Sentiment Expression": "is a little bit counter intuitive",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
-                    "Content Expression": "empirical observation",
-                    "Sentiment Expression": "tends to be almost zero",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "in theorem 1",
+                    "Sentiment Expression": "dim(W^{(j)})=d should be dim(vec(W^{(j)}))=d",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
-                    "Content Expression": "effects",
-                    "Sentiment Expression": "Can authors also show this empirically",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
-                },
-                {
-                    "Content Expression": "vec(X^J) (vec(W^j)) in the description",
-                    "Sentiment Expression": "it is confusing",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "description of the jacobian matrix V",
+                    "Sentiment Expression": "should be in details",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "notations of subgradient and gradient",
-                    "Sentiment Expression": "are used without claim",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "used without claim",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 }
             ]
         },
@@ -274,44 +298,52 @@
             "Document Title": "Nice Theoretical Insights, but Not Sure How Experiments Substantiate the Theory",
             "Annotated Judgements": [
                 {
-                    "Content Expression": "the paper analyzes the properties of the stationary point of the layerwise objective",
-                    "Sentiment Expression": "the experiments seem to be conducted based on the different joint objective",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "the properties of the stationary point of the layerwise objective (5)",
+                    "Sentiment Expression": "analyzes",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
                 },
                 {
-                    "Content Expression": "Experimental results of optimizing (5)",
-                    "Sentiment Expression": "seem missing",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Content Expression": "the experiments",
+                    "Sentiment Expression": "seem to be conducted based on the different joint objective (8)",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "the theory for (5)",
-                    "Sentiment Expression": "the reviewer is not sure whether is rigorously justified by the experiments",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "is not sure whether is rigorously justified by the experiments",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "the bound provided by Theorem 1",
-                    "Sentiment Expression": "It is also unclear how tight is.  Is the bound vacuous?",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "It is also unclear how tight",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "The bound",
+                    "Sentiment Expression": "vacuous?",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "the trade-off in point (b) of the abstract",
-                    "Sentiment Expression": "It is also unclear how is justified in the experiments",
-                    "Criteria Facet": "",
-                    "Sentiment Polarity": "",
-                    "Sentiment Expresser": "",
-                    "Convincingness": ""
+                    "Sentiment Expression": "is also unclear how is justified in the experiments",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
                 }
             ]
         }

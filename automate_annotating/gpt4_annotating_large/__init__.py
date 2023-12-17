@@ -1,0 +1,1 @@
+# For the samples without human annotation, document ids are used as the identifiers
