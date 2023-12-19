@@ -186,27 +186,30 @@ def annotator_agreement(results_1, results_2, annotation_data):
         result_documents_1_new = []
         for i, result_document_1 in enumerate(result_documents_1):
             title = result_document_1["Document Title"]
+            original_sentences = []
             for document in annotation_data[id]:
                 if document["title"] == title:
                     original_sentences = document["sentences"]
                     break
+            if len(original_sentences) == 0:
+                print("Error with original sentences")
             judgements = result_document_1["Annotated Judgements"]
             # print(judgements)
             # print(original_sentences)
 
-            sentences = []
+            anchored_sentences = []
             for judgement in judgements:
                 tmp = judgement["Content Expression"] + " " + judgement["Sentiment Expression"]
                 rouges = []
                 for sentence in original_sentences:
                     scores = scorer.score(tmp, sentence)
                     rouges.append(scores["rouge2"].fmeasure + scores["rouge1"].fmeasure + scores["rougeLsum"].fmeasure)
-                sentences.append(rouges.index(max(rouges)))
+                anchored_sentences.append(rouges.index(max(rouges)))
 
             # offset = len(sentences) - len(set(sentences))
             # if offset > 0:
             #     print(sentences)
-            result_document_1["Sentences"] = sentences
+            result_document_1["Sentences"] = anchored_sentences
             result_documents_1_new.append(result_document_1)
         results_1[id] = result_documents_1_new
 
@@ -214,24 +217,65 @@ def annotator_agreement(results_1, results_2, annotation_data):
         result_documents_2_new = []
         for i, result_document_2 in enumerate(result_documents_2):
             title = result_document_2["Document Title"]
+            original_sentences = []
             for document in annotation_data[id]:
                 if document["title"] == title:
                     original_sentences = document["sentences"]
                     break
+            if len(original_sentences) == 0:
+                print("Error with original sentences")
             judgements = result_document_2["Annotated Judgements"]
 
-            sentences = []
+            anchored_sentences = []
             for judgement in judgements:
                 tmp = judgement["Content Expression"] + " " + judgement["Sentiment Expression"]
                 rouges = []
                 for sentence in original_sentences:
                     scores = scorer.score(tmp, sentence)
                     rouges.append(scores["rouge2"].fmeasure + scores["rouge1"].fmeasure + scores["rougeLsum"].fmeasure)
-                sentences.append(rouges.index(max(rouges)))
+                anchored_sentences.append(rouges.index(max(rouges)))
 
-            result_document_2["Sentences"] = sentences
+            result_document_2["Sentences"] = anchored_sentences
             result_documents_2_new.append(result_document_2)
         results_2[id] = result_documents_2_new
+
+    # Correlation on highlight, sentence level, based on original annotation data
+    print("###### Correlation on judgement, sentence level")
+    actions_all_bryan = []
+    actions_all_zenan = []
+    for id, source_documents in annotation_data.items():
+        result_1 = results_1[id]
+        result_2 = results_2[id]
+
+        for document in source_documents:
+            title = document["title"]
+            original_sentences = document["sentences"]
+
+            judgement_sentences_1 = []
+            for document in result_1:
+                if document["Document Title"] == title:
+                    judgement_sentences_1 = document["Sentences"]
+                    break
+            judgement_sentences_2 = []
+            for document in result_2:
+                if document["Document Title"] == title:
+                    judgement_sentences_2 = document["Sentences"]
+                    break
+            for sentence_id, sentence in enumerate(original_sentences):
+                if sentence_id in judgement_sentences_1:
+                    actions_all_bryan.append(1)
+                else:
+                    actions_all_bryan.append(0)
+                if sentence_id in judgement_sentences_2:
+                    actions_all_zenan.append(1)
+                else:
+                    actions_all_zenan.append(0)
+    a = np.array(actions_all_bryan)
+    b = np.array(actions_all_zenan)
+    print("Cohen Kappa: ", cohen_kappa_score(a, b))
+    print("Kendall Tau: ", stats.kendalltau(a, b))
+    print("Spearman: ", stats.spearmanr(a, b))
+    print("Pearson: ", stats.pearsonr(a, b))
 
     # Get shared judgements, based on annotation results
     judgements_bryan_share = []
@@ -284,46 +328,6 @@ def annotator_agreement(results_1, results_2, annotation_data):
                                     judgements_bryan_share.append(judgement_1)
                                     judgements_zenan_share.append(judgement_2)
     print("All shared judgements: ", len(judgements_bryan_share), len(judgements_zenan_share))
-
-    # Correlation on highlight, sentence level, based on original annotation data
-    print("###### Correlation on judgement, sentence level")
-    actions_all_bryan = []
-    actions_all_zenan = []
-    for id, source_documents in annotation_data.items():
-        result_1 = results_1[id]
-        result_2 = results_2[id]
-
-        for review in source_documents:
-            title = review["title"]
-            annotation_sentences = review["sentences"]
-
-            judgement_sentences_1 = []
-            for document in result_1:
-                if document["Document Title"] == title:
-                    judgement_sentences_1 = document["Sentences"]
-                    break
-            for sentence_id, sentence in enumerate(annotation_sentences):
-                if sentence_id in judgement_sentences_1:
-                    actions_all_bryan.append(1)
-                else:
-                    actions_all_bryan.append(0)
-
-            judgement_sentences_2 = []
-            for document in result_2:
-                if document["Document Title"] == title:
-                    judgement_sentences_2 = document["Sentences"]
-                    break
-            for sentence_id, sentence in enumerate(annotation_sentences):
-                if sentence_id in judgement_sentences_2:
-                    actions_all_zenan.append(1)
-                else:
-                    actions_all_zenan.append(0)
-    a = np.array(actions_all_bryan)
-    b = np.array(actions_all_zenan)
-    print("Cohen Kappa: ", cohen_kappa_score(a, b))
-    print("Kendall Tau: ", stats.kendalltau(a, b))
-    print("Spearman: ", stats.spearmanr(a, b))
-    print("Pearson: ", stats.pearsonr(a, b))
 
     # Correlation on different aspects
     criteria_facet_same = []
@@ -460,7 +464,6 @@ def annotator_agreement(results_1, results_2, annotation_data):
 if __name__ == "__main__":
     # There are three major types of documents: meta-reviews, official-reviews, and others
     for type in ["meta-review", "official-reviews", "others", "all"]:
-        print("############", type, "#############")
         with open("bryan_annotation_result.json") as f:
             bryan_results = json.load(f)
         with open("zenan_annotation_result.json") as f:
@@ -471,7 +474,10 @@ if __name__ == "__main__":
         for key in annotation_data_tmp.keys():
             if key in bryan_results.keys() and key in zenan_results.keys():
                 annotation_data[key] = annotation_data_tmp[key]
+        print("Bryan", len(bryan_results), "Zenan", len(zenan_results), "Annotation data", len(annotation_data))
 
+        print("############", type, "#############")
+        # Filtering documents based on document types
         for key in annotation_data.keys():
             bryan_result = bryan_results[key]
             zenan_result = zenan_results[key]

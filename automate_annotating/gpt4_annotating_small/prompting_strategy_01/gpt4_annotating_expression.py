@@ -78,7 +78,7 @@ def annotating(samples):
                     {"Document Title": review["title"], "Annotated Judgements": judgements})
         results = {}
         results[paper_id] = documents_annotated
-        with open("../gpt4_result_small/%s.json" % paper_id, "w") as f:
+        with open("result/%s.json" % paper_id, "w") as f:
             json.dump(results, f, indent=4)
 
 
