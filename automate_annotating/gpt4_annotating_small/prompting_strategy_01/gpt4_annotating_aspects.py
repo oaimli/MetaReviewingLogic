@@ -69,10 +69,10 @@ def parse_convincingness(result):
 
 
 def annotating_judgements(document, judgements):
-    prompt_facet = open("../prompts/prompt_facet.txt").read()
-    prompt_expresser = open("../prompts/prompt_expresser.txt").read()
-    prompt_convincingness = open("../prompts/prompt_convincingness.txt").read()
-    prompt_polarity = open("../prompts/prompt_polarity.txt").read()
+    prompt_facet = open("prompts/prompt_facet.txt").read()
+    prompt_expresser = open("prompts/prompt_expresser.txt").read()
+    prompt_convincingness = open("prompts/prompt_convincingness.txt").read()
+    prompt_polarity = open("prompts/prompt_polarity.txt").read()
 
     judgements_new = []
     for judgement in judgements:
@@ -200,13 +200,13 @@ if __name__ == "__main__":
     random.seed(42)
     openai.api_key = "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"
 
-    with open("../../annotation_data/annotation_data_small.json") as f:
+    with open("../../../annotation_data/annotation_data_small.json") as f:
         samples_all = json.load(f)
 
     f = open("experiment_ids_dev.txt")
     ids = f.read().split("\n")
 
-    target_folder = "../gpt4_result_small"
+    target_folder = "result"
     files_all = os.listdir(target_folder)
     annotated_expressions = {}
     for file in files_all:

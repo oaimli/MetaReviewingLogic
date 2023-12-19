@@ -1,7 +1,7 @@
 import json
 import os
 
-target_folder = "gpt4_result_large"
+target_folder = "result"
 files_all = os.listdir(target_folder)
 results_all = {}
 for file in files_all:

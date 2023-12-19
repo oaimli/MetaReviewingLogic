@@ -9,7 +9,7 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Not applicable"
+                    "Convincingness": "Not at all"
                 },
                 {
                     "Content Expression": "some interesting results",
@@ -33,7 +33,7 @@
                     "Criteria Facet": "Overall",
                     "Sentiment Polarity": "Strong negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Slightly Convincing"
+                    "Convincingness": "Highly Convincing"
                 }
             ]
         },
@@ -54,7 +54,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Not at all"
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "experiments in this work",
@@ -86,7 +86,7 @@
                     "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Not at all"
+                    "Convincingness": "Not applicable"
                 }
             ]
         },
@@ -150,7 +150,7 @@
                     "Content Expression": "our novelty",
                     "Sentiment Expression": "lies more on the analysis of the pruning objective than on the algorithm",
                     "Criteria Facet": "Novelty",
-                    "Sentiment Polarity": "Positive",
+                    "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 },
@@ -160,7 +160,7 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Slightly Convincing"
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "Our proposition for the algorithm is the \"L1 cumulative\" technique",
@@ -176,7 +176,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Slightly Convincing"
+                    "Convincingness": "Not at all"
                 }
             ]
         },
@@ -221,7 +221,7 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Slightly Convincing"
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "The main difference of this paper",
@@ -274,7 +274,7 @@
                     "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Highly Convincing"
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "description of the jacobian matrix V",
@@ -282,7 +282,7 @@
                     "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Slightly Convincing"
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "notations of subgradient and gradient",
@@ -311,7 +311,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Highly Convincing"
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "the theory for (5)",

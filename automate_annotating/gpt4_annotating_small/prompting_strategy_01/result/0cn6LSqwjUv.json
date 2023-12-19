@@ -9,7 +9,7 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Slightly Convincing"
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "contributions to neural architecture development",
@@ -22,8 +22,8 @@
                 {
                     "Content Expression": "the dataset itself, the wide variety of models examined and the large set of evaluation metrics",
                     "Sentiment Expression": "offers value",
-                    "Criteria Facet": "Advancement",
-                    "Sentiment Polarity": "Strong positive",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
                     "Convincingness": "Not applicable"
                 },
@@ -54,13 +54,13 @@
                     "Criteria Facet": "Overall",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Highly Convincing"
+                    "Convincingness": "Not at all"
                 },
                 {
                     "Content Expression": "the value of our dataset",
                     "Sentiment Expression": "acknowledging",
                     "Criteria Facet": "Novelty",
-                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 },
@@ -160,7 +160,7 @@
                     "Criteria Facet": "Overall",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Not at all"
+                    "Convincingness": "Not applicable"
                 }
             ]
         },
@@ -170,7 +170,7 @@
                 {
                     "Content Expression": "Document not found.",
                     "Sentiment Expression": "Not elaborated",
-                    "Criteria Facet": "Compliance",
+                    "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Not at all"
@@ -257,7 +257,7 @@
                 {
                     "Content Expression": "other domain-specific scores",
                     "Sentiment Expression": "are missing in the benchmark",
-                    "Criteria Facet": "Soundness",
+                    "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
@@ -281,15 +281,15 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Highly Convincing"
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "models achieving better PEM/PDEM demonstrate better ability on addressing some concerned issues",
                     "Sentiment Expression": "It would be much more convincing to conduct empirical studies to prove",
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
-                    "Sentiment Expresser": "Self",
-                    "Convincingness": "Highly Convincing"
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "training details",
@@ -302,7 +302,7 @@
                 {
                     "Content Expression": "information about these details except for a single statement \"we also adjust the hype parameters of these models for better performance\" in Supl. Sec.5.2",
                     "Sentiment Expression": "there is no",
-                    "Criteria Facet": "Soundness",
+                    "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
                     "Convincingness": "Not applicable"
@@ -313,7 +313,7 @@
                     "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Slightly Convincing"
+                    "Convincingness": "Not at all"
                 },
                 {
                     "Content Expression": "the models achieving better PEM and PDEM",
@@ -331,7 +331,7 @@
                 {
                     "Content Expression": "the downscaling algorithm trained on data collected from two different systems",
                     "Sentiment Expression": "will be more helpful",
-                    "Criteria Facet": "Soundness",
+                    "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
@@ -401,7 +401,7 @@
                     "Content Expression": "Downscaling",
                     "Sentiment Expression": "one of the most important tasks",
                     "Criteria Facet": "Advancement",
-                    "Sentiment Polarity": "Positive",
+                    "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 },
@@ -409,17 +409,17 @@
                     "Content Expression": "this precipitation down-scaling",
                     "Sentiment Expression": "the most important and cutting-edge meteorological task",
                     "Criteria Facet": "Advancement",
-                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "calculating PEM/PDEM",
                     "Sentiment Expression": "added an explanation to the main text",
-                    "Criteria Facet": "Soundness",
+                    "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Slightly Convincing"
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "the state-of-the-art transformer-based SR models (e.g., SwinIR) trained on our dataset",
@@ -427,13 +427,13 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Highly Convincing"
+                    "Convincingness": "Not at all"
                 },
                 {
                     "Content Expression": "event annotations",
                     "Sentiment Expression": "have provided",
                     "Criteria Facet": "Compliance",
-                    "Sentiment Polarity": "Positive",
+                    "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 }
@@ -486,7 +486,7 @@
                     "Content Expression": "self-attention",
                     "Sentiment Expression": "to fully explore the inherent laws within the data without being constrained by data assumptions",
                     "Criteria Facet": "Soundness",
-                    "Sentiment Polarity": "Negative",
+                    "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 }
@@ -515,7 +515,7 @@
                     "Content Expression": "Downscaling",
                     "Sentiment Expression": "one of the most important tasks",
                     "Criteria Facet": "Advancement",
-                    "Sentiment Polarity": "Positive",
+                    "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 },
@@ -533,7 +533,7 @@
                     "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Slightly Convincing"
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "a good name",
@@ -559,8 +559,8 @@
                 {
                     "Content Expression": "The problem addressed",
                     "Sentiment Expression": "is both interesting to ML (esp. to those interested in mixing physics and ml), and important",
-                    "Criteria Facet": "Advancement",
-                    "Sentiment Polarity": "Positive",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 },
@@ -570,13 +570,13 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Slightly Convincing"
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "this paper",
                     "Sentiment Expression": "will probably increase interest in ML in this set of problems, and some in the community will find the dataset useful",
                     "Criteria Facet": "Advancement",
-                    "Sentiment Polarity": "Positive",
+                    "Sentiment Polarity": "Strong positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 },
@@ -594,7 +594,7 @@
                     "Criteria Facet": "Compliance",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Slightly Convincing"
+                    "Convincingness": "Not at all"
                 }
             ]
         },
@@ -605,7 +605,7 @@
                     "Content Expression": "This paper",
                     "Sentiment Expression": "well written",
                     "Criteria Facet": "Clarity",
-                    "Sentiment Polarity": "Positive",
+                    "Sentiment Polarity": "Strong positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 },
@@ -615,7 +615,7 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Highly Convincing"
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "the technical novelty",
@@ -658,7 +658,7 @@
                     "Content Expression": "6 metrics for evaluating the models, including 4 reconstruction metrics that focuses on evaluating if the predicted high-resolution precipitation map matches the ground-truth, and 2 dynamic metrics that evaluate the dynamics of the predicted precipitation (via first order dynamics)",
                     "Sentiment Expression": "proposed",
                     "Criteria Facet": "Novelty",
-                    "Sentiment Polarity": "Positive",
+                    "Sentiment Polarity": "Strong positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 },
@@ -674,7 +674,7 @@
                     "Content Expression": "SRGAN, EDSR, ESRGAN to be VSR methods",
                     "Sentiment Expression": "extended",
                     "Criteria Facet": "Novelty",
-                    "Sentiment Polarity": "Positive",
+                    "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Not applicable"
                 },
@@ -691,8 +691,8 @@
                     "Sentiment Expression": "need to",
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Negative",
-                    "Sentiment Expresser": "Self",
-                    "Convincingness": "Slightly Convincing"
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "the coverage of the baseline methods",
@@ -718,7 +718,7 @@
                 {
                     "Content Expression": "The authors have evaluate SOTA super resolution models on the proposed dataset",
                     "Sentiment Expression": "provide a good benchmark",
-                    "Criteria Facet": "Novelty",
+                    "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
@@ -751,7 +751,7 @@
                     "Content Expression": "There are some language errors like \"e.t.c.\" $\rightarrow$ \"etc.\", and misleading notations in mathematical expressions",
                     "Sentiment Expression": "missing brackets in Eqn.1, missing description of \"L\", \"H\", \"T\" in line 250",
                     "Criteria Facet": "Clarity",
-                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 }

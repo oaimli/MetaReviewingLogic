@@ -1,12 +1,12 @@
 import json
 import os
 
-f = open("gpt4_annotating_small/experiment_ids_dev.txt")
+f = open("experiment_ids_dev.txt")
 ids = f.read().split("\n")
 print(ids)
 
 
-target_folder = "gpt4_result_small"
+target_folder = "result"
 files_all = os.listdir(target_folder)
 results_all = {}
 for file in files_all:

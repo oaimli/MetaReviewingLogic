@@ -15,7 +15,7 @@
                     "Content Expression": "technical concerns",
                     "Sentiment Expression": "resolved",
                     "Criteria Facet": "Soundness",
-                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Others",
                     "Convincingness": "Not applicable"
                 },
@@ -25,7 +25,7 @@
                     "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Highly Convincing"
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "this paper",
@@ -44,7 +44,7 @@
                     "Content Expression": "the use of a coreset",
                     "Sentiment Expression": "enables our method to be computationally efficient",
                     "Criteria Facet": "Novelty",
-                    "Sentiment Polarity": "Positive",
+                    "Sentiment Polarity": "Strong positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 },
@@ -98,16 +98,16 @@
                     "Sentiment Expression": "you highlight 1) the ability to converge to a target posterior distribution, and 2) that it enables the use of a core set",
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Positive",
-                    "Sentiment Expresser": "Others",
-                    "Convincingness": "Not applicable"
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "the main advantage",
                     "Sentiment Expression": "you 1) can provide guarantees in the form of prop 3.1, and 2) that it is computationally efficient",
-                    "Criteria Facet": "Soundness",
+                    "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Highly Convincing"
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "different choice of (expressive) flow",
@@ -128,7 +128,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Not applicable"
+                    "Convincingness": "Not at all"
                 }
             ]
         },
@@ -255,7 +255,7 @@
                     "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Not at all"
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "our method",
@@ -287,7 +287,7 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Highly Convincing"
+                    "Convincingness": "Not at all"
                 },
                 {
                     "Content Expression": "our method",
@@ -337,7 +337,7 @@
                 {
                     "Content Expression": "advantages of using a Hamiltonian flow",
                     "Sentiment Expression": "explain",
-                    "Criteria Facet": "Novelty",
+                    "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Strong positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
@@ -345,10 +345,10 @@
                 {
                     "Content Expression": "representative (or even relevant) example model",
                     "Sentiment Expression": "why",
-                    "Criteria Facet": "Soundness",
+                    "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Negative",
-                    "Sentiment Expresser": "Others",
-                    "Convincingness": "Not applicable"
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "\\rho_t ~ N(mu, Lambda^-1)",
@@ -393,7 +393,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Not applicable"
+                    "Convincingness": "Not at all"
                 },
                 {
                     "Content Expression": "relative cov error",
@@ -424,8 +424,8 @@
                     "Sentiment Expression": "have not been very clear",
                     "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Negative",
-                    "Sentiment Expresser": "Others",
-                    "Convincingness": "Not applicable"
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
                 }
             ]
         },
@@ -529,7 +529,7 @@
                     "Content Expression": "The manuscript",
                     "Sentiment Expression": "is well structured and very clearly written, with helpful introductions to the methodological ingredients that it builds upon",
                     "Criteria Facet": "Clarity",
-                    "Sentiment Polarity": "Positive",
+                    "Sentiment Polarity": "Strong positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 },
@@ -656,7 +656,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Slightly Convincing"
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "a good response or an additional experiment",

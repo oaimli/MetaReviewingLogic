@@ -9,7 +9,7 @@
                     "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Not applicable"
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "novelty over ProxQuant",
@@ -60,7 +60,7 @@
                     "Content Expression": "this paper",
                     "Sentiment Expression": "a weak rejection",
                     "Criteria Facet": "Overall",
-                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 },
@@ -69,8 +69,8 @@
                     "Sentiment Expression": "it is better to provide more",
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Positive",
-                    "Sentiment Expresser": "Self",
-                    "Convincingness": "Slightly Convincing"
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "why mirror descent is better than proximal gradient descent",
@@ -78,12 +78,12 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Slightly Convincing"
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "\"MD allows gradient descent to be performed on a more general non-Euclidean space\"",
                     "Sentiment Expression": "The authors repeatedly claim",
-                    "Criteria Facet": "Soundness",
+                    "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Others",
                     "Convincingness": "Not applicable"
@@ -94,7 +94,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Not at all"
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "this point",
@@ -107,7 +107,7 @@
                 {
                     "Content Expression": "the technical contributions",
                     "Sentiment Expression": "are not enough",
-                    "Criteria Facet": "Advancement",
+                    "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
@@ -126,7 +126,7 @@
                     "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Highly Convincing"
+                    "Convincingness": "Slightly Convincing"
                 }
             ]
         },
@@ -223,7 +223,7 @@
                 {
                     "Content Expression": "a numerically stable version of MD",
                     "Sentiment Expression": "prone to numerical instability",
-                    "Criteria Facet": "Soundness",
+                    "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
@@ -261,7 +261,7 @@
                     "Content Expression": "statement that our MD method is a \u201cnatural extension of PQ\u201d",
                     "Sentiment Expression": "misleading",
                     "Criteria Facet": "Novelty",
-                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 },
@@ -284,7 +284,7 @@
                 {
                     "Content Expression": "PQ hinted at the connection to the dual averaging version of MD and STE",
                     "Sentiment Expression": "it does not analyze the conditions on the projections under which corresponding valid mirror maps exist",
-                    "Criteria Facet": "Soundness",
+                    "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
@@ -295,7 +295,7 @@
                     "Criteria Facet": "Clarity",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Not at all"
+                    "Convincingness": "Not applicable"
                 }
             ]
         },
@@ -314,7 +314,7 @@
                     "Content Expression": "the convergence of the MD with nonconvex objective function in NN quantification neither how to choose the projection for mirror mapping construction",
                     "Sentiment Expression": "do not analyze",
                     "Criteria Facet": "Soundness",
-                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Not at all"
                 },
@@ -361,7 +361,7 @@
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Highly Convincing"
+                    "Convincingness": "Slightly Convincing"
                 },
                 {
                     "Content Expression": "this work",

@@ -70,75 +70,14 @@ def character_level_agreement(annotation_data, results_1, results_2):
     all_1s = []
     all_2s = []
 
-    for id, sample in annotation_data.items():
+    for id, source_documents in annotation_data.items():
         print(id)
         result_1 = results_1[id]
         result_2 = results_2[id]
 
-        meta_review = sample["meta_review"]
-        meta_review_title = sample["meta_review_title"]
-
-        meta_review_signal_content_1 = [0]*len(meta_review)
-        meta_review_signal_sentiment_1 = [0] * len(meta_review)
-        meta_review_signal_all_1 = [0] * len(meta_review)
-        judgements_1 = []
-        if result_1[0]["Document Title"] == meta_review_title:
-            judgements_1 = result_1[0]["Annotated Judgements"]
-        else:
-            print("Error, meta_review_title")
-        for judgement in judgements_1:
-            content = judgement["Content Expression"]
-            sentiment = judgement["Sentiment Expression"]
-            start = 0
-            while start >= 0:
-                start = meta_review.find(content, start)
-                if start != -1:
-                    meta_review_signal_content_1[start: start + len(content)] = [1] * len(content)
-                    meta_review_signal_all_1[start: start + len(content)] = [1] * len(content)
-                    start += len(content)
-            start = 0
-            while start >= 0:
-                start = meta_review.find(sentiment, start)
-                if start != -1:
-                    meta_review_signal_sentiment_1[start: start + len(sentiment)] = [1] * len(sentiment)
-                    meta_review_signal_all_1[start: start + len(sentiment)] = [1] * len(sentiment)
-                    start += len(sentiment)
-        content_1s.extend(meta_review_signal_content_1)
-        sentiment_1s.extend(meta_review_signal_sentiment_1)
-        all_1s.extend(meta_review_signal_all_1)
-
-        meta_review_signal_content_2 = [0] * len(meta_review)
-        meta_review_signal_sentiment_2 = [0] * len(meta_review)
-        meta_review_signal_all_2 = [0] * len(meta_review)
-        judgements_2 = []
-        if result_2[0]["Document Title"] == meta_review_title:
-            judgements_2 = result_2[0]["Annotated Judgements"]
-        else:
-            print("Error, meta_review_title")
-        for judgement in judgements_2:
-            content = judgement["Content Expression"]
-            sentiment = judgement["Sentiment Expression"]
-            start = 0
-            while start >= 0:
-                start = meta_review.find(content, start)
-                if start != -1:
-                    meta_review_signal_content_2[start: start + len(content)] = [1] * len(content)
-                    meta_review_signal_all_2[start: start + len(content)] = [1] * len(content)
-                    start += len(content)
-            start = 0
-            while start >= 0:
-                start = meta_review.find(sentiment, start)
-                if start != -1:
-                    meta_review_signal_sentiment_2[start: start + len(sentiment)] = [1] * len(sentiment)
-                    meta_review_signal_all_2[start: start + len(sentiment)] = [1] * len(sentiment)
-                    start += len(sentiment)
-        content_2s.extend(meta_review_signal_content_2)
-        sentiment_2s.extend(meta_review_signal_sentiment_2)
-        all_2s.extend(meta_review_signal_all_2)
-
-        for review in sample["reviews"]:
-            title = review["title"]
-            original_document = review["comment"]
+        for source_document_dict in source_documents:
+            title = source_document_dict["title"]
+            original_document = source_document_dict["content"]
 
             judgements_1_tmp = []
             for document in result_1:
@@ -146,14 +85,14 @@ def character_level_agreement(annotation_data, results_1, results_2):
                     judgements_1_tmp = document["Annotated Judgements"]
                     break
             if len(judgements_1_tmp) == 0:
-                print("No judgements", title)
+                print("No judgements in result-1", title)
             judgements_2_tmp = []
             for document in result_2:
                 if title == document["Document Title"]:
                     judgements_2_tmp = document["Annotated Judgements"]
                     break
             if len(judgements_2_tmp) == 0:
-                print("No judgements", title)
+                print("No judgements in result-2", title)
 
             signal_content_1 = [0] * len(original_document)
             signal_sentiment_1 = [0] * len(original_document)
@@ -203,7 +142,7 @@ def character_level_agreement(annotation_data, results_1, results_2):
             sentiment_2s.extend(signal_sentiment_2)
             all_2s.extend(signal_all_2)
 
-    print("#### Hightlight correlation, content, character level")
+    print("#### Highlight correlation, content, character level")
     a = np.array(content_1s)
     b = np.array(content_2s)
     print("Cohen Kappa: ", cohen_kappa_score(a, b))
@@ -211,7 +150,7 @@ def character_level_agreement(annotation_data, results_1, results_2):
     print("Spearman: ", stats.spearmanr(a, b))
     print("Pearson: ", stats.pearsonr(a, b))
 
-    print("#### Hightlight correlation, sentiment, character level")
+    print("#### Highlight correlation, sentiment, character level")
     a = np.array(sentiment_1s)
     b = np.array(sentiment_2s)
     print("Cohen Kappa: ", cohen_kappa_score(a, b))
@@ -219,7 +158,7 @@ def character_level_agreement(annotation_data, results_1, results_2):
     print("Spearman: ", stats.spearmanr(a, b))
     print("Pearson: ", stats.pearsonr(a, b))
 
-    print("#### Hightlight correlation, content+sentiment, character level")
+    print("#### Highlight correlation, content+sentiment, character level")
     a = np.array(all_1s)
     b = np.array(all_2s)
     print("Cohen Kappa: ", cohen_kappa_score(a, b))
@@ -228,42 +167,29 @@ def character_level_agreement(annotation_data, results_1, results_2):
     print("Pearson: ", stats.pearsonr(a, b))
 
 
-def annotator_agreement(results_1, results_2):
+def annotator_agreement(results_1, results_2, annotation_data):
     scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeLsum"], use_stemmer=True)
-
-    with open("../annotation_data/annotation_data_small.json") as f:
-        annotation_data_tmp = json.load(f)
-    annotation_data = {}
-    for key in annotation_data_tmp.keys():
-        if key in results_1.keys() and key in results_2.keys():
-            annotation_data[key] = annotation_data_tmp[key]
     assert len(annotation_data.keys()) == len(results_1.keys()) == len(results_2.keys())
 
     character_level_agreement(annotation_data, results_1, results_2)
 
     # Split documents into sentences, and anchor judgements to corresponding sentences
     for id in annotation_data.keys():
-        original_data = annotation_data[id]
-        meta_review = original_data["meta_review"]
-        reviews = original_data["reviews"]
-        reviews_new = []
-        for review in reviews:
-            review["sentences"] = sent_tokenize(review["comment"])
-            reviews_new.append(review)
-        annotation_data[id]["reviews"] = reviews_new
-        annotation_data[id]["meta_review_sentences"] = sent_tokenize(meta_review)
+        source_documents = annotation_data[id]
+        source_documents_new = []
+        for source_document_dict in source_documents:
+            source_document_dict["sentences"] = sent_tokenize(source_document_dict["content"])
+            source_documents_new.append(source_document_dict)
+        annotation_data[id] = source_documents_new
 
         result_documents_1 = results_1[id]
         result_documents_1_new = []
         for i, result_document_1 in enumerate(result_documents_1):
             title = result_document_1["Document Title"]
-            if i == 0 and title == original_data["meta_review_title"]:
-                original_sentences = original_data["meta_review_sentences"]
-            else:
-                for review in annotation_data[id]["reviews"]:
-                    if review["title"] == title:
-                        original_sentences = review["sentences"]
-                        break
+            for document in annotation_data[id]:
+                if document["title"] == title:
+                    original_sentences = document["sentences"]
+                    break
             judgements = result_document_1["Annotated Judgements"]
             # print(judgements)
             # print(original_sentences)
@@ -288,13 +214,10 @@ def annotator_agreement(results_1, results_2):
         result_documents_2_new = []
         for i, result_document_2 in enumerate(result_documents_2):
             title = result_document_2["Document Title"]
-            if i == 0 and title == original_data["meta_review_title"]:
-                original_sentences = original_data["meta_review_sentences"]
-            else:
-                for review in annotation_data[id]["reviews"]:
-                    if review["title"] == title:
-                        original_sentences = review["sentences"]
-                        break
+            for document in annotation_data[id]:
+                if document["title"] == title:
+                    original_sentences = document["sentences"]
+                    break
             judgements = result_document_2["Annotated Judgements"]
 
             sentences = []
@@ -366,24 +289,11 @@ def annotator_agreement(results_1, results_2):
     print("###### Correlation on judgement, sentence level")
     actions_all_bryan = []
     actions_all_zenan = []
-    for id, sample in annotation_data.items():
+    for id, source_documents in annotation_data.items():
         result_1 = results_1[id]
         result_2 = results_2[id]
 
-        meta_review_sentences = sample["meta_review_sentences"]
-        for sentence_id, sentence in enumerate(meta_review_sentences):
-            result_1_meta_review_judgements = result_1[0]["Sentences"]
-            result_2_meta_review_judgements = result_2[0]["Sentences"]
-            if sentence_id in result_1_meta_review_judgements:
-                actions_all_bryan.append(1)
-            else:
-                actions_all_bryan.append(0)
-            if sentence_id in result_2_meta_review_judgements:
-                actions_all_zenan.append(1)
-            else:
-                actions_all_zenan.append(0)
-
-        for review in sample["reviews"]:
+        for review in source_documents:
             title = review["title"]
             annotation_sentences = review["sentences"]
 
@@ -473,12 +383,17 @@ def annotator_agreement(results_1, results_2):
 
         if "ositive" in sentiment_polarity_bryan:
             sentiment_polarities_bryan.append("Positive")
-        if "egative" in sentiment_polarity_bryan:
+        elif "egative" in sentiment_polarity_bryan:
             sentiment_polarities_bryan.append("Negative")
+        else:
+            print("Error", sentiment_polarity_bryan)
+
         if "ositive" in sentiment_polarity_zenan:
             sentiment_polarities_zenan.append("Positive")
-        if "egative" in sentiment_polarity_zenan:
+        elif "egative" in sentiment_polarity_zenan:
             sentiment_polarities_zenan.append("Negative")
+        else:
+            print("Error", sentiment_polarity_zenan)
 
     print("Shared criteria_facet in judgements: ", len(criteria_facet_same))
     print(pd.value_counts(criteria_facet_same, normalize=True))
@@ -543,15 +458,69 @@ def annotator_agreement(results_1, results_2):
 
 
 if __name__ == "__main__":
-    with open("bryan_annotation_result.json") as f:
-        bryan_results = json.load(f)
-    print("################ Annotator Bryan: ################")
-    single_behaviour(bryan_results)
+    # There are three major types of documents: meta-reviews, official-reviews, and others
+    for type in ["meta-review", "official-reviews", "others", "all"]:
+        print("############", type, "#############")
+        with open("bryan_annotation_result.json") as f:
+            bryan_results = json.load(f)
+        with open("zenan_annotation_result.json") as f:
+            zenan_results = json.load(f)
+        with open("../annotation_data/annotation_data_small.json") as f:
+            annotation_data_tmp = json.load(f)
+        annotation_data = {}
+        for key in annotation_data_tmp.keys():
+            if key in bryan_results.keys() and key in zenan_results.keys():
+                annotation_data[key] = annotation_data_tmp[key]
 
-    with open("zenan_annotation_result.json") as f:
-        zenan_results = json.load(f)
-    print("################ Annotator Zenan: ################")
-    single_behaviour(zenan_results)
+        for key in annotation_data.keys():
+            bryan_result = bryan_results[key]
+            zenan_result = zenan_results[key]
+            source_data = annotation_data[key]
 
-    print("################ Annotator Agreement: ################")
-    annotator_agreement(bryan_results, zenan_results)
+            target_titles = []
+            source_data_new = []
+            if type == "meta-review":
+                target_titles.append(source_data["meta_review_title"])
+                source_data_new.append({"title": source_data["meta_review_title"], "content": source_data["meta_review"]})
+            elif type == "official-reviews":
+                for review in source_data["reviews"]:
+                    if review["writer"] == "official_reviewer":
+                        target_titles.append(review["title"])
+                        source_data_new.append(
+                            {"title": review["title"], "content": review["comment"]})
+            elif type == "others":
+                for review in source_data["reviews"]:
+                    if review["writer"] != "official_reviewer":
+                        target_titles.append(review["title"])
+                        source_data_new.append(
+                            {"title": review["title"], "content": review["comment"]})
+            else:
+                target_titles.append(source_data["meta_review_title"])
+                source_data_new.append(
+                    {"title": source_data["meta_review_title"], "content": source_data["meta_review"]})
+                for review in source_data["reviews"]:
+                    target_titles.append(review["title"])
+                    source_data_new.append(
+                        {"title": review["title"], "content": review["comment"]})
+            annotation_data[key] = source_data_new
+
+            bryan_result_new = []
+            for result in bryan_result:
+                title = result["Document Title"]
+                if title in target_titles:
+                    bryan_result_new.append(result)
+            bryan_results[key] = bryan_result_new
+
+            zenan_result_new = []
+            for result in zenan_result:
+                title = result["Document Title"]
+                if title in target_titles:
+                    zenan_result_new.append(result)
+            zenan_results[key] = zenan_result_new
+
+        print("################ Annotator Bryan: ################")
+        single_behaviour(bryan_results)
+        print("################ Annotator Zenan: ################")
+        single_behaviour(zenan_results)
+        print("################ Annotator Agreement: ################")
+        annotator_agreement(bryan_results, zenan_results, annotation_data)

@@ -23,7 +23,7 @@
                     "Content Expression": "the quality of the experiment results",
                     "Sentiment Expression": "Reviewers were also concerned about",
                     "Criteria Facet": "Soundness",
-                    "Sentiment Polarity": "Negative",
+                    "Sentiment Polarity": "Strong negative",
                     "Sentiment Expresser": "Others",
                     "Convincingness": "Not applicable"
                 },
@@ -33,12 +33,12 @@
                     "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Slightly Convincing"
+                    "Convincingness": "Highly Convincing"
                 },
                 {
                     "Content Expression": "adding the user embedding to another method such as BERT4Rec",
                     "Sentiment Expression": "can improve the performance of that model",
-                    "Criteria Facet": "Soundness",
+                    "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Slightly Convincing"
@@ -120,7 +120,7 @@
                 {
                     "Content Expression": "personalization for transformer-based models",
                     "Sentiment Expression": "actually possible and is proving to be very useful for recommendation systems in terms of both performance and interpretation",
-                    "Criteria Facet": "Novelty",
+                    "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Strong positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
@@ -165,7 +165,7 @@
                 {
                     "Content Expression": "personalization for transformer-based models",
                     "Sentiment Expression": "very useful",
-                    "Criteria Facet": "Novelty",
+                    "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Strong positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
@@ -173,7 +173,7 @@
                 {
                     "Content Expression": "models that can incorporate long sequences",
                     "Sentiment Expression": "an important research direction",
-                    "Criteria Facet": "Advancement",
+                    "Criteria Facet": "Novelty",
                     "Sentiment Polarity": "Positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
@@ -259,7 +259,7 @@
                     "Content Expression": "first few rows (A to F and H, I) of results in Table 1 are from SASRec paper",
                     "Sentiment Expression": "correct",
                     "Criteria Facet": "Soundness",
-                    "Sentiment Polarity": "Positive",
+                    "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 },
@@ -283,7 +283,7 @@
                     "Content Expression": "good regularization",
                     "Sentiment Expression": "extremely important for top k ranking results",
                     "Criteria Facet": "Soundness",
-                    "Sentiment Polarity": "Positive",
+                    "Sentiment Polarity": "Strong positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
                 },
@@ -298,7 +298,7 @@
                 {
                     "Content Expression": "personalization for transformer-based models",
                     "Sentiment Expression": "very useful for recommendation systems",
-                    "Criteria Facet": "Novelty",
+                    "Criteria Facet": "Advancement",
                     "Sentiment Polarity": "Strong positive",
                     "Sentiment Expresser": "Self",
                     "Convincingness": "Highly Convincing"
@@ -337,8 +337,8 @@
                     "Sentiment Expression": "show",
                     "Criteria Facet": "Soundness",
                     "Sentiment Polarity": "Positive",
-                    "Sentiment Expresser": "Self",
-                    "Convincingness": "Highly Convincing"
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
                 },
                 {
                     "Content Expression": "the paper",
@@ -362,7 +362,7 @@
                     "Criteria Facet": "Overall",
                     "Sentiment Polarity": "Negative",
                     "Sentiment Expresser": "Self",
-                    "Convincingness": "Highly Convincing"
+                    "Convincingness": "Slightly Convincing"
                 }
             ]
         },

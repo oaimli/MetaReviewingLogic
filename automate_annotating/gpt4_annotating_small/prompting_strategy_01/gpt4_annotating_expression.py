@@ -57,7 +57,7 @@ def annotating(samples):
     :return: none
     """
     print("Annotating count", len(samples))
-    prompt_expression = open("../prompts/prompt_expression.txt").read()
+    prompt_expression = open("prompts/prompt_expression.txt").read()
 
     for paper_id, sample in samples.items():
         print(paper_id)
@@ -86,7 +86,7 @@ if __name__ == "__main__":
     random.seed(42)
     openai.api_key = "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"
 
-    with open("../../annotation_data/annotation_data_small.json") as f:
+    with open("../../../annotation_data/annotation_data_small.json") as f:
         samples_all = json.load(f)
 
     f = open("experiment_ids_dev.txt")

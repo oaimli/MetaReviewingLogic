@@ -1,0 +1,667 @@
+{
+    "BJlowyHYPr": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the authors' responses",
+                    "Sentiment Expression": "concerns remain",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "recommends against accepting",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the D-Conv idea",
+                    "Sentiment Expression": "fairly simple and natural, it is novel AFAIK and fairly appropriate",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "The approach",
+                    "Sentiment Expression": "is well situated in the literature",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the experiments",
+                    "Sentiment Expression": "are indicative that this method can improve on the current approaches",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is fairly clear",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the notation",
+                    "Sentiment Expression": "is a bit confusing and somewhat sloppy",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Blind Review #2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The impact of K",
+                    "Sentiment Expression": "only affects marginally the prediction performance",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "These results",
+                    "Sentiment Expression": "can be found in Table 6 of Appendix L in the revised manuscript",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "a detailed complexity analysis of our D-Conv",
+                    "Sentiment Expression": "only introduces additional complexity",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the D-Conv",
+                    "Sentiment Expression": "contributes significantly to the performance improvements",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "CloudRNN, CloudGRU and CloudLSTM",
+                    "Sentiment Expression": "CloudRNN $\\ll$ CloudGRU $<$ CloudLSTM",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the effects of the attention mechanism",
+                    "Sentiment Expression": "are not very significant",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the large std",
+                    "Sentiment Expression": "exists only in the Cluster A of the air quality dataset",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "all models",
+                    "Sentiment Expression": "achieve similar std in this dataset (except for MLP), while our proposal obtains the best mean for all metrics",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for your reply, more experiments were added",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "RNN-based models to handle such long sequences",
+                    "Sentiment Expression": "very difficult",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "any forecasting model",
+                    "Sentiment Expression": "extremely large and therefore impractical for real deployment",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the performance",
+                    "Sentiment Expression": "can indeed be improved by introducing seasonal information",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the improvement determined by considering a richer input",
+                    "Sentiment Expression": "is fairly uniform across models",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "CloudLSTM",
+                    "Sentiment Expression": "outperforms state-of-the-art benchmarks in the mobile traffic forecasting task",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "performance improvements in their performance with different K values",
+                    "Sentiment Expression": "did not see clear",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the CloudLSTM",
+                    "Sentiment Expression": "has much stronger representability",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the performance of outliers",
+                    "Sentiment Expression": "will not be affected by their \"lone\" positions",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "our CloudLSTM",
+                    "Sentiment Expression": "performs equally well when forecasting over inliers and outliers, irrespective of the moving distance of the outliers",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for a thorough rebuttal; some concerns remain",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "a bit borderline",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "this explanation",
+                    "Sentiment Expression": "not quite satisfied",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "comparison of the current window vs a 7 day window",
+                    "Sentiment Expression": "would be needed",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "the current solution",
+                    "Sentiment Expression": "not too convinced",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "K=3 for your method",
+                    "Sentiment Expression": "seems weird",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "the sigmoid to rescale things",
+                    "Sentiment Expression": "don't think just using ... solves my concern",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "some experimental evidence that the method is somewhat robust to outliers",
+                    "Sentiment Expression": "am happy",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "a more controlled experiment",
+                    "Sentiment Expression": "I'd like to see",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Paper has been revised",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the valuable feedback from all reviewers",
+                    "Sentiment Expression": "appreciate",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the manuscript",
+                    "Sentiment Expression": "have revised",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Blind Review #1 (1)",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The present paper's new D-Conv operator",
+                    "Sentiment Expression": "appears new",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "D-Conv",
+                    "Sentiment Expression": "has fewer parameters",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "this",
+                    "Sentiment Expression": "a different way of solving the problem",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "our CloudLSTM",
+                    "Sentiment Expression": "performs much better",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "Combining a convolutional operator dedicated for point-cloud with an RNN structure for forecasting",
+                    "Sentiment Expression": "an important contribution",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "data with outliers",
+                    "Sentiment Expression": "would dramatically hurt performance",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "our CloudLSTM",
+                    "Sentiment Expression": "remains the best when performing forecasting with outliers",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "our proposals",
+                    "Sentiment Expression": "achieve even better performance",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Blind Review #1 (2)",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the experiments",
+                    "Sentiment Expression": "not clear to me",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "for the mobile traffic case",
+                    "Sentiment Expression": "I'd think",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "for not using long sequences as input",
+                    "Sentiment Expression": "There are several reasons",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the CloudLSTM",
+                    "Sentiment Expression": "is already performing well",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "including periodic information",
+                    "Sentiment Expression": "may improve performance",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the experiments",
+                    "Sentiment Expression": "I think... are missing some key simple baselines",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "our CloudLSTM",
+                    "Sentiment Expression": "achieves much better performance than these baselines",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Strong positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the results tables",
+                    "Sentiment Expression": "appear promising",
+                    "Criteria Facet": "Overall",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "Our CloudLSTM",
+                    "Sentiment Expression": "is able to learn dynamic spatial correlations in point-clouds through different time steps",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Blind Review #3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The K nearest points",
+                    "Sentiment Expression": "can indeed vary for each channel at each location",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "this discussion",
+                    "Sentiment Expression": "add",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the detailed comments on these issues",
+                    "Sentiment Expression": "appreciate",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the revised manuscript",
+                    "Sentiment Expression": "have update notation accordingly",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the revision",
+                    "Sentiment Expression": "trust...eliminates any confusion",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the original figure",
+                    "Sentiment Expression": "had readability issues",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "smaller neighborhood sizes",
+                    "Sentiment Expression": "are special cases of bigger neighborhood sizes",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Others",
+                    "Convincingness": "Not applicable"
+                },
+                {
+                    "Content Expression": "testing with K ranging between 3 and 9",
+                    "Sentiment Expression": "do not see clear performance improvements with higher K",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "a small CNN kernel",
+                    "Sentiment Expression": "has been proven effective in imaging applications",
+                    "Criteria Facet": "Advancement",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "a large K",
+                    "Sentiment Expression": "does not improve performance",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "L $<<$ log(n)",
+                    "Sentiment Expression": "should hold for most applications",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "method and experiments",
+                    "Sentiment Expression": "enough concerns",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "the invariance to point cloud order and the relative simplicity of the architecture",
+                    "Sentiment Expression": "Strengths",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "a vulnerability to outliers, experiments that don't seem to think about practical effects like day-of-week in forecasting, and experiments that leave out baselines to help directly assess the impact of neighbors",
+                    "Sentiment Expression": "Weaknesses",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "'D-Conv' operator",
+                    "Sentiment Expression": "appears new",
+                    "Criteria Facet": "Novelty",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the D-Conv",
+                    "Sentiment Expression": "has a strong reliance on nearest neighbors",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "data with outliers",
+                    "Sentiment Expression": "would dramatically hurt performance",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Strong negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "compare on publicly available datasets",
+                    "Sentiment Expression": "a good reason to not try",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "the experiments",
+                    "Sentiment Expression": "not clear ... consider realistic scenarios",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the complicated DConv weighting operator",
+                    "Sentiment Expression": "to do better than this baselines",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "the results tables",
+                    "Sentiment Expression": "appear promising",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "it",
+                    "Sentiment Expression": "not clear why",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Negative",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "interesting but needs some clarifications on",
+                    "Criteria Facet": "Clarity",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Highly Convincing"
+                },
+                {
+                    "Content Expression": "the proposed convolution operator",
+                    "Sentiment Expression": "contributes to the performance in terms of the mean of each metric",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Slightly Convincing"
+                },
+                {
+                    "Content Expression": "the improvement",
+                    "Sentiment Expression": "is statistically significant",
+                    "Criteria Facet": "Soundness",
+                    "Sentiment Polarity": "Positive",
+                    "Sentiment Expresser": "Self",
+                    "Convincingness": "Not at all"
+                }
+            ]
+        }
+    ]
+}
