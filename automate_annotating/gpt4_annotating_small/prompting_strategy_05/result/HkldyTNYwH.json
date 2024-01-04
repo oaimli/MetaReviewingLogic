@@ -1,0 +1,374 @@
+{
+    "HkldyTNYwH": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "work",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the results",
+                    "Sentiment Expression": "low rating",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the original concerns of the reviewers",
+                    "Sentiment Expression": "are addressed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "motivating the problem",
+                    "Sentiment Expression": "should be a bit more clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "to make the paper accessible to a wider audience",
+                    "Sentiment Expression": "add more intuitive descriptions",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer #1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this method",
+                    "Sentiment Expression": "it is hard to say this paper makes progress",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "not a satisfactory improvement",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the solution",
+                    "Sentiment Expression": "seems to deviate from the goal the paper aim to achieve",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer #4",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "moving from the 'semi-discrete OT map' to the piece-wise linear extension",
+                    "Sentiment Expression": "I have some doubts",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the numerical results",
+                    "Sentiment Expression": "seem promising",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The illustration in Fig. 3",
+                    "Sentiment Expression": "can be found by a linear separation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "not so great visual results from the paper",
+                    "Sentiment Expression": "not so great",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Singular set detection",
+                    "Sentiment Expression": "seems to be the most tricky part",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer #4 ",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the need for a high quality auto encoder model to encode celebA dataset",
+                    "Sentiment Expression": "the claims seems not too strong",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer #4 ",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Singular set detection",
+                    "Sentiment Expression": "seems to be the most tricky part...should have been explained further",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer #3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "does not establish formal new results",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "verifies *numerically*",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "in some parts a lighter notation and a more intuitive explanation",
+                    "Sentiment Expression": "could help",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "All these algorithms",
+                    "Sentiment Expression": "are different",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a simpler approach through optimization for nosmooth problems",
+                    "Sentiment Expression": "could resolve this issue",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "lots of typos through the text",
+                    "Sentiment Expression": "such as missing 'the', 'a', etc",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for your careful comments",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our work",
+                    "Sentiment Expression": "involves non-trivial theories",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #4",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "extremely simplifying assumption",
+                    "Sentiment Expression": "leads to not so great visual results",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "fewer images, but larger in size, and analysis of mode collapse phenomenon in real images",
+                    "Sentiment Expression": "would have been much better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Singular set detection",
+                    "Sentiment Expression": "should have been explained further",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a high quality auto encoder model to encode celebA dataset",
+                    "Sentiment Expression": "the claims seems not too strong",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the method does not have any adversarial training",
+                    "Sentiment Expression": "it studies the GAN idea from only fixing the generator point of view",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "progress in fixing the GAN's mode collapsed problem",
+                    "Sentiment Expression": "it is hard to say this paper makes",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "adversarial training module",
+                    "Sentiment Expression": "does not involve",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "treat it as a satisfactory improvement over GAN",
+                    "Sentiment Expression": "will not",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed problem in GAN",
+                    "Sentiment Expression": "indeed exists",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the solution",
+                    "Sentiment Expression": "seems to deviate from the goal the paper aim to achieve",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the idea of the paper and the perspective on GANs",
+                    "Sentiment Expression": "is nice, and interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "This paper's approach to the problems using Figalli's regularity theory",
+                    "Sentiment Expression": "approaches",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The numerical contributions",
+                    "Sentiment Expression": "are certainly significant",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "deserves publication",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "some strong claims about providing deep theoretical explanation",
+                    "Sentiment Expression": "should be more moderate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper verifies *numerically* that Figalli's theorem holds in this context",
+                    "Sentiment Expression": "it seems",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "relevance of Thm 3",
+                    "Sentiment Expression": "I don't see",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "lots of typos throughout the text and a couple of misspelled words",
+                    "Sentiment Expression": "I suggest the authors proofread the draft more carefully",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

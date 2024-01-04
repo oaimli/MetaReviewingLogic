@@ -1,0 +1,3675 @@
+{
+    "B4OTsjq63T5": [
+        {
+            "Document Title": "Meta Review of Paper6521 by Area Chair 4R4G",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the paper proposes an interesting approach to Bayesian inference incorporating coresets with Hamiltonian flows",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Continued Response to pCaB",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Generic normalizing flows",
+                    "Sentiment Expression": "do not generally provide error guarantees",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a generic normalizing flow",
+                    "Sentiment Expression": "possible [to] outperform our method",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "generic flows",
+                    "Sentiment Expression": "hard to train reliably in practice",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Generic normalizing flows",
+                    "Sentiment Expression": "do not use information from the target",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for the clarifications",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "response to my questions",
+                    "Sentiment Expression": "It has improved my understanding of the paper.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer ofer",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "comparisons in both energy distance and MMD",
+                    "Sentiment Expression": "will include",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for the authors' response",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "looking at the relative mean and cov separately",
+                    "Sentiment Expression": "perhaps it would be clearer",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer hoPP",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The limitations of the method",
+                    "Sentiment Expression": "were discussed insufficiently",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Continued Response to pCaB",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "simpler Bayesian Inference baselines such as Laplace and simple mean-field VI",
+                    "Sentiment Expression": "would have liked to see",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "reflection on the limitations of the approach",
+                    "Sentiment Expression": "could be further improved",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "attention devoted to this in the current version",
+                    "Sentiment Expression": "not enough",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "\"...interleaving MCMC and gradient descent steps... \"",
+                    "Sentiment Expression": "was not entirely clear to me",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "\"Let C be the universal constant\"",
+                    "Sentiment Expression": "...appears a bit unmotivated here",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "convention of placing the nonzero elements first",
+                    "Sentiment Expression": "Was [...] mentioned anywhere?",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer pCaB",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the combination of Hamiltonian-based flow with quasi-refreshment and Bayesian coresets",
+                    "Sentiment Expression": "unique",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a variational family",
+                    "Sentiment Expression": "inexpensive... and flexible",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Standard normalizing flows",
+                    "Sentiment Expression": "come with no guarantees, and may or may not be expensive to work with",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the standardization quasi-refreshment",
+                    "Sentiment Expression": "still provides a significant reduction in KL",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer ofer",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "these interpretations in the paper",
+                    "Sentiment Expression": "not been very clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper6521 by Reviewer ofer",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The proposed idea",
+                    "Sentiment Expression": "very novel and addresses important drawbacks that current coreset methods suffer from",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Important claims and new insights on coresets and Hamiltonian flows",
+                    "Sentiment Expression": "are backed up with theoretical proofs",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Experiments",
+                    "Sentiment Expression": "are well-conducted and a variety of datasets, both synthetic and real, are explored",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "review of related and past methods",
+                    "Sentiment Expression": "A thorough and clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "In Figure 2, relative cov error",
+                    "Sentiment Expression": "seems to take a long time to converge",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper6521 by Reviewer pCaB",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "new method for constructing Bayesian coresets",
+                    "Sentiment Expression": "introduces",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the presented method",
+                    "Sentiment Expression": "is original",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is technically sound",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The manuscript",
+                    "Sentiment Expression": "is well structured and very clearly written",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "constitutes a significant contribution",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "discussion of the limitations of the proposed approach",
+                    "Sentiment Expression": "would have been helpful",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper6521 by Reviewer hoPP",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "very well-written and clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The suggested combination of methods",
+                    "Sentiment Expression": "clearly and strongly improves performance compared to the alternatives",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "provides a theoretical analysis",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The experiments",
+                    "Sentiment Expression": "are all in fairly simple settings",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "SHF",
+                    "Sentiment Expression": "decreases runtime and increases performance for datasets with low complexity",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "would be improved",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Great work",
+                    "Sentiment Expression": "Keep it up",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "is good and should be published with minor revisions",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The Sparse Hamiltonian Flows (SHF)",
+                    "Sentiment Expression": "clearly and strongly outperform the alternatives in most experiments",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ],
+    "uFORMPcA_b": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "well-written and well-organized",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "provides a very satisfactory solution both in technical and practical point of view",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "doesn't present a clear and significant scientific contribution, shows limited empirical validation, and doesn't concern a software package with large enough practical impact on the NeurIPS community",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "scientific future work building on top of Lale",
+                    "Sentiment Expression": "I don\u2019t see a clear path",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The high-level scientific contribution",
+                    "Sentiment Expression": "is missing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the user studies",
+                    "Sentiment Expression": "only include 9 participants, making statements not very meaningful",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the significance of the scientific contribution or on the practical impact of the software described",
+                    "Sentiment Expression": "we weren't able to justify acceptance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10426 by Reviewer G6BM",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "extremely well-written and well-organized---it was easy to understand both low-level details and high-level ideas clearly",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The technical contents of the paper",
+                    "Sentiment Expression": "look novel and sound",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "considers a very important problem and provides a very satisfactory solution both in technical and practical point of view",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "introduces three combinators important for compositional gradual AutoML, among which the or combinator is particularly novel",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The entire system (including combinators, hyperparameter schema, and translation scheme)",
+                    "Sentiment Expression": "seems to be designed and engineered in a principled way",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "learning and using Lale",
+                    "Sentiment Expression": "look easy to me",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Lale",
+                    "Sentiment Expression": "will have a huge positive impact on the NeurIPS community",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The authors for answering my questions",
+                    "Sentiment Expression": "Thank",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Author response to updates towards the end of the discussion period.",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "both my comments and comments from other reviewers",
+                    "Sentiment Expression": "could help to make it a better paper",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10426 by Reviewer H7JW",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "a new autoML system with the formalization of pipeline combinators",
+                    "Sentiment Expression": "propose",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "design easy-to-use and efficient autoML system",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The presentation of the empirical study",
+                    "Sentiment Expression": "should be organized better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the design philosophy of the formalization of combinator in Section 2",
+                    "Sentiment Expression": "am confused",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "RQ1",
+                    "Sentiment Expression": "there is limited number of participants",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "RQ2 and RQ3",
+                    "Sentiment Expression": "only the end-to-end performance boost is reported",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "scientific contribution",
+                    "Sentiment Expression": "be more clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the presentation of the empirical study",
+                    "Sentiment Expression": "organize...following the general scientific principles",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Author Response to Reviewer cjD3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this",
+                    "Sentiment Expression": "it is not clear to me",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the average accuracy with Lale",
+                    "Sentiment Expression": "0.3% worse than with auto-sklearn",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Author Response to Reviewer H7JW",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "goal of our library",
+                    "Sentiment Expression": "goes beyond",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The syntax",
+                    "Sentiment Expression": "is more expressive than existing systems",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "formalization",
+                    "Sentiment Expression": "could also be used",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "these results",
+                    "Sentiment Expression": "are still preliminary and too premature",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the following null hypotheses",
+                    "Sentiment Expression": "we will provide",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "all four null hypotheses",
+                    "Sentiment Expression": "are rejected",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "more detailed descriptions",
+                    "Sentiment Expression": "would be difficult to include",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "detailed experiments",
+                    "Sentiment Expression": "would be difficult to include",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Author Response to Reviewer G6BM",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "your positive opinion of our paper",
+                    "Sentiment Expression": "positive",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Author Response to Reviewer D3TC",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "high-level scientific contribution",
+                    "Sentiment Expression": "is missing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "datasets used in this paper",
+                    "Sentiment Expression": "seems rather small",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the underlying framework",
+                    "Sentiment Expression": "it is not clear to whether ... can support diverse model architectures",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method's contribution to AutoML",
+                    "Sentiment Expression": "It is not clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10426 by Reviewer D3TC",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "AutoML",
+                    "Sentiment Expression": "an important application, and if successful, can greatly reduce data scientists' effort",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "engineering effort and mature tool",
+                    "Sentiment Expression": "significant",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "high-level scientific contribution",
+                    "Sentiment Expression": "is missing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "low level details",
+                    "Sentiment Expression": "too many",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "datasets used in this paper",
+                    "Sentiment Expression": "seems rather small",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method's contribution to AutoML",
+                    "Sentiment Expression": "is not clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10426 by Reviewer cjD3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The novelty part",
+                    "Sentiment Expression": "can be narrowed down to the unified translation schema",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this",
+                    "Sentiment Expression": "is not clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Lale",
+                    "Sentiment Expression": "is uncertain whether will have a great impact in the community",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "method and experiments",
+                    "Sentiment Expression": "is sound",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this",
+                    "Sentiment Expression": "is unclear how contribution is to the NeurIPS community",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The authors",
+                    "Sentiment Expression": "introduced their AutoML library in a sorted, logical way",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Using Lale",
+                    "Sentiment Expression": "still requires a decent background on machine learning",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ],
+    "r1lUl6NFDH": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "proposes to use the mirror descent algorithm for the binary network.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "It",
+                    "Sentiment Expression": "easy to read.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "novelty over ProxQuant",
+                    "Sentiment Expression": "is somehow limited.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The theoretical analysis",
+                    "Sentiment Expression": "is weak.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Experimental results",
+                    "Sentiment Expression": "can also be made more convincing.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #4",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is easy to read and follow, and the main contributions are clearly stated",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "a weak rejection",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "theoretical analysis",
+                    "Sentiment Expression": "provide more",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "mirror descent",
+                    "Sentiment Expression": "is not clear to me, why",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "authors' claim",
+                    "Sentiment Expression": "repeatedly",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "empirically show this point",
+                    "Sentiment Expression": "is better to",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "technical contributions",
+                    "Sentiment Expression": "are not enough",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experiments on ImageNet",
+                    "Sentiment Expression": "Could the authors perform",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "VGG and ResNet",
+                    "Sentiment Expression": "are too old and easy to be compressed, compression these networks are of little practical values.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Mirror Descent (MD) framework for the quantization of neural networks",
+                    "Sentiment Expression": "proposes",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "novelty of this work",
+                    "Sentiment Expression": "is somehow limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "is well-written",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Experiments on CIFAR-10/100 and TinyImageNet with convolutional and residual architectures",
+                    "Sentiment Expression": "show the effective of the proposed model",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "soundness of the model",
+                    "Sentiment Expression": "it would better to provide the code to validate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for the positive feedback",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our paper has sufficient material on both theoretical and experimental aspects",
+                    "Sentiment Expression": "appreciate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our paper addresses the challenges of adopting MD for NN quantization successfully",
+                    "Sentiment Expression": "appreciate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our paper",
+                    "Sentiment Expression": "introduces the first practical MD based algorithm for NN quantization and demonstrate superior empirical performance against directly comparable baselines.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for the positive feedback",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our method",
+                    "Sentiment Expression": "novel and interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Summary of contributions and response to other comments {Response to R3 [2/2]}",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "MD",
+                    "Sentiment Expression": "suitable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "PQ is not based on MD and our MD method significantly outperforms PQ {Response to R3 [1/2]}",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "from our experiments that MD significantly outperforms PQ",
+                    "Sentiment Expression": "it is clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The experimental result on benchmark datasets (CIFAR & TinyImageNet) and basic architectures (VGG & ResNet-18)",
+                    "Sentiment Expression": "showed that the proposed method is suitable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the convergence of the MD with nonconvex objective function in NN quantization neither how to choose the projection for mirror mapping construction",
+                    "Sentiment Expression": "do not analyze",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the novelty of the proposed method",
+                    "Sentiment Expression": "better to discuss to clarify",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the novelty and the theoretical contributions",
+                    "Sentiment Expression": "I concern about",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "paper that uses the Mirror Descent paradigm for learning quantized networks",
+                    "Sentiment Expression": "good",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "using Mirror Descent in the context of learning quantized network",
+                    "Sentiment Expression": "novel and interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "results than existing method",
+                    "Sentiment Expression": "better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this work",
+                    "Sentiment Expression": "like a good contribution",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "comparisons to existing methods",
+                    "Sentiment Expression": "not comprehensive enough",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ],
+    "r1exVhActQ": [
+        {
+            "Document Title": "A study on sparse properties of L1-regularization in deep neural networks, yet experimental supports seem week.",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "experimental supports",
+                    "Sentiment Expression": "are weak",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Reply to AnonReviewer1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "perform SGD with L1 regularizer to train the network",
+                    "Sentiment Expression": "Empirically, we find that after the L1 norm is penalized, even a very small epsilon can lead to very sparse solutions",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Reply to AnonReviewer4",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our novelty lies more on the analysis of the pruning objective than on the algorithm",
+                    "Sentiment Expression": "quite limited novelty",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The sentence",
+                    "Sentiment Expression": "is an editorial mistake",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our experiments",
+                    "Sentiment Expression": "will strengthen",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "pruning ratios in (C. Louizos et al., 2017), (J. Achterhold et al.)",
+                    "Sentiment Expression": "are not as strong as our compared baseline 'Variational Dropout'",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Repeating the old story from other papers, quit limited novelty, lacking solid experiments",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "A large part of math is from previous works",
+                    "Sentiment Expression": "not enough for the ICLR conference",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the authors totally ignore the latest improvements in neural network compression",
+                    "Sentiment Expression": "very surprising",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Their approach",
+                    "Sentiment Expression": "is extremely far away from the state of the art in terms of both methodological excellence and experimental results",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the core contribution",
+                    "Sentiment Expression": "is replacing SGD with Adam",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the authors claim 'Finally, we show the trade-off for pruning Resnet-50 on the ILSVRC dataset.'",
+                    "Sentiment Expression": "but I cannot find the results",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "an interesting perspective on the L1 regularization of neural network",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The perspective of the proof",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "mostly like",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the claim",
+                    "Sentiment Expression": "a little bit counter intuitive",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "notation issues",
+                    "Sentiment Expression": "minor",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Nice Theoretical Insights, but Not Sure How Experiments Substantiate the Theory",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the properties of the stationary point of the layerwise objective (5), the experiments",
+                    "Sentiment Expression": "seem to be conducted based on the different joint objective (8)",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Experimental results of optimizing (5)",
+                    "Sentiment Expression": "seem missing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the bound provided by Theorem 1",
+                    "Sentiment Expression": "It is also unclear how tight",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the trade-off in point (b) of the abstract",
+                    "Sentiment Expression": "It is also unclear how ... is justified",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the concept of stationary point and general position",
+                    "Sentiment Expression": "can be introduced before presenting Theorem 1 to improve readability",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "FLOP related to the time/speed needed for compression",
+                    "Sentiment Expression": "should be specified",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ],
+    "BJlowyHYPr": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "accepting the paper",
+                    "Sentiment Expression": "recommends against",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the D-Conv idea",
+                    "Sentiment Expression": "is novel AFAIK and fairly appropriate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The approach",
+                    "Sentiment Expression": "is well situated in the literature",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is fairly clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Figure 4",
+                    "Sentiment Expression": "the lines are really hard to distinguish just by the similar colors",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Several neighborhood sizes",
+                    "Sentiment Expression": "are experimented with",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the complexity of finding the K nearest neighbors",
+                    "Sentiment Expression": "is close to O(K L log(n)) if using KD trees",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Blind Review #2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "experiments",
+                    "Sentiment Expression": "conducted using strict variable-controlling methodology",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the effects of each factor",
+                    "Sentiment Expression": "easy to study",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the core operator, RNN structure, attention",
+                    "Sentiment Expression": "we believe",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "large std in the Cluster A of the air quality dataset",
+                    "Sentiment Expression": "we note",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the root cause of the larger std",
+                    "Sentiment Expression": "We believe",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "all models achieve similar std in this dataset, our proposal obtains the best mean for all metrics",
+                    "Sentiment Expression": "we note, proves that the improvement is statistically significant",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for your reply, more experiments were added",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "a 2016-long sequence as input",
+                    "Sentiment Expression": "very difficult for RNN-based models to handle",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "any forecasting model",
+                    "Sentiment Expression": "extremely large and therefore impractical for real deployment",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "only taking one DConv layer for the forecasting",
+                    "Sentiment Expression": "force its predictions over outliers to be based on unrelated neighbors",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "DConv",
+                    "Sentiment Expression": "not have sufficient representability to learn proper weights individually for inliers and outliers",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experimental evidence that the method is somewhat robust to outliers",
+                    "Sentiment Expression": "happy",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for a thorough rebuttal; some concerns remain",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "leaning more positive",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this explanation",
+                    "Sentiment Expression": "not quite satisfied",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the current solution",
+                    "Sentiment Expression": "not too convinced",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "use K=3 for your method",
+                    "Sentiment Expression": "seems weird",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "using the sigmoid to rescale things",
+                    "Sentiment Expression": "don't think ... solves my concern",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Paper has been revised",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the manuscript",
+                    "Sentiment Expression": "revised",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Blind Review #1 (1)",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The present paper's new D-Conv operator",
+                    "Sentiment Expression": "appears new, though it looks really like a simplification of the PointCNN's 'X-Conv' operator rather than a brand new operator",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the D-Conv",
+                    "Sentiment Expression": "has a strong reliance on nearest neighbors",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the D-Conv",
+                    "Sentiment Expression": "not the only contribution",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "data with outliers (whose values are unlike most others)",
+                    "Sentiment Expression": "would dramatically hurt performance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Our D-Conv",
+                    "Sentiment Expression": "is inspired by convolution over grids",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Using proprietary datasets",
+                    "Sentiment Expression": "makes following up on this work a bit hard",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Blind Review #1 (2)",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the experiments",
+                    "Sentiment Expression": "are missing some key simple baselines",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "results tables",
+                    "Sentiment Expression": "appear promising",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the experiments",
+                    "Sentiment Expression": "not clear ... consider realistic scenarios",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Blind Review #3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "essential contributions of our work",
+                    "Sentiment Expression": "appreciate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The K nearest points",
+                    "Sentiment Expression": "can indeed vary",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "contribution of the CloudLSTM",
+                    "Sentiment Expression": "helps improve",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the detailed comments on these issues",
+                    "Sentiment Expression": "appreciate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the revision",
+                    "Sentiment Expression": "eliminates any confusion",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the original figure",
+                    "Sentiment Expression": "had readability issues",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "complexity of D-Conv",
+                    "Sentiment Expression": "grow linearly with K",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "using a big neighborhood size and regularizing in some way",
+                    "Sentiment Expression": "may be appropriate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the dimensions of a point-cloud dataset",
+                    "Sentiment Expression": "are normally 2 or 3",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the method and experiments",
+                    "Sentiment Expression": "enough concerns",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the invariance to point cloud order and the relative simplicity of the architecture",
+                    "Sentiment Expression": "Strengths",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "vulnerability to outliers, experiments that don't seem to think about practical effects like day-of-week in forecasting, and experiments that leave out baselines to help directly assess the impact of neighbors.",
+                    "Sentiment Expression": "Weaknesses",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "data with outliers",
+                    "Sentiment Expression": "would dramatically hurt performance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "compare on publicly available datasets like those used in the PointCNN paper",
+                    "Sentiment Expression": "good reason to not try",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the experiments",
+                    "Sentiment Expression": "not clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "predict mobile app traffic using only the past 30 minutes of data, predict air quality using only the last 12 hours",
+                    "Sentiment Expression": "Why",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "complicated DConv weighting operator",
+                    "Sentiment Expression": "expect to do better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "interesting but needs some clarifications",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed convolution operator",
+                    "Sentiment Expression": "contributes to the performance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "RNN, attention, or the new operator",
+                    "Sentiment Expression": "makes one wonder if the improvement is statistically significant",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ],
+    "HkldyTNYwH": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "work",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the results",
+                    "Sentiment Expression": "low rating",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the original concerns of the reviewers",
+                    "Sentiment Expression": "are addressed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "motivating the problem",
+                    "Sentiment Expression": "should be a bit more clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "to make the paper accessible to a wider audience",
+                    "Sentiment Expression": "add more intuitive descriptions",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer #1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this method",
+                    "Sentiment Expression": "it is hard to say this paper makes progress",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "not a satisfactory improvement",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the solution",
+                    "Sentiment Expression": "seems to deviate from the goal the paper aim to achieve",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer #4",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "moving from the 'semi-discrete OT map' to the piece-wise linear extension",
+                    "Sentiment Expression": "I have some doubts",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the numerical results",
+                    "Sentiment Expression": "seem promising",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The illustration in Fig. 3",
+                    "Sentiment Expression": "can be found by a linear separation",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "not so great visual results from the paper",
+                    "Sentiment Expression": "not so great",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Singular set detection",
+                    "Sentiment Expression": "seems to be the most tricky part",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer #4 ",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the need for a high quality auto encoder model to encode celebA dataset",
+                    "Sentiment Expression": "the claims seems not too strong",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer #4 ",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Singular set detection",
+                    "Sentiment Expression": "seems to be the most tricky part...should have been explained further",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer #3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "does not establish formal new results",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "verifies *numerically*",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "in some parts a lighter notation and a more intuitive explanation",
+                    "Sentiment Expression": "could help",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "All these algorithms",
+                    "Sentiment Expression": "are different",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a simpler approach through optimization for nosmooth problems",
+                    "Sentiment Expression": "could resolve this issue",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "lots of typos through the text",
+                    "Sentiment Expression": "such as missing 'the', 'a', etc",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for your careful comments",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our work",
+                    "Sentiment Expression": "involves non-trivial theories",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #4",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "extremely simplifying assumption",
+                    "Sentiment Expression": "leads to not so great visual results",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "fewer images, but larger in size, and analysis of mode collapse phenomenon in real images",
+                    "Sentiment Expression": "would have been much better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Singular set detection",
+                    "Sentiment Expression": "should have been explained further",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a high quality auto encoder model to encode celebA dataset",
+                    "Sentiment Expression": "the claims seems not too strong",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the method does not have any adversarial training",
+                    "Sentiment Expression": "it studies the GAN idea from only fixing the generator point of view",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "progress in fixing the GAN's mode collapsed problem",
+                    "Sentiment Expression": "it is hard to say this paper makes",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "adversarial training module",
+                    "Sentiment Expression": "does not involve",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "treat it as a satisfactory improvement over GAN",
+                    "Sentiment Expression": "will not",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed problem in GAN",
+                    "Sentiment Expression": "indeed exists",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the solution",
+                    "Sentiment Expression": "seems to deviate from the goal the paper aim to achieve",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the idea of the paper and the perspective on GANs",
+                    "Sentiment Expression": "is nice, and interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "This paper's approach to the problems using Figalli's regularity theory",
+                    "Sentiment Expression": "approaches",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The numerical contributions",
+                    "Sentiment Expression": "are certainly significant",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "deserves publication",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "some strong claims about providing deep theoretical explanation",
+                    "Sentiment Expression": "should be more moderate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper verifies *numerically* that Figalli's theorem holds in this context",
+                    "Sentiment Expression": "it seems",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "relevance of Thm 3",
+                    "Sentiment Expression": "I don't see",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "lots of typos throughout the text and a couple of misspelled words",
+                    "Sentiment Expression": "I suggest the authors proofread the draft more carefully",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ],
+    "r1xMnCNYvB": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "does not expose which of the benefits come from JAX and which ones the authors added in JAX MD",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a detailed analysis of computation speed",
+                    "Sentiment Expression": "I am missing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the package",
+                    "Sentiment Expression": "is relatively slow compared to existing alternatives",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the authors focused more on ML-related problems in the paper",
+                    "Sentiment Expression": "It would be good if",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the contribution/delta of JAX MD compared to JAX",
+                    "Sentiment Expression": "Please work out",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "why JAX MD should be the go-to method for practitioners",
+                    "Sentiment Expression": "Make a better case",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "I recommend rejection of",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Reply",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Description of the elements of the design of JAX",
+                    "Sentiment Expression": "appear distinct",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Limitations of the library and drawbacks of any design decisions",
+                    "Sentiment Expression": "not explicitly mentioned",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "performance comparison",
+                    "Sentiment Expression": "no performance comparison is drawn against any other",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "JAX MD",
+                    "Sentiment Expression": "is certainly slower than production quality / custom CUDA MD systems",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The bubble raft example",
+                    "Sentiment Expression": "is great for illustrative purposes",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Reply",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the gap that JAX MD hopes to fill",
+                    "Sentiment Expression": "precisely",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "physical systems",
+                    "Sentiment Expression": "are an ideal environment to explore meta-optimization",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "[1], \u201cLearning Protein Structure with a Differentiable Simulator\u201d",
+                    "Sentiment Expression": "could have been implemented out-of-the-box using JAX MD",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Reply",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the sentence you noted",
+                    "Sentiment Expression": "will fix",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is clearly written",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the code on github",
+                    "Sentiment Expression": "is substantial but not huge, cleanly organized, and is well-documented",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "All of these points",
+                    "Sentiment Expression": "are fine for a package-release/tutorial paper",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "This paper",
+                    "Sentiment Expression": "announces a new software package for simulating molecular dynamics which includes close integration with a neural network / machine learning library--the first to do so",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Straightforward access to hardware acceleration (e.g. GPU)",
+                    "Sentiment Expression": "is provided for both the simulation and machine learning",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "clearly written and seems technically correct",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the contribution of this paper",
+                    "Sentiment Expression": "not sufficient for ICLR",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "general purpose differentiable molecular dynamics physics package, JAX MD",
+                    "Sentiment Expression": "describes",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The Github link",
+                    "Sentiment Expression": "is provided",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "not sure",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The writing",
+                    "Sentiment Expression": "does not feel academic enough",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ],
+    "HkeuD34KPH": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The proposed method",
+                    "Sentiment Expression": "outperforms several baselines on five datasets",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "technical contribution",
+                    "Sentiment Expression": "limited/scattered",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "quality of the experiment results",
+                    "Sentiment Expression": "concerned",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "paper quality",
+                    "Sentiment Expression": "borderline",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The novelty of this work",
+                    "Sentiment Expression": "is limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "results",
+                    "Sentiment Expression": "are copied",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "datasets",
+                    "Sentiment Expression": "are different",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the authors change evaluation metrics",
+                    "Sentiment Expression": "did not understand",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "SSE-PT without regularization and with different regularizations",
+                    "Sentiment Expression": "are much worse than the best result",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the novelty and experimental results",
+                    "Sentiment Expression": "I main concerns still lie",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this work",
+                    "Sentiment Expression": "is not suitable for ICLR",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Personalization of NLP models (such as Transformer and BERT) is an important research direction",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our paper",
+                    "Sentiment Expression": "an important contribution",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "personalization for transformer-based models",
+                    "Sentiment Expression": "very useful",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "models that can incorporate long sequences",
+                    "Sentiment Expression": "an important research direction",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "typos in our paper",
+                    "Sentiment Expression": "correct",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our work in relation to BERT4Rec",
+                    "Sentiment Expression": "orthogonal to important works",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Exponential decay idea does work empirically better than Uniform one",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "include CIKM'19 BERT4Rec in the final version of the paper",
+                    "Sentiment Expression": "should definitely",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our proposed personalization scheme",
+                    "Sentiment Expression": "may also benefit",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "using exponential decay",
+                    "Sentiment Expression": "gives slightly better results",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "using combination of our idea and your idea",
+                    "Sentiment Expression": "performs better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Clarifying Doubts on Experimental Section",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "how we compared with HGN in experimental section",
+                    "Sentiment Expression": "do a better job in clarifying",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "personalization for transformer-based models",
+                    "Sentiment Expression": "is actually possible",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "coming up with models that can incorporate long sequences",
+                    "Sentiment Expression": "should be an important research direction",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our paper",
+                    "Sentiment Expression": "is an important contribution",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the technical novelty",
+                    "Sentiment Expression": "is somehow limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "is very well presented",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the results",
+                    "Sentiment Expression": "more convincing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "acceptance",
+                    "Sentiment Expression": "weak",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the effectiveness of the proposed approach",
+                    "Sentiment Expression": "show",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The technical contribution",
+                    "Sentiment Expression": "seems to be scattered",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "applying SSE [Wu et al. 2019] to sequential recommendation",
+                    "Sentiment Expression": "is a bit incremental",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experiments",
+                    "Sentiment Expression": "look comprehensive",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "\u201cweak accept\u201d",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the major contribution of this paper",
+                    "Sentiment Expression": "could be better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ],
+    "0cn6LSqwjUv": [
+        {
+            "Document Title": "Meta Review of Paper690 by Area Chair KSxd",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the level of innovation on the neural architecture side of the work",
+                    "Sentiment Expression": "not extreme",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the dataset itself, the wide variety of models examined and the large set of evaluation metrics",
+                    "Sentiment Expression": "offers value to the community",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "acceptance",
+                    "Sentiment Expression": "recommended",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "acceptance",
+                    "Sentiment Expression": "recommends",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "To Reviewer WVYT",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "discussion of metrics",
+                    "Sentiment Expression": "should reduce",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for your response",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The authors addressed some of my questions",
+                    "Sentiment Expression": "given the limited time",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "detailed explanation on the necessity of real low-res data and empirical study on the corresponding improvement",
+                    "Sentiment Expression": "provide",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the evaluation of performance on precipitation related tasks",
+                    "Sentiment Expression": "is still an open problem",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "include the intuitive designs of PEM/PDEM as one of the major contributions in this paper",
+                    "Sentiment Expression": "It's not appropriate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the dataset and the corresponding benchmark",
+                    "Sentiment Expression": "are valuable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The value of the dataset and benchmark",
+                    "Sentiment Expression": "will not be diminished",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The proposed method",
+                    "Sentiment Expression": "does not necessarily have to outperform baselines in all concerned metrics",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "To reviewer WVYT",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Not applicable",
+                    "Sentiment Expression": "Not applicable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for the rebuttal",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "PEM / PDEM",
+                    "Sentiment Expression": "it is not clear why we need",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "domain-specific scores",
+                    "Sentiment Expression": "are missing in the benchmark",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a model",
+                    "Sentiment Expression": "is better at domain specific scores",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "vision transformers",
+                    "Sentiment Expression": "agreeing to add",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The event types",
+                    "Sentiment Expression": "can be useful",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "To Reviewer WVYT part2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the effectiveness of proposed novel compound metrics PEM and PDEM",
+                    "Sentiment Expression": "There are no clues",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Selected baselines",
+                    "Sentiment Expression": "are not designed for precipitation data",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "information about these details",
+                    "Sentiment Expression": "there is no",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The qualitative results shown in Figure 4",
+                    "Sentiment Expression": "are hard to distinguish",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "To Reviewer WVYT part 1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "compare these two approaches empirically",
+                    "Sentiment Expression": "should",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "To Reviewer aP2Q",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "This work",
+                    "Sentiment Expression": "important",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the first large-scale dataset for precipitation downscaling",
+                    "Sentiment Expression": "propose",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "meaningful and successful",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "PEM/PDEM and RMSE systems to benchmark the algorithms",
+                    "Sentiment Expression": "introduce",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "To Reviewer 5jsP",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "meaningful and successful one",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our model",
+                    "Sentiment Expression": "superiority",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Our work",
+                    "Sentiment Expression": "demonstrates its novelty",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this work",
+                    "Sentiment Expression": "important and cutting-edge",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "To Reviewer 9mB6",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the first large-scale dataset for precipitation downscaling",
+                    "Sentiment Expression": "propose",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "SPDNet",
+                    "Sentiment Expression": "straightforward name",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a good name",
+                    "Sentiment Expression": "very important",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "meaningful and successful",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "codes and datasets",
+                    "Sentiment Expression": "open-source",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "communications between computer science and meteorology",
+                    "Sentiment Expression": "great and difficult",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper690 by Reviewer 9mB6",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper organizes a large precipitation dataset from both high res and low res sources and illustrates some baselines",
+                    "Sentiment Expression": "There is not much to say here",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The problem addressed",
+                    "Sentiment Expression": "both interesting to ML and important",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "is a new organization of it necessary and does it warrant a publication in an ML conference",
+                    "Sentiment Expression": "The question",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Publishing this paper",
+                    "Sentiment Expression": "will probably increase interest in ML in this set of problems, and some in the community will find the dataset useful",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "SPDnet",
+                    "Sentiment Expression": "is not a very good name",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the code and the data are proprietary",
+                    "Sentiment Expression": "This needs to be clarified",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper690 by Reviewer 5jsP",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "technical novelty",
+                    "Sentiment Expression": "low",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The dataset",
+                    "Sentiment Expression": "lacks precipitation maps for several regions",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper690 by Reviewer aP2Q",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "proposed the first large-scale precipitation downscaling dataset",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "This",
+                    "Sentiment Expression": "is an important scientific problem and a large-scale dataset can help move the area forward",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "proposed 6 metrics for evaluating the models",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "compared 14 models",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "RMSE",
+                    "Sentiment Expression": "is itself a very good summary metric",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "PEM / PDEM",
+                    "Sentiment Expression": "it is not clear why we will still need",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The dataset",
+                    "Sentiment Expression": "contains lots of different events such as hurricane, squall",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "will be limited regarding the coverage of the baseline methods",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper690 by Reviewer WVYT",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The large scale dataset SPDNet",
+                    "Sentiment Expression": "a valuable contribution",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The authors have evaluate SOTA super resolution models on the proposed dataset",
+                    "Sentiment Expression": "provide a good benchmark",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The data obtained by simulated degradation",
+                    "Sentiment Expression": "different from the real data",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "further discussion",
+                    "Sentiment Expression": "There is no",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "compare these two approaches empirically",
+                    "Sentiment Expression": "should",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the effectiveness of proposed novel compound metrics PEM and PDEM",
+                    "Sentiment Expression": "There are no clues",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Selected baselines",
+                    "Sentiment Expression": "not designed for precipitation data",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "language errors like \"e.t.c.\" $\\rightarrow$ \"etc.\" and misleading notations in mathematical expressions",
+                    "Sentiment Expression": "There are some",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Scores of 6 commonly used metrics in Table 1",
+                    "Sentiment Expression": "should also be highlighted",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the advantages of using the real data collected by two different systems for training super resolution models than using simple downsampling algorithms",
+                    "Sentiment Expression": "What are",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The qualitative results shown in Figure 4",
+                    "Sentiment Expression": "hard to distinguish",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ],
+    "BJzuKiC9KX": [
+        {
+            "Document Title": "Interesting empirical observations of the advantage of RWS, but lacking formal theoretical analysis, and larger scale experiments",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "presents a well conducted empirical study",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "it",
+                    "Sentiment Expression": "performs consistently better than alternatives",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the work",
+                    "Sentiment Expression": "it does not provide a formal theoretical analysis justifying the observed behaviour",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The work",
+                    "Sentiment Expression": "is well-written and extracts valuable insights",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experiments",
+                    "Sentiment Expression": "are limited to MNIST and synthetic data",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "should be made stronger",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Real world experiments",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "RWS as an alternative for learning deep generative models",
+                    "Sentiment Expression": "competitive, often preferable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Improvements on toy data-sets like GMMs",
+                    "Sentiment Expression": "do not necessarily transfer over to real world data",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "back it up with results that match or improve state-of-the-art generative models like VQ-VAE/VIMCO in bits/dim on large scale, real data-sets",
+                    "Sentiment Expression": "should",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for reconsidering our paper",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "evidence",
+                    "Sentiment Expression": "would be good",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Our paper is methodological and RWS is in its core a statistical method for maximizing the log marginal likelihood and minimizing the KL divergence from p to q",
+                    "Sentiment Expression": "is",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "An interesting experimental paper but more insights are expected",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "RWS doesn't suffer from high variance gradients",
+                    "Sentiment Expression": "particularly useful",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "zero-forcing failure mode and delta-WW",
+                    "Sentiment Expression": "difficult to follow",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "delta-WW",
+                    "Sentiment Expression": "deserves a better introduction",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experiments",
+                    "Sentiment Expression": "should be made to verify the performance of RWS",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "baselines",
+                    "Sentiment Expression": "should be compared",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Somehow convinced but still expect more experiments",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "your reasons",
+                    "Sentiment Expression": "are not valid",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Revisiting Reweighted Wake-Sleep",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "a rigorous analysis of why the RWS performance is consistently better than IWAE",
+                    "Sentiment Expression": "lacks",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to AnonReviewer2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "experiments on large-scale real-world datasets",
+                    "Sentiment Expression": "do not have",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the first reported result of an MNIST model trained with IWAE with 512 particles",
+                    "Sentiment Expression": "ours is",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to AnonReviewer1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this",
+                    "Sentiment Expression": "will explain ... in more detail",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to AnonReviewer3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "theoretical basis of why RWS is better than IWAE",
+                    "Sentiment Expression": "more comprehensive",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "how defensive sampling ameliorates issues discovered in the GMM experiments",
+                    "Sentiment Expression": "more detailed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "RWS performs better with more particles",
+                    "Sentiment Expression": "performs better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "effective and easy application to models where the choice from the discrete random variables affects model expansion or computation",
+                    "Sentiment Expression": "allows for effective and easy",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Discrete latent variables, stochastic control flow and probabilistic programming",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "RWS is a simple and often superior algorithm to use in this model family",
+                    "Sentiment Expression": "simple and often superior",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Nice experimental discoveries",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The main contribution of the paper",
+                    "Sentiment Expression": "better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The experimental part",
+                    "Sentiment Expression": "written in an inspiring way",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "baselines",
+                    "Sentiment Expression": "should be stronger",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the shortcomings of RWS discovered by the GMM experiments",
+                    "Sentiment Expression": "could try to emphasize more",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "these observations alone",
+                    "Sentiment Expression": "not novel enough",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

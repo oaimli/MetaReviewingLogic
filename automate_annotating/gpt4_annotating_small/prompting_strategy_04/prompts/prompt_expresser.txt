@@ -1,0 +1,17 @@
+In this task, you are required to identify the source of the expressed sentiment in the provided judgement sentence. A sentiment can be directly expressed by the speaker (referred to as "Self") or it could be quoted or referred from others (referred to as "Others").
+
+Here's how you approach the task:
+
+- Carefully read the provided source document.
+- Next, read the judgement sentence and analyze the sentiment in this sentence.
+- Finally, determine where the sentiment is coming from - if it's directly from the speaker, the answer is "Self". However, if the sentiment is expressed or quoted from others, your answer would be "Others".
+
+Use the below given structure for your response:
+
+Document:
+{{source_document}}
+
+Judgement sentence:
+{{judgement_expression}}
+
+The sentiment expresser:

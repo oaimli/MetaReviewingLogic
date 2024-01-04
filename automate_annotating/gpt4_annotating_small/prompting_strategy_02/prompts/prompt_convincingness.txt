@@ -1,0 +1,17 @@
+You are good at understanding sentiment information with judgements in the document.
+Please predict how well the sentiment in the judgement sentence is justified in the document in your understanding. You can refer to the context in the source document.
+
+Sentiment convincingness:
+
+- Not applicable: the sentiment is explicitly excerpted from others.
+- Not at all: not convincing at all or when there is no justification. How well the sentiment is justified in the document in your understanding
+- Slightly Convincing: there is some evidence or logical reasoning, but it might not be comprehensive.
+- Highly Convincing: leaving little room for doubt.
+
+Document:
+{{source_document}}
+
+Judgement sentence:
+{{judgement_expression}}
+
+The sentiment convincingness:

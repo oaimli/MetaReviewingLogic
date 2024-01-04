@@ -3,10 +3,14 @@ import numpy as np
 from rouge_score import rouge_scorer
 import pandas as pd
 from sklearn.metrics import cohen_kappa_score
+import krippendorff
 from scipy import stats
 from sklearn.preprocessing import LabelEncoder
 from nltk.tokenize import sent_tokenize
 
+def krippendorffs_alpha(a, b):
+    # nominal kripppendorff's alpha
+    return krippendorff.alpha(reliability_data=np.array([a, b]), level_of_measurement="nominal")
 
 def annotated_documents(results):
     count_documents = 0
@@ -51,15 +55,25 @@ def distribution(results):
 
 
 def single_behaviour(results):
-    print("Average annotated documents per sample: ", annotated_documents(results)[0])
-    print("All annotated judgements: ", annotated_documents(results)[2])
-    print("Average annotated judgements per document: ", annotated_documents(results)[1])
-    print("Average length of content expression: ", annotation_length(results)[0])
-    print("Average length of sentiment expression: ", annotation_length(results)[1])
-    print("Distribution of criteria facets: \n", distribution(results)[0])
-    print("Distribution of sentiment expressers: \n", distribution(results)[1])
-    print("Distribution of sentiment levels: \n", distribution(results)[2])
-    print("Distribution of convincingnesses: \n", distribution(results)[3])
+    annotated_documents_results = annotated_documents(results)
+    annotation_length_results = annotation_length(results)
+    distribution_results = distribution(results)
+    print("Average annotated documents per sample: ", annotated_documents_results[0])
+    print("All annotated judgements: ", annotated_documents_results[2])
+    print("Average annotated judgements per document: ", annotated_documents_results[1])
+    print("Average length of content expression: ", annotation_length_results[0])
+    print("Average length of sentiment expression: ", annotation_length_results[1])
+    print("Distribution of criteria facets: \n", distribution_results[0])
+    print("Distribution of sentiment expressers: \n", distribution_results[1])
+    print("Distribution of sentiment levels: \n", distribution_results[2])
+    print("Distribution of convincingnesses: \n", distribution_results[3])
+    result = {}
+    result["Average annotated documents per sample"] = annotated_documents_results[0]
+    result["All annotated judgements"] = annotated_documents_results[2]
+    result["Average annotated judgements per document"] = annotated_documents_results[1]
+    result["Average length of content expression"] = annotation_length_results[0]
+    result["Average length of sentiment expression"] = annotation_length_results[1]
+    return result
 
 
 def character_level_agreement(annotation_data, results_1, results_2):
@@ -142,36 +156,75 @@ def character_level_agreement(annotation_data, results_1, results_2):
             sentiment_2s.extend(signal_sentiment_2)
             all_2s.extend(signal_all_2)
 
+    result = {}
     print("#### Highlight correlation, content, character level")
     a = np.array(content_1s)
     b = np.array(content_2s)
-    print("Cohen Kappa: ", cohen_kappa_score(a, b))
-    print("Kendall Tau: ", stats.kendalltau(a, b))
-    print("Spearman: ", stats.spearmanr(a, b))
-    print("Pearson: ", stats.pearsonr(a, b))
+    cohen_kappa_score_result = cohen_kappa_score(a, b)
+    krippendorff_alpha = krippendorffs_alpha(a, b)
+    kendalltau_result = stats.kendalltau(a, b)
+    spearmanr_result = stats.spearmanr(a, b)
+    pearsonr_result = stats.pearsonr(a, b)
+    print("Cohen Kappa: ", cohen_kappa_score_result)
+    print("Krippendorff Alpha", krippendorff_alpha)
+    print("Kendall Tau: ", kendalltau_result)
+    print("Spearman: ", spearmanr_result)
+    print("Pearson: ", pearsonr_result)
+    result["Highlight correlation, content, character level, Cohen Kappa"] = cohen_kappa_score_result
+    result["Highlight correlation, content, character level, Krippendorff Alpha"] = krippendorff_alpha
+    result["Highlight correlation, content, character level, Kendall Tall"] = kendalltau_result[0]
+    result["Highlight correlation, content, character level, Spearman"] = spearmanr_result[0]
+    result["Highlight correlation, content, character level, Pearson"] = pearsonr_result[0]
+
 
     print("#### Highlight correlation, sentiment, character level")
     a = np.array(sentiment_1s)
     b = np.array(sentiment_2s)
-    print("Cohen Kappa: ", cohen_kappa_score(a, b))
-    print("Kendall Tau: ", stats.kendalltau(a, b))
-    print("Spearman: ", stats.spearmanr(a, b))
-    print("Pearson: ", stats.pearsonr(a, b))
+    cohen_kappa_score_result = cohen_kappa_score(a, b)
+    krippendorff_alpha = krippendorffs_alpha(a, b)
+    kendalltau_result = stats.kendalltau(a, b)
+    spearmanr_result = stats.spearmanr(a, b)
+    pearsonr_result = stats.pearsonr(a, b)
+    print("Cohen Kappa: ", cohen_kappa_score_result)
+    print("Krippendorff Alpha", krippendorff_alpha)
+    print("Kendall Tau: ", kendalltau_result)
+    print("Spearman: ", spearmanr_result)
+    print("Pearson: ", pearsonr_result)
+    result["Highlight correlation, sentiment, character level, Cohen Kappa"] = cohen_kappa_score_result
+    result["Highlight correlation, sentiment, character level, Krippendorff Alpha"] = krippendorff_alpha
+    result["Highlight correlation, sentiment, character level, Kendall Tall"] = kendalltau_result[0]
+    result["Highlight correlation, sentiment, character level, Spearman"] = spearmanr_result[0]
+    result["Highlight correlation, sentiment, character level, Pearson"] = pearsonr_result[0]
 
     print("#### Highlight correlation, content+sentiment, character level")
     a = np.array(all_1s)
     b = np.array(all_2s)
-    print("Cohen Kappa: ", cohen_kappa_score(a, b))
-    print("Kendall Tau: ", stats.kendalltau(a, b))
-    print("Spearman: ", stats.spearmanr(a, b))
-    print("Pearson: ", stats.pearsonr(a, b))
+    cohen_kappa_score_result = cohen_kappa_score(a, b)
+    krippendorff_alpha = krippendorffs_alpha(a, b)
+    kendalltau_result = stats.kendalltau(a, b)
+    spearmanr_result = stats.spearmanr(a, b)
+    pearsonr_result = stats.pearsonr(a, b)
+    print("Cohen Kappa: ", cohen_kappa_score_result)
+    print("Krippendorff Alpha", krippendorff_alpha)
+    print("Kendall Tau: ", kendalltau_result)
+    print("Spearman: ", spearmanr_result)
+    print("Pearson: ", pearsonr_result)
+    result["Highlight correlation, content+sentiment, character level, Cohen Kappa"] = cohen_kappa_score_result
+    result["Highlight correlation, content+sentiment, character level, Krippendorff Alpha"] = krippendorff_alpha
+    result["Highlight correlation, content+sentiment, character level, Kendall Tall"] = kendalltau_result[0]
+    result["Highlight correlation, content+sentiment, character level, Spearman"] = spearmanr_result[0]
+    result["Highlight correlation, content+sentiment, character level, Pearson"] = pearsonr_result[0]
+
+    return result
 
 
-def annotator_agreement(results_1, results_2, annotation_data):
+def annotator_agreement(results_1, results_2, annotation_data, type):
     scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeLsum"], use_stemmer=True)
     assert len(annotation_data.keys()) == len(results_1.keys()) == len(results_2.keys())
 
-    character_level_agreement(annotation_data, results_1, results_2)
+    result = {}
+    result_character = character_level_agreement(annotation_data, results_1, results_2)
+    result.update(result_character)
 
     # Split documents into sentences, and anchor judgements to corresponding sentences
     for id in annotation_data.keys():
@@ -272,10 +325,21 @@ def annotator_agreement(results_1, results_2, annotation_data):
                     actions_all_zenan.append(0)
     a = np.array(actions_all_bryan)
     b = np.array(actions_all_zenan)
-    print("Cohen Kappa: ", cohen_kappa_score(a, b))
-    print("Kendall Tau: ", stats.kendalltau(a, b))
-    print("Spearman: ", stats.spearmanr(a, b))
-    print("Pearson: ", stats.pearsonr(a, b))
+    cohen_kappa_score_result = cohen_kappa_score(a, b)
+    krippendorff_alpha = krippendorffs_alpha(a, b)
+    kendalltau_result = stats.kendalltau(a, b)
+    spearmanr_result = stats.spearmanr(a, b)
+    pearsonr_result = stats.pearsonr(a, b)
+    print("Cohen Kappa: ", cohen_kappa_score_result)
+    print("Krippendorff Alpha", krippendorff_alpha)
+    print("Kendall Tau: ", kendalltau_result)
+    print("Spearman: ", spearmanr_result)
+    print("Pearson: ", pearsonr_result)
+    result["Highlight correlation, sentence level, Cohen Kappa"] = cohen_kappa_score_result
+    result["Highlight correlation, sentence level, Krippendorff Alpha"] = krippendorff_alpha
+    result["Highlight correlation, sentence level, Kendall Tall"] = kendalltau_result[0]
+    result["Highlight correlation, sentence level, Spearman"] = spearmanr_result[0]
+    result["Highlight correlation, sentence level, Pearson"] = pearsonr_result[0]
 
     # Get shared judgements, based on annotation results
     judgements_bryan_share = []
@@ -317,17 +381,32 @@ def annotator_agreement(results_1, results_2, annotation_data):
                             if sentence_2 == index:
                                 judgements_2_tmp.append(judgement_2)
 
+                        # for judgement_1 in judgements_1_tmp:
+                        #     tmp_1 = judgement_1["Content Expression"] + " " + judgement_1["Sentiment Expression"]
+                        #     for judgement_2 in judgements_2_tmp:
+                        #         tmp_2 = judgement_2["Content Expression"] + " " + judgement_2["Sentiment Expression"]
+                        #         scores = scorer.score(tmp_1, tmp_2)
+                        #         s = scores["rouge2"].fmeasure + scores["rouge1"].fmeasure + scores[
+                        #             "rougeLsum"].fmeasure
+                        #         if s > 2.0:
+                        #             judgements_bryan_share.append(judgement_1)
+                        #             judgements_zenan_share.append(judgement_2)
+
                         for judgement_1 in judgements_1_tmp:
                             tmp_1 = judgement_1["Content Expression"] + " " + judgement_1["Sentiment Expression"]
+                            rouges = []
                             for judgement_2 in judgements_2_tmp:
                                 tmp_2 = judgement_2["Content Expression"] + " " + judgement_2["Sentiment Expression"]
                                 scores = scorer.score(tmp_1, tmp_2)
                                 s = scores["rouge2"].fmeasure + scores["rouge1"].fmeasure + scores[
                                     "rougeLsum"].fmeasure
-                                if s > 1.6:
-                                    judgements_bryan_share.append(judgement_1)
-                                    judgements_zenan_share.append(judgement_2)
+                                rouges.append(s)
+                            if max(rouges) > 2.0:
+                                judgements_bryan_share.append(judgement_1)
+                                judgements_zenan_share.append(judgements_2_tmp[rouges.index(max(rouges))])
+
     print("All shared judgements: ", len(judgements_bryan_share), len(judgements_zenan_share))
+    result["All shared judgements"] = len(judgements_bryan_share)
 
     # Correlation on different aspects
     criteria_facet_same = []
@@ -410,55 +489,122 @@ def annotator_agreement(results_1, results_2, annotation_data):
     print("Shared sentiment_polarity in judgements: ", len(sentiment_polarity_same))
     print(pd.value_counts(sentiment_polarity_same, normalize=True))
 
+    result["Shared criteria_facet in judgements"] = len(criteria_facet_same)
+    result["Shared sentiment_level in judgements"] = len(sentiment_level_same)
+    result["Shared sentiment_expresser in judgements"] = len(sentiment_expresser_same)
+    result["Shared convincingness in judgements"] = len(convincingness_same)
+    result["Shared sentiment_polarity in judgements"] = len(sentiment_polarity_same)
+
     print("###### Correlation on criteria facets:")
     le_criteria_facets = LabelEncoder()
     le_criteria_facets.fit(criteria_facets_bryan + criteria_facets_zenan)
     a = np.array(list(le_criteria_facets.transform(criteria_facets_bryan)))
     b = np.array(list(le_criteria_facets.transform(criteria_facets_zenan)))
-    print("Cohen Kappa: ", cohen_kappa_score(a, b))
-    print("Kendall Tau: ", stats.kendalltau(a, b))
-    print("Spearman: ", stats.spearmanr(a, b))
-    print("Pearson: ", stats.pearsonr(a, b))
+    cohen_kappa_score_result = cohen_kappa_score(a, b)
+    krippendorff_alpha = krippendorffs_alpha(a, b)
+    kendalltau_result = stats.kendalltau(a, b)
+    spearmanr_result = stats.spearmanr(a, b)
+    pearsonr_result = stats.pearsonr(a, b)
+    print("Cohen Kappa: ", cohen_kappa_score_result)
+    print("Krippendorff Alpha", krippendorff_alpha)
+    print("Kendall Tau: ", kendalltau_result)
+    print("Spearman: ", spearmanr_result)
+    print("Pearson: ", pearsonr_result)
+    result["Correlation on criteria facets, Cohen Kappa"] = cohen_kappa_score_result
+    result["Correlation on criteria facets, Krippendorff Alpha"] = krippendorff_alpha
+    result["Correlation on criteria facets, Kendall Tall"] = kendalltau_result[0]
+    result["Correlation on criteria facets, Spearman"] = spearmanr_result[0]
+    result["Correlation on criteria facets, Pearson"] = pearsonr_result[0]
 
-    print("###### Correlation on sentiment expressers:")
-    le_sentiment_expressers = LabelEncoder()
-    le_sentiment_expressers.fit(sentiment_expressers_bryan + sentiment_expressers_zenan)
-    a = np.array(list(le_sentiment_expressers.transform(sentiment_expressers_bryan)))
-    b = np.array(list(le_sentiment_expressers.transform(sentiment_expressers_zenan)))
-    print("Cohen Kappa: ", cohen_kappa_score(a, b))
-    print("Kendall Tau: ", stats.kendalltau(a, b))
-    print("Spearman: ", stats.spearmanr(a, b))
-    print("Pearson: ", stats.pearsonr(a, b))
+    if type == "meta-review":
+        print("###### Correlation on sentiment expressers:")
+        print(sentiment_expressers_bryan)
+        print(sentiment_expressers_zenan)
+        le_sentiment_expressers = LabelEncoder()
+        le_sentiment_expressers.fit(sentiment_expressers_bryan + sentiment_expressers_zenan)
+        a = np.array(list(le_sentiment_expressers.transform(sentiment_expressers_bryan)))
+        b = np.array(list(le_sentiment_expressers.transform(sentiment_expressers_zenan)))
+        print(a)
+        print(b)
+        cohen_kappa_score_result = cohen_kappa_score(a, b)
+        krippendorff_alpha = krippendorffs_alpha(a, b)
+        kendalltau_result = stats.kendalltau(a, b)
+        spearmanr_result = stats.spearmanr(a, b)
+        pearsonr_result = stats.pearsonr(a, b)
+        print("Cohen Kappa: ", cohen_kappa_score_result)
+        print("Krippendorff Alpha", krippendorff_alpha)
+        print("Kendall Tau: ", kendalltau_result)
+        print("Spearman: ", spearmanr_result)
+        print("Pearson: ", pearsonr_result)
+        result["Correlation on sentiment expressers, Cohen Kappa"] = cohen_kappa_score_result
+        result["Correlation on sentiment expressers, Krippendorff Alpha"] = krippendorff_alpha
+        result["Correlation on sentiment expressers, Kendall Tall"] = kendalltau_result[0]
+        result["Correlation on sentiment expressers, Spearman"] = spearmanr_result[0]
+        result["Correlation on sentiment expressers, Pearson"] = pearsonr_result[0]
 
     print("###### Correlation on sentiment levels:")
     le_sentiment_levels = LabelEncoder()
     le_sentiment_levels.fit(sentiment_levels_bryan + sentiment_levels_zenan)
     a = np.array(list(le_sentiment_levels.transform(sentiment_levels_bryan)))
     b = np.array(list(le_sentiment_levels.transform(sentiment_levels_zenan)))
-    print("Cohen Kappa: ", cohen_kappa_score(a, b))
-    print("Kendall Tau: ", stats.kendalltau(a, b))
-    print("Spearman: ", stats.spearmanr(a, b))
-    print("Pearson: ", stats.pearsonr(a, b))
+    cohen_kappa_score_result = cohen_kappa_score(a, b)
+    krippendorff_alpha = krippendorffs_alpha(a, b)
+    kendalltau_result = stats.kendalltau(a, b)
+    spearmanr_result = stats.spearmanr(a, b)
+    pearsonr_result = stats.pearsonr(a, b)
+    print("Cohen Kappa: ", cohen_kappa_score_result)
+    print("Krippendorff Alpha", krippendorff_alpha)
+    print("Kendall Tau: ", kendalltau_result)
+    print("Spearman: ", spearmanr_result)
+    print("Pearson: ", pearsonr_result)
+    result["Correlation on sentiment levels, Cohen Kappa"] = cohen_kappa_score_result
+    result["Correlation on sentiment levels, Krippendorff Alpha"] = krippendorff_alpha
+    result["Correlation on sentiment levels, Kendall Tall"] = kendalltau_result[0]
+    result["Correlation on sentiment levels, Spearman"] = spearmanr_result[0]
+    result["Correlation on sentiment levels, Pearson"] = pearsonr_result[0]
 
     print("###### Correlation on convincingness levels:")
     le_convincingness = LabelEncoder()
     le_convincingness.fit(convincingness_levels_bryan + convincingness_levels_zenan)
     a = np.array(list(le_convincingness.transform(convincingness_levels_bryan)))
     b = np.array(list(le_convincingness.transform(convincingness_levels_zenan)))
-    print("Cohen Kappa: ", cohen_kappa_score(a, b))
-    print("Kendall Tau: ", stats.kendalltau(a, b))
-    print("Spearman: ", stats.spearmanr(a, b))
-    print("Pearson: ", stats.pearsonr(a, b))
+    cohen_kappa_score_result = cohen_kappa_score(a, b)
+    krippendorff_alpha = krippendorffs_alpha(a, b)
+    kendalltau_result = stats.kendalltau(a, b)
+    spearmanr_result = stats.spearmanr(a, b)
+    pearsonr_result = stats.pearsonr(a, b)
+    print("Cohen Kappa: ", cohen_kappa_score_result)
+    print("Krippendorff Alpha", krippendorff_alpha)
+    print("Kendall Tau: ", kendalltau_result)
+    print("Spearman: ", spearmanr_result)
+    print("Pearson: ", pearsonr_result)
+    result["Correlation on convincingness levels, Cohen Kappa"] = cohen_kappa_score_result
+    result["Correlation on convincingness levels, Krippendorff Alpha"] = krippendorff_alpha
+    result["Correlation on convincingness levels, Kendall Tall"] = kendalltau_result[0]
+    result["Correlation on convincingness levels, Spearman"] = spearmanr_result[0]
+    result["Correlation on convincingness levels, Pearson"] = pearsonr_result[0]
 
     print("###### Correlation on sentiment polarities:")
     le_sentiment_polarities = LabelEncoder()
     le_sentiment_polarities.fit(sentiment_polarities_bryan + sentiment_polarities_zenan)
     a = np.array(list(le_sentiment_polarities.transform(sentiment_polarities_bryan)))
     b = np.array(list(le_sentiment_polarities.transform(sentiment_polarities_zenan)))
-    print("Cohen Kappa: ", cohen_kappa_score(a, b))
-    print("Kendall Tau: ", stats.kendalltau(a, b))
-    print("Spearman: ", stats.spearmanr(a, b))
-    print("Pearson: ", stats.pearsonr(a, b))
+    cohen_kappa_score_result = cohen_kappa_score(a, b)
+    krippendorff_alpha = krippendorffs_alpha(a, b)
+    kendalltau_result = stats.kendalltau(a, b)
+    spearmanr_result = stats.spearmanr(a, b)
+    pearsonr_result = stats.pearsonr(a, b)
+    print("Cohen Kappa: ", cohen_kappa_score_result)
+    print("Krippendorff Alpha", krippendorff_alpha)
+    print("Kendall Tau: ", kendalltau_result)
+    print("Spearman: ", spearmanr_result)
+    print("Pearson: ", pearsonr_result)
+    result["Correlation on sentiment polarities, Cohen Kappa"] = cohen_kappa_score_result
+    result["Correlation on sentiment polarities, Krippendorff Alpha"] = krippendorff_alpha
+    result["Correlation on sentiment polarities, Kendall Tall"] = kendalltau_result[0]
+    result["Correlation on sentiment polarities, Spearman"] = spearmanr_result[0]
+    result["Correlation on sentiment polarities, Pearson"] = pearsonr_result[0]
+    return result
 
 
 if __name__ == "__main__":
@@ -529,4 +675,4 @@ if __name__ == "__main__":
         print("################ Annotator Zenan: ################")
         single_behaviour(zenan_results)
         print("################ Annotator Agreement: ################")
-        annotator_agreement(bryan_results, zenan_results, annotation_data)
+        annotator_agreement(bryan_results, zenan_results, annotation_data, type)

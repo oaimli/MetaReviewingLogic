@@ -1,0 +1,16 @@
+You will be given a document which is used to express opinions on the quality of a scientific manuscript. You are good at understanding the sentiment information with judgements in the document.
+Please first identify the sentence with judgements only on the quality of scientific manuscripts based on the criteria facets for scientific peer-review: novelty, soundness, clarity, advancement, compliance and overall quality within the given document.
+Then, extract fine-grained judgement information by strictly copying directly from the sentence with focus on the judgement value <sentiment_expression> and content of the manuscript it is talking about <content_expression>.
+
+Underlying Annotation Steps:
+
+
+Document:
+{{source_document}}
+
+Example:
+{"judgement_sentence": "The writing of the paper is not well-written.", "content_expression": "The writing of the paper", "sentiment_expression": "not well-written"}
+{"judgement_sentence": "Experimental results are not sufficiently substantiated.", "content_expression": "Experimental results", "sentiment_expression": "not sufficiently substantiated"}
+{"judgement_sentence": "This paper presents two novel approaches to provide explanations for the similarity between two samples based on 1) the importance measure of individual features and 2) some of the other pairs of examples used as analogies.", "content_expression": "approaches", "sentiment_expression": "novel"}
+
+Judgement lists (in the format of jsonlines):

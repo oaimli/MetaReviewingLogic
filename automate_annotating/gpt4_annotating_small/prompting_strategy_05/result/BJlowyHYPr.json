@@ -1,0 +1,483 @@
+{
+    "BJlowyHYPr": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "accepting the paper",
+                    "Sentiment Expression": "recommends against",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the D-Conv idea",
+                    "Sentiment Expression": "is novel AFAIK and fairly appropriate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The approach",
+                    "Sentiment Expression": "is well situated in the literature",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is fairly clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Figure 4",
+                    "Sentiment Expression": "the lines are really hard to distinguish just by the similar colors",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Several neighborhood sizes",
+                    "Sentiment Expression": "are experimented with",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the complexity of finding the K nearest neighbors",
+                    "Sentiment Expression": "is close to O(K L log(n)) if using KD trees",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Blind Review #2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "experiments",
+                    "Sentiment Expression": "conducted using strict variable-controlling methodology",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the effects of each factor",
+                    "Sentiment Expression": "easy to study",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the core operator, RNN structure, attention",
+                    "Sentiment Expression": "we believe",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "large std in the Cluster A of the air quality dataset",
+                    "Sentiment Expression": "we note",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the root cause of the larger std",
+                    "Sentiment Expression": "We believe",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "all models achieve similar std in this dataset, our proposal obtains the best mean for all metrics",
+                    "Sentiment Expression": "we note, proves that the improvement is statistically significant",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for your reply, more experiments were added",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "a 2016-long sequence as input",
+                    "Sentiment Expression": "very difficult for RNN-based models to handle",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "any forecasting model",
+                    "Sentiment Expression": "extremely large and therefore impractical for real deployment",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "only taking one DConv layer for the forecasting",
+                    "Sentiment Expression": "force its predictions over outliers to be based on unrelated neighbors",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "DConv",
+                    "Sentiment Expression": "not have sufficient representability to learn proper weights individually for inliers and outliers",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experimental evidence that the method is somewhat robust to outliers",
+                    "Sentiment Expression": "happy",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for a thorough rebuttal; some concerns remain",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "leaning more positive",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this explanation",
+                    "Sentiment Expression": "not quite satisfied",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the current solution",
+                    "Sentiment Expression": "not too convinced",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "use K=3 for your method",
+                    "Sentiment Expression": "seems weird",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "using the sigmoid to rescale things",
+                    "Sentiment Expression": "don't think ... solves my concern",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Paper has been revised",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the manuscript",
+                    "Sentiment Expression": "revised",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Blind Review #1 (1)",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The present paper's new D-Conv operator",
+                    "Sentiment Expression": "appears new, though it looks really like a simplification of the PointCNN's 'X-Conv' operator rather than a brand new operator",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the D-Conv",
+                    "Sentiment Expression": "has a strong reliance on nearest neighbors",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the D-Conv",
+                    "Sentiment Expression": "not the only contribution",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "data with outliers (whose values are unlike most others)",
+                    "Sentiment Expression": "would dramatically hurt performance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Our D-Conv",
+                    "Sentiment Expression": "is inspired by convolution over grids",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Using proprietary datasets",
+                    "Sentiment Expression": "makes following up on this work a bit hard",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Blind Review #1 (2)",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the experiments",
+                    "Sentiment Expression": "are missing some key simple baselines",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "results tables",
+                    "Sentiment Expression": "appear promising",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the experiments",
+                    "Sentiment Expression": "not clear ... consider realistic scenarios",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Blind Review #3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "essential contributions of our work",
+                    "Sentiment Expression": "appreciate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The K nearest points",
+                    "Sentiment Expression": "can indeed vary",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "contribution of the CloudLSTM",
+                    "Sentiment Expression": "helps improve",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the detailed comments on these issues",
+                    "Sentiment Expression": "appreciate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the revision",
+                    "Sentiment Expression": "eliminates any confusion",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the original figure",
+                    "Sentiment Expression": "had readability issues",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "complexity of D-Conv",
+                    "Sentiment Expression": "grow linearly with K",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "using a big neighborhood size and regularizing in some way",
+                    "Sentiment Expression": "may be appropriate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the dimensions of a point-cloud dataset",
+                    "Sentiment Expression": "are normally 2 or 3",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the method and experiments",
+                    "Sentiment Expression": "enough concerns",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the invariance to point cloud order and the relative simplicity of the architecture",
+                    "Sentiment Expression": "Strengths",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "vulnerability to outliers, experiments that don't seem to think about practical effects like day-of-week in forecasting, and experiments that leave out baselines to help directly assess the impact of neighbors.",
+                    "Sentiment Expression": "Weaknesses",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "data with outliers",
+                    "Sentiment Expression": "would dramatically hurt performance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "compare on publicly available datasets like those used in the PointCNN paper",
+                    "Sentiment Expression": "good reason to not try",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the experiments",
+                    "Sentiment Expression": "not clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "predict mobile app traffic using only the past 30 minutes of data, predict air quality using only the last 12 hours",
+                    "Sentiment Expression": "Why",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "complicated DConv weighting operator",
+                    "Sentiment Expression": "expect to do better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "interesting but needs some clarifications",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed convolution operator",
+                    "Sentiment Expression": "contributes to the performance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "RNN, attention, or the new operator",
+                    "Sentiment Expression": "makes one wonder if the improvement is statistically significant",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

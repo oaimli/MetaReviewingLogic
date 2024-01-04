@@ -206,12 +206,12 @@ if __name__ == "__main__":
     f = open("experiment_ids_dev.txt")
     ids = f.read().split("\n")
 
-    target_folder = "result"
-    files_all = os.listdir(target_folder)
+    with open("../../../annotation_analysis/bryan_annotation_result.json") as f:
+        samples_annotated = json.load(f)
     annotated_expressions = {}
-    for file in files_all:
-        if file[:-5] in ids:
-            annotated_expressions.update(json.load(open(os.path.join(target_folder, file))))
+    for id, sample in samples_annotated.items():
+        if id in ids:
+            annotated_expressions.update({id: sample})
 
     # Evaluation data for agreement of GPT-4 with human annotators
     annotation_data = {}

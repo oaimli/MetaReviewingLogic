@@ -1,0 +1,321 @@
+{
+    "r1lUl6NFDH": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "proposes to use the mirror descent algorithm for the binary network.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "It",
+                    "Sentiment Expression": "easy to read.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "novelty over ProxQuant",
+                    "Sentiment Expression": "is somehow limited.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The theoretical analysis",
+                    "Sentiment Expression": "is weak.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Experimental results",
+                    "Sentiment Expression": "can also be made more convincing.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #4",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is easy to read and follow, and the main contributions are clearly stated",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "a weak rejection",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "theoretical analysis",
+                    "Sentiment Expression": "provide more",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "mirror descent",
+                    "Sentiment Expression": "is not clear to me, why",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "authors' claim",
+                    "Sentiment Expression": "repeatedly",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "empirically show this point",
+                    "Sentiment Expression": "is better to",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "technical contributions",
+                    "Sentiment Expression": "are not enough",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experiments on ImageNet",
+                    "Sentiment Expression": "Could the authors perform",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "VGG and ResNet",
+                    "Sentiment Expression": "are too old and easy to be compressed, compression these networks are of little practical values.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Mirror Descent (MD) framework for the quantization of neural networks",
+                    "Sentiment Expression": "proposes",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "novelty of this work",
+                    "Sentiment Expression": "is somehow limited",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this paper",
+                    "Sentiment Expression": "is well-written",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Experiments on CIFAR-10/100 and TinyImageNet with convolutional and residual architectures",
+                    "Sentiment Expression": "show the effective of the proposed model",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "soundness of the model",
+                    "Sentiment Expression": "it would better to provide the code to validate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for the positive feedback",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our paper has sufficient material on both theoretical and experimental aspects",
+                    "Sentiment Expression": "appreciate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our paper addresses the challenges of adopting MD for NN quantization successfully",
+                    "Sentiment Expression": "appreciate",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our paper",
+                    "Sentiment Expression": "introduces the first practical MD based algorithm for NN quantization and demonstrate superior empirical performance against directly comparable baselines.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for the positive feedback",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our method",
+                    "Sentiment Expression": "novel and interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Summary of contributions and response to other comments {Response to R3 [2/2]}",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "MD",
+                    "Sentiment Expression": "suitable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "PQ is not based on MD and our MD method significantly outperforms PQ {Response to R3 [1/2]}",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "from our experiments that MD significantly outperforms PQ",
+                    "Sentiment Expression": "it is clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The experimental result on benchmark datasets (CIFAR & TinyImageNet) and basic architectures (VGG & ResNet-18)",
+                    "Sentiment Expression": "showed that the proposed method is suitable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the convergence of the MD with nonconvex objective function in NN quantization neither how to choose the projection for mirror mapping construction",
+                    "Sentiment Expression": "do not analyze",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the novelty of the proposed method",
+                    "Sentiment Expression": "better to discuss to clarify",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the novelty and the theoretical contributions",
+                    "Sentiment Expression": "I concern about",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Blind Review #1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "paper that uses the Mirror Descent paradigm for learning quantized networks",
+                    "Sentiment Expression": "good",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "using Mirror Descent in the context of learning quantized network",
+                    "Sentiment Expression": "novel and interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "results than existing method",
+                    "Sentiment Expression": "better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this work",
+                    "Sentiment Expression": "like a good contribution",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "comparisons to existing methods",
+                    "Sentiment Expression": "not comprehensive enough",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

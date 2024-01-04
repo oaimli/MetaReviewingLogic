@@ -1,0 +1,19 @@
+Your task is to assess the justification of the sentiment presented in a judgment sentence, based on the context in the source document.
+
+You will rate the justification of the sentiment as one of the following:
+
+- Not applicable: if the sentiment is directly quoted from someone else in the document.
+- Not at all: if there is no evidence or reasoning within the document to support the sentiment.
+- Slightly Convincing: if there is some evidence or logical reasoning supporting the sentiment, but it is not comprehensive or fully convincing.
+- Highly Convincing: if the evidence or reasoning to support the sentiment is strong and comprehensive, leaving little room for doubt.
+
+To complete this task, please follow the steps below:
+
+Read the source document carefully:
+{{source_document}}
+
+Then, refer to the judgment sentence:
+{{judgement_expression}}
+
+Finally, based on your understanding of the sentiment from the judgment sentence and its supporting context in the document, decide on its convincingness level:
+The sentiment convincingness is:

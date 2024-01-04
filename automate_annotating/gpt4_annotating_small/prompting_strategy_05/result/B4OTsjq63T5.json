@@ -1,0 +1,384 @@
+{
+    "B4OTsjq63T5": [
+        {
+            "Document Title": "Meta Review of Paper6521 by Area Chair 4R4G",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the paper proposes an interesting approach to Bayesian inference incorporating coresets with Hamiltonian flows",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Continued Response to pCaB",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "Generic normalizing flows",
+                    "Sentiment Expression": "do not generally provide error guarantees",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a generic normalizing flow",
+                    "Sentiment Expression": "possible [to] outperform our method",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "generic flows",
+                    "Sentiment Expression": "hard to train reliably in practice",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Generic normalizing flows",
+                    "Sentiment Expression": "do not use information from the target",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thanks for the clarifications",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "response to my questions",
+                    "Sentiment Expression": "It has improved my understanding of the paper.",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer ofer",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "comparisons in both energy distance and MMD",
+                    "Sentiment Expression": "will include",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for the authors' response",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "looking at the relative mean and cov separately",
+                    "Sentiment Expression": "perhaps it would be clearer",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer hoPP",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The limitations of the method",
+                    "Sentiment Expression": "were discussed insufficiently",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Continued Response to pCaB",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "simpler Bayesian Inference baselines such as Laplace and simple mean-field VI",
+                    "Sentiment Expression": "would have liked to see",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "reflection on the limitations of the approach",
+                    "Sentiment Expression": "could be further improved",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "attention devoted to this in the current version",
+                    "Sentiment Expression": "not enough",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "\"...interleaving MCMC and gradient descent steps... \"",
+                    "Sentiment Expression": "was not entirely clear to me",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "\"Let C be the universal constant\"",
+                    "Sentiment Expression": "...appears a bit unmotivated here",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "convention of placing the nonzero elements first",
+                    "Sentiment Expression": "Was [...] mentioned anywhere?",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer pCaB",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the combination of Hamiltonian-based flow with quasi-refreshment and Bayesian coresets",
+                    "Sentiment Expression": "unique",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "a variational family",
+                    "Sentiment Expression": "inexpensive... and flexible",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Standard normalizing flows",
+                    "Sentiment Expression": "come with no guarantees, and may or may not be expensive to work with",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the standardization quasi-refreshment",
+                    "Sentiment Expression": "still provides a significant reduction in KL",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to Reviewer ofer",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "these interpretations in the paper",
+                    "Sentiment Expression": "not been very clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper6521 by Reviewer ofer",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The proposed idea",
+                    "Sentiment Expression": "very novel and addresses important drawbacks that current coreset methods suffer from",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Important claims and new insights on coresets and Hamiltonian flows",
+                    "Sentiment Expression": "are backed up with theoretical proofs",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Experiments",
+                    "Sentiment Expression": "are well-conducted and a variety of datasets, both synthetic and real, are explored",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "review of related and past methods",
+                    "Sentiment Expression": "A thorough and clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "In Figure 2, relative cov error",
+                    "Sentiment Expression": "seems to take a long time to converge",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper6521 by Reviewer pCaB",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "new method for constructing Bayesian coresets",
+                    "Sentiment Expression": "introduces",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the presented method",
+                    "Sentiment Expression": "is original",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "is technically sound",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The manuscript",
+                    "Sentiment Expression": "is well structured and very clearly written",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "constitutes a significant contribution",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "discussion of the limitations of the proposed approach",
+                    "Sentiment Expression": "would have been helpful",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper6521 by Reviewer hoPP",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "very well-written and clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The suggested combination of methods",
+                    "Sentiment Expression": "clearly and strongly improves performance compared to the alternatives",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "provides a theoretical analysis",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The experiments",
+                    "Sentiment Expression": "are all in fairly simple settings",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "SHF",
+                    "Sentiment Expression": "decreases runtime and increases performance for datasets with low complexity",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "would be improved",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Great work",
+                    "Sentiment Expression": "Keep it up",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "is good and should be published with minor revisions",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The Sparse Hamiltonian Flows (SHF)",
+                    "Sentiment Expression": "clearly and strongly outperform the alternatives in most experiments",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

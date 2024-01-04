@@ -1,0 +1,18 @@
+You are good at understanding sentiment information with judgements in the document.
+Please predict the original expresser of the sentiment in the judgement sentence. You can refer to the context in the source document.
+
+Sentiment expressers:
+
+- Self: the sentiment is from the speaker
+- Others: the sentiment is quoted from others
+
+Underlying Annotation Steps:
+
+
+Document:
+{{source_document}}
+
+Judgement sentence:
+{{judgement_expression}}
+
+The sentiment expresser:

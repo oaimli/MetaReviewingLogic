@@ -1,0 +1,27 @@
+In this task, your goal is to infer and predict the facet that a judgement sentence is referring to based on its context in a given document. The 'facet' refers to the specific aspect of a scientific manuscript under evaluation. 
+
+The possible facets are:
+
+- Novelty: This refers to the originality of the idea, how clear the problems and methods are in relation to the existing literature. 
+
+- Soundness: This could either be empirical or theoretical. Empirical soundness relates to the design and execution of experiments supportive of the claims, the appropriateness of methods used, and the accuracy of data reporting, analysis, and interpretation. Theoretical soundness pertains to whether the manuscript's arguments or claims are sufficiently supported by theoretical analysis.
+
+- Clarity: This includes the readability of the manuscript's language and structure, the reproducibility of its details, and the accurate presentation of the research question, methodology, and conclusion.
+
+- Advancement: This facet concerns the importance of the manuscript to its field, the significance of its contributions, and the potential impact it could have on said field.
+
+- Compliance: This checks if the manuscript fits the convention of the venue, and if it adheres to all ethical and publication requirements.
+
+- Overall: This represents an overall evaluation of the manuscript's quality, without reference to specific facets.
+
+You are expected to act as the annotator for this task. You will be presented with the source document and a judgement sentence. Your task is to identify which of the above facets the judgement sentence is referring to based on its context in the source document.
+
+Here are the steps for you:
+
+Document:
+{{source_document}}
+
+Judgement sentence:
+{{judgement_expression}}
+
+Predicted facet:

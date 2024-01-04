@@ -1,0 +1,202 @@
+{
+    "r1exVhActQ": [
+        {
+            "Document Title": "A study on sparse properties of L1-regularization in deep neural networks, yet experimental supports seem week.",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "experimental supports",
+                    "Sentiment Expression": "are weak",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Reply to AnonReviewer1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "perform SGD with L1 regularizer to train the network",
+                    "Sentiment Expression": "Empirically, we find that after the L1 norm is penalized, even a very small epsilon can lead to very sparse solutions",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Reply to AnonReviewer4",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "our novelty lies more on the analysis of the pruning objective than on the algorithm",
+                    "Sentiment Expression": "quite limited novelty",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The sentence",
+                    "Sentiment Expression": "is an editorial mistake",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "our experiments",
+                    "Sentiment Expression": "will strengthen",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "pruning ratios in (C. Louizos et al., 2017), (J. Achterhold et al.)",
+                    "Sentiment Expression": "are not as strong as our compared baseline 'Variational Dropout'",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Repeating the old story from other papers, quit limited novelty, lacking solid experiments",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "A large part of math is from previous works",
+                    "Sentiment Expression": "not enough for the ICLR conference",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the authors totally ignore the latest improvements in neural network compression",
+                    "Sentiment Expression": "very surprising",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Their approach",
+                    "Sentiment Expression": "is extremely far away from the state of the art in terms of both methodological excellence and experimental results",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the core contribution",
+                    "Sentiment Expression": "is replacing SGD with Adam",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the authors claim 'Finally, we show the trade-off for pruning Resnet-50 on the ILSVRC dataset.'",
+                    "Sentiment Expression": "but I cannot find the results",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "an interesting perspective on the L1 regularization of neural network",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The perspective of the proof",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "mostly like",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the claim",
+                    "Sentiment Expression": "a little bit counter intuitive",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "notation issues",
+                    "Sentiment Expression": "minor",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Nice Theoretical Insights, but Not Sure How Experiments Substantiate the Theory",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the properties of the stationary point of the layerwise objective (5), the experiments",
+                    "Sentiment Expression": "seem to be conducted based on the different joint objective (8)",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Experimental results of optimizing (5)",
+                    "Sentiment Expression": "seem missing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the bound provided by Theorem 1",
+                    "Sentiment Expression": "It is also unclear how tight",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the trade-off in point (b) of the abstract",
+                    "Sentiment Expression": "It is also unclear how ... is justified",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the concept of stationary point and general position",
+                    "Sentiment Expression": "can be introduced before presenting Theorem 1 to improve readability",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "FLOP related to the time/speed needed for compression",
+                    "Sentiment Expression": "should be specified",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

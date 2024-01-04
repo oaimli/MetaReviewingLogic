@@ -1,0 +1,470 @@
+{
+    "uFORMPcA_b": [
+        {
+            "Document Title": "Paper Decision",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "well-written and well-organized",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "provides a very satisfactory solution both in technical and practical point of view",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the paper",
+                    "Sentiment Expression": "doesn't present a clear and significant scientific contribution, shows limited empirical validation, and doesn't concern a software package with large enough practical impact on the NeurIPS community",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "scientific future work building on top of Lale",
+                    "Sentiment Expression": "I don\u2019t see a clear path",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The high-level scientific contribution",
+                    "Sentiment Expression": "is missing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the user studies",
+                    "Sentiment Expression": "only include 9 participants, making statements not very meaningful",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the significance of the scientific contribution or on the practical impact of the software described",
+                    "Sentiment Expression": "we weren't able to justify acceptance",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10426 by Reviewer G6BM",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "extremely well-written and well-organized---it was easy to understand both low-level details and high-level ideas clearly",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The technical contents of the paper",
+                    "Sentiment Expression": "look novel and sound",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "considers a very important problem and provides a very satisfactory solution both in technical and practical point of view",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "introduces three combinators important for compositional gradual AutoML, among which the or combinator is particularly novel",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The entire system (including combinators, hyperparameter schema, and translation scheme)",
+                    "Sentiment Expression": "seems to be designed and engineered in a principled way",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "learning and using Lale",
+                    "Sentiment Expression": "look easy to me",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Lale",
+                    "Sentiment Expression": "will have a huge positive impact on the NeurIPS community",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The authors for answering my questions",
+                    "Sentiment Expression": "Thank",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Author response to updates towards the end of the discussion period.",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "both my comments and comments from other reviewers",
+                    "Sentiment Expression": "could help to make it a better paper",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10426 by Reviewer H7JW",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "a new autoML system with the formalization of pipeline combinators",
+                    "Sentiment Expression": "propose",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "design easy-to-use and efficient autoML system",
+                    "Sentiment Expression": "interesting",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The presentation of the empirical study",
+                    "Sentiment Expression": "should be organized better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the design philosophy of the formalization of combinator in Section 2",
+                    "Sentiment Expression": "am confused",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "RQ1",
+                    "Sentiment Expression": "there is limited number of participants",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "RQ2 and RQ3",
+                    "Sentiment Expression": "only the end-to-end performance boost is reported",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "scientific contribution",
+                    "Sentiment Expression": "be more clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the presentation of the empirical study",
+                    "Sentiment Expression": "organize...following the general scientific principles",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Author Response to Reviewer cjD3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this",
+                    "Sentiment Expression": "it is not clear to me",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the average accuracy with Lale",
+                    "Sentiment Expression": "0.3% worse than with auto-sklearn",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Author Response to Reviewer H7JW",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "goal of our library",
+                    "Sentiment Expression": "goes beyond",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The syntax",
+                    "Sentiment Expression": "is more expressive than existing systems",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "formalization",
+                    "Sentiment Expression": "could also be used",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "these results",
+                    "Sentiment Expression": "are still preliminary and too premature",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the following null hypotheses",
+                    "Sentiment Expression": "we will provide",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "all four null hypotheses",
+                    "Sentiment Expression": "are rejected",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "more detailed descriptions",
+                    "Sentiment Expression": "would be difficult to include",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "detailed experiments",
+                    "Sentiment Expression": "would be difficult to include",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Author Response to Reviewer G6BM",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "your positive opinion of our paper",
+                    "Sentiment Expression": "positive",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Author Response to Reviewer D3TC",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "high-level scientific contribution",
+                    "Sentiment Expression": "is missing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "datasets used in this paper",
+                    "Sentiment Expression": "seems rather small",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the underlying framework",
+                    "Sentiment Expression": "it is not clear to whether ... can support diverse model architectures",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method's contribution to AutoML",
+                    "Sentiment Expression": "It is not clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10426 by Reviewer D3TC",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "AutoML",
+                    "Sentiment Expression": "an important application, and if successful, can greatly reduce data scientists' effort",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "engineering effort and mature tool",
+                    "Sentiment Expression": "significant",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "high-level scientific contribution",
+                    "Sentiment Expression": "is missing",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "low level details",
+                    "Sentiment Expression": "too many",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "datasets used in this paper",
+                    "Sentiment Expression": "seems rather small",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the proposed method's contribution to AutoML",
+                    "Sentiment Expression": "is not clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Official Review of Paper10426 by Reviewer cjD3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The novelty part",
+                    "Sentiment Expression": "can be narrowed down to the unified translation schema",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this",
+                    "Sentiment Expression": "is not clear",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Lale",
+                    "Sentiment Expression": "is uncertain whether will have a great impact in the community",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "method and experiments",
+                    "Sentiment Expression": "is sound",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "this",
+                    "Sentiment Expression": "is unclear how contribution is to the NeurIPS community",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The authors",
+                    "Sentiment Expression": "introduced their AutoML library in a sorted, logical way",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Using Lale",
+                    "Sentiment Expression": "still requires a decent background on machine learning",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

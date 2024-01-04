@@ -87,19 +87,29 @@ if __name__ == "__main__":
             gpt4_results_share[key] = gpt4_result_new
 
         print("################ Annotator Bryan: ################")
-        single_behaviour(bryan_results_share)
+        result_bryan = single_behaviour(bryan_results_share)
 
         print("################ Annotator Zenan: ################")
-        single_behaviour(zenan_results_share)
+        result_zenan = single_behaviour(zenan_results_share)
 
         print("################ Annotator GPT-4: ################")
-        single_behaviour(gpt4_results_share)
+        result_gpt4 = single_behaviour(gpt4_results_share)
 
         print("################ Annotator Agreement Bryan and Zenan: ################")
-        annotator_agreement(bryan_results_share, zenan_results_share, annotation_data_share)
+        result_bz = annotator_agreement(bryan_results_share, zenan_results_share, annotation_data_share, type)
 
         print("################ Annotator Agreement Bryan and GPT-4: ################")
-        annotator_agreement(bryan_results_share, gpt4_results_share, annotation_data_share)
+        result_bg = annotator_agreement(bryan_results_share, gpt4_results_share, annotation_data_share, type)
 
         print("################ Annotator Agreement Zenan and GPT-4: ################")
-        annotator_agreement(zenan_results_share, gpt4_results_share, annotation_data_share)
+        result_zg = annotator_agreement(zenan_results_share, gpt4_results_share, annotation_data_share, type)
+
+        print("################ %s, Overall results for single behaviour, HumanAnnotator1, HumanAnnotator2 and GPT-4: ################" % type)
+        for key in result_bryan:
+            print(key, "------", result_bryan[key], result_zenan[key], result_gpt4[key])
+
+        print(
+            "################ %s, Overall results for agreement, A1<->A2, A1<->GPT-4 and A2<->GPT-4: ################" % type)
+        for key in result_bz:
+            print(key, "------", result_bz[key], result_bg[key], result_zg[key])
+

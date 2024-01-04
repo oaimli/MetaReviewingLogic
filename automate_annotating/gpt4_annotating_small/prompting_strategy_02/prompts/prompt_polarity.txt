@@ -1,0 +1,17 @@
+You are good at understanding sentiment information with judgements in the document.
+Please predict the polarity and strength of the sentiment in the judgement sentence. You can refer to the context in the source document.
+
+Sentiments polarities:
+
+- Strong negative: very negative
+- Negative: minor negative
+- Positive: minor positive
+- Strong positive: very positive
+
+Document:
+{{source_document}}
+
+Judgement sentence:
+{{judgement_expression}}
+
+The sentiment polarity:

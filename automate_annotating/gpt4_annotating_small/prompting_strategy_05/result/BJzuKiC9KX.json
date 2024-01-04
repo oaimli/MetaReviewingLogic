@@ -1,0 +1,307 @@
+{
+    "BJzuKiC9KX": [
+        {
+            "Document Title": "Interesting empirical observations of the advantage of RWS, but lacking formal theoretical analysis, and larger scale experiments",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "presents a well conducted empirical study",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "it",
+                    "Sentiment Expression": "performs consistently better than alternatives",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the work",
+                    "Sentiment Expression": "it does not provide a formal theoretical analysis justifying the observed behaviour",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The work",
+                    "Sentiment Expression": "is well-written and extracts valuable insights",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experiments",
+                    "Sentiment Expression": "are limited to MNIST and synthetic data",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The paper",
+                    "Sentiment Expression": "should be made stronger",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Real world experiments",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "RWS as an alternative for learning deep generative models",
+                    "Sentiment Expression": "competitive, often preferable",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Improvements on toy data-sets like GMMs",
+                    "Sentiment Expression": "do not necessarily transfer over to real world data",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "back it up with results that match or improve state-of-the-art generative models like VQ-VAE/VIMCO in bits/dim on large scale, real data-sets",
+                    "Sentiment Expression": "should",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Thank you for reconsidering our paper",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "evidence",
+                    "Sentiment Expression": "would be good",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "Our paper is methodological and RWS is in its core a statistical method for maximizing the log marginal likelihood and minimizing the KL divergence from p to q",
+                    "Sentiment Expression": "is",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "An interesting experimental paper but more insights are expected",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "RWS doesn't suffer from high variance gradients",
+                    "Sentiment Expression": "particularly useful",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "zero-forcing failure mode and delta-WW",
+                    "Sentiment Expression": "difficult to follow",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "delta-WW",
+                    "Sentiment Expression": "deserves a better introduction",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "experiments",
+                    "Sentiment Expression": "should be made to verify the performance of RWS",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "baselines",
+                    "Sentiment Expression": "should be compared",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Somehow convinced but still expect more experiments",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "your reasons",
+                    "Sentiment Expression": "are not valid",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Revisiting Reweighted Wake-Sleep",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "a rigorous analysis of why the RWS performance is consistently better than IWAE",
+                    "Sentiment Expression": "lacks",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to AnonReviewer2",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "experiments on large-scale real-world datasets",
+                    "Sentiment Expression": "do not have",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the first reported result of an MNIST model trained with IWAE with 512 particles",
+                    "Sentiment Expression": "ours is",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to AnonReviewer1",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "this",
+                    "Sentiment Expression": "will explain ... in more detail",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Response to AnonReviewer3",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "theoretical basis of why RWS is better than IWAE",
+                    "Sentiment Expression": "more comprehensive",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "how defensive sampling ameliorates issues discovered in the GMM experiments",
+                    "Sentiment Expression": "more detailed",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "RWS performs better with more particles",
+                    "Sentiment Expression": "performs better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "effective and easy application to models where the choice from the discrete random variables affects model expansion or computation",
+                    "Sentiment Expression": "allows for effective and easy",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Discrete latent variables, stochastic control flow and probabilistic programming",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "RWS is a simple and often superior algorithm to use in this model family",
+                    "Sentiment Expression": "simple and often superior",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        },
+        {
+            "Document Title": "Nice experimental discoveries",
+            "Annotated Judgements": [
+                {
+                    "Content Expression": "The main contribution of the paper",
+                    "Sentiment Expression": "better",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "The experimental part",
+                    "Sentiment Expression": "written in an inspiring way",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "baselines",
+                    "Sentiment Expression": "should be stronger",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "the shortcomings of RWS discovered by the GMM experiments",
+                    "Sentiment Expression": "could try to emphasize more",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                },
+                {
+                    "Content Expression": "these observations alone",
+                    "Sentiment Expression": "not novel enough",
+                    "Criteria Facet": "",
+                    "Sentiment Polarity": "",
+                    "Sentiment Expresser": "",
+                    "Convincingness": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+You excel in deciphering the sentiment information, particularly in judgement sentences within documents. We would like you to analyze sentiments, predicting their polarity along with the emotional power of the judgment provided in the sentence. You can derive the context from the main source document.
+
+The sentiment polarities are defined as follows:
+
+- Strong negative: Indicates a highly negative sentiment
+- Negative: Points towards a slightly negative sentiment
+- Positive: Reflects a slightly positive sentiment
+- Strong positive: Conveys a highly positive sentiment
+
+Here's how you can carry out the annotation:
+
+Please read the entire source document carefully. And then, examine the judgement sentence closely.
+
+Here is the Source Document:
+{{source_document}}
+
+Now, carefully observe the Judgement Sentence:
+{{judgement_expression}}
+
+Based on your insight, please indicate the Sentiment Polarity:

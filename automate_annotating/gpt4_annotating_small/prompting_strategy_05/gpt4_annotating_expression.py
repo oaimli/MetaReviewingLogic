@@ -5,20 +5,8 @@ import time
 import json
 
 
-def parse_expression(output):
-    with open("tmp.jsonl", "w") as f:
-        f.write(output.strip())
-    results = []
-    try:
-        with jsonlines.open("tmp.jsonl") as reader:
-            for line in reader:
-                results.append(line)
-    except jsonlines.InvalidLineError as err:
-        print("Jsonlines parsing error,", err)
-    return results
-
-
 def get_result(prompt_format, document):
+    print("Analyzing one document...")
     while True:
         try:
             output_dict = openai.ChatCompletion.create(
@@ -30,7 +18,17 @@ def get_result(prompt_format, document):
             )
             results = []
             for output in output_dict['choices']:
-                tmp = parse_expression(output['message']['content'])
+                output_content = output['message']['content'].replace("\n\n", "\n")
+                print(output_content)
+                with open("tmp.jsonl", "w") as f:
+                    f.write(output_content.strip())
+                tmp = []
+                try:
+                    with jsonlines.open("tmp.jsonl") as reader:
+                        for line in reader:
+                            tmp.append(line)
+                except jsonlines.InvalidLineError as err:
+                    print("Jsonlines parsing error,", err)
                 if len(tmp) > len(results):
                     results = tmp
             break
@@ -40,6 +38,7 @@ def get_result(prompt_format, document):
                 time.sleep(2)
     judgements = []
     for line in results:
+        print(line)
         if "content_expression" in line.keys() and "sentiment_expression" in line.keys():
             if line["content_expression"].strip() != "" and line["sentiment_expression"].strip() != "":
                 judgements.append(
@@ -48,7 +47,6 @@ def get_result(prompt_format, document):
                      "Sentiment Polarity": "", "Sentiment Expresser": "", "Convincingness": ""})
     print(judgements)
     return judgements
-
 
 
 def annotating(samples):
@@ -61,8 +59,6 @@ def annotating(samples):
 
     for paper_id, sample in samples.items():
         print(paper_id)
-        print(sample.keys())
-
         documents_annotated = []
         # annotating the meta-review
         judgements = get_result(prompt_expression, sample["meta_review"])

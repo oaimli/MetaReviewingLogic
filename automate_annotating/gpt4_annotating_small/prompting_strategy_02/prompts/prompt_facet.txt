@@ -1,0 +1,45 @@
+You are good at understanding sentiment information with judgements in the document.
+Please predict the facet that the judgement sentence is talking about. You can refer to the context in the source document.
+
+Facets:
+
+Novelty:
+
+How original the idea (e.g., tasks, datasets, or methods) is, and how clear where the problems
+and methods sit with respect to existing literature (i.e., meaningful comparison).
+
+Soundness:
+
+There are usually two types of soundness:
+(1) Empirical: how well experiments are designed and executed to support the claims,
+whether methods used are appropriate, and how correctly the data and results are reported,
+analysed, and interpreted.
+(2) Theoretical: whether arguments or claims in the manuscript are well supported by
+theoretical analysis, i.e., completeness and the methodology (e.g., mathematical approach)
+and the analysis is correct.
+
+Clarity:
+
+The readability of the writing (e.g., structure and language), reproducibility of details, and
+how accurately what the research question is, what was done and what was the conclusion
+are presented.
+
+Advancement:
+
+Importance of the manuscript to discipline, significance of the contributions of the manuscript, and its potential impact to the field.
+
+Compliance:
+
+Whether the manuscript fits the venue, and all ethical and publication requirements are met.
+
+Overall:
+
+Overall quality of the manuscript, not for specific facets.
+
+Document:
+{{source_document}}
+
+Judgement sentence:
+{{judgement_expression}}
+
+The predicted facet:
