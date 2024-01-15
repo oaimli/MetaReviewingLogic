@@ -1,0 +1,3 @@
+{{input_documents}}
+
+Write a meta-review based on the above reviews and discussions for a manuscript.

@@ -3,6 +3,7 @@ import openai
 import time
 import json
 import jsonlines
+import os
 
 
 def parse_result(output):

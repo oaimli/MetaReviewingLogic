@@ -1,0 +1,3 @@
+{{input_documents}}
+
+What are the steps to write a meta-review specifically for the above reviews and discussions of a manuscript.

@@ -1,3 +1,0 @@
-Judgement a: {{judgement_a}}
-Judgement b: {{judgement_b}}
-Whether judgements a and b are talking about the same content? (Output Yes or No)
