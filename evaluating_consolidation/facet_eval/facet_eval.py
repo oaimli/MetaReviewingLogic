@@ -233,17 +233,16 @@ if __name__ == "__main__":
         expressions = annotating_expressions(generations_prompt_naive[key]["generation"])
         judgements = annotating_facets(generations_prompt_naive[key]["generation"], expressions)
         generations_prompt_naive[key]["gpt4_judgements"] = judgements
-        break
     with open("../../enhancing_prompting/results/generation_gpt35_prompt_naive.json", "w") as f:
         json.dump(generations_prompt_naive, f, indent=4)
 
 
-    # with open("../../enhancing_prompting/results/generation_gpt35_prompt_llm.json") as f:
-    #     generations_prompt_llm = json.load(f)
-    # for key in tqdm(generations_prompt_llm, desc="prompt llm"):
-    #     expressions = annotating_expressions(generations_prompt_llm[key]["generation"])
-    #     judgements = annotating_facets(generations_prompt_llm[key]["generation"], expressions)
-    #     generations_prompt_llm[key]["gpt4_judgements"] = judgements
-    # with open("../../enhancing_prompting/results/generation_gpt35_prompt_llm.json", "w") as f:
-    #     json.dump(generations_prompt_llm, f, indent=4)
+    with open("../../enhancing_prompting/results/generation_gpt35_prompt_llm.json") as f:
+        generations_prompt_llm = json.load(f)
+    for key in tqdm(generations_prompt_llm, desc="prompt llm"):
+        expressions = annotating_expressions(generations_prompt_llm[key]["generation"])
+        judgements = annotating_facets(generations_prompt_llm[key]["generation"], expressions)
+        generations_prompt_llm[key]["gpt4_judgements"] = judgements
+    with open("../../enhancing_prompting/results/generation_gpt35_prompt_llm.json", "w") as f:
+        json.dump(generations_prompt_llm, f, indent=4)
 
