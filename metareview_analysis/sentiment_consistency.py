@@ -1,10 +1,7 @@
 import json
-import math
-
-import pandas as pd
 import numpy as np
-import krippendorff
 import jsonlines
+from scipy import spatial
 
 with open("../annotation_analysis/bryan_annotation_result.json") as f:
     bryan_results = json.load(f)
@@ -35,7 +32,7 @@ for key in shared_ids:
 #       "Annotation data", len(annotation_data_share))
 print("Bryan", len(bryan_results_share), "Zenan", len(zenan_results_share), "Annotation data", len(annotation_data_share))
 
-type = "others"
+type = "official-reviews"
 for key in shared_ids:
     bryan_result = bryan_results_share[key]
     zenan_result = zenan_results_share[key]
@@ -105,8 +102,8 @@ with jsonlines.open("../../HumanAnnotation/mrg_judgement/annotation/sampled_data
         conflicts[line["paper_id"][10:]] = line["contradict"]
 
 
-def get_correlation(result):
-    correlations = {"Advancement": [], "Soundness": [], "Novelty": [], "Overall": [], "Clarity": [], "Compliance": []}
+def get_score(result):
+    scores = {"Advancement": [], "Soundness": [], "Novelty": [], "Overall": [], "Clarity": [], "Compliance": []}
     result_len = len(result) # the number of annotated documents for one sample
     for i in range(0, result_len):
         result_document_i = result[i]
@@ -138,24 +135,12 @@ def get_correlation(result):
                 print(key)
                 v_i = list(facet_in_document_i[key].values())
                 v_j = list(facet_in_document_j[key].values())
+                co = 1 - spatial.distance.cosine(v_i, v_j)
+                tmp = scores[key]
+                tmp.append(co)
+                scores[key] = tmp
 
-                if np.sum(v_i) > 0 or np.sum(v_j) > 0:
-                    print(v_i)
-                    print(v_j)
-                    co = krippendorff.alpha(reliability_data=np.array([v_i, v_j]))
-                    if math.isnan(co):
-                        print("N", co)
-                    tmp = correlations[key]
-                    tmp.append(co)
-                    correlations[key] = tmp
-                else:
-                    print(v_i)
-                    print(v_j)
-                    tmp = correlations[key]
-                    tmp.append(0.0)
-                    correlations[key] = tmp
-
-    return correlations
+    return scores
 
 mean_with_conflicts_bryan = {}
 variance_with_conflicts_bryan = {}
@@ -170,9 +155,9 @@ for key in shared_ids:
     zenan_result = zenan_results_share[key]
 
     print(key)
-    bryan_corrs = get_correlation(bryan_result)
+    bryan_corrs = get_score(bryan_result)
     print(bryan_corrs)
-    zenan_corrs = get_correlation(zenan_result)
+    zenan_corrs = get_score(zenan_result)
 
     for facet_key in bryan_corrs:
         bryan_corr = bryan_corrs[facet_key]
@@ -235,4 +220,3 @@ for facet_key in mean_with_conflicts_bryan:
     print(np.mean(mean_without_conflicts_zenan[facet_key]))
     # variance_without_conflicts_zenan = {}
     print(np.mean(variance_without_conflicts_zenan[facet_key]))
-

@@ -5,14 +5,14 @@ import openai
 from tqdm import tqdm
 from scipy import spatial
 
-def facet_eval(judgements_of_references, judgements_of_candidates):
+def facet_score(judgements_of_reference, judgements_of_candidate):
     representation_reference = {"Novelty Strong negative": 0, "Novelty Negative": 0, "Novelty Positive": 0, "Novelty Strong positive": 0, "Novelty Not mentioned": 1,
                                 "Soundness Strong negative": 0, "Soundness Negative": 0, "Soundness Positive": 0, "Soundness Strong positive": 0, "Soundness Not mentioned": 1,
                                 "Clarity Strong negative": 0, "Clarity Negative": 0, "Clarity Positive": 0, "Clarity Strong positive": 0, "Clarity Not mentioned": 1,
                                 "Advancement Strong negative": 0, "Advancement Negative": 0, "Advancement Positive": 0, "Advancement Strong positive": 0, "Advancement Not mentioned": 1,
                                 "Compliance Strong negative": 0, "Compliance Negative": 0, "Compliance Positive": 0, "Compliance Strong positive": 0, "Compliance Not mentioned": 1,
                                 "Overall Strong negative": 0, "Overall Negative": 0, "Overall Positive": 0, "Overall Strong positive": 0, "Overall Not mentioned": 1}
-    for judgement in judgements_of_references:
+    for judgement in judgements_of_reference:
         tmp = judgement["Criteria Facet"] + " " + judgement["Sentiment Polarity"]
         not_mention = judgement["Criteria Facet"] + " Not mentioned"
         representation_reference[tmp] = representation_reference[tmp] + 1
@@ -24,18 +24,22 @@ def facet_eval(judgements_of_references, judgements_of_candidates):
                                 "Advancement Strong negative": 0, "Advancement Negative": 0, "Advancement Positive": 0, "Advancement Strong positive": 0, "Advancement Not mentioned": 1,
                                 "Compliance Strong negative": 0, "Compliance Negative": 0, "Compliance Positive": 0, "Compliance Strong positive": 0, "Compliance Not mentioned": 1,
                                 "Overall Strong negative": 0, "Overall Negative": 0, "Overall Positive": 0, "Overall Strong positive": 0, "Overall Not mentioned": 1}
-    for judgement in judgements_of_candidates:
+    for judgement in judgements_of_candidate:
         tmp = judgement["Criteria Facet"] + " " + judgement["Sentiment Polarity"]
         not_mention = judgement["Criteria Facet"] + " Not mentioned"
         representation_candidate[tmp] = representation_candidate[tmp] + 1
         representation_candidate[not_mention] = 0
-
-    similarity = spatial.distance.cosine(representation_candidate.values(), representation_reference.values())
+    # print(list(representation_candidate.values()))
+    # print(list(representation_reference.values()))
+    similarity = 1 - spatial.distance.cosine(list(representation_candidate.values()), list(representation_reference.values()))
     return {"facet_eval": similarity}
 
 def annotating_expressions(meta_review):
     prompt_format = open("prompt_expression.txt").read()
+    i = 0
     while True:
+        print("try", i)
+        i += 1
         try:
             output_dict = openai.ChatCompletion.create(
                 model="gpt-4",
@@ -59,7 +63,8 @@ def annotating_expressions(meta_review):
                     print("Jsonlines parsing error,", err)
                 if len(tmp) > len(results):
                     results = tmp
-            break
+            if len(results) > 0:
+                break
         except Exception as e:
             print(e)
             if ("limit" in str(e)):
@@ -187,7 +192,10 @@ def annotating_facets(meta_review, judgements):
     # print(judgement_expressions)
 
     # get criteria facet
+    i = 0
     while True:
+        print("try", i)
+        i += 1
         try:
             output_dict = openai.ChatCompletion.create(
                 model="gpt-4",
@@ -232,17 +240,22 @@ if __name__ == "__main__":
     for key in tqdm(generations_prompt_naive, desc="prompt naive"):
         expressions = annotating_expressions(generations_prompt_naive[key]["generation"])
         judgements = annotating_facets(generations_prompt_naive[key]["generation"], expressions)
-        generations_prompt_naive[key]["gpt4_judgements"] = judgements
-    with open("../../enhancing_prompting/results/generation_gpt35_prompt_naive.json", "w") as f:
-        json.dump(generations_prompt_naive, f, indent=4)
+        result = {}
+        result[key] = judgements
+        with open("../judgements/generation_gpt35_prompt_naive/%s.json" % key, "w") as f:
+            json.dump(result, f, indent=4)
 
 
-    with open("../../enhancing_prompting/results/generation_gpt35_prompt_llm.json") as f:
-        generations_prompt_llm = json.load(f)
-    for key in tqdm(generations_prompt_llm, desc="prompt llm"):
-        expressions = annotating_expressions(generations_prompt_llm[key]["generation"])
-        judgements = annotating_facets(generations_prompt_llm[key]["generation"], expressions)
-        generations_prompt_llm[key]["gpt4_judgements"] = judgements
-    with open("../../enhancing_prompting/results/generation_gpt35_prompt_llm.json", "w") as f:
-        json.dump(generations_prompt_llm, f, indent=4)
+    # with open("../../enhancing_prompting/results/generation_gpt35_prompt_llm.json") as f:
+    #     generations_prompt_llm = json.load(f)
+    #
+    # for key in tqdm(generations_prompt_llm, desc="prompt llm"):
+    #     print("expressions")
+    #     expressions = annotating_expressions(generations_prompt_llm[key]["generation"])
+    #     print("facets")
+    #     judgements = annotating_facets(generations_prompt_llm[key]["generation"], expressions)
+    #     result = {}
+    #     result[key] = judgements
+    #     with open("../judgements/generation_gpt35_prompt_llm/%s.json" % key, "w") as f:
+    #         json.dump(result, f, indent=4)
 
