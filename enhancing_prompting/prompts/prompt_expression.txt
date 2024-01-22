@@ -1,0 +1,22 @@
+Please read the document:
+
+{{source_document}}
+
+This task requires you to analyze the above document which is used to express opinions on the quality of a scientific manuscript. You are good at understanding the sentiment information with judgements in the document.
+Please first identify the sentence with judgements only on the quality of scientific manuscripts based on the criteria facets for scientific peer-review: novelty, soundness, clarity, advancement, compliance and overall quality within the given document.
+Once you have found a sentence that provides judgement in one or more of these areas, you then need to extract the specific expression of sentiment and the content it refers to.
+
+The process can be broken into two steps:
+1) Identify a judgement sentence that focuses on the quality of the manuscript based on the given criteria.
+
+2) From the identified judgement sentence, extract two pieces of information: the sentiment expression and the content expression. The sentiment expression is the specific term or phrase that conveys the sentiment or opinion. The content expression pertains to the content that this sentiment is referring to.
+
+Please provide the data in the following format:
+{"judgement_sentence": "sentence", "content_expression": "content", "sentiment_expression": "sentiment"}
+
+Here are a few examples for your reference:
+{"judgement_sentence": "The writing of the paper is not well-written.", "content_expression": "The writing of the paper", "sentiment_expression": "not well-written"}
+{"judgement_sentence": "Experimental results are not sufficiently substantiated.", "content_expression": "Experimental results", "sentiment_expression": "not sufficiently substantiated"}
+{"judgement_sentence": "This paper presents two novel approaches to provide explanations for the similarity between two samples based on 1) the importance measure of individual features and 2) some of the other pairs of examples used as analogies.", "content_expression": "approaches", "sentiment_expression": "novel"}
+
+The predicted judgments (following the same jsonline format of the above example):

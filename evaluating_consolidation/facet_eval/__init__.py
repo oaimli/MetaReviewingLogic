@@ -1,1 +1,1 @@
-# FacetEval is based on GPT-4
+# FacetEval is based on GPT-4, measuring sentiment consistency between the generated meta-review and the human-written meta-review

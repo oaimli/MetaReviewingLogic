@@ -107,21 +107,26 @@ def get_score(result):
     result_len = len(result) # the number of annotated documents for one sample
     for i in range(0, result_len):
         result_document_i = result[i]
-        facet_in_document_i = {"Advancement": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0}, "Soundness": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0}, "Novelty": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0}, "Overall": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0}, "Clarity": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0},
-                             "Compliance": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0}}
+        facet_in_document_i = {"Advancement": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0, "Not mentioned": 1},
+                               "Soundness": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0, "Not mentioned": 1},
+                               "Novelty": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0, "Not mentioned": 1},
+                               "Overall": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0, "Not mentioned": 1},
+                               "Clarity": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0, "Not mentioned": 1},
+                             "Compliance": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0, "Not mentioned": 1}}
         print("i", len(result_document_i["Annotated Judgements"]))
         print(result_document_i["Annotated Judgements"])
         for judgement_i in result_document_i["Annotated Judgements"]:
             facet_in_document_i[judgement_i["Criteria Facet"]][judgement_i["Sentiment Polarity"]] = facet_in_document_i[judgement_i["Criteria Facet"]].get(judgement_i["Sentiment Polarity"]) + 1
+            facet_in_document_i[judgement_i["Criteria Facet"]]["Not mentioned"] = 0
         for j in range(i+1, result_len):
             result_document_j = result[j]
             facet_in_document_j = {
-                "Advancement": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0},
-                "Soundness": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0},
-                "Novelty": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0},
-                "Overall": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0},
-                "Clarity": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0},
-                "Compliance": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0}}
+                "Advancement": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0, "Not mentioned": 1},
+                "Soundness": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0, "Not mentioned": 1},
+                "Novelty": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0, "Not mentioned": 1},
+                "Overall": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0, "Not mentioned": 1},
+                "Clarity": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0, "Not mentioned": 1},
+                "Compliance": {"Positive": 0, "Negative": 0, "Strong positive": 0, "Strong negative": 0, "Not mentioned": 1}}
             print("j", len(result_document_j["Annotated Judgements"]))
             print(result_document_j["Annotated Judgements"])
             for judgement in result_document_j["Annotated Judgements"]:
@@ -129,12 +134,17 @@ def get_score(result):
                                                                                                         judgement[
                                                                                                             "Criteria Facet"]].get(
                     judgement["Sentiment Polarity"]) + 1
+                facet_in_document_j[judgement["Criteria Facet"]]["Not mentioned"] = 0
             print(facet_in_document_i)
             print(facet_in_document_j)
             for key in facet_in_document_i:
                 print(key)
                 v_i = list(facet_in_document_i[key].values())
+                v_i[2] = v_i[2]
+                v_i[3] = v_i[3]
                 v_j = list(facet_in_document_j[key].values())
+                v_j[2] = v_j[2]
+                v_j[3] = v_j[3]
                 co = 1 - spatial.distance.cosine(v_i, v_j)
                 tmp = scores[key]
                 tmp.append(co)
@@ -220,3 +230,5 @@ for facet_key in mean_with_conflicts_bryan:
     print(np.mean(mean_without_conflicts_zenan[facet_key]))
     # variance_without_conflicts_zenan = {}
     print(np.mean(variance_without_conflicts_zenan[facet_key]))
+
+print("Test", spatial.distance.cosine([1, 3], [2, 3]))
