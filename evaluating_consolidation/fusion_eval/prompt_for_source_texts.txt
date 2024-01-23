@@ -1,0 +1,5 @@
+You will be given multiple review documents for a scientific manuscript
+
+{{source_documents}}
+
+You are a scientific meta-reviewer. Predict the sentiment level based on related informaiton in the source documents
