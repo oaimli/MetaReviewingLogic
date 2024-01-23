@@ -114,7 +114,7 @@ def annotating_judgements(document, judgements):
     print("GPT-4/Human annotated expressions")
     print(judgement_expressions)
 
-        # get criteria facet
+    # get criteria facet
     while True:
         try:
             output_dict = openai.ChatCompletion.create(

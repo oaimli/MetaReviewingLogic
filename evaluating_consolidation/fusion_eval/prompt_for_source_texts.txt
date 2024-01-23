@@ -1,5 +1,19 @@
-You will be given multiple review documents for a scientific manuscript
+You will be given multiple review documents for a scientific manuscript. Your task is to implicitly write a meta-review and  predict the sentiment level based on these documents.
 
-{{source_documents}}
+Source Documents:
 
-You are a scientific meta-reviewer. Predict the sentiment level based on related informaiton in the source documents
+{{source_texts}}
+
+Candidate Sentiment Levels:
+
+- Strong negative
+- Negative
+- Positive
+- Strong positive
+
+Content Expression:
+
+{{content_expression}}
+
+Predict the sentiment level of the given content expression based on related information in the above documents. You must follow the following format.
+{"Content Expression": the above content expression, "Sentiment Level": your predicted sentiment level}

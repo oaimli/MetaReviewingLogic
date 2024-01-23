@@ -1,13 +1,87 @@
 import json
 import openai
+import time
+
+
+def parse_result(output):
+    with open("tmp.json", "w") as f:
+        f.write(output.strip())
+    result = {}
+    try:
+        with open("tmp.json") as f:
+            result = json.load(f)
+        return result
+    except:
+        return result
+
 
 def annotating_with_judgements(source_judgements, judgement):
-    sentiment_level = ""
-    return sentiment_level
+    prompt = open("prompt_for_judgements.txt").read()
+    content_expression = judgement["Content Expression"]
+    sentiment_level = judgement["Sentiment Polarity"]
+    tmp = []
+    for item in source_judgements:
+        tmp.append(json.dumps(item))
+    tmp = "\n".join(tmp)
+    while True:
+        try:
+            output_dict = openai.ChatCompletion.create(
+                model="gpt-4",
+                messages=[
+                    {"role": "system", "content": prompt.replace("{{source_judgements}}",
+                                                                       tmp).replace(
+                        "{{content_expression}}", content_expression)}
+                ],
+                n = 3
+            )
+            result = {}
+            for output in output_dict['choices']:
+                tmp = parse_result(output['message']['content'])
+                if len(tmp) > 0:
+                    result = tmp
+                    break
+            if "Sentiment Level" in result.keys() and "Content Expression" in result.keys():
+                break
+        except Exception as e:
+            print(e)
+            if ("limit" in str(e)):
+                time.sleep(2)
+    if result["Sentiment Level"] == sentiment_level:
+        return 1
+    else:
+        return 0
 
 def annotating_with_source_text(source_text, judgement):
-    sentiment_level = ""
-    return sentiment_level
+    prompt = open("prompt_for_source_texts.txt").read()
+    content_expression = judgement["Content Expression"]
+    sentiment_level = judgement["Sentiment Polarity"]
+    while True:
+        try:
+            output_dict = openai.ChatCompletion.create(
+                model="gpt-4",
+                messages=[
+                    {"role": "system", "content": prompt.replace("{{source_texts}}",
+                                                                 source_text).replace(
+                        "{{content_expression}}", content_expression)}
+                ],
+                n=3
+            )
+            result = {}
+            for output in output_dict['choices']:
+                tmp = parse_result(output['message']['content'])
+                if len(tmp) > 0:
+                    result = tmp
+                    break
+            if "Sentiment Level" in result.keys() and "Content Expression" in result.keys():
+                break
+        except Exception as e:
+            print(e)
+            if ("limit" in str(e)):
+                time.sleep(2)
+    if result["Sentiment Level"] == sentiment_level:
+        return 1
+    else:
+        return 0
 
 
 
@@ -70,3 +144,48 @@ if __name__ == "__main__":
             judgements_zenan.append(instance)
 
     print(len(judgements_bryan), len(judgements_zenan))
+
+    # facets = ["Advancement", "Soundness", "Novelty", "Overall", "Clarity", "Compliance"]
+    facets = ["Advancement"]
+    for facet in facets:
+        print(facet)
+
+        instances_bryan_facet = []
+        for instance in judgements_bryan:
+            judgement = instance["meta_review_judgement"]
+            if judgement["Criteria Facet"] == facet:
+                instances_bryan_facet.append(instance)
+        print("Instances in this facet", len(instances_bryan_facet))
+
+        print("Bryan with source judgements")
+        correct = 0
+        for instance in instances_bryan_facet:
+            correct += annotating_with_judgements(instance["source_judgements"], instance["meta_review_judgement"])
+        print("Correct", correct, correct / len(instances_bryan_facet))
+
+        print("Bryan with source texts")
+        correct = 0
+        for instance in instances_bryan_facet:
+            correct += annotating_with_source_text(instance["source_texts"], instance["meta_review_judgement"])
+        print("Correct", correct, correct / len(instances_bryan_facet))
+
+        instances_zenan_facet = []
+        for instance in judgements_zenan:
+            judgement = instance["meta_review_judgement"]
+            if judgement["Criteria Facet"] == facet:
+                instances_zenan_facet.append(instance)
+        print("Judgements in this facet", len(instances_zenan_facet))
+
+        print("Zenan with source judgements")
+        correct = 0
+        for instance in instances_zenan_facet:
+            correct += annotating_with_judgements(instance["source_judgements"], instance["meta_review_judgement"])
+
+        print("Correct", correct, correct / len(instances_zenan_facet))
+
+        print("Zenan with source texts")
+        correct = 0
+        for instance in instances_bryan_facet:
+            correct += annotating_with_source_text(instance["source_texts"], instance["meta_review_judgement"])
+        print("Correct", correct, correct / len(instances_zenan_facet))
+
