@@ -4,11 +4,11 @@ import time
 
 
 def parse_result(output):
-    with open("tmp.json", "w") as f:
+    with open("fusion_eval_tmp.json", "w") as f:
         f.write(output.strip())
     result = {}
     try:
-        with open("tmp.json") as f:
+        with open("fusion_eval_tmp.json") as f:
             result = json.load(f)
         return result
     except:
@@ -51,6 +51,7 @@ def annotating_with_judgements(source_judgements, judgement):
     else:
         return 0
 
+
 def annotating_with_source_text(source_text, judgement):
     prompt = open("prompt_for_source_texts.txt").read()
     content_expression = judgement["Content Expression"]
@@ -86,6 +87,7 @@ def annotating_with_source_text(source_text, judgement):
 
 
 if __name__ == "__main__":
+    # This is for sentiment fusion analysis
     openai.api_key = "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"
 
     with open("../../annotation_analysis/bryan_annotation_result.json") as f:
@@ -118,7 +120,8 @@ if __name__ == "__main__":
         annotation_sample = annotation_data[key]
         source_texts = []
         for review in annotation_sample["reviews"]:
-            source_texts.append(review["comment"])
+            if review["writer"] == "official_reviewer":
+                source_texts.append(review["comment"])
         source_texts = "\n".join(source_texts)
 
         for meta_review_judgement_bryan in meta_review_judgements_bryan:
@@ -145,29 +148,29 @@ if __name__ == "__main__":
 
     print(len(judgements_bryan), len(judgements_zenan))
 
-    # facets = ["Advancement", "Soundness", "Novelty", "Overall", "Clarity", "Compliance"]
-    facets = ["Advancement"]
+    facets = ["Advancement", "Soundness", "Novelty", "Overall", "Clarity", "Compliance"]
+    # facets = ["Advancement"]
     for facet in facets:
         print(facet)
 
-        instances_bryan_facet = []
-        for instance in judgements_bryan:
-            judgement = instance["meta_review_judgement"]
-            if judgement["Criteria Facet"] == facet:
-                instances_bryan_facet.append(instance)
-        print("Instances in this facet", len(instances_bryan_facet))
-
-        print("Bryan with source judgements")
-        correct = 0
-        for instance in instances_bryan_facet:
-            correct += annotating_with_judgements(instance["source_judgements"], instance["meta_review_judgement"])
-        print("Correct", correct, correct / len(instances_bryan_facet))
-
-        print("Bryan with source texts")
-        correct = 0
-        for instance in instances_bryan_facet:
-            correct += annotating_with_source_text(instance["source_texts"], instance["meta_review_judgement"])
-        print("Correct", correct, correct / len(instances_bryan_facet))
+        # instances_bryan_facet = []
+        # for instance in judgements_bryan:
+        #     judgement = instance["meta_review_judgement"]
+        #     if judgement["Criteria Facet"] == facet:
+        #         instances_bryan_facet.append(instance)
+        # print("Instances in this facet", len(instances_bryan_facet))
+        #
+        # print("Bryan with source judgements")
+        # correct = 0
+        # for instance in instances_bryan_facet:
+        #     correct += annotating_with_judgements(instance["source_judgements"], instance["meta_review_judgement"])
+        # print("Correct", correct, correct / len(instances_bryan_facet))
+        #
+        # print("Bryan with source texts")
+        # correct = 0
+        # for instance in instances_bryan_facet:
+        #     correct += annotating_with_source_text(instance["source_texts"], instance["meta_review_judgement"])
+        # print("Correct", correct, correct / len(instances_bryan_facet))
 
         instances_zenan_facet = []
         for instance in judgements_zenan:
@@ -185,7 +188,7 @@ if __name__ == "__main__":
 
         print("Zenan with source texts")
         correct = 0
-        for instance in instances_bryan_facet:
+        for instance in instances_zenan_facet:
             correct += annotating_with_source_text(instance["source_texts"], instance["meta_review_judgement"])
         print("Correct", correct, correct / len(instances_zenan_facet))
 
