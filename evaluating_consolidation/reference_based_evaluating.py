@@ -58,3 +58,24 @@ if __name__ == "__main__":
         generations_prompt_llm[sample[:-5]]["gpt4_judgements"] = judgements
     evaluating(test_samples, generations_prompt_llm)
 
+    print("generation_gpt35_prompt_ours")
+    with open("../enhancing_prompting/results/generation_gpt35_prompt_ours.json") as f:
+        generations_prompt_llm = json.load(f)
+    # Load the annotated judgements of generated meta-reviews
+    for sample in os.listdir("facet_eval_judgements_tmp/generation_gpt35_prompt_ours"):
+        with open(os.path.join("facet_eval_judgements_tmp/generation_gpt35_prompt_ours", sample)) as f:
+            judgements = json.load(f)[sample[:-5]]
+        generations_prompt_llm[sample[:-5]]["gpt4_judgements"] = judgements
+    evaluating(test_samples, generations_prompt_llm)
+
+
+    print("generation_gpt35_pipeline_ours")
+    with open("../enhancing_prompting/results/generation_gpt35_pipeline_ours.json") as f:
+        generations_prompt_llm = json.load(f)
+    # Load the annotated judgements of generated meta-reviews
+    for sample in os.listdir("facet_eval_judgements_tmp/generation_gpt35_pipeline_ours"):
+        with open(os.path.join("facet_eval_judgements_tmp/generation_gpt35_pipeline_ours", sample)) as f:
+            judgements = json.load(f)[sample[:-5]]
+        generations_prompt_llm[sample[:-5]]["gpt4_judgements"] = judgements
+    evaluating(test_samples, generations_prompt_llm)
+

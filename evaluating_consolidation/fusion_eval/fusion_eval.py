@@ -15,8 +15,8 @@ def parse_result(output):
         return result
 
 
-def annotating_with_judgements(source_judgements, judgement):
-    prompt = open("prompt_for_judgements.txt").read()
+def annotating_with_judgements(source_judgements, judgement, prompt_file="prompt_for_judgements.txt"):
+    prompt = open(prompt_file).read()
     content_expression = judgement["Content Expression"]
     sentiment_level = judgement["Sentiment Polarity"]
     tmp = []
@@ -52,8 +52,8 @@ def annotating_with_judgements(source_judgements, judgement):
         return 0
 
 
-def annotating_with_source_text(source_text, judgement):
-    prompt = open("prompt_for_source_texts.txt").read()
+def annotating_with_source_text(source_text, judgement, prompt_file="prompt_for_source_texts.txt"):
+    prompt = open(prompt_file).read()
     content_expression = judgement["Content Expression"]
     sentiment_level = judgement["Sentiment Polarity"]
     while True:

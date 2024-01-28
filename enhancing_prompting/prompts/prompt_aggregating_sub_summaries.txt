@@ -1,0 +1,3 @@
+{{input_sub_summaries}}
+
+Write a meta-review to summarize the above sub-summaries of reviews and discussions in different criteria facets for a manuscript.

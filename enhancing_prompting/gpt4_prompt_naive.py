@@ -7,16 +7,15 @@ from tqdm import tqdm
 
 
 def predicting_prompt_naive(input_text):
-    prompt_format = open("prompts/prompt_logic.txt").read()
-    prompt_format = prompt_format.replace("{{input_documents}}", input_text)
+    prompt_format = open("prompts/prompt_naive.txt").read()
     print(prompt_format)
     while True:
         try:
             output_dict = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo-1106",
+                model="gpt-4-0613",
                 messages=[
                     {"role": "system",
-                     "content": prompt_format}
+                     "content": prompt_format.replace("{{input_documents}}", input_text)}
                 ],
                 n=1
             )
@@ -39,10 +38,11 @@ if __name__ == "__main__":
     for key, sample in tqdm(test_samples.items()):
         input_texts = []
         for review in sample["reviews"]:
-            input_texts.append(review["comment"])
+            if review["writer"] == "official_reviewer":
+                input_texts.append(review["comment"])
         result = predicting_prompt_naive("\n".join(input_texts))
         results[key] = {"generation": result}
 
     print(len(results))
-    with open("results/generation_gpt35_prompt_ours.json", "w") as f:
+    with open("results/generation_gpt4_prompt_naive.json", "w") as f:
         json.dump(results, f, indent=4)

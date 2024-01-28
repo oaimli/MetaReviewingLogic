@@ -1,0 +1,3 @@
+{{input_judgements}}
+
+Write a summary of the above judgements on {{criteria_facet}} of a manuscript.
