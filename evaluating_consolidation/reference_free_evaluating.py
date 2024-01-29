@@ -9,7 +9,8 @@ openai.api_key = "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"
 
 # Load meta-review judgements for a specific model, the judgements here are borrowed from facet-eval
 judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_gpt35_prompt_naive"
-judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_gpt35_prompt_llm"
+# judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_gpt35_prompt_llm"
+#
 meta_review_judgements_all = {}
 for sample in os.listdir(judgements_folder_generated_meta_review):
     with open(os.path.join(judgements_folder_generated_meta_review, sample)) as f:

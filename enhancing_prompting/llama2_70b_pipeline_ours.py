@@ -54,7 +54,6 @@ if __name__ == "__main__":
 
     model = AutoModelForCausalLM.from_pretrained(model_name, trust_remote_code=True, torch_dtype=torch.bfloat16,
                                                  device_map="auto")
-    model.cleanup_cache_files()
     print(model.config)
     print(model.hf_device_map)
     model.eval()
