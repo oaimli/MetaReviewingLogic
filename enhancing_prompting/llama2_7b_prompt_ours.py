@@ -54,7 +54,7 @@ if __name__ == "__main__":
     model.eval()
 
     # load the prompt
-    prompt_format = open("prompts/prompt_naive.txt").read()
+    prompt_format = open("prompts/prompt_logic.txt").read()
 
     with open("test_data.json") as f:
         test_samples = json.load(f)

@@ -8,7 +8,7 @@ Following the underlying steps below will get you better generated meta-reviews.
 
 2. Predicting Criteria Facets, Sentiment Levels, and Convincingness Levels;
 Candidate criteria facets: Novelty, Soundness, Clarity, Advancement, Compliance, and Overall quality
-Candidate sentiment levels: Strong negative, Negative, Positive and Stong positive
+Candidate sentiment levels: Strong negative, Negative, Positive and Strong positive
 Candidate convincingness levels:  Not at all, Slightly Convincing, Highly Convincing
 
 3. Reorganize extracted judgements in different clusters for different criteria facets;
