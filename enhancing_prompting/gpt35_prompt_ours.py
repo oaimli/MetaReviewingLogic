@@ -6,7 +6,7 @@ import json
 from tqdm import tqdm
 
 
-def predicting_prompt_naive(input_text):
+def predicting(input_text):
     prompt_format = open("prompts/prompt_logic.txt").read()
     prompt_format = prompt_format.replace("{{input_documents}}", input_text)
     print(prompt_format)
@@ -40,7 +40,7 @@ if __name__ == "__main__":
         input_texts = []
         for review in sample["reviews"]:
             input_texts.append(review["comment"])
-        result = predicting_prompt_naive("\n".join(input_texts))
+        result = predicting("\n".join(input_texts))
         results[key] = {"generation": result}
 
     print(len(results))
