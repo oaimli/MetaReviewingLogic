@@ -69,7 +69,7 @@ if __name__ == "__main__":
         steps = predicting(model, tokenizer, prompt_format_steps.replace("{{input_documents}}", "\n".join(input_texts)))
         result = predicting(model, tokenizer, prompt_format_steps.replace("{{input_documents}}", "\n".join(input_texts)).replace("{{generated_steps}}", steps))
         results[key] = {"generation": result}
-        break
+        # break
 
     print(len(results))
     with open("results/generation_llama2_7b_prompt_llm.json", "w") as f:
