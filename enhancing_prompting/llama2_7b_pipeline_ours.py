@@ -92,7 +92,6 @@ if __name__ == "__main__":
 
         result = predicting(model, tokenizer, prompt_format_aggregating_sub_summaries.replace("{{input_sub_summaries}}", "\n".join(sub_summaries)))
         results[key] = {"generation": result}
-        break
 
     print(len(results))
     with open("results/generation_llama2_7b_pipeline_ours.json", "w") as f:
