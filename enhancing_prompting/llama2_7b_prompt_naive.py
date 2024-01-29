@@ -3,6 +3,7 @@ from transformers import (
     AutoTokenizer
 )
 import json
+from tqdm import tqdm
 
 
 def predict(model, tokenizer, input_text, max_predict_length=512, min_predict_length=1, do_sample=True, top_p=0.95, num_beams=1, temperature=0.7):
@@ -28,7 +29,7 @@ def predict(model, tokenizer, input_text, max_predict_length=512, min_predict_le
         pad_token_id=tokenizer.eos_token_id
     )
     predicted_summary = tokenizer.decode(output_ids[0][len(input_ids[0]):], skip_special_tokens=True)
-    print(predicted_summary)
+    # print(predicted_summary)
     return predicted_summary
 
 
@@ -59,14 +60,14 @@ if __name__ == "__main__":
         test_samples = json.load(f)
 
     results = {}
-    for key, sample in test_samples.items():
+    for key, sample in tqdm(test_samples.items()):
         input_texts = []
         for review in sample["reviews"]:
             if review["writer"] == "official_reviewer" and review["reply_to"] == sample["paper_id"]:
                 input_texts.append(review["comment"])
         result = predict(model, tokenizer, prompt_format.replace("{{input_documents}}", "\n".join(input_texts)))
         results[key] = {"generation": result}
-        break
+        # break
 
     print(len(results))
     with open("results/generation_llama2_7b_prompt_naive.json", "w") as f:
