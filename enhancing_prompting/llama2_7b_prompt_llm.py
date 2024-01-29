@@ -6,7 +6,7 @@ import json
 from tqdm import tqdm
 
 
-def predict(model, tokenizer, input_text, max_predict_length=512, min_predict_length=1, do_sample=True, top_p=0.95, num_beams=1, temperature=0.7):
+def predicting(model, tokenizer, input_text, max_predict_length=512, min_predict_length=1, do_sample=True, top_p=0.95, num_beams=1, temperature=0.7):
     print(input_text)
     input_dict = tokenizer(
         [input_text],
@@ -29,7 +29,7 @@ def predict(model, tokenizer, input_text, max_predict_length=512, min_predict_le
         pad_token_id=tokenizer.eos_token_id
     )
     predicted_result = tokenizer.decode(output_ids[0][len(input_ids[0]):], skip_special_tokens=True)
-    # print(predicted_result)
+    print(predicted_result)
     return predicted_result
 
 
@@ -54,7 +54,8 @@ if __name__ == "__main__":
     model.eval()
 
     # load the prompt
-    prompt_format = open("prompts/prompt_naive.txt").read()
+    prompt_format_steps = open("prompts/prompt_generating_steps.txt").read()
+    prompt_format_meta_reviews = open("prompts/prompt_llm.txt").read()
 
     with open("test_data.json") as f:
         test_samples = json.load(f)
@@ -65,9 +66,10 @@ if __name__ == "__main__":
         for review in sample["reviews"]:
             if review["writer"] == "official_reviewer" and review["reply_to"] == sample["paper_id"]:
                 input_texts.append(review["comment"])
-        result = predict(model, tokenizer, prompt_format.replace("{{input_documents}}", "\n".join(input_texts)))
+        steps = predicting(model, tokenizer, prompt_format_steps.replace("{{input_documents}}", "\n".join(input_texts)))
+        result = predicting(model, tokenizer, prompt_format_steps.replace("{{input_documents}}", "\n".join(input_texts)).replace("{{generated_steps}}", steps))
         results[key] = {"generation": result}
-        # break
+        break
 
     print(len(results))
     with open("results/generation_llama2_7b_prompt_naive.json", "w") as f:

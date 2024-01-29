@@ -28,9 +28,9 @@ def predict(model, tokenizer, input_text, max_predict_length=512, min_predict_le
         temperature=temperature,
         pad_token_id=tokenizer.eos_token_id
     )
-    predicted_result = tokenizer.decode(output_ids[0][len(input_ids[0]):], skip_special_tokens=True)
-    # print(predicted_result)
-    return predicted_result
+    predicted_summary = tokenizer.decode(output_ids[0][len(input_ids[0]):], skip_special_tokens=True)
+    # print(predicted_summary)
+    return predicted_summary
 
 
 if __name__ == "__main__":
