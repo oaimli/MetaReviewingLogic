@@ -4,10 +4,11 @@ from transformers import (
 )
 import json
 from tqdm import tqdm
+import os
 import torch
 
 
-def predict(model, tokenizer, input_text, max_predict_length=512, min_predict_length=1, do_sample=True, top_p=0.95, num_beams=1, temperature=0.7):
+def predicting(model, tokenizer, input_text, max_predict_length=512, min_predict_length=1, do_sample=True, top_p=0.95, num_beams=1, temperature=0.7):
     print(input_text)
     input_dict = tokenizer(
         [input_text],
@@ -30,11 +31,12 @@ def predict(model, tokenizer, input_text, max_predict_length=512, min_predict_le
         pad_token_id=tokenizer.eos_token_id
     )
     predicted_result = tokenizer.decode(output_ids[0][len(input_ids[0]):], skip_special_tokens=True)
-    # print(predicted_result)
+    print(predicted_result)
     return predicted_result
 
 
 if __name__ == "__main__":
+    # load model and tokenizer
     # load model and tokenizer
     model_name = "meta-llama/Llama-2-70b-chat-hf"
 
@@ -58,21 +60,44 @@ if __name__ == "__main__":
     model.eval()
 
     # load the prompt
-    prompt_format = open("prompts/prompt_naive.txt").read()
+    prompt_format_summarizing_each_facet = open("prompts/prompt_summarizing_each_facet.txt").read()
+    prompt_format_aggregating_sub_summaries = open("prompts/prompt_aggregating_sub_summaries.txt").read()
 
     with open("test_data.json") as f:
         test_samples = json.load(f)
 
+    source_judgements = {}
+    source_judgements_folder = "../evaluating_consolidation/fusion_eval_judgements_tmp/test_data"
+    file_names = os.listdir(source_judgements_folder)
+    for file_name in file_names:
+        with open(os.path.join(source_judgements_folder, file_name)) as f:
+            source_judgements.update(json.load(f))
+    print(len(source_judgements))
+
     results = {}
     for key, sample in tqdm(test_samples.items()):
-        input_texts = []
-        for review in sample["reviews"]:
-            if review["writer"] == "official_reviewer" and review["reply_to"] == sample["paper_id"]:
-                input_texts.append(review["comment"])
-        result = predict(model, tokenizer, prompt_format.replace("{{input_documents}}", "\n".join(input_texts)))
+        judgements = source_judgements[key]
+        organized = {}
+        for judgement in judgements:
+            criteria_facet = judgement["Criteria Facet"]
+            tmp = organized.get(criteria_facet, [])
+            tmp.append(judgement)
+            organized[criteria_facet] = tmp
+
+        sub_summaries = []
+        for k, v in organized.items():
+            source_judgements_text = []
+            for source_judgement in v:
+                source_judgements_text.append(str(source_judgement))
+            tmp = prompt_format_summarizing_each_facet.replace("{{input_judgements}}", "\n".join(source_judgements_text)).replace(
+                "{{criteria_facet}}", k)
+            # print(prompt_format)
+            sub_summary = predicting(model, tokenizer, tmp)
+            sub_summaries.append(k + "\n" + sub_summary)
+
+        result = predicting(model, tokenizer, prompt_format_aggregating_sub_summaries.replace("{{input_sub_summaries}}", "\n".join(sub_summaries)))
         results[key] = {"generation": result}
-        # break
 
     print(len(results))
-    with open("results/generation_llama2_70b_prompt_naive.json", "w") as f:
+    with open("results/generation_llama2_70b_pipeline_ours.json", "w") as f:
         json.dump(results, f, indent=4)
