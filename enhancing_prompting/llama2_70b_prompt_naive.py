@@ -8,7 +8,6 @@ from transformers import (
 
 def predict_without_pipe(input_text, model_name="meta-llama/Llama-2-7b-chat-hf", max_predict_length=64,
                          min_predict_length=1, do_sample=True, top_p=0.95, num_beams=1, temperature=0.7):
-    # TODO This code without pipeline for 70B cannot work, need to figure the problems out
     # load model and tokenizer
     tokenizer = AutoTokenizer.from_pretrained(
         model_name,
