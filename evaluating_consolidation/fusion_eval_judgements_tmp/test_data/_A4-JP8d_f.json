@@ -1,0 +1,228 @@
+{
+    "_A4-JP8d_f": [
+        {
+            "Content Expression": "this is a good paper",
+            "Sentiment Expression": "worthy of acceptance.",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the proposed framework",
+            "Sentiment Expression": "does not contain novel contributions on a technical level",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "presenting the above in a coherent and unified framework",
+            "Sentiment Expression": "there is value",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The writing of the paper",
+            "Sentiment Expression": "is clear and easy to follow",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "how to actually use the PSIS correction to improve the estimator",
+            "Sentiment Expression": "the authors do not explain",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the methodology",
+            "Sentiment Expression": "is technically sound",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the statements P1, P2 made in section 3.3",
+            "Sentiment Expression": "are too general to be supported by the actual experiments",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the rebuttal",
+            "Sentiment Expression": "addresses most concerns",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the rebuttal",
+            "Sentiment Expression": "I'm happy with",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "a proper review of prior work",
+            "Sentiment Expression": "lack",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "the paper",
+            "Sentiment Expression": "quite clear and well-written",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the paper",
+            "Sentiment Expression": "quite significant",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the paper",
+            "Sentiment Expression": "deserves acceptance",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "experiments demonstrating general findings for variational inference",
+            "Sentiment Expression": "provide",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the labels for Figs. 2 and 3",
+            "Sentiment Expression": "incorrect",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "addressed some limitations of their work",
+            "Sentiment Expression": "limited",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "the paper",
+            "Sentiment Expression": "I like",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "It",
+            "Sentiment Expression": "is clearly written",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "the authors for taking up this important direction in BBVI research",
+            "Sentiment Expression": "I appreciate",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "This paper",
+            "Sentiment Expression": "takes some very concrete steps",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "I have a few concerns",
+            "Sentiment Expression": "seek explanations",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "use of GPD to model the density ratio",
+            "Sentiment Expression": "main novelty",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The predictions from this theory",
+            "Sentiment Expression": "were validated",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The three predictions (P1, P2, P3)",
+            "Sentiment Expression": "are reasonable and are verified",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "generalize the conclusions to other applications scenarios",
+            "Sentiment Expression": "more rigorous proofs or justifications are needed",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "a table to summarize the conclusions in the paper, for low dimensional and high dimensional problems",
+            "Sentiment Expression": "It would be better to provide",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "the normalized importance weight",
+            "Sentiment Expression": "there should be a 1/S term in the denominator",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "notation: D",
+            "Sentiment Expression": "is used for divergence, but also used for dimension",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "_VjQlMeSB_J": [
+        {
+            "Content Expression": "The experimental results and discussions",
+            "Sentiment Expression": "are intriguing",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not applicable"
+        },
+        {
+            "Content Expression": "adding all of the new results and adding new discussions",
+            "Sentiment Expression": "Thank you",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not applicable"
+        },
+        {
+            "Content Expression": "The results",
+            "Sentiment Expression": "interesting",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "adding CoT",
+            "Sentiment Expression": "hurts the performance",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The proposed idea",
+            "Sentiment Expression": "easy, simple, (potentially) widely-applicable and well-motivated",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "CoT gives large performance improvements when the LMs are large enough",
+            "Sentiment Expression": "large performance improvements",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "CoT prompting does not provide significant improvements from the standard prompting",
+            "Sentiment Expression": "does not provide significant improvements",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the applicability and usefulness of CoT",
+            "Sentiment Expression": "limited",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the models used in this papers",
+            "Sentiment Expression": "difficult to verify",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The proposed model that incorporates chain of thought into prompts",
+            "Sentiment Expression": "achieved substantial and consistent improvements",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "performs comprehensive and detailed analysis",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "is clearly written",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The originality and novelty, particularly from the methodology perspective",
+            "Sentiment Expression": "is limited",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the paper claims that the proposed approach is applicable in principle to any tasks that humans can solve via language",
+            "Sentiment Expression": "In terms of generalizability",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "one contribution of the proposed model is facilitating interpretation and debugging of the few-shot learning models",
+            "Sentiment Expression": "The paper mentioned",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "chain of thought prompting",
+            "Sentiment Expression": "can significantly improve",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The proposed method",
+            "Sentiment Expression": "is simple and effective",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "is well motivated",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The proposed method \u2013 the chain of thought prompting",
+            "Sentiment Expression": "is novel, simple, and effective",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the paper",
+            "Sentiment Expression": "there is no apparent weaknesses",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "this paper",
+            "Sentiment Expression": "I champion for accepting",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        }
+    ]
+}

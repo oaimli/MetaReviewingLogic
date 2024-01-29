@@ -1,0 +1,108 @@
+{
+    "BJzuKiC9KX": [
+        {
+            "Content Expression": "baselines",
+            "Sentiment Expression": "better",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "experiments",
+            "Sentiment Expression": "should be made",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "introduction",
+            "Sentiment Expression": "deserves a better",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "\"branching\"",
+            "Sentiment Expression": "not a standard terminology",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "zero-forcing failure mode and delta-WW",
+            "Sentiment Expression": "difficult to follow",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "your reasons to not compare with RBM, DVAE etc.",
+            "Sentiment Expression": "not valid",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "RWS performance",
+            "Sentiment Expression": "lacks a rigorous analysis",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The main contribution of the paper",
+            "Sentiment Expression": "revealed by these experiments, that RWS learns better models and inference networks with increasing numbers of particles, and that its benefits extend to continuous latent variable models",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The experimental part",
+            "Sentiment Expression": "is written in an inspiring way, and I enjoyed reading it",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "there should be stronger baselines incorporated",
+            "Sentiment Expression": "there should be",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "the shortcomings of RWS discovered by the GMM experiments, and how defensive importance sampling fixes it",
+            "Sentiment Expression": "the authors could try to emphasize more on",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "these comparison results",
+            "Sentiment Expression": "I would consider important.",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "lack of rigorous analysis and explanation for the observations",
+            "Sentiment Expression": "I personally think these observations alone are not novel enough",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        }
+    ]
+}

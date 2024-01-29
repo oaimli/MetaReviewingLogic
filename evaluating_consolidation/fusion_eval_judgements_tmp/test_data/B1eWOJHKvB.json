@@ -1,0 +1,116 @@
+{
+    "B1eWOJHKvB": [
+        {
+            "Content Expression": "The notations and the formalism  in the paper",
+            "Sentiment Expression": "are heavy and cumbersome and don't come with any surprising result",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "Experiments",
+            "Sentiment Expression": "are not interesting",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "the use of skipconnection in F and G",
+            "Sentiment Expression": "has the major influence",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "An information theoretic analysis of cycle gan",
+            "Sentiment Expression": "is needed",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "provides interesting theoretical results",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "Proposition 2.1",
+            "Sentiment Expression": "provides interesting insights",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The experimental results",
+            "Sentiment Expression": "are interesting, however, they are very limited",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "this paper",
+            "Sentiment Expression": "presents interesting results regarding the theory of CycleGANs, however, the numerical results are very limited, and do not justify the motivations discussed",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the paper",
+            "Sentiment Expression": "introduces novel attempts and theoretically analyzing the CycleGAN, the scope of the work seems to be limited, and thus, it does not have a sufficient significance to be published in ICLR",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the authors",
+            "Sentiment Expression": "strongly suggest to expand and provide more experimental evaluations",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the additional experiment",
+            "Sentiment Expression": "found useful and better aligned with the purpose",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The addressed issue, the investigation, and the results",
+            "Sentiment Expression": "important, reasonable, intuitive and plausible, with clear practical implications",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "paper",
+            "Sentiment Expression": "good",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "study",
+            "Sentiment Expression": "interesting, timely",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        }
+    ]
+}

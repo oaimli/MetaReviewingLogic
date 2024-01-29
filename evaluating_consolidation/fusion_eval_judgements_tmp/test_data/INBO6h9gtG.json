@@ -1,0 +1,140 @@
+{
+    "INBO6h9gtG": [
+        {
+            "Content Expression": "The authors have applied techniques such as the exponential mechanism, propose test release framework, and additive Gaussian noise",
+            "Sentiment Expression": "in very clever ways",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The arguments about the privacy and accuracy of the method",
+            "Sentiment Expression": "are sound",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "is well written",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "this paper",
+            "Sentiment Expression": "is the first to prove that it is possible to achieve the same in the private case",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the methods proposed in this paper",
+            "Sentiment Expression": "are not computationally efficient",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "mean estimation",
+            "Sentiment Expression": "key distinctions",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the proposed mechanism",
+            "Sentiment Expression": "primarily of theoretical interest",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "Tukey depth",
+            "Sentiment Expression": "little intuition is given",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "theoretical results in the paper ",
+            "Sentiment Expression": "support",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "new DP mean estimation algorithms",
+            "Sentiment Expression": "improve",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "proposed mechanism",
+            "Sentiment Expression": "builds upon several existing techniques",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "lack of a practical algorithm",
+            "Sentiment Expression": "limits the work",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "this paper",
+            "Sentiment Expression": "answered a fundamental question in DP and brings interesting new ideas",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "this paper",
+            "Sentiment Expression": "on the positive side",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The basic idea of the paper",
+            "Sentiment Expression": "very nice and novel",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "It",
+            "Sentiment Expression": "really dense",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The appendix",
+            "Sentiment Expression": "well-structured, and self-contained",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        }
+    ]
+}

@@ -1,0 +1,220 @@
+{
+    "VAeAUWHNrty": [
+        {
+            "Content Expression": "The paper combines neural inverse rendering and traditional Monte Carlo ray tracing",
+            "Sentiment Expression": "enjoys the benefits of both world",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The idea of using denoisers to reduce variance in Monte Carlo integration",
+            "Sentiment Expression": "is interesting and helps make the training more efficient",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The paper did thorough evaluations on the method and performs detailed ablation study",
+            "Sentiment Expression": "did thorough",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "vote for accepting",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The idea of combining neural inverse rendering, traditional Monte Carlo integration and denoisers",
+            "Sentiment Expression": "is interesting and novel",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The introduction of this work",
+            "Sentiment Expression": "is very clear",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "their application to inverse rendering",
+            "Sentiment Expression": "is not obvious",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The evaluation",
+            "Sentiment Expression": "successfully demonstrated the benefit",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the method still considers the single bounce of light",
+            "Sentiment Expression": "inter-reflection is still a problem",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "the reconstruction accuracy of individual attributes",
+            "Sentiment Expression": "was not quantitatively evaluated",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the training time",
+            "Sentiment Expression": "is not as fast as expected",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "is well written and easy to follow",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not applicable"
+        },
+        {
+            "Content Expression": "The introduction",
+            "Sentiment Expression": "is concisely informative",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not applicable"
+        },
+        {
+            "Content Expression": "The suggested system",
+            "Sentiment Expression": "seems to improve previous work in learning scene properties decomposition",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The evaluation of synthetic data and real data",
+            "Sentiment Expression": "is adequate",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not applicable"
+        },
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "focuses on the different solutions the proposed system consists of. However, I am missing a discussion on some of the challenges or design choices made in designing such a system",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The discussion on the bias introduced",
+            "Sentiment Expression": "is unclear",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "could be improved by being more self-contained",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The effect of the new regularizer",
+            "Sentiment Expression": "is not tested in an ablation study",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "an inverse rendering pipeline for recovering geometry, reflectance and environment map from a set of multi-view images",
+            "Sentiment Expression": "proposes",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "a denoising step that significantly reduces variance of Monte Carlo light integration at lower sampling rates",
+            "Sentiment Expression": "key contributions",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The method",
+            "Sentiment Expression": "achieved superior results",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The idea to denoise Monte Carlo rendering",
+            "Sentiment Expression": "is well motivated and well implemented",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "Results",
+            "Sentiment Expression": "are convincing",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "Limitations",
+            "Sentiment Expression": "have been discussed in detail",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "Evaluations",
+            "Sentiment Expression": "primarily focus on novel rendering/relighting but lacks in individual intrinsic components",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the paper",
+            "Sentiment Expression": "is better suited for CV or graphics venues than NeurIPS",
+            "Criteria Facet": "Compliance",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        }
+    ]
+}

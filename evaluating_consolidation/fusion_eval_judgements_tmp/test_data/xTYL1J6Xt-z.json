@@ -1,0 +1,292 @@
+{
+    "xTYL1J6Xt-z": [
+        {
+            "Content Expression": "this work",
+            "Sentiment Expression": "is a valuable addition to the literature of scoring systems.",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "Figure 4",
+            "Sentiment Expression": "difficult to interpret",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "answers to the questions",
+            "Sentiment Expression": "I'd like to see",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "version of Figure 4 with a much higher y-axis limit",
+            "Sentiment Expression": "it would be great to see",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "revisions based on your comments",
+            "Sentiment Expression": "I'd love to see",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "remaining concerns and misunderstandings in terms of my original questions",
+            "Sentiment Expression": "I have",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "combination of past algorithms, algorithms description",
+            "Sentiment Expression": "creative, described in detail",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the authors' evaluation of methods and baselines, additional experiments",
+            "Sentiment Expression": "shared extensive",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "methodology for speed plots, scaling of baselines",
+            "Sentiment Expression": "seemed problematic, unclear",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "method's contribution to real-world use cases of risk scores",
+            "Sentiment Expression": "meaningful",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "considerations of societal impact",
+            "Sentiment Expression": "do not describe",
+            "Criteria Facet": "Compliance",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "limitations related to their algorithms",
+            "Sentiment Expression": "appreciated",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "potential negative societal impacts",
+            "Sentiment Expression": "huge oversight",
+            "Criteria Facet": "Compliance",
+            "Sentiment Polarity": "Strong negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "This study",
+            "Sentiment Expression": "proposed a novel method",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The whole methodology",
+            "Sentiment Expression": "was solid and efficient",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The introductions of the research context and related work",
+            "Sentiment Expression": "were well-organized and clear",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The proposed method",
+            "Sentiment Expression": "achieved the SOTA performance with significantly less time",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "Their theoretical discussion and supplement material",
+            "Sentiment Expression": "were abundant",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The examples of scoring systems in the Introduction",
+            "Sentiment Expression": "seem out of date",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The performance improvement of proposed methods",
+            "Sentiment Expression": "seems not so significant",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "most significant improvement would be efficiency, and there are few discussions or ablation experiments",
+            "Sentiment Expression": "on efficiency",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The model AUC",
+            "Sentiment Expression": "may be hard to show its consistency",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "a fast algorithm to derive sparse risk scores",
+            "Sentiment Expression": "aims to provide",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "their method",
+            "Sentiment Expression": "outperformed the current state-of-the-art and several other baseline methods",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The algorithm",
+            "Sentiment Expression": "is advantageous over competitors",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The clarity in mathematics notations",
+            "Sentiment Expression": "can be improved",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "scores",
+            "Sentiment Expression": "advantages of FasterRisk over the state-of-the-art",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "Fairness of scores developed from the proposed algorithm",
+            "Sentiment Expression": "is not adequately discussed",
+            "Criteria Facet": "Compliance",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "a novel three step framework to learn simple interpretable models",
+            "Sentiment Expression": "clearly describes",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The numerical results",
+            "Sentiment Expression": "are convincing",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The method",
+            "Sentiment Expression": "can lead to some inconveniences",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "real scores",
+            "Sentiment Expression": "are not considered",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "m is defined quite late in text",
+            "Sentiment Expression": "it is not clear",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "Section 4.3.",
+            "Sentiment Expression": "is necessary",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "results on real scores",
+            "Sentiment Expression": "there are not any",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "'swapping one feature at a time",
+            "Sentiment Expression": "not efficient",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        }
+    ]
+}

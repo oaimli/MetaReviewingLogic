@@ -1,0 +1,236 @@
+{
+    "QevkqHTK3DJ": [
+        {
+            "Content Expression": "novelty and practical significance in this paper",
+            "Sentiment Expression": "insufficient",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "paper",
+            "Sentiment Expression": "clearly written",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the paper",
+            "Sentiment Expression": "tries to discover the trade-off between the compression ratio and model performance",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "why 32, 128, 384,512 are chosen for the decoder size",
+            "Sentiment Expression": "It would be better to show",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "needs to include more comparison between other compression methods such as distillation, information bottleneck, pruning",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "fails to show insight qualitative analysis",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "Section 3.4",
+            "Sentiment Expression": "why not use all training data to train the autoencoder",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "metrics",
+            "Sentiment Expression": "better to incorporate other",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The experiment",
+            "Sentiment Expression": "seems a little bit naive",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "this paper",
+            "Sentiment Expression": "recommend rejection for",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Strong negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "add an autoencoder on top of a pre-trained encoder",
+            "Sentiment Expression": "propose",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not applicable"
+        },
+        {
+            "Content Expression": "The motivation for using autoencoder",
+            "Sentiment Expression": "not quite clear",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "whether the encoder is frozen or not",
+            "Sentiment Expression": "It's not clear",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "some knowledge distillation baselines",
+            "Sentiment Expression": "Missing",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The paper writing",
+            "Sentiment Expression": "can be further improved",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "Figures 1-3",
+            "Sentiment Expression": "have been shown in many papers",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the proposed loss",
+            "Sentiment Expression": "is not novel enough",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "some strong Seq2Seq baselines with knowledge distillation losses",
+            "Sentiment Expression": "missing",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "was written clearly enough to understand the basic ideas",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "conducted extensive experiments",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The results of the transformer baseline",
+            "Sentiment Expression": "is far from previous literatures",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "comparisons with existing compression methods",
+            "Sentiment Expression": "There is no",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The way these are used",
+            "Sentiment Expression": "not very clear",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "choice of a purely linear network",
+            "Sentiment Expression": "what motivated",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "Table 4",
+            "Sentiment Expression": "appears to be a problem",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "AE S should be worse than AE",
+            "Sentiment Expression": "not obvious",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "this does nothing to change the size of the pre-trained encoder",
+            "Sentiment Expression": "does nothing",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "what you are really doing here is adjusting the size of the decoder to best match the amount of training data for the downstream task",
+            "Sentiment Expression": "It seems",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The original contribution and the restriction to a single downstream task",
+            "Sentiment Expression": "is rather small and leaves questions over its general applicability",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        }
+    ]
+}

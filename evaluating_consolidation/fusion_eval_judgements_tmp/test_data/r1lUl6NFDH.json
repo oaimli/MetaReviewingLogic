@@ -1,0 +1,180 @@
+{
+    "r1lUl6NFDH": [
+        {
+            "Content Expression": "use the mirror descent algorithm for the binary network",
+            "Sentiment Expression": "proposes",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "is easy to read and follow, and the main contributions are clearly stated",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "this paper",
+            "Sentiment Expression": "a weak rejection",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "theoretical analysis",
+            "Sentiment Expression": "provide more",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Others",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "why mirror descent is better than proximal gradient descent, i.e., proxQuant, in this application",
+            "Sentiment Expression": "not clear",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "technical contributions",
+            "Sentiment Expression": "not enough",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "these methods",
+            "Sentiment Expression": "more convincing",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "Mirror Descent (MD) framework for the quantization of neural networks",
+            "Sentiment Expression": "proposes",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "a stable implementation of MD by storing an additional set of auxiliary dual variables",
+            "Sentiment Expression": "provide",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "Experiments on CIFAR-10/100 and TinyImageNet with convolutional and residual architectures",
+            "Sentiment Expression": "show the effective",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "paper",
+            "Sentiment Expression": "is well-written and provide sufficient material",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the novelty of this work",
+            "Sentiment Expression": "is somehow limited",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the code to validate the soundness of the model",
+            "Sentiment Expression": "it would better to provide",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "the authors do not analyze the convergence of the MD with nonconvex objective function in NN quantization neither how to choose the projection for mirror mapping construction",
+            "Sentiment Expression": "do not analyze",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "discuss with [Bai et al, 2019] to clarify the novelty of the proposed method",
+            "Sentiment Expression": "it is better to",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "the novelty and the theoretical contributions",
+            "Sentiment Expression": "concern about",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "paper that uses the Mirror Descent paradigm for learning quantized networks",
+            "Sentiment Expression": "good",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "using Mirror Descent in the context of learning quantized network",
+            "Sentiment Expression": "novel and interesting",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "results than existing method",
+            "Sentiment Expression": "better",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "Overall",
+            "Sentiment Expression": "I don\u2019t have much concerns",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "this work",
+            "Sentiment Expression": "good contribution",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "comparisons to existing methods",
+            "Sentiment Expression": "not comprehensive enough",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        }
+    ]
+}

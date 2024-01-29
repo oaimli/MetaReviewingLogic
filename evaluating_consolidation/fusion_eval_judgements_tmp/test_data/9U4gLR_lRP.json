@@ -1,0 +1,268 @@
+{
+    "9U4gLR_lRP": [
+        {
+            "Content Expression": "the change of the current version",
+            "Sentiment Expression": "is falling into a major revision",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "the high overlap between the previous submitted manuscript and the existing work",
+            "Sentiment Expression": "would like to highlight",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Strong negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "my previous rating",
+            "Sentiment Expression": "remain and still vote for reject",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Strong negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "all of these changes",
+            "Sentiment Expression": "are falling more into a major revision and would not be within the limit of the conference",
+            "Criteria Facet": "Compliance",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "overlapping of the equations or rewriting the sentences",
+            "Sentiment Expression": "huge amount",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "overall quality of the work",
+            "Sentiment Expression": "significantly destroys",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Strong negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the improvement of the proposed method over [1]",
+            "Sentiment Expression": "is marginal",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the contribution of this work",
+            "Sentiment Expression": "is limited",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the great similarity between the Related Works in this work and that in [1]",
+            "Sentiment Expression": "it leaves me a poor impression",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "to structure related works with such a strong similarity with another existing work",
+            "Sentiment Expression": "very unprofessional",
+            "Criteria Facet": "Compliance",
+            "Sentiment Polarity": "Strong negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "a method to improve the transferability of adversarial attacks",
+            "Sentiment Expression": "novel and effective",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The findings and motivation",
+            "Sentiment Expression": "very interesting and well-explained",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "Comprehensive experiments and the combining logit calibrations",
+            "Sentiment Expression": "have significantly better performance than previous methods",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The proposed method",
+            "Sentiment Expression": "has various settings and hyper-parameters",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "compared to the simple Logit method, the proposed method",
+            "Sentiment Expression": "needs more effort for tuning or need combining logit calibrations to achieve better performance",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "theoretical analysis",
+            "Sentiment Expression": "there is no",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The presentation of the results",
+            "Sentiment Expression": "needs to be improved",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "All tables",
+            "Sentiment Expression": "contain tons of numbers, which makes it hard for the reader to get the point in a short time",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "this paper's method",
+            "Sentiment Expression": "does not have any additional functions such as UAP",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "this paper's method",
+            "Sentiment Expression": "is not a significant improvement",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The equation 14",
+            "Sentiment Expression": "seems to have some mistakes",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "A few grammar problems in this paper",
+            "Sentiment Expression": "should be improved",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "cross-entropy (CE) loss function",
+            "Sentiment Expression": "performs better than Logit (NIPS21)",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "margin-based and angle-based methods",
+            "Sentiment Expression": "to solve different surrogate models and norms",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The writing quality",
+            "Sentiment Expression": "is very good",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "motivation and the thought process of different method\u2019s component",
+            "Sentiment Expression": "Very clear. Easy to understand",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "this work",
+            "Sentiment Expression": "attempts to solve an interesting problem",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The quality of results and presentation of it",
+            "Sentiment Expression": "could be improved significantly",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The distinction between [30] and this paper",
+            "Sentiment Expression": "should be clarified",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "novelty overlap between [30] and the current method",
+            "Sentiment Expression": "is a large",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the organization of the results",
+            "Sentiment Expression": "is not optimized or ideal",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the limitation of the work, failure cases and processing time",
+            "Sentiment Expression": "discuss",
+            "Criteria Facet": "Compliance",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "this paper",
+            "Sentiment Expression": "I enjoy reviewing",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not applicable"
+        }
+    ]
+}

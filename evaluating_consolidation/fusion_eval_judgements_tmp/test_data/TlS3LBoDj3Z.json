@@ -1,0 +1,268 @@
+{
+    "TlS3LBoDj3Z": [
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "is reasonably clear and understandable",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "cases where incorrect grammar or word choice",
+            "Sentiment Expression": "made a sentence difficult to understand",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the clarity of the paper in several places",
+            "Sentiment Expression": "have noticeably improved",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The main claim of the paper",
+            "Sentiment Expression": "has been demonstrated sufficiently",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "claims about improved stability and other properties of the algorithm throughout the paper",
+            "Sentiment Expression": "are not supported by any empirical evidence",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "is positioned sufficiently with respect to prior work",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The experiments presented in the paper",
+            "Sentiment Expression": "are reasonably thorough",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the high complexity of the approach (with several additions to the algorithm feeling somewhat arbitrary) and the fact that the paper 'merely' presents an upgrade to QTRAN",
+            "Sentiment Expression": "could be potential arguments against accepting it",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The ideas proposed to improve the previous QTRAN",
+            "Sentiment Expression": "seems novel and general",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The authors perform comprehensive ablation studies for different components they proposed",
+            "Sentiment Expression": "comprehensive",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The empirical performance on the SMAC benchmark",
+            "Sentiment Expression": "is better and more stable",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The writing",
+            "Sentiment Expression": "is clear and easy to follow",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "Only one environment is evaluated",
+            "Sentiment Expression": "might not be that convincing",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "results on different benchmarks",
+            "Sentiment Expression": "It would be good to see more",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "some results",
+            "Sentiment Expression": "seem to be not converged yet",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "improvements that make QTRAN more practical and can be applied to problems other than matrix games",
+            "Sentiment Expression": "good",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "other works have explored the question of how to extend QMIX to the full IGM function class",
+            "Sentiment Expression": "explored",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Others",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "core contributions of QTRAN++",
+            "Sentiment Expression": "concerns",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "gap between QTRAN and QTRAN++",
+            "Sentiment Expression": "not significant",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "QPLEX, as cited by the authors",
+            "Sentiment Expression": "concern",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "results with more random seeds on more maps",
+            "Sentiment Expression": "revising my rating",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "authors are using an older version of QMIX",
+            "Sentiment Expression": "older",
+            "Criteria Facet": "Compliance",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "performance of baselines on the StarCraft II benchmark tasks",
+            "Sentiment Expression": "concerns",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "these concerns",
+            "Sentiment Expression": "lower my rating",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "authors for their careful revision and considerate response",
+            "Sentiment Expression": "want to thank",
+            "Criteria Facet": "Compliance",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not applicable"
+        },
+        {
+            "Content Expression": "more experimental results to show the superiority of the semi-monotonic structure",
+            "Sentiment Expression": "I appreciate",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "the proposed structure bypasses the difficulty of estimating joint Q values by exploiting the fact that monotonic functions are sufficient for most maps in the SMAC benchmark",
+            "Sentiment Expression": "raises a further concern",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "performance on a popular benchmark for complex, cooperative multiagent learning (SMAC)",
+            "Sentiment Expression": "delivers strong",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The problem addressed - cooperative multiagent environments with CTDE -",
+            "Sentiment Expression": "is a widely studied and important one",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The improvements made to the algorithm",
+            "Sentiment Expression": "are clear and well motivated",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The empirical studies in the paper",
+            "Sentiment Expression": "are strong",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The algorithmic contribution of the paper",
+            "Sentiment Expression": "is relatively minor",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "that QTRAN++ retains the benefits of QTRAN in non-monotonic factorisable environments",
+            "Sentiment Expression": "would demonstrate",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "r1xMnCNYvB": [
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "is clearly written",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The application area",
+            "Sentiment Expression": "is no doubt an important research technique",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the code on github",
+            "Sentiment Expression": "is well-documented",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the placement of the paper",
+            "Sentiment Expression": "might be better placed in a physics/chemistry venue",
+            "Criteria Facet": "Compliance",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "Limitations of the library and drawbacks of any design decisions",
+            "Sentiment Expression": "are not explicitly mentioned",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "is clearly written and seems technically correct",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the contribution of this paper",
+            "Sentiment Expression": "is not sufficient for ICLR",
+            "Criteria Facet": "Compliance",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The writing",
+            "Sentiment Expression": "does not feel academic enough",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "this paper fit the ICLR or not, or how deep learning community can benefit from it",
+            "Sentiment Expression": "am not sure",
+            "Criteria Facet": "Compliance",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        }
+    ]
+}

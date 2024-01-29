@@ -1,0 +1,164 @@
+{
+    "yxafu6ZtUux": [
+        {
+            "Content Expression": "The paper",
+            "Sentiment Expression": "well written and all results are well introduced with interpretation in words which makes it easy to follow",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "this paper",
+            "Sentiment Expression": "is of great interest for the ML community",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "this submission",
+            "Sentiment Expression": "I vote for accepting",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the correction of Figure 3 to fully support the efficiency of the approach",
+            "Sentiment Expression": "need to be clarified",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "authors' responses to all reviews",
+            "Sentiment Expression": "The author's addressed my concerns",
+            "Criteria Facet": "Compliance",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the method",
+            "Sentiment Expression": "is better suited for low-dimensional data",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the paper",
+            "Sentiment Expression": "well-written, with a clear mathematical definition of the problem, solid theoretical result and experiment results",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "Theoretical guarantee on the Type-I error",
+            "Sentiment Expression": "is presented",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "this paper",
+            "Sentiment Expression": "will be more interesting to readers if a detailed case is presented to bridge the introduction and the content",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "some questions",
+            "Sentiment Expression": "I did not fully understand",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "the paper",
+            "Sentiment Expression": "under-developed, the writing has to be substantially improved, the presentation is not friendly",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Strong negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the 'Online' algorithm",
+            "Sentiment Expression": "doesn't address any real online challenge",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Strong negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The linear space approximation",
+            "Sentiment Expression": "is very artificial",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Strong negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "novelty, the authors' contribution",
+            "Sentiment Expression": "don't see much, are overclaiming",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Strong negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the paper",
+            "Sentiment Expression": "a clear rejection",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Strong negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the assumptions used",
+            "Sentiment Expression": "I would clearly have liked to be able to clearly understand",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "Eq. (1)",
+            "Sentiment Expression": "I do not understand",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Strong negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "(A2)",
+            "Sentiment Expression": "I do not understand",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Strong negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "Eqs. (6) and (7)",
+            "Sentiment Expression": "are very difficult to grasp",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Strong negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "a 'real' algorithm",
+            "Sentiment Expression": "I do not have the impression that this is completely the case here",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        }
+    ]
+}

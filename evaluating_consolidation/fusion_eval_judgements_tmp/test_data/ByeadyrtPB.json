@@ -1,0 +1,108 @@
+{
+    "ByeadyrtPB": [
+        {
+            "Content Expression": "a deep generative model",
+            "Sentiment Expression": "aims to develop",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The principled approach",
+            "Sentiment Expression": "is solid and elegant",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "argumentation about how it differentiates from earlier attempts to nest Wasserstein distances",
+            "Sentiment Expression": "lacks a sufficient",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "a quantitative evaluation scheme for its success",
+            "Sentiment Expression": "lacks",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the claim that the proposed method 'significantly' improves on the WAE",
+            "Sentiment Expression": "I fail to see",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "the proposed method",
+            "Sentiment Expression": "is novel and elegant",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The abstract",
+            "Sentiment Expression": "does not give any single hint",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the idea of viewing the divergence in WAE as a relaxed WS distance and then minimising it with another WAE structure",
+            "Sentiment Expression": "interesting, intuitive and straightforward",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the advantages of the proposed model over WAE and VLAE",
+            "Sentiment Expression": "less obvious",
+            "Criteria Facet": "Advancement",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "whether the hierarchical latent variables help to improve quantitative results, generate better images, or learn intuitive hierarchical representations",
+            "Sentiment Expression": "a bit hard for me to tell",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "the differences between the hierarchical representations",
+            "Sentiment Expression": "it seems to be hard to see",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "the two-dimensional visualisation of Figure 3(a)",
+            "Sentiment Expression": "it is a bit hard for me to intuitively understand",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "inference techniques in the paper and ideas presented in this paper",
+            "Sentiment Expression": "like",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        }
+    ]
+}

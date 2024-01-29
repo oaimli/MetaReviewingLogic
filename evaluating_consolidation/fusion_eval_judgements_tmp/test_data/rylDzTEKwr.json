@@ -1,0 +1,180 @@
+{
+    "rylDzTEKwr": [
+        {
+            "Content Expression": "study a classical (and well-studied) problem called rating prediction from a new perspective, i.e., learning binary vector representations of the users' and items' latent representations for efficiency",
+            "Sentiment Expression": "new perspective",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "the authors to include more such algorithms though the focus of this paper is for efficiency (but the authors also claim the accuracy of the proposed model)",
+            "Sentiment Expression": "suggest",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "empirical studies on four public datasets show the effectiveness of the proposed model, i.e., variational hashing-based collaborative filtering with self-masking (VaHSM-CF)",
+            "Sentiment Expression": "show the effectiveness",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the authors to give a brief explanation on choosing those baseline methods in the context of other hashing-based CF methods",
+            "Sentiment Expression": "suggested",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "the number of latent dimensions in MF",
+            "Sentiment Expression": "are missing",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "some presentation in the parameter setting are not clear",
+            "Sentiment Expression": "not clear",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "some typos: 'a user, u, and', 'of e.g., restaurant and shopping malls'",
+            "Sentiment Expression": "are some typos",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The idea of employing the discrete VAE framework to perform hashing-based collaborative filtering",
+            "Sentiment Expression": "is interesting",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Not at all"
+        },
+        {
+            "Content Expression": "The experimental results",
+            "Sentiment Expression": "demonstrate the performance superiorities",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Strong positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "Using the VAE to model the ratings of each user and item pairs",
+            "Sentiment Expression": "I have concerns over",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "Using Gaussian distribution to model the rating data",
+            "Sentiment Expression": "may be not appropriate",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "The whole paper, especially the model",
+            "Sentiment Expression": "is not presented well",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The idea of using discrete VAE for hashing tasks",
+            "Sentiment Expression": "has been explored before",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "The runtime analysis",
+            "Sentiment Expression": "is not sufficient",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "an end-to-end variational hashing-based collaborative filtering scheme with self-masking",
+            "Sentiment Expression": "proposed",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "an efficient self-masking technique",
+            "Sentiment Expression": "interesting",
+            "Criteria Facet": "Novelty",
+            "Sentiment Polarity": "Positive",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the issues with the experimental results",
+            "Sentiment Expression": "make me inclined to reject",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "the reported results in the paper",
+            "Sentiment Expression": "not convincing to me",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "accuracy improvement compared against the state-of-the-art methods",
+            "Sentiment Expression": "doubt",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "using variational hashing to maximize the likelihood of all observed items and users",
+            "Sentiment Expression": "will inevitably increase the training time",
+            "Criteria Facet": "Soundness",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Slightly Convincing"
+        },
+        {
+            "Content Expression": "the motivations of this designed hashing method",
+            "Sentiment Expression": "are vague",
+            "Criteria Facet": "Clarity",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        },
+        {
+            "Content Expression": "reject this paper",
+            "Sentiment Expression": "tend to",
+            "Criteria Facet": "Overall",
+            "Sentiment Polarity": "Negative",
+            "Sentiment Expresser": "Self",
+            "Convincingness": "Highly Convincing"
+        }
+    ]
+}
