@@ -72,5 +72,5 @@ if __name__ == "__main__":
         break
 
     print(len(results))
-    with open("results/generation_llama2_7b_prompt_naive.json", "w") as f:
+    with open("results/generation_llama2_7b_prompt_llm.json", "w") as f:
         json.dump(results, f, indent=4)
