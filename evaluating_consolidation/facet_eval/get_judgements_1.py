@@ -283,7 +283,56 @@ if __name__ == "__main__":
     #     else:
     #         print(key, "already done")
 
-    task = "generation_gpt4_prompt_llm"
+    # task = "generation_gpt4_prompt_llm"
+    # with open("../../enhancing_prompting/results/%s.json" % task) as f:
+    #     generations_prompt_ours = json.load(f)
+    #
+    # already = []
+    # for sample in os.listdir("../facet_eval_judgements_tmp/%s" % task):
+    #     already.append(sample[:-5])
+    #
+    # for key in tqdm(generations_prompt_ours, desc=task):
+    #     if key not in already:
+    #         print(key)
+    #         expressions = annotating_expressions(generations_prompt_ours[key]["generation"])
+    #         judgements = annotating_facets(generations_prompt_ours[key]["generation"], expressions)
+    #         if len(judgements) > 0:
+    #             result = {}
+    #             result[key] = judgements
+    #             with open("../facet_eval_judgements_tmp/%s/%s.json" % (task, key), "w") as f:
+    #                 json.dump(result, f, indent=4)
+    #         else:
+    #             print("skip")
+    #             continue
+    #     else:
+    #         print(key, "already done")
+
+    # task = "generation_gpt4_prompt_ours"
+    # with open("../../enhancing_prompting/results/%s.json" % task) as f:
+    #     generations_prompt_ours = json.load(f)
+    #
+    # already = []
+    # for sample in os.listdir("../facet_eval_judgements_tmp/%s" % task):
+    #     already.append(sample[:-5])
+    #
+    # for key in tqdm(generations_prompt_ours, desc=task):
+    #     if key not in already:
+    #         print(key)
+    #         expressions = annotating_expressions(generations_prompt_ours[key]["generation"])
+    #         judgements = annotating_facets(generations_prompt_ours[key]["generation"], expressions)
+    #         if len(judgements) > 0:
+    #             result = {}
+    #             result[key] = judgements
+    #             with open("../facet_eval_judgements_tmp/%s/%s.json" % (task, key), "w") as f:
+    #                 json.dump(result, f, indent=4)
+    #         else:
+    #             print("skip")
+    #             continue
+    #     else:
+    #         print(key, "already done")
+
+
+    task = "generation_gpt4_pipeline_ours"
     with open("../../enhancing_prompting/results/%s.json" % task) as f:
         generations_prompt_ours = json.load(f)
 
@@ -308,7 +357,7 @@ if __name__ == "__main__":
             print(key, "already done")
 
 
-    task = "generation_gpt4_prompt_ours"
+    task = "generation_llama2_7b_prompt_naive"
     with open("../../enhancing_prompting/results/%s.json" % task) as f:
         generations_prompt_ours = json.load(f)
 
@@ -331,3 +380,181 @@ if __name__ == "__main__":
                 continue
         else:
             print(key, "already done")
+
+
+    task = "generation_llama2_7b_prompt_llm"
+    with open("../../enhancing_prompting/results/%s.json" % task) as f:
+        generations_prompt_ours = json.load(f)
+
+    already = []
+    for sample in os.listdir("../facet_eval_judgements_tmp/%s" % task):
+        already.append(sample[:-5])
+
+    for key in tqdm(generations_prompt_ours, desc=task):
+        if key not in already:
+            print(key)
+            expressions = annotating_expressions(generations_prompt_ours[key]["generation"])
+            judgements = annotating_facets(generations_prompt_ours[key]["generation"], expressions)
+            if len(judgements) > 0:
+                result = {}
+                result[key] = judgements
+                with open("../facet_eval_judgements_tmp/%s/%s.json" % (task, key), "w") as f:
+                    json.dump(result, f, indent=4)
+            else:
+                print("skip")
+                continue
+        else:
+            print(key, "already done")
+
+
+    # task = "generation_llama2_7b_prompt_ours"
+    # with open("../../enhancing_prompting/results/%s.json" % task) as f:
+    #     generations_prompt_ours = json.load(f)
+    #
+    # already = []
+    # for sample in os.listdir("../facet_eval_judgements_tmp/%s" % task):
+    #     already.append(sample[:-5])
+    #
+    # for key in tqdm(generations_prompt_ours, desc=task):
+    #     if key not in already:
+    #         print(key)
+    #         expressions = annotating_expressions(generations_prompt_ours[key]["generation"])
+    #         judgements = annotating_facets(generations_prompt_ours[key]["generation"], expressions)
+    #         if len(judgements) > 0:
+    #             result = {}
+    #             result[key] = judgements
+    #             with open("../facet_eval_judgements_tmp/%s/%s.json" % (task, key), "w") as f:
+    #                 json.dump(result, f, indent=4)
+    #         else:
+    #             print("skip")
+    #             continue
+    #     else:
+    #         print(key, "already done")
+    #
+    #
+    # task = "generation_llama2_7b_pipeline_ours"
+    # with open("../../enhancing_prompting/results/%s.json" % task) as f:
+    #     generations_prompt_ours = json.load(f)
+    #
+    # already = []
+    # for sample in os.listdir("../facet_eval_judgements_tmp/%s" % task):
+    #     already.append(sample[:-5])
+    #
+    # for key in tqdm(generations_prompt_ours, desc=task):
+    #     if key not in already:
+    #         print(key)
+    #         expressions = annotating_expressions(generations_prompt_ours[key]["generation"])
+    #         judgements = annotating_facets(generations_prompt_ours[key]["generation"], expressions)
+    #         if len(judgements) > 0:
+    #             result = {}
+    #             result[key] = judgements
+    #             with open("../facet_eval_judgements_tmp/%s/%s.json" % (task, key), "w") as f:
+    #                 json.dump(result, f, indent=4)
+    #         else:
+    #             print("skip")
+    #             continue
+    #     else:
+    #         print(key, "already done")
+    #
+    #
+    # task = "generation_llama2_70b_prompt_naive"
+    # with open("../../enhancing_prompting/results/%s.json" % task) as f:
+    #     generations_prompt_ours = json.load(f)
+    #
+    # already = []
+    # for sample in os.listdir("../facet_eval_judgements_tmp/%s" % task):
+    #     already.append(sample[:-5])
+    #
+    # for key in tqdm(generations_prompt_ours, desc=task):
+    #     if key not in already:
+    #         print(key)
+    #         expressions = annotating_expressions(generations_prompt_ours[key]["generation"])
+    #         judgements = annotating_facets(generations_prompt_ours[key]["generation"], expressions)
+    #         if len(judgements) > 0:
+    #             result = {}
+    #             result[key] = judgements
+    #             with open("../facet_eval_judgements_tmp/%s/%s.json" % (task, key), "w") as f:
+    #                 json.dump(result, f, indent=4)
+    #         else:
+    #             print("skip")
+    #             continue
+    #     else:
+    #         print(key, "already done")
+    #
+    #
+    # task = "generation_llama2_70b_prompt_llm"
+    # with open("../../enhancing_prompting/results/%s.json" % task) as f:
+    #     generations_prompt_ours = json.load(f)
+    #
+    # already = []
+    # for sample in os.listdir("../facet_eval_judgements_tmp/%s" % task):
+    #     already.append(sample[:-5])
+    #
+    # for key in tqdm(generations_prompt_ours, desc=task):
+    #     if key not in already:
+    #         print(key)
+    #         expressions = annotating_expressions(generations_prompt_ours[key]["generation"])
+    #         judgements = annotating_facets(generations_prompt_ours[key]["generation"], expressions)
+    #         if len(judgements) > 0:
+    #             result = {}
+    #             result[key] = judgements
+    #             with open("../facet_eval_judgements_tmp/%s/%s.json" % (task, key), "w") as f:
+    #                 json.dump(result, f, indent=4)
+    #         else:
+    #             print("skip")
+    #             continue
+    #     else:
+    #         print(key, "already done")
+    #
+    #
+    # task = "generation_llama2_70b_prompt_ours"
+    # with open("../../enhancing_prompting/results/%s.json" % task) as f:
+    #     generations_prompt_ours = json.load(f)
+    #
+    # already = []
+    # for sample in os.listdir("../facet_eval_judgements_tmp/%s" % task):
+    #     already.append(sample[:-5])
+    #
+    # for key in tqdm(generations_prompt_ours, desc=task):
+    #     if key not in already:
+    #         print(key)
+    #         expressions = annotating_expressions(generations_prompt_ours[key]["generation"])
+    #         judgements = annotating_facets(generations_prompt_ours[key]["generation"], expressions)
+    #         if len(judgements) > 0:
+    #             result = {}
+    #             result[key] = judgements
+    #             with open("../facet_eval_judgements_tmp/%s/%s.json" % (task, key), "w") as f:
+    #                 json.dump(result, f, indent=4)
+    #         else:
+    #             print("skip")
+    #             continue
+    #     else:
+    #         print(key, "already done")
+    #
+    #
+    # task = "generation_llama2_70b_pipeline_ours"
+    # with open("../../enhancing_prompting/results/%s.json" % task) as f:
+    #     generations_prompt_ours = json.load(f)
+    #
+    # already = []
+    # for sample in os.listdir("../facet_eval_judgements_tmp/%s" % task):
+    #     already.append(sample[:-5])
+    #
+    # for key in tqdm(generations_prompt_ours, desc=task):
+    #     if key not in already:
+    #         print(key)
+    #         expressions = annotating_expressions(generations_prompt_ours[key]["generation"])
+    #         judgements = annotating_facets(generations_prompt_ours[key]["generation"], expressions)
+    #         if len(judgements) > 0:
+    #             result = {}
+    #             result[key] = judgements
+    #             with open("../facet_eval_judgements_tmp/%s/%s.json" % (task, key), "w") as f:
+    #                 json.dump(result, f, indent=4)
+    #         else:
+    #             print("skip")
+    #             continue
+    #     else:
+    #         print(key, "already done")
+
+
+

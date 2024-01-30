@@ -67,7 +67,7 @@ if __name__ == "__main__":
             if review["writer"] == "official_reviewer" and review["reply_to"] == sample["paper_id"]:
                 input_texts.append(review["comment"])
         steps = predicting(model, tokenizer, prompt_format_steps.replace("{{input_documents}}", "\n".join(input_texts)))
-        result = predicting(model, tokenizer, prompt_format_steps.replace("{{input_documents}}", "\n".join(input_texts)).replace("{{generated_steps}}", steps))
+        result = predicting(model, tokenizer, prompt_format_meta_reviews.replace("{{input_documents}}", "\n".join(input_texts)).replace("{{generated_steps}}", steps))
         results[key] = {"generation": result}
         # break
 
