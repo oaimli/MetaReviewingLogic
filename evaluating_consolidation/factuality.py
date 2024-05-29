@@ -41,7 +41,7 @@ if __name__ == "__main__":
     print(len(test_samples))
 
     ids_samples = test_samples.keys()
-    target_set = random.sample(ids_samples, 256)
+    target_set = random.sample(ids_samples, 32)
     tmp = {}
     for id in target_set:
         tmp[id] = test_samples[id]
