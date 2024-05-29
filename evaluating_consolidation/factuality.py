@@ -45,7 +45,7 @@ if __name__ == "__main__":
     tmp = {}
     for id in target_set:
         tmp[id] = test_samples[id]
-    test_samples = target_set
+    test_samples = tmp
     print(len(test_samples))
 
     print("generation_gpt35_prompt_naive")
