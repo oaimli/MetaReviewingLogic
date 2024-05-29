@@ -1,4 +1,6 @@
 import json
+import random
+
 import numpy as np
 from summac.model_summac import SummaCZS, SummaCConv
 
@@ -36,6 +38,15 @@ if __name__ == "__main__":
 
     with open("../enhancing_prompting/test_data.json") as f:
         test_samples = json.load(f)
+    print(len(test_samples))
+
+    ids_samples = test_samples.keys()
+    target_set = random.sample(ids_samples, 256)
+    tmp = {}
+    for id in target_set:
+        tmp[id] = test_samples[id]
+    test_samples = target_set
+    print(len(test_samples))
 
     print("generation_gpt35_prompt_naive")
     with open("../enhancing_prompting/results/generation_gpt35_prompt_naive.json") as f:
