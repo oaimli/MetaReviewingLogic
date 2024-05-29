@@ -8,9 +8,29 @@ from evaluating_consolidation.fusion_eval.fusion_eval import annotating_with_jud
 openai.api_key = "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"
 
 # Load meta-review judgements for a specific model, the judgements here are borrowed from facet-eval
-judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_gpt35_prompt_naive"
+# judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_gpt4_prompt_naive"
+# judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_gpt4_prompt_llm"
+# judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_gpt4_prompt_ours"
+# judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_gpt4_pipeline_ours"
+
+# judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_llama2_7b_prompt_naive"
+# judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_llama2_7b_prompt_llm"
+# judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_llama2_7b_prompt_ours"
+# judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_llama2_7b_pipeline_ours"
+
+# judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_gpt35_prompt_naive"
 # judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_gpt35_prompt_llm"
+# judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_gpt35_prompt_ours"
+# judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_gpt35_pipeline_ours"
+
+judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_llama2_70b_prompt_naive"
+# judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_llama2_70b_prompt_llm"
+# judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_llama2_70b_prompt_ours"
+# judgements_folder_generated_meta_review = "facet_eval_judgements_tmp/generation_llama2_70b_pipeline_ours"
+
 #
+print("########", judgements_folder_generated_meta_review)
+
 meta_review_judgements_all = {}
 for sample in os.listdir(judgements_folder_generated_meta_review):
     with open(os.path.join(judgements_folder_generated_meta_review, sample)) as f:
@@ -44,8 +64,8 @@ for key in shared_keys:
         instances.append(instance)
 print("instances", len(instances))
 
-facets = ["Advancement", "Soundness", "Novelty", "Overall", "Clarity", "Compliance"]
-# facets = ["Advancement"]
+# facets = ["Advancement", "Soundness", "Novelty", "Overall", "Clarity", "Compliance"]
+facets = ["Clarity"]
 correct_all = 0
 for facet in facets:
     print(facet)

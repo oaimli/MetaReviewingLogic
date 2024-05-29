@@ -79,3 +79,135 @@ if __name__ == "__main__":
         generations_prompt_llm[sample[:-5]]["gpt4_judgements"] = judgements
     evaluating(test_samples, generations_prompt_llm)
 
+    task = "generation_gpt4_prompt_naive"
+    print(task)
+    with open("../enhancing_prompting/results/%s.json" % task) as f:
+        generations_prompt_llm = json.load(f)
+    # Load the annotated judgements of generated meta-reviews
+    for sample in os.listdir("facet_eval_judgements_tmp/%s" % task):
+        with open(os.path.join("facet_eval_judgements_tmp/%s" % task, sample)) as f:
+            judgements = json.load(f)[sample[:-5]]
+        generations_prompt_llm[sample[:-5]]["gpt4_judgements"] = judgements
+    evaluating(test_samples, generations_prompt_llm)
+
+    task = "generation_gpt4_prompt_llm"
+    print(task)
+    with open("../enhancing_prompting/results/%s.json" % task) as f:
+        generations_prompt_llm = json.load(f)
+    # Load the annotated judgements of generated meta-reviews
+    for sample in os.listdir("facet_eval_judgements_tmp/%s" % task):
+        with open(os.path.join("facet_eval_judgements_tmp/%s" % task, sample)) as f:
+            judgements = json.load(f)[sample[:-5]]
+        generations_prompt_llm[sample[:-5]]["gpt4_judgements"] = judgements
+    evaluating(test_samples, generations_prompt_llm)
+
+    task = "generation_gpt4_prompt_ours"
+    print(task)
+    with open("../enhancing_prompting/results/%s.json" % task) as f:
+        generations_prompt_llm = json.load(f)
+    # Load the annotated judgements of generated meta-reviews
+    for sample in os.listdir("facet_eval_judgements_tmp/%s" % task):
+        with open(os.path.join("facet_eval_judgements_tmp/%s" % task, sample)) as f:
+            judgements = json.load(f)[sample[:-5]]
+        generations_prompt_llm[sample[:-5]]["gpt4_judgements"] = judgements
+    evaluating(test_samples, generations_prompt_llm)
+
+    task = "generation_gpt4_pipeline_ours"
+    print(task)
+    with open("../enhancing_prompting/results/%s.json" % task) as f:
+        generations_prompt_llm = json.load(f)
+    # Load the annotated judgements of generated meta-reviews
+    for sample in os.listdir("facet_eval_judgements_tmp/%s" % task):
+        with open(os.path.join("facet_eval_judgements_tmp/%s" % task, sample)) as f:
+            judgements = json.load(f)[sample[:-5]]
+        generations_prompt_llm[sample[:-5]]["gpt4_judgements"] = judgements
+    evaluating(test_samples, generations_prompt_llm)
+
+    task = "generation_llama2_7b_prompt_naive"
+    print(task)
+    with open("../enhancing_prompting/results/%s.json" % task) as f:
+        generations_prompt_llm = json.load(f)
+    # Load the annotated judgements of generated meta-reviews
+    for sample in os.listdir("facet_eval_judgements_tmp/%s" % task):
+        with open(os.path.join("facet_eval_judgements_tmp/%s" % task, sample)) as f:
+            judgements = json.load(f)[sample[:-5]]
+        generations_prompt_llm[sample[:-5]]["gpt4_judgements"] = judgements
+    evaluating(test_samples, generations_prompt_llm)
+
+    task = "generation_llama2_7b_prompt_llm"
+    print(task)
+    with open("../enhancing_prompting/results/%s.json" % task) as f:
+        generations_prompt_llm = json.load(f)
+    # Load the annotated judgements of generated meta-reviews
+    for sample in os.listdir("facet_eval_judgements_tmp/%s" % task):
+        with open(os.path.join("facet_eval_judgements_tmp/%s" % task, sample)) as f:
+            tmp = json.load(f)
+            judgements = tmp[sample[:-5]]
+        generations_prompt_llm[sample[:-5]]["gpt4_judgements"] = judgements
+    evaluating(test_samples, generations_prompt_llm)
+
+    task = "generation_llama2_7b_prompt_ours"
+    print(task)
+    with open("../enhancing_prompting/results/%s.json" % task) as f:
+        generations_prompt_llm = json.load(f)
+    # Load the annotated judgements of generated meta-reviews
+    for sample in os.listdir("facet_eval_judgements_tmp/%s" % task):
+        with open(os.path.join("facet_eval_judgements_tmp/%s" % task, sample)) as f:
+            judgements = json.load(f)[sample[:-5]]
+        generations_prompt_llm[sample[:-5]]["gpt4_judgements"] = judgements
+    evaluating(test_samples, generations_prompt_llm)
+
+    task = "generation_llama2_7b_pipeline_ours"
+    print(task)
+    with open("../enhancing_prompting/results/%s.json" % task) as f:
+        generations_prompt_llm = json.load(f)
+    # Load the annotated judgements of generated meta-reviews
+    for sample in os.listdir("facet_eval_judgements_tmp/%s" % task):
+        with open(os.path.join("facet_eval_judgements_tmp/%s" % task, sample)) as f:
+            judgements = json.load(f)[sample[:-5]]
+        generations_prompt_llm[sample[:-5]]["gpt4_judgements"] = judgements
+    evaluating(test_samples, generations_prompt_llm)
+
+    task = "generation_llama2_70b_prompt_naive"
+    print(task)
+    with open("../enhancing_prompting/results/%s.json" % task) as f:
+        generations_prompt_llm = json.load(f)
+    # Load the annotated judgements of generated meta-reviews
+    for sample in os.listdir("facet_eval_judgements_tmp/%s" % task):
+        with open(os.path.join("facet_eval_judgements_tmp/%s" % task, sample)) as f:
+            judgements = json.load(f)[sample[:-5]]
+        generations_prompt_llm[sample[:-5]]["gpt4_judgements"] = judgements
+    evaluating(test_samples, generations_prompt_llm)
+
+    task = "generation_llama2_70b_prompt_llm"
+    print(task)
+    with open("../enhancing_prompting/results/%s.json" % task) as f:
+        generations_prompt_llm = json.load(f)
+    # Load the annotated judgements of generated meta-reviews
+    for sample in os.listdir("facet_eval_judgements_tmp/%s" % task):
+        with open(os.path.join("facet_eval_judgements_tmp/%s" % task, sample)) as f:
+            judgements = json.load(f)[sample[:-5]]
+        generations_prompt_llm[sample[:-5]]["gpt4_judgements"] = judgements
+    evaluating(test_samples, generations_prompt_llm)
+
+    task = "generation_llama2_70b_prompt_ours"
+    print(task)
+    with open("../enhancing_prompting/results/%s.json" % task) as f:
+        generations_prompt_llm = json.load(f)
+    # Load the annotated judgements of generated meta-reviews
+    for sample in os.listdir("facet_eval_judgements_tmp/%s" % task):
+        with open(os.path.join("facet_eval_judgements_tmp/%s" % task, sample)) as f:
+            judgements = json.load(f)[sample[:-5]]
+        generations_prompt_llm[sample[:-5]]["gpt4_judgements"] = judgements
+    evaluating(test_samples, generations_prompt_llm)
+
+    task = "generation_llama2_70b_pipeline_ours"
+    print(task)
+    with open("../enhancing_prompting/results/%s.json" % task) as f:
+        generations_prompt_llm = json.load(f)
+    # Load the annotated judgements of generated meta-reviews
+    for sample in os.listdir("facet_eval_judgements_tmp/%s" % task):
+        with open(os.path.join("facet_eval_judgements_tmp/%s" % task, sample)) as f:
+            judgements = json.load(f)[sample[:-5]]
+        generations_prompt_llm[sample[:-5]]["gpt4_judgements"] = judgements
+    evaluating(test_samples, generations_prompt_llm)
