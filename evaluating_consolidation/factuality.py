@@ -14,7 +14,7 @@ def evaluating(test_samples, generations):
     summaries = []
     for id in test_samples.keys():
         cluster = []
-        for review in test_samples[id]:
+        for review in test_samples[id]["reviews"]:
             cluster.append(review["comment"])
         documents.append("\n".join(cluster))
         summaries.append(generations[id]["generation"])
