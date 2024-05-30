@@ -40,13 +40,13 @@ if __name__ == "__main__":
         test_samples = json.load(f)
     print(len(test_samples))
 
-    ids_samples = test_samples.keys()
-    target_set = random.sample(ids_samples, 32)
-    tmp = {}
-    for id in target_set:
-        tmp[id] = test_samples[id]
-    test_samples = tmp
-    print(len(test_samples))
+    # ids_samples = test_samples.keys()
+    # target_set = random.sample(ids_samples, 32)
+    # tmp = {}
+    # for id in target_set:
+    #     tmp[id] = test_samples[id]
+    # test_samples = tmp
+    # print(len(test_samples))
 
     print("generation_gpt35_prompt_naive")
     with open("../enhancing_prompting/results/generation_gpt35_prompt_naive.json") as f:
