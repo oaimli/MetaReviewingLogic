@@ -1,3 +1,3 @@
-# Exploring Multi-Document Information Consolidation for Scientific Sentiment Summarization
+# A Sentiment Consolidation Framework for Meta-Review Generation
 
 
