@@ -1,6 +1,8 @@
 # A Sentiment Consolidation Framework for Meta-Review Generation
 
 In this project, we hypothesize that there is a hierarchical sentiment consolidation process to write scientific meta-reviews for human meta-reviewers.
+Following the consolidation framework, we perform human annotation to extract judgements in the scientific reviews, and we find that GPT-4 has the ability to do this extraction task.
+Then, we design enhanced prompting approaches with consideration of the sentiment consolidation framework, and experiments show that integration of the sentiment consolidation logic improves the generation quality in terms of sentiment related metrics.
 
 ```
 /
