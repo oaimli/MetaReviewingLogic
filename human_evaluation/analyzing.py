@@ -78,7 +78,7 @@ equal_count_all = 0
 equal_count_1v2 = 0
 equal_count_1v3 = 0
 equal_count_2v3 = 0
-for item_1, item_2, item_3 in zip(numerical_1, numerical_2, numerical_3):
+for item_1, item_2, item_3 in zip(results_1, results_2, results_3):
     # print(item_1, item_2, item_3)
     if item_1 == item_2 == item_3:
         equal_count_all += 1
