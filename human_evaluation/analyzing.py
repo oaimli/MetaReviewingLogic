@@ -71,6 +71,30 @@ for sample, annotation_1, annotation_2, annotation_3 in zip(original, annotation
 print(comparisons)
 
 # IAA
+numerical_1 = []
+numerical_2 = []
+numerical_3 = []
+equal_count_all = 0
+equal_count_1v2 = 0
+equal_count_1v3 = 0
+equal_count_2v3 = 0
+for item_1, item_2, item_3 in zip(numerical_1, numerical_2, numerical_3):
+    # print(item_1, item_2, item_3)
+    if item_1 == item_2 == item_3:
+        equal_count_all += 1
+    if item_1 == item_2:
+        equal_count_1v2 += 1
+    if item_1 == item_3:
+        equal_count_1v3 += 1
+    if item_2 == item_3:
+        equal_count_2v3 += 1
+print(numerical_1)
+print(numerical_2)
+print(numerical_3)
+print("Equal rate all", equal_count_all / len(numerical_1))
+print("Equal rate 1v2", equal_count_1v2 / len(numerical_1))
+print("Equal rate 1v3", equal_count_1v3 / len(numerical_1))
+print("Equal rate 2v3", equal_count_2v3 / len(numerical_1))
 cohen_kappas = []
 tmp = [results_1, results_2, results_3]
 for i, results_i in enumerate(tmp):
